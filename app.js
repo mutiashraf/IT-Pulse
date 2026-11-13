@@ -137,7 +137,7 @@ async function loadNews(force = false) {
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
-  }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 40);
+  }).sort((a, b) => categoryRank(a.category) - categoryRank(b.category) || new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 40);
   if (stories.length) {
     const savedAt = Date.now();
     try { localStorage.setItem(CACHE_KEY, JSON.stringify({ savedAt, stories })); } catch { /* Storage is optional. */ }

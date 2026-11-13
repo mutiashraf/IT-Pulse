@@ -128,8 +128,8 @@ def fetch_all():
             failures.append(source)
     if not stories:
         raise RuntimeError("No monitoring sources could be reached.")
-    unique = {story["url"]: story for story in stories}
-    return sorted(unique.values(), key=lambda item: parse_date(item["published"]) or datetime.min.replace(tzinfo=timezone.utc), reverse=True), failures
+    unique = deduplicate_stories(stories)
+    return sorted(unique, key=lambda item: parse_date(item["published"]) or datetime.min.replace(tzinfo=timezone.utc), reverse=True), failures
 
 PAKISTAN_TZ = ZoneInfo("Asia/Karachi")
 CATEGORY_ORDER = {"Networking": 0, "Cybersecurity": 1, "Cloud": 2, "Microsoft": 3, "Linux": 4, "Productivity": 5, "AI": 6, "Technology": 7}
@@ -137,7 +137,7 @@ STOP_WORDS = {"the", "a", "an", "and", "or", "to", "of", "in", "on", "for", "wit
 
 def classify_story(story):
     text = (story["title"] + " " + story["summary"]).lower()
-    if re.search(r"internet outage|network outage|service outage|major outage|service disruption|connectivity issue|packet loss|bgp|dns outage|isp outage|broadband outage|wifi outage|wi-fi outage|router vulnerability|firewall vulnerability|switch vulnerability|cloudflare status", text):
+    if re.search(r"internet outage|network outage|service outage|major outage|service disruption|connectivity issue|packet loss|bgp|dns outage|isp outage|broadband outage|wifi outage|wi-fi outage|cloudflare status", text):
         return "Networking"
     if re.search(r"actively exploited|known exploited|zero.day|zero day|ransomware|malware|phishing|data breach|security advisory|security bulletin|vulnerab|\bcve-\d{4}-\d+\b|\bpsirt\b|security update", text):
         return "Cybersecurity"

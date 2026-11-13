@@ -38,7 +38,9 @@ const feedMeta = document.querySelector("#feedMeta");
 const refreshButton = document.querySelector("#refreshFeed");
 const searchInput = document.querySelector("#searchNews");
 const categoryFilter = document.querySelector("#categoryFilter");
+const dateFilter = document.querySelector("#newsDateFilter");
 let stories = [];
+let newsArchive = null;
 
 function categoryFor(item, sourceCategory) {
   const text = (item.title + " " + (item.description || "")).toLowerCase();
@@ -96,31 +98,109 @@ async function fetchSource(source) {
   }).filter(item => item.title && isReadableEnglish(item.title + " " + item.description) && /^https?:\/\//i.test(item.url));
 }
 
+function storyScore(story) {
+  const published = new Date(story.date || story.published || "");
+  const ageHours = Number.isNaN(published.getTime()) ? 48 : Math.max(0, (Date.now() - published.getTime()) / 3600000);
+  let score = Math.max(0, 48 - Math.min(ageHours, 48));
+  const text = (story.title + " " + (story.description || story.summary || "")).toLowerCase();
+  if (story.severity === "CRITICAL") score += 60;
+  else if (story.severity === "HIGH") score += 35;
+  if (/actively exploited|known exploited|zero.day|zero day|ransomware|major outage|service outage|service disruption|internet outage|data breach/.test(text)) score += 25;
+  if (/release|general availability|available now|security update|patch|incident|degraded|resolved|maintenance/.test(text)) score += 8;
+  return score;
+}
+
+function titleWords(value) {
+  const stop = new Set(["the","a","an","and","or","to","of","in","on","for","with","from","by","at","is","are","was","were","new","update","updates"]);
+  return new Set((value.toLowerCase().match(/[a-z0-9]+/g) || []).filter(word => word.length > 1 && !stop.has(word)));
+}
+
+function isDuplicateStory(left, right) {
+  if (left.url === right.url) return true;
+  const a = titleWords(left.title);
+  const b = titleWords(right.title);
+  if (a.size < 5 || b.size < 5) return false;
+  const overlap = [...a].filter(word => b.has(word)).length / Math.min(a.size, b.size);
+  const da = new Date(left.date || left.published || "");
+  const db = new Date(right.date || right.published || "");
+  const close = Number.isNaN(da.getTime()) || Number.isNaN(db.getTime()) || Math.abs(da - db) <= 48 * 3600000;
+  return overlap >= 0.9 && close;
+}
+
+function deduplicateStories(items) {
+  const ranked = [...items].sort((a, b) => storyScore(b) - storyScore(a));
+  const unique = [];
+  for (const story of ranked) {
+    const match = unique.find(item => isDuplicateStory(item, story));
+    if (!match) {
+      story.also_sources = story.also_sources || [];
+      unique.push(story);
+    } else if (story.source !== match.source && !match.also_sources.some(item => item.source === story.source)) {
+      match.also_sources.push({ source: story.source, url: story.url });
+    }
+  }
+  return unique;
+}
+
+function balanceStories(items, limit = 40, perSource = 2) {
+  const categories = new Map();
+  for (const story of items) {
+    if (!categories.has(story.category)) categories.set(story.category, new Map());
+    const sources = categories.get(story.category);
+    if (!sources.has(story.source)) sources.set(story.source, []);
+    sources.get(story.source).push(story);
+  }
+  const selected = [];
+  const categoryOrder = ["networking", "security", "cloud", "systems", "productivity", "ai", "technology"];
+  for (const category of [...categories.keys()].sort((a, b) => categoryOrder.indexOf(a) - categoryOrder.indexOf(b))) {
+    const sources = categories.get(category);
+    const names = [...sources.keys()].sort((a, b) => storyScore(sources.get(b)[0]) - storyScore(sources.get(a)[0]));
+    for (let round = 0; round < perSource; round++) {
+      for (const name of names) {
+        const list = sources.get(name);
+        if (list[round] && selected.length < limit) selected.push(list[round]);
+      }
+      if (selected.length >= limit) break;
+    }
+    if (selected.length >= limit) break;
+  }
+  return selected;
+}
+
 function renderStories() {
   const query = searchInput.value.trim().toLowerCase();
   const category = categoryFilter.value;
   const filtered = stories.filter(story =>
     (category === "all" || story.category === category) &&
-    (!query || (story.title + " " + story.description + " " + story.source).toLowerCase().includes(query))
+    (!query || (story.title + " " + (story.description || "") + " " + story.source).toLowerCase().includes(query))
   );
   newsList.replaceChildren();
   if (!filtered.length) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = stories.length ? "No stories match your search. Try another keyword or category." : "No stories are available yet. Tap Refresh to try again.";
+    empty.textContent = stories.length ? "No stories match your search. Try another keyword or category." : "No stories are available for this date yet.";
     newsList.append(empty);
     return;
   }
+  const categoryNames = { networking: "Internet & networking", security: "Cybersecurity", cloud: "Cloud & services", systems: "Systems & infrastructure", productivity: "Outlook & Microsoft 365", ai: "AI & technology", technology: "Technology" };
+  let lastCategory = "";
   for (const story of filtered) {
+    if (category === "all" && story.category !== lastCategory) {
+      const heading = document.createElement("h3");
+      heading.className = "feed-category-heading";
+      heading.textContent = categoryNames[story.category] || story.category;
+      newsList.append(heading);
+      lastCategory = story.category;
+    }
     const article = document.createElement("article");
     article.className = "news-item";
     const top = document.createElement("div");
     top.className = "news-meta";
     const tag = document.createElement("span");
     tag.className = "tag tag-" + story.category;
-    tag.textContent = story.priority;
+    tag.textContent = story.severity || story.priority || "Update";
     const source = document.createElement("span");
-    source.textContent = story.source;
+    source.textContent = story.source || "Original publisher";
     top.append(tag, source);
     const title = document.createElement("h3");
     const link = document.createElement("a");
@@ -131,68 +211,97 @@ function renderStories() {
     title.append(link);
     const summary = document.createElement("p");
     summary.className = "news-summary";
-    summary.textContent = story.description || "Open the original story to read the full update.";
+    summary.textContent = story.description || story.summary || "Open the original story to read the full update.";
+    article.append(top, title, summary);
+    const additional = story.also_sources || [];
+    if (additional.length) {
+      const coverage = document.createElement("p");
+      coverage.className = "news-summary";
+      coverage.textContent = "Also reported by: " + additional.map(item => item.source).join(", ");
+      article.append(coverage);
+    }
     const bottom = document.createElement("div");
     bottom.className = "news-bottom";
     const date = document.createElement("time");
-    const parsed = new Date(story.date);
+    const parsed = new Date(story.date || story.published || "");
     date.textContent = Number.isNaN(parsed.getTime()) ? "" : parsed.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
     const read = document.createElement("a");
     read.href = story.url;
     read.target = "_blank";
     read.rel = "noopener noreferrer";
-    read.textContent = "Read source ↗";
+    read.textContent = "Read original source ↗";
     bottom.append(date, read);
-    article.append(top, title, summary, bottom);
+    article.append(bottom);
     newsList.append(article);
   }
 }
 
+function showArchiveDate(date) {
+  const day = newsArchive?.days?.[date];
+  if (!day) {
+    stories = [];
+    feedMeta.textContent = date ? "No archive is available for this date." : "No daily archive has been published yet.";
+    feedStatus.textContent = "Run the IT Pulse monitoring workflow to build the daily archive.";
+    feedStatus.className = "status";
+    renderStories();
+    return;
+  }
+  stories = (day.stories || []).map(item => ({
+    ...item,
+    date: item.published || item.date || "",
+    description: item.summary || item.description || "",
+    category: ({ Networking: "networking", Cybersecurity: "security", Cloud: "cloud", Microsoft: "systems", Linux: "systems", Productivity: "productivity", AI: "ai", Technology: "technology" })[item.category] || item.category || "technology"
+  }));
+  const sourceCount = day.source_count || new Set(stories.map(item => item.source)).size;
+  feedMeta.textContent = stories.length + " selected stories · " + sourceCount + " sources · " + date;
+  feedStatus.textContent = date === newsArchive.latest_date ? "Showing today's ranked news, balanced across publishers." : "Browsing archived news for " + date + ".";
+  feedStatus.className = "status ok";
+  renderStories();
+}
+
 async function loadNews(force = false) {
   refreshButton.disabled = true;
-  feedStatus.textContent = "Fetching latest stories from trusted publishers…";
+  feedStatus.textContent = "Collecting and ranking today's updates from trusted publishers…";
   feedStatus.className = "status";
-  if (!force) {
-    try {
-      const cached = JSON.parse(localStorage.getItem(CACHE_KEY) || "null");
-      if (cached && Date.now() - cached.savedAt < CACHE_AGE && Array.isArray(cached.stories)) {
-        stories = cached.stories;
-        renderStories();
-        feedMeta.textContent = "Updated " + new Date(cached.savedAt).toLocaleTimeString();
-        feedStatus.textContent = "Showing recently fetched stories.";
+  try {
+    const response = await fetch("./data/briefing.json?v=" + Date.now(), { cache: "no-store" });
+    if (response.ok) {
+      const archive = await response.json();
+      if (archive && archive.days && Object.keys(archive.days).length) {
+        newsArchive = archive;
+        const dates = archive.available_dates || Object.keys(archive.days).sort().reverse();
+        const chosen = dateFilter.value && archive.days[dateFilter.value] ? dateFilter.value : (archive.latest_date || dates[0]);
+        dateFilter.replaceChildren();
+        for (const date of dates) {
+          const option = document.createElement("option");
+          option.value = date;
+          option.textContent = new Date(date + "T12:00:00").toLocaleDateString(undefined, { dateStyle: "full" });
+          dateFilter.append(option);
+        }
+        dateFilter.value = chosen;
+        showArchiveDate(chosen);
         refreshButton.disabled = false;
         return;
       }
-    } catch { /* Ignore an invalid local cache and fetch fresh stories. */ }
-  }
+    }
+  } catch { /* Use live feeds as a fallback until the first archive is generated. */ }
+
   const results = await Promise.allSettled(SOURCES.map(fetchSource));
   const fresh = results.filter(result => result.status === "fulfilled").flatMap(result => result.value);
   const failures = results.filter(result => result.status === "rejected");
-  const seen = new Set();
-  stories = fresh.filter(story => {
-    const key = story.url || story.title;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  }).sort((a, b) => categoryRank(a.category) - categoryRank(b.category) || new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, 40);
-  if (stories.length) {
-    const savedAt = Date.now();
-    try { localStorage.setItem(CACHE_KEY, JSON.stringify({ savedAt, stories })); } catch { /* Storage is optional. */ }
-    feedMeta.textContent = stories.length + " stories · Updated " + new Date(savedAt).toLocaleTimeString();
-    feedStatus.textContent = failures.length ? "Some sources could not be reached; showing the sources that responded." : "Latest stories loaded.";
-    feedStatus.className = "status ok";
-  } else {
-    feedMeta.textContent = "Feed unavailable";
-    feedStatus.textContent = "Could not load the news feeds. Check your internet connection or try again shortly. The RSS feed service may also be temporarily unavailable.";
-    feedStatus.className = "status error";
-  }
+  const unique = deduplicateStories(fresh);
+  stories = balanceStories(unique, 40, 2);
+  stories.sort((a, b) => categoryRank(a.category) - categoryRank(b.category) || storyScore(b) - storyScore(a));
+  feedMeta.textContent = stories.length + " balanced stories from " + new Set(stories.map(item => item.source)).size + " sources · Live fallback";
+  feedStatus.textContent = failures.length ? "Some sources could not be reached; showing balanced stories from the sources that responded." : "Latest stories loaded. Daily archive will appear after the monitoring workflow runs.";
+  feedStatus.className = stories.length ? "status ok" : "status error";
   renderStories();
   refreshButton.disabled = false;
 }
-
 refreshButton.addEventListener("click", () => loadNews(true));
 searchInput.addEventListener("input", renderStories);
 categoryFilter.addEventListener("change", renderStories);
+dateFilter.addEventListener("change", () => showArchiveDate(dateFilter.value));
 loadNews();
 
 

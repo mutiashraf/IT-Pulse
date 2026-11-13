@@ -217,7 +217,16 @@ function renderStories() {
     if (additional.length) {
       const coverage = document.createElement("p");
       coverage.className = "news-summary";
-      coverage.textContent = "Also reported by: " + additional.map(item => item.source).join(", ");
+      coverage.append(document.createTextNode("Also reported by: "));
+      additional.forEach((item, index) => {
+        if (index) coverage.append(document.createTextNode(", "));
+        const sourceLink = document.createElement("a");
+        sourceLink.href = item.url;
+        sourceLink.target = "_blank";
+        sourceLink.rel = "noopener noreferrer";
+        sourceLink.textContent = item.source;
+        coverage.append(sourceLink);
+      });
       article.append(coverage);
     }
     const bottom = document.createElement("div");
@@ -359,9 +368,10 @@ async function loadPublishedData() {
     const response = await fetch("./data/briefing.json" + cacheBust, { cache: "no-store" });
     if (response.ok) {
       const data = await response.json();
-      briefingMeta.textContent = "Generated " + new Date(data.generated_utc).toLocaleString() + " · Last 24 hours";
+      briefingMeta.textContent = "Top stories for " + (latestDay.date || data.latest_date || "today") + " · " + (latestDay.story_count || 0) + " stories from " + (latestDay.source_count || 0) + " sources";
       briefingBox.replaceChildren();
-      const sections = data.sections || {};
+      const latestDay = (data.days && data.days[data.latest_date]) || data;
+      const sections = latestDay.sections || {};
       for (const [category, items] of Object.entries(sections)) {
         const heading = document.createElement("h3");
         heading.textContent = category;

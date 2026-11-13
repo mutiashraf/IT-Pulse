@@ -22,12 +22,12 @@ SITE_URL = "https://mutiashraf.github.io/IT-Pulse/"
 
 SOURCES = [
     # Network and security vendors
-    ("Cisco Security Advisories", "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", "Networking"),
-    ("Cisco Event Responses", "https://sec.cloudapps.cisco.com/security/center/eventResponses_20.xml", "Networking"),
-    ("Fortinet PSIRT", "https://filestore.fortinet.com/fortiguard/rss/ir.xml", "Networking"),
+    ("Cisco Security Advisories", "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", "Cybersecurity"),
+    ("Cisco Event Responses", "https://sec.cloudapps.cisco.com/security/center/eventResponses_20.xml", "Cybersecurity"),
+    ("Fortinet PSIRT", "https://filestore.fortinet.com/fortiguard/rss/ir.xml", "Cybersecurity"),
     ("Fortinet Outbreak Alerts", "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml", "Cybersecurity"),
     ("Fortinet Firmware Updates", "https://pub.kb.fortinet.com/rss/firmware.xml", "Networking"),
-    ("Palo Alto Security Advisories", "https://security.paloaltonetworks.com/rss.xml", "Networking"),
+    ("Palo Alto Security Advisories", "https://security.paloaltonetworks.com/rss.xml", "Cybersecurity"),
     # Microsoft, Azure and Windows
     ("Microsoft Security Update Guide", "https://api.msrc.microsoft.com/update-guide/rss", "Microsoft"),
     ("Microsoft Security Blog", "https://www.microsoft.com/en-us/security/blog/feed/", "Microsoft"),
@@ -137,10 +137,12 @@ STOP_WORDS = {"the", "a", "an", "and", "or", "to", "of", "in", "on", "for", "wit
 
 def classify_story(story):
     text = (story["title"] + " " + story["summary"]).lower()
-    if re.search(r"internet outage|network outage|service outage|major outage|service disruption|connectivity issue|packet loss|bgp|dns outage|isp outage|broadband outage|wifi outage|wi-fi outage|router vulnerability|firewall vulnerability|switch vulnerability|cisco|unifi|mikrotik|fortinet|palo alto|cloudflare status", text):
+    if re.search(r"internet outage|network outage|service outage|major outage|service disruption|connectivity issue|packet loss|bgp|dns outage|isp outage|broadband outage|wifi outage|wi-fi outage|router vulnerability|firewall vulnerability|switch vulnerability|cloudflare status", text):
         return "Networking"
     if re.search(r"actively exploited|known exploited|zero.day|zero day|ransomware|malware|phishing|data breach|security advisory|security bulletin|vulnerab|\bcve-\d{4}-\d+\b|\bpsirt\b|security update", text):
         return "Cybersecurity"
+    if re.search(r"cisco|unifi|mikrotik|fortinet|palo alto", text) and re.search(r"router|firewall|switch|wireless|wifi|wi-fi|firmware|network|routing|connectivity", text):
+        return "Networking"
     if re.search(r"outlook|microsoft 365|office 365|\bteams\b|exchange online|sharepoint|onedrive", text):
         return "Productivity"
     if re.search(r"azure|aws|amazon web services|google cloud|gcp|cloud service|cloud status", text):

@@ -63,6 +63,11 @@ function priorityFor(item, category) {
   return "Technology";
 }
 
+function isReadableEnglish(value) {
+  // Skip entries using non-Latin writing systems so the feed stays readable in English.
+  return !/[\\u0590-\\u0DFF\\u0E00-\\u0EFF\\u3040-\\u30FF\\u3400-\\u9FFF\\uAC00-\\uD7AF\\u0400-\\u052F]/u.test(value || "");
+}
+
 function cleanText(value) {
   const node = document.createElement("div");
   node.innerHTML = value || "";

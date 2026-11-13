@@ -1,0 +1,61 @@
+name: IT Pulse Monitoring
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Choose a test or monitoring run"
+        required: true
+        type: choice
+        options:
+          - test
+          - monitor
+          - briefing
+        default: test
+  schedule:
+    - cron: "*/30 * * * *"
+    - cron: "30 13 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: it-pulse-monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      FIREBASE_SERVICE_ACCOUNT_JSON: \${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+      FCM_DEVICE_TOKEN: \${{ secrets.FCM_DEVICE_TOKEN }}
+      RUN_MODE: \${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '30 13 * * *' && 'briefing' || 'monitor') }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check google-auth
+
+      - name: Validate Python syntax
+        run: python -m py_compile scripts/monitor.py
+
+      - name: Run IT Pulse
+        run: python scripts/monitor.py "$RUN_MODE"
+
+      - name: Save alert history and briefing
+        if: success() && (hashFiles('data/seen.json', 'data/latest.json', 'data/briefing.json') != '')
+        run: |
+          if [[ -n "$(git status --porcelain data/)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "Update IT Pulse monitoring data"
+            git push
+          fi

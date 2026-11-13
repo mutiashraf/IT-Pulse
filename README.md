@@ -1,23 +1,28 @@
-# IT Pulse — starter PWA
+# IT Pulse
 
-This is the first-stage installable web-app shell. It is a visual prototype only:
-- It does not yet fetch live IT news.
-- It does not yet send remote push notifications.
-- The service worker and web app manifest are included as the foundation.
+A lightweight personal IT news dashboard designed to work as an installable iPhone web app.
 
-## Deploy
-Host the contents of this folder on an HTTPS static host. GitHub Pages or another static host can be used for the first prototype. Keep the folder structure intact.
+## What works in this version
 
-## Install on iPhone
-1. Open the HTTPS site in Safari.
-2. Tap Share.
-3. Choose Add to Home Screen.
-4. Open IT Pulse from the new Home Screen icon.
+- Fetches recent headlines from The Hacker News, BleepingComputer and the Microsoft Security Blog.
+- Shows story summaries, publisher links, timestamps and simple topic labels.
+- Filters by cybersecurity, cloud/services, infrastructure and AI/technology.
+- Searches headlines and summaries.
+- Refreshes on app open or when you tap **Refresh**.
+- Keeps a 15-minute local cache to reduce unnecessary requests.
+- Requires no login, Firebase account, API key or backend for the news feed.
 
-## Next development stages
-1. Add a Web Push subscription flow and VAPID public/private keys.
-2. Add a secure backend endpoint to store subscriptions and send push messages.
-3. Connect trusted official feeds/status sources and deduplicate alerts.
-4. Add a scheduled daily 18:30 Asia/Karachi briefing.
+## How news is fetched
 
-Do not put VAPID private keys or other secrets in browser JavaScript.
+The browser requests each publisher's public RSS feed through the RSS2JSON conversion service, because browsers generally block direct cross-origin RSS/XML reads. Stories are combined, deduplicated by URL, sorted by publication date and displayed in the app. The RSS conversion service is a third-party dependency and may apply usage limits; if it is unavailable, use Refresh again later.
+
+## Deploy and install on iPhone
+
+1. Host the repository on an HTTPS static host such as GitHub Pages.
+2. Open the published site in Safari on your iPhone.
+3. Tap Share → Add to Home Screen.
+4. Launch IT Pulse from its Home Screen icon.
+
+## Intentionally postponed
+
+Push notifications, Firebase device registration, user accounts and scheduled daily briefings are not part of this working news-reader stage. The feed updates when the app is opened or manually refreshed; it does not run continuously in the background. Push delivery can be configured after the news feed is confirmed working.

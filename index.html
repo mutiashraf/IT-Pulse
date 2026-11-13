@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#101b2d">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10243a">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="IT Pulse">
@@ -15,33 +15,49 @@
 <body>
   <header class="topbar">
     <div class="brand"><div class="brand-icon">IP</div><div><strong>IT Pulse</strong><small>Personal IT intelligence</small></div></div>
-    <span class="status"><i></i> Demo dashboard</span>
+    <span class="live"><i></i> PERSONAL DASHBOARD</span>
   </header>
   <main>
     <section class="welcome">
-      <p class="eyebrow">YOUR DAILY OPERATIONS BRIEF</p>
-      <h1>Stay ahead of<br><span>what matters.</span></h1>
-      <p class="intro">Security advisories, service incidents and infrastructure updates — gathered in one place.</p>
-      <div class="brief-row"><div><small>NEXT DAILY BRIEFING</small><strong>6:30 PM · Pakistan time</strong></div><div class="clock">PKT</div></div>
+      <p class="eyebrow">YOUR IT INTELLIGENCE CENTRE</p>
+      <h1>Stay informed.<br><span>Stay ahead.</span></h1>
+      <p class="intro">Security advisories, service incidents and technology updates in one place.</p>
     </section>
-    <section class="stats">
-      <div class="stat"><span>CRITICAL</span><strong>—</strong><small>Live feed not connected</small></div>
-      <div class="stat"><span>UPDATES</span><strong>—</strong><small>Sources not connected</small></div>
-      <div class="stat"><span>STATUS</span><strong class="pending">Setup</strong><small>Initial prototype</small></div>
+
+    <section class="panel notification-panel">
+      <div class="panel-heading">
+        <div><p class="eyebrow">DEVICE NOTIFICATIONS</p><h2>Enable push alerts</h2></div>
+        <div class="bell">♧</div>
+      </div>
+      <p class="muted">Install IT Pulse on your iPhone Home Screen first. Then enable notifications here.</p>
+      <button id="enablePush" class="primary">Enable notifications</button>
+      <p id="pushStatus" class="status" role="status">Notifications are not enabled yet.</p>
+      <details class="token-details">
+        <summary>Technical registration details</summary>
+        <p class="muted small">Your browser's Firebase registration token is used by the notification server to address this device. It is not a password, but treat it as private.</p>
+        <textarea id="tokenOutput" readonly rows="3" placeholder="A device token will appear here after registration."></textarea>
+        <button id="copyToken" class="secondary" disabled>Copy device token</button>
+      </details>
     </section>
-    <section class="section-head"><div><p class="eyebrow">INTELLIGENCE STREAM</p><h2>Topics to monitor</h2></div></section>
-    <section class="topics">
-      <div class="topic"><b>01</b><div><strong>Cybersecurity</strong><small>CVEs · ransomware · urgent patches</small></div><span>↗</span></div>
-      <div class="topic"><b>02</b><div><strong>Microsoft & Windows</strong><small>M365 · Azure · Entra · Windows Server</small></div><span>↗</span></div>
-      <div class="topic"><b>03</b><div><strong>Networking & Cloud</strong><small>Cisco · UniFi · AWS · Cloudflare · DNS</small></div><span>↗</span></div>
-      <div class="topic"><b>04</b><div><strong>Infrastructure</strong><small>Linux · VMware · ESXi · pfSense</small></div><span>↗</span></div>
-      <div class="topic"><b>05</b><div><strong>AI & Pakistan IT</strong><small>AI tools · PTA · PKCERT · telecom</small></div><span>↗</span></div>
+
+    <section class="section">
+      <div class="section-title"><div><p class="eyebrow">YOUR WATCHLIST</p><h2>Intelligence categories</h2></div></div>
+      <div class="cards">
+        <article class="card"><div class="symbol">⚠</div><h3>Security</h3><p>Critical CVEs, exploited vulnerabilities, ransomware and patches.</p><span>HIGH PRIORITY</span></article>
+        <article class="card"><div class="symbol">☁</div><h3>Cloud & services</h3><p>Microsoft 365, Azure, AWS, Google, Cloudflare and outages.</p><span>INCIDENTS</span></article>
+        <article class="card"><div class="symbol">⌘</div><h3>Infrastructure</h3><p>Windows, Linux, VMware, pfSense, Cisco and UniFi.</p><span>PRODUCT UPDATES</span></article>
+        <article class="card"><div class="symbol">✦</div><h3>AI & technology</h3><p>AI models, tools and practical enterprise developments.</p><span>INDUSTRY</span></article>
+        <article class="card"><div class="symbol">🇵🇰</div><h3>Pakistan IT</h3><p>PTA, PKCERT, telecom and local internet developments.</p><span>LOCAL UPDATES</span></article>
+        <article class="card"><div class="symbol">◷</div><h3>Daily briefing</h3><p>Your planned daily researched digest at 6:30 PM Pakistan time.</p><span>DAILY</span></article>
+      </div>
     </section>
-    <section class="notice">
-      <div class="notice-icon">!</div><div><strong>Notifications are not connected yet</strong><p>This prototype does not send real alerts. Next we will deploy it over HTTPS, then configure Web Push and trusted information sources.</p></div>
+    <section class="panel note">
+      <p class="eyebrow">NEXT STEP</p>
+      <h2>Notification service setup</h2>
+      <p class="muted">This release registers this device with Firebase Cloud Messaging. A secure sending backend is still required before alerts can be delivered. The app does not yet fetch live news or send scheduled briefings.</p>
     </section>
-    <footer>IT PULSE <span>·</span> Built for practical IT operations</footer>
   </main>
-  <script src="./app.js"></script>
+  <footer>IT Pulse · Personal IT intelligence · Sources will be linked in each alert.</footer>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>

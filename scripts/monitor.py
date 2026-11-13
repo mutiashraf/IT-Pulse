@@ -218,14 +218,16 @@ def balanced_top_stories(stories, limit=40, per_source=2):
     for story in stories:
         grouped.setdefault(story["category"], {}).setdefault(story["source"], []).append(story)
     selected = []
+    source_counts = {}
     for category in sorted(grouped, key=lambda name: CATEGORY_ORDER.get(name, 99)):
         source_groups = grouped[category]
         ordered_sources = sorted(source_groups, key=lambda source: max(item.get("score", 0) for item in source_groups[source]), reverse=True)
         for round_number in range(per_source):
             for source in ordered_sources:
                 items = source_groups[source]
-                if round_number < len(items) and len(selected) < limit:
+                if round_number < len(items) and source_counts.get(source, 0) < per_source and len(selected) < limit:
                     selected.append(items[round_number])
+                    source_counts[source] = source_counts.get(source, 0) + 1
             if len(selected) >= limit:
                 break
         if len(selected) >= limit:

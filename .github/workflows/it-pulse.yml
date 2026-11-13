@@ -13,7 +13,7 @@ on:
           - briefing
         default: test
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/30 0-12,14-23 * * *"
     - cron: "30 13 * * *"
 
 permissions:

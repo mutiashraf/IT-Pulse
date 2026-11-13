@@ -19,15 +19,34 @@ BRIEFING_FILE = DATA / "briefing.json"
 SITE_URL = "https://mutiashraf.github.io/IT-Pulse/"
 
 SOURCES = [
-    ("CISA Advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml", "Cybersecurity"),
-    ("Microsoft Security Blog", "https://www.microsoft.com/en-us/security/blog/feed/", "Microsoft"),
+    # Network and security vendors
     ("Cisco Security Advisories", "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", "Networking"),
+    ("Fortinet PSIRT", "https://filestore.fortinet.com/fortiguard/rss/ir.xml", "Networking"),
+    ("Fortinet Firmware Updates", "https://pub.kb.fortinet.com/rss/firmware.xml", "Networking"),
+    ("Palo Alto Security Advisories", "https://security.paloaltonetworks.com/rss.xml", "Networking"),
+    # Microsoft, Azure and Windows
+    ("Microsoft Security Update Guide", "https://api.msrc.microsoft.com/update-guide/rss", "Microsoft"),
+    ("Microsoft Security Blog", "https://www.microsoft.com/en-us/security/blog/feed/", "Microsoft"),
+    ("Azure Updates", "https://www.microsoft.com/releasecommunications/api/v2/azure/rss", "Cloud"),
+    ("Azure Status", "https://azure.status.microsoft/status/feed/", "Cloud"),
+    # AWS and Google
+    ("AWS What's New", "https://aws.amazon.com/about-aws/whats-new/recent/feed/", "Cloud"),
+    ("AWS Security Bulletins", "https://aws.amazon.com/security/security-bulletins/rss/feed/", "Cybersecurity"),
+    ("AWS Status", "https://status.aws.amazon.com/rss/all.rss", "Cloud"),
+    ("AWS News Blog", "https://aws.amazon.com/blogs/aws/feed/", "Cloud"),
+    ("Google Cloud Status", "https://status.cloud.google.com/en/feed.atom", "Cloud"),
+    ("Google Cloud Release Notes", "https://docs.cloud.google.com/feeds/gcp-release-notes.xml", "Cloud"),
+    ("Google Cloud Security Bulletins", "https://docs.cloud.google.com/feeds/google-cloud-security-bulletins.xml", "Cybersecurity"),
+    ("Google Chrome Releases", "https://chromereleases.googleblog.com/feeds/posts/default", "Systems"),
+    # Linux and independent technology reporting
+    ("Ubuntu Security Notices", "https://ubuntu.com/security/notices/rss.xml", "Linux"),
+    ("Red Hat Security Blog", "https://www.redhat.com/en/rss/blog/channel/security", "Linux"),
+    ("Debian Security Advisories", "https://www.debian.org/security/dsa", "Linux"),
+    ("CISA Advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml", "Cybersecurity"),
     ("The Hacker News", "https://feeds.feedburner.com/TheHackersNews", "Cybersecurity"),
     ("BleepingComputer", "https://www.bleepingcomputer.com/feed/", "Cybersecurity"),
-    ("Ubuntu Security Notices", "https://ubuntu.com/security/notices/rss.xml", "Linux"),
-    ("Cloudflare Status", "https://www.cloudflarestatus.com/history.rss", "Cloud"),
-    ("Google Cloud Status", "https://status.cloud.google.com/en/feed.atom", "Cloud"),
-    ("Dawn Technology", "https://www.dawn.com/feeds/tech", "Pakistan IT"),
+    ("Cloudflare Status", "https://www.cloudflarestatus.com/history.rss", "Networking"),
+    ("Dawn Technology", "https://www.dawn.com/feeds/tech", "Technology"),
 ]
 
 def now_utc():
@@ -103,11 +122,19 @@ def fetch_all():
     return sorted(unique.values(), key=lambda item: parse_date(item["published"]) or datetime.min.replace(tzinfo=timezone.utc), reverse=True), failures
 
 def classify_story(story):
-    text = (story["title"] + " " + story["summary"]).lower()
-    if re.search(r"\\binternet\\b|\\bnetwork(?:ing)?\\b|router|routing|bgp|dns|dhcp|\\bisp\\b|broadband|wi-?fi|wireless|ethernet|firewall|switch(?:ing)?|connectivity|packet loss|latency|peering|fiber optic|fibre optic|telecom|\\bcdn\\b|ddos|cloudflare status|internet outage", text):
+    text = (story["title"] + " " + story["summary"] + " " + story["source"]).lower()
+    if re.search(r"\binternet\b|\bnetwork(?:ing)?\b|router|routing|bgp|dns|dhcp|\bisp\b|broadband|wi-?fi|wireless|ethernet|firewall|switch(?:ing)?|connectivity|packet loss|latency|peering|fiber|fibre|telecom|\bcdn\b|ddos|cloudflare status|internet outage|cisco|unifi|mikrotik|fortinet|palo alto", text):
         return "Networking"
-    if re.search(r"outlook|microsoft 365|office 365|\\bteams\\b|exchange online|sharepoint|onedrive", text):
-        return "Productivity"
+    if re.search(r"outlook|microsoft 365|office 365|\bteams\b|exchange online|sharepoint|onedrive|windows|\bazure\b|microsoft", text):
+        return "Microsoft"
+    if re.search(r"aws|amazon web services|google cloud|gcp|cloud status|cloud service", text):
+        return "Cloud"
+    if re.search(r"ubuntu|debian|red hat|linux|kernel", text):
+        return "Linux"
+    if re.search(r"vulnerab|cve-|ransomware|malware|phishing|breach|exploit|zero.day|security|cisa|psirt", text):
+        return "Cybersecurity"
+    if re.search(r"artificial intelligence|\bai\b|openai|chatgpt|machine learning", text):
+        return "AI"
     return story.get("category", "Technology")
 
 def severity_for(story):
@@ -231,7 +258,7 @@ def briefing():
             recent.append(story)
     for story in recent:
         story["category"] = classify_story(story)
-    category_order = {"Networking": 0, "Cybersecurity": 1, "Cloud": 2, "Linux": 3, "Microsoft": 4, "Productivity": 5, "Pakistan IT": 6}
+    category_order = {"Networking": 0, "Cybersecurity": 1, "Cloud": 2, "Microsoft": 3, "Linux": 4, "AI": 5, "Technology": 6, "Productivity": 7, "Pakistan IT": 8}
     recent.sort(key=lambda story: (category_order.get(story["category"], 7), -(parse_date(story["published"]).timestamp() if parse_date(story["published"]) else 0)))
     recent = recent[:30]
     sections = {}

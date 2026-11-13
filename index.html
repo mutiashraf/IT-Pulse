@@ -44,6 +44,23 @@
       <p class="feed-footnote">Headlines and summaries are provided by the linked publishers. Open the original story for full details. This feed refreshes when you open the app or tap Refresh.</p>
     </section>
 
+    <section class="section" id="criticalSection">
+      <div class="section-title"><p class="eyebrow">PRIORITY MONITORING</p><h2>Critical alerts</h2><p id="alertMeta" class="muted small">Waiting for the first monitoring run.</p></div>
+      <div id="criticalAlerts" class="news-list"><p class="empty-state">No monitoring results published yet.</p></div>
+    </section>
+    <section class="section" id="briefingSection">
+      <div class="section-title"><p class="eyebrow">DAILY INTELLIGENCE</p><h2>Daily briefing</h2><p id="briefingMeta" class="muted small">The daily briefing is scheduled for 6:30 PM Pakistan time.</p></div>
+      <div id="dailyBriefing" class="news-list"><p class="empty-state">The first briefing will appear after the scheduled workflow runs.</p></div>
+    </section>
+    <section class="section" id="systemStatus">
+      <div class="section-title"><p class="eyebrow">SYSTEM STATUS</p><h2>Monitoring status</h2></div>
+      <div class="cards status-cards">
+        <article class="card"><h3>Push receiver</h3><p id="pushStatus">Checking service worker…</p></article>
+        <article class="card"><h3>Notification permission</h3><p id="permissionStatus">Checking browser permission…</p></article>
+        <article class="card"><h3>Last monitoring update</h3><p id="monitorStatus">Waiting for GitHub Actions.</p></article>
+        <article class="card"><h3>Daily briefing</h3><p>Scheduled for 6:30 PM PKT. GitHub Actions may run late.</p></article>
+      </div>
+    </section>
     <section class="section">
       <div class="section-title"><p class="eyebrow">WHAT WE TRACK</p><h2>Focused on the updates that matter</h2></div>
       <div class="cards">

@@ -100,6 +100,10 @@ def parse_feed(xml_bytes, source, category):
         published = text_of(entry, {"pubdate", "published", "updated", "date"})
         if not link or not link.startswith(("http://", "https://")) or not title:
             continue
+        # Keep the dashboard readable by skipping entries written in non-Latin scripts.
+        combined_text = title + " " + summary
+        if any(0x0590 <= ord(char) <= 0x0DFF or 0x0E00 <= ord(char) <= 0x0EFF or 0x3040 <= ord(char) <= 0x30FF or 0x3400 <= ord(char) <= 0x9FFF or 0xAC00 <= ord(char) <= 0xD7AF or 0x0400 <= ord(char) <= 0x052F for char in combined_text):
+            continue
         output.append({
             "title": title[:300],
             "summary": re.sub(r"\s+", " ", summary)[:500],

@@ -15,12 +15,12 @@ firebase.initializeApp({
 const messaging = firebase.messaging();
 
 messaging.onBackgroundMessage(payload => {
-  const title = payload.notification?.title || "IT Pulse";
+  const title = payload.data?.title || "IT Pulse";
   const options = {
-    body: payload.notification?.body || "A new IT intelligence update is available.",
+    body: payload.data?.body || "A new IT intelligence update is available.",
     icon: "./icons/icon-192.png",
     badge: "./icons/icon-192.png",
-    data: { url: payload.fcmOptions?.link || "./" }
+    data: { url: payload.data?.url || "./" }
   };
   self.registration.showNotification(title, options);
 });

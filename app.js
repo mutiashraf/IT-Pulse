@@ -1,9 +1,30 @@
 // IT Pulse: simple client-side news reader. No login, API keys or notification setup required.
 const RSS_BRIDGE = "https://api.rss2json.com/v1/api.json?rss_url=";
 const SOURCES = [
+  { name: "Cisco Security Advisories", url: "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", category: "networking" },
+  { name: "Fortinet PSIRT", url: "https://filestore.fortinet.com/fortiguard/rss/ir.xml", category: "networking" },
+  { name: "Fortinet Firmware Updates", url: "https://pub.kb.fortinet.com/rss/firmware.xml", category: "networking" },
+  { name: "Palo Alto Security Advisories", url: "https://security.paloaltonetworks.com/rss.xml", category: "networking" },
+  { name: "Microsoft Security Update Guide", url: "https://api.msrc.microsoft.com/update-guide/rss", category: "security" },
+  { name: "Microsoft Security Blog", url: "https://www.microsoft.com/en-us/security/blog/feed/", category: "security" },
+  { name: "Azure Updates", url: "https://www.microsoft.com/releasecommunications/api/v2/azure/rss", category: "cloud" },
+  { name: "Azure Status", url: "https://azure.status.microsoft/status/feed/", category: "cloud" },
+  { name: "AWS What's New", url: "https://aws.amazon.com/about-aws/whats-new/recent/feed/", category: "cloud" },
+  { name: "AWS Security Bulletins", url: "https://aws.amazon.com/security/security-bulletins/rss/feed/", category: "security" },
+  { name: "AWS Status", url: "https://status.aws.amazon.com/rss/all.rss", category: "cloud" },
+  { name: "AWS News Blog", url: "https://aws.amazon.com/blogs/aws/feed/", category: "cloud" },
+  { name: "Google Cloud Status", url: "https://status.cloud.google.com/en/feed.atom", category: "cloud" },
+  { name: "Google Cloud Release Notes", url: "https://docs.cloud.google.com/feeds/gcp-release-notes.xml", category: "cloud" },
+  { name: "Google Cloud Security Bulletins", url: "https://docs.cloud.google.com/feeds/google-cloud-security-bulletins.xml", category: "security" },
+  { name: "Google Chrome Releases", url: "https://chromereleases.googleblog.com/feeds/posts/default", category: "systems" },
+  { name: "Ubuntu Security Notices", url: "https://ubuntu.com/security/notices/rss.xml", category: "security" },
+  { name: "Red Hat Security Blog", url: "https://www.redhat.com/en/rss/blog/channel/security", category: "security" },
+  { name: "Debian Security Advisories", url: "https://www.debian.org/security/dsa", category: "security" },
+  { name: "CISA Advisories", url: "https://www.cisa.gov/cybersecurity-advisories/all.xml", category: "security" },
   { name: "The Hacker News", url: "https://feeds.feedburner.com/TheHackersNews", category: "security" },
   { name: "BleepingComputer", url: "https://www.bleepingcomputer.com/feed/", category: "security" },
-  { name: "Microsoft Security Blog", url: "https://www.microsoft.com/en-us/security/blog/feed/", category: "cloud" }
+  { name: "Cloudflare Status", url: "https://www.cloudflarestatus.com/history.rss", category: "networking" },
+  { name: "Dawn Technology", url: "https://www.dawn.com/feeds/tech", category: "technology" }
 ];
 const CACHE_KEY = "it-pulse-news-v1";
 const CACHE_AGE = 15 * 60 * 1000;
@@ -17,11 +38,18 @@ let stories = [];
 
 function categoryFor(item, sourceCategory) {
   const text = (item.title + " " + (item.description || "")).toLowerCase();
+  if (/internet|network|router|routing|bgp|dns|dhcp|\bisp\b|broadband|wi-?fi|wireless|ethernet|firewall|switch|connectivity|packet loss|latency|peering|fiber|fibre|telecom|\bcdn\b|ddos|cloudflare|cisco|unifi|mikrotik|fortinet|palo alto/.test(text) || sourceCategory === "networking") return "networking";
+  if (/outlook|microsoft 365|office 365|\bteams\b|exchange online|sharepoint|onedrive/.test(text)) return "productivity";
+  if (/azure|aws|amazon web services|google cloud|gcp|cloud status|service disruption/.test(text)) return "cloud";
+  if (/windows|linux|ubuntu|debian|red hat|vmware|server|infrastructure|chrome release/.test(text)) return "systems";
   if (/vulnerab|cve-|ransomware|malware|phishing|breach|hacked|exploit|zero.day|patch|cyber|security/.test(text)) return "security";
-  if (/azure|aws|microsoft 365|outage|cloudflare|google cloud|service disruption/.test(text)) return "cloud";
-  if (/windows|linux|cisco|vmware|network|router|server|infrastructure/.test(text)) return "systems";
   if (/artificial intelligence|\bai\b|openai|chatgpt|model release|machine learning/.test(text)) return "ai";
-  return sourceCategory || "systems";
+  return sourceCategory || "technology";
+}
+
+function categoryRank(category) {
+  const order = { networking: 0, security: 1, cloud: 2, systems: 3, productivity: 4, ai: 5, technology: 6 };
+  return Object.prototype.hasOwnProperty.call(order, category) ? order[category] : 7;
 }
 
 function priorityFor(item, category) {

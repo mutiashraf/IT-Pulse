@@ -44,11 +44,12 @@ let newsArchive = null;
 
 function categoryFor(item, sourceCategory) {
   const text = (item.title + " " + (item.description || "")).toLowerCase();
+  if (/internet outage|network outage|service outage|major outage|service disruption|connectivity issue|packet loss|bgp|dns outage|isp outage|broadband outage|wifi outage|wi-fi outage|cloudflare status/.test(text)) return "networking";
+  if (/vulnerab|cve-|ransomware|malware|phishing|breach|hacked|exploit|zero.day|patch|cyber|security advisory|security bulletin/.test(text)) return "security";
   if (/internet|network|router|routing|bgp|dns|dhcp|\bisp\b|broadband|wi-?fi|wireless|ethernet|firewall|switch|connectivity|packet loss|latency|peering|fiber|fibre|telecom|\bcdn\b|ddos|cloudflare/.test(text) || sourceCategory === "networking") return "networking";
   if (/outlook|microsoft 365|office 365|\bteams\b|exchange online|sharepoint|onedrive/.test(text)) return "productivity";
   if (/azure|aws|amazon web services|google cloud|gcp|cloud status|service disruption/.test(text)) return "cloud";
   if (/windows|linux|ubuntu|debian|red hat|vmware|server|infrastructure|chrome release/.test(text)) return "systems";
-  if (/vulnerab|cve-|ransomware|malware|phishing|breach|hacked|exploit|zero.day|patch|cyber|security/.test(text)) return "security";
   if (/artificial intelligence|\bai\b|openai|chatgpt|model release|machine learning/.test(text)) return "ai";
   return sourceCategory || "technology";
 }

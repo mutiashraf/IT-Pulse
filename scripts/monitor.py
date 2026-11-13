@@ -154,13 +154,12 @@ def fcm_send(title, body, url=SITE_URL):
             "message": {
                 "token": device_token,
                 "notification": {"title": title[:100], "body": body[:240]},
+                "data": {
+                    "title": title[:100],
+                    "body": body[:240],
+                    "url": url,
+                },
                 "webpush": {
-                    "notification": {
-                        "title": title[:100],
-                        "body": body[:240],
-                        "icon": SITE_URL + "icons/icon-192.png",
-                        "badge": SITE_URL + "icons/icon-192.png",
-                    },
                     "fcm_options": {"link": url},
                 },
             }
@@ -205,6 +204,12 @@ def monitor():
         })
     else:
         print("No new high-priority alerts. No push notification sent.")
+    write_json(DATA / "status.json", {
+        "last_monitor_utc": now_utc().isoformat(),
+        "source_failures": failures,
+        "stories_checked": len(stories),
+        "new_alerts_sent": len(new_sent),
+    })
     if failures:
         print(f"{len(failures)} source(s) could not be reached.")
 

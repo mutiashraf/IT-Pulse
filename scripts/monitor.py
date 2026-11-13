@@ -102,6 +102,14 @@ def fetch_all():
     unique = {story["url"]: story for story in stories}
     return sorted(unique.values(), key=lambda item: parse_date(item["published"]) or datetime.min.replace(tzinfo=timezone.utc), reverse=True), failures
 
+def classify_story(story):
+    text = (story["title"] + " " + story["summary"]).lower()
+    if re.search(r"\\binternet\\b|\\bnetwork(?:ing)?\\b|router|routing|bgp|dns|dhcp|\\bisp\\b|broadband|wi-?fi|wireless|ethernet|firewall|switch(?:ing)?|connectivity|packet loss|latency|peering|fiber optic|fibre optic|telecom|\\bcdn\\b|ddos|cloudflare status|internet outage", text):
+        return "Networking"
+    if re.search(r"outlook|microsoft 365|office 365|\\bteams\\b|exchange online|sharepoint|onedrive", text):
+        return "Productivity"
+    return story.get("category", "Technology")
+
 def severity_for(story):
     text = (story["title"] + " " + story["summary"]).lower()
     cvss = re.search(r"cvss(?:v\d(?:\.\d)?)?[^0-9]{0,8}([0-9]\.[0-9])", text)
@@ -221,6 +229,10 @@ def briefing():
         if published is None or published >= cutoff:
             story["severity"] = severity_for(story)
             recent.append(story)
+    for story in recent:
+        story["category"] = classify_story(story)
+    category_order = {"Networking": 0, "Cybersecurity": 1, "Cloud": 2, "Linux": 3, "Microsoft": 4, "Productivity": 5, "Pakistan IT": 6}
+    recent.sort(key=lambda story: (category_order.get(story["category"], 7), -(parse_date(story["published"]).timestamp() if parse_date(story["published"]) else 0)))
     recent = recent[:30]
     sections = {}
     for story in recent:

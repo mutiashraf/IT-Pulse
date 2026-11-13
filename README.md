@@ -4,7 +4,7 @@ A personal IT news dashboard with GitHub Actions monitoring and Firebase Cloud M
 
 ## Current implementation
 
-- The website reads recent public RSS feeds from selected security, vendor, cloud status, Linux and Pakistan technology sources.
+- The website and scheduled monitor collect public RSS/Atom updates from Cisco, Fortinet, Palo Alto Networks, Microsoft Security and Microsoft 365, Azure, AWS, Google Cloud, Google Chrome, Ubuntu, Red Hat, CISA, Cloudflare, The Hacker News, BleepingComputer and Dawn Technology.
 - The GitHub Actions workflow runs monitoring every 30 minutes, with a separate daily briefing run scheduled for 6:30 PM Pakistan Standard Time (13:30 UTC).
 - Only newly detected HIGH and CRITICAL items trigger push notifications.
 - A manual workflow run can send a test notification, run monitoring, or generate the daily briefing.
@@ -38,11 +38,11 @@ If the test fails, check the service-account project ID, FCM API enablement, ser
 
 ## Data sources and limitations
 
-The monitor reads public RSS/Atom feeds from CISA, Microsoft Security, Cisco, The Hacker News, BleepingComputer, Ubuntu Security Notices, Cloudflare Status, Google Cloud Status and Dawn Technology. Individual feeds may be unavailable or change format.
+The monitor reads public RSS/Atom feeds from selected official vendor sources and independent publishers, including Cisco, Fortinet, Palo Alto Networks, Microsoft, Azure, AWS, Google Cloud, Google Chrome, Ubuntu, Red Hat, CISA, Cloudflare, The Hacker News, BleepingComputer and Dawn Technology. This is broad coverage, not every company or product. Ubiquiti UniFi and MikroTik release information is not yet included because a stable public RSS/Atom feed was not confirmed. Some vendors publish product notices only on web pages or customer portals. Individual feeds may be unavailable or change format.
 
 Severity classification is a conservative keyword/CVSS heuristic, not a full vulnerability intelligence engine. It can miss important items or classify an item incorrectly. Review the linked original advisory before making operational changes. The daily briefing is a source-based digest of feed titles and descriptions, not independently verified research or AI-generated analysis.
 
-The static dashboard still fetches its latest general news through the RSS2JSON public conversion service. The Actions monitor uses direct RSS/Atom requests and does not depend on that browser service.
+The dashboard and scheduled monitor use the same selected public feeds. The browser reads them through the RSS2JSON public conversion service; GitHub Actions reads RSS/Atom directly. Feed titles and descriptions are shown as published by their original sources, so external publisher content is not rewritten or guaranteed to be English.
 
 ## Files added or updated
 

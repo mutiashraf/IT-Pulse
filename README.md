@@ -32,7 +32,7 @@ If the test fails, check the service-account project ID, FCM API enablement, ser
 
 ## Schedule
 
-- Monitoring: every 30 minutes, excluding the 18:00 UTC hour to avoid overlap with the daily briefing.
+- Monitoring: every 30 minutes, excluding the 13:00 UTC hour (6:00 PM Pakistan time) to avoid overlap with the daily briefing.
 - Daily briefing: 13:30 UTC (6:30 PM Asia/Karachi).
 - GitHub Actions scheduled runs can be delayed, and delivery is not guaranteed to be real-time.
 

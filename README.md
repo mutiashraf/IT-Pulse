@@ -36,6 +36,15 @@ If the test fails, check the service-account project ID, FCM API enablement, ser
 - Daily briefing: 13:30 UTC (6:30 PM Asia/Karachi).
 - GitHub Actions scheduled runs can be delayed, and delivery is not guaranteed to be real-time.
 
+## Daily news ranking and archive
+
+- Every monitoring run updates the current Pakistan-local calendar day's archive.
+- Stories are ranked using publication freshness, severity, and signals such as active exploitation, ransomware, major outages, patches and service incidents. This is a transparent rule-based score, not an AI-generated editorial judgement.
+- Duplicate URLs and near-identical headlines published within 48 hours are grouped. Additional publishers are retained as source links on the selected story.
+- The daily selection is capped at 40 stories, with no more than two selected stories per feed source, and is grouped into categories with networking first.
+- The dashboard date selector lets readers browse the latest 30 archived days. Archive history is stored inside the existing `data/briefing.json` file; no extra archive files are created.
+- A day can contain fewer than 40 stories when feeds have fewer current-day items or some publishers are unavailable. The system does not fill the list with stale headlines just to reach 40.
+
 ## Data sources and limitations
 
 The monitor reads public RSS/Atom feeds from selected official vendor sources and independent publishers, including Cisco, Fortinet, Palo Alto Networks, Microsoft, Azure, AWS, Google Cloud, Google Chrome, Ubuntu, Red Hat, CISA, Cloudflare, The Hacker News, BleepingComputer and Dawn Technology. This is broad coverage, not every company or product. Ubiquiti UniFi and MikroTik release information is not yet included because a stable public RSS/Atom feed was not confirmed. Some vendors publish product notices only on web pages or customer portals. Individual feeds may be unavailable or change format.

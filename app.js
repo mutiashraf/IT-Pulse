@@ -1,12 +1,12 @@
 // IT Pulse: simple client-side news reader. No login, API keys or notification setup required.
 const RSS_BRIDGE = "https://api.rss2json.com/v1/api.json?rss_url=";
 const SOURCES = [
-  { name: "Cisco Security Advisories", url: "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", category: "networking" },
-  { name: "Cisco Event Responses", url: "https://sec.cloudapps.cisco.com/security/center/eventResponses_20.xml", category: "networking" },
-  { name: "Fortinet PSIRT", url: "https://filestore.fortinet.com/fortiguard/rss/ir.xml", category: "networking" },
+  { name: "Cisco Security Advisories", url: "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", category: "security" },
+  { name: "Cisco Event Responses", url: "https://sec.cloudapps.cisco.com/security/center/eventResponses_20.xml", category: "security" },
+  { name: "Fortinet PSIRT", url: "https://filestore.fortinet.com/fortiguard/rss/ir.xml", category: "security" },
   { name: "Fortinet Outbreak Alerts", url: "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml", category: "security" },
   { name: "Fortinet Firmware Updates", url: "https://pub.kb.fortinet.com/rss/firmware.xml", category: "networking" },
-  { name: "Palo Alto Security Advisories", url: "https://security.paloaltonetworks.com/rss.xml", category: "networking" },
+  { name: "Palo Alto Security Advisories", url: "https://security.paloaltonetworks.com/rss.xml", category: "security" },
   { name: "Microsoft Security Update Guide", url: "https://api.msrc.microsoft.com/update-guide/rss", category: "security" },
   { name: "Microsoft Security Blog", url: "https://www.microsoft.com/en-us/security/blog/feed/", category: "security" },
   { name: "Microsoft 365 Blog", url: "https://www.microsoft.com/en-us/microsoft-365/blog/feed/", category: "productivity" },
@@ -44,7 +44,7 @@ let newsArchive = null;
 
 function categoryFor(item, sourceCategory) {
   const text = (item.title + " " + (item.description || "")).toLowerCase();
-  if (/internet|network|router|routing|bgp|dns|dhcp|\bisp\b|broadband|wi-?fi|wireless|ethernet|firewall|switch|connectivity|packet loss|latency|peering|fiber|fibre|telecom|\bcdn\b|ddos|cloudflare|cisco|unifi|mikrotik|fortinet|palo alto/.test(text) || sourceCategory === "networking") return "networking";
+  if (/internet|network|router|routing|bgp|dns|dhcp|\bisp\b|broadband|wi-?fi|wireless|ethernet|firewall|switch|connectivity|packet loss|latency|peering|fiber|fibre|telecom|\bcdn\b|ddos|cloudflare/.test(text) || sourceCategory === "networking") return "networking";
   if (/outlook|microsoft 365|office 365|\bteams\b|exchange online|sharepoint|onedrive/.test(text)) return "productivity";
   if (/azure|aws|amazon web services|google cloud|gcp|cloud status|service disruption/.test(text)) return "cloud";
   if (/windows|linux|ubuntu|debian|red hat|vmware|server|infrastructure|chrome release/.test(text)) return "systems";

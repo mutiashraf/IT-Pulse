@@ -156,10 +156,10 @@ def fcm_send(title, body, url=SITE_URL):
                 "data": {
                     "title": title[:100],
                     "body": body[:240],
-                    "url": url,
+                    "url": SITE_URL,
                 },
                 "webpush": {
-                    "fcm_options": {"link": url},
+                    "fcm_options": {"link": SITE_URL},
                 },
             }
         }

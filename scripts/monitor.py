@@ -153,7 +153,6 @@ def fcm_send(title, body, url=SITE_URL):
         payload = {
             "message": {
                 "token": device_token,
-                "notification": {"title": title[:100], "body": body[:240]},
                 "data": {
                     "title": title[:100],
                     "body": body[:240],

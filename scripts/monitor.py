@@ -139,9 +139,9 @@ def classify_story(story):
     text = (story["title"] + " " + story["summary"]).lower()
     if re.search(r"internet outage|network outage|service outage|major outage|service disruption|connectivity issue|packet loss|bgp|dns outage|isp outage|broadband outage|wifi outage|wi-fi outage|router vulnerability|firewall vulnerability|switch vulnerability|cisco|unifi|mikrotik|fortinet|palo alto|cloudflare status", text):
         return "Networking"
-    if re.search(r"actively exploited|known exploited|zero.day|zero day|ransomware|malware|phishing|data breach|security advisory|security bulletin|vulnerab|\\bcve-\\d{4}-\\d+\\b|\\bpsirt\\b|security update", text):
+    if re.search(r"actively exploited|known exploited|zero.day|zero day|ransomware|malware|phishing|data breach|security advisory|security bulletin|vulnerab|\bcve-\d{4}-\d+\b|\bpsirt\b|security update", text):
         return "Cybersecurity"
-    if re.search(r"outlook|microsoft 365|office 365|\\bteams\\b|exchange online|sharepoint|onedrive", text):
+    if re.search(r"outlook|microsoft 365|office 365|\bteams\b|exchange online|sharepoint|onedrive", text):
         return "Productivity"
     if re.search(r"azure|aws|amazon web services|google cloud|gcp|cloud service|cloud status", text):
         return "Cloud"
@@ -149,9 +149,9 @@ def classify_story(story):
         return "Linux"
     if re.search(r"windows|vmware|chrome release", text):
         return "Microsoft" if "windows" in text else "Technology"
-    if re.search(r"artificial intelligence|\\bai\\b|openai|chatgpt|machine learning", text):
+    if re.search(r"artificial intelligence|\bai\b|openai|chatgpt|machine learning", text):
         return "AI"
-    if re.search(r"router|routing|bgp|dns|dhcp|\\bisp\\b|broadband|wi-?fi|wireless|ethernet|firewall|switch|connectivity|latency|peering|fiber|fibre|telecom|\\bcdn\\b|ddos|network", text):
+    if re.search(r"router|routing|bgp|dns|dhcp|\bisp\b|broadband|wi-?fi|wireless|ethernet|firewall|switch|connectivity|latency|peering|fiber|fibre|telecom|\bcdn\b|ddos|network", text):
         return "Networking"
     return story.get("category", "Technology")
 

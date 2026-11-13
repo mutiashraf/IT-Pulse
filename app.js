@@ -369,9 +369,9 @@ async function loadPublishedData() {
     const response = await fetch("./data/briefing.json" + cacheBust, { cache: "no-store" });
     if (response.ok) {
       const data = await response.json();
+      const latestDay = (data.days && data.days[data.latest_date]) || data;
       briefingMeta.textContent = "Top stories for " + (latestDay.date || data.latest_date || "today") + " · " + (latestDay.story_count || 0) + " stories from " + (latestDay.source_count || 0) + " sources";
       briefingBox.replaceChildren();
-      const latestDay = (data.days && data.days[data.latest_date]) || data;
       const sections = latestDay.sections || {};
       for (const [category, items] of Object.entries(sections)) {
         const heading = document.createElement("h3");

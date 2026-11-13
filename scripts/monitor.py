@@ -10,6 +10,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -129,21 +131,140 @@ def fetch_all():
     unique = {story["url"]: story for story in stories}
     return sorted(unique.values(), key=lambda item: parse_date(item["published"]) or datetime.min.replace(tzinfo=timezone.utc), reverse=True), failures
 
+PAKISTAN_TZ = ZoneInfo("Asia/Karachi")
+CATEGORY_ORDER = {"Networking": 0, "Cybersecurity": 1, "Cloud": 2, "Microsoft": 3, "Linux": 4, "Productivity": 5, "AI": 6, "Technology": 7}
+STOP_WORDS = {"the", "a", "an", "and", "or", "to", "of", "in", "on", "for", "with", "from", "by", "at", "is", "are", "was", "were", "update", "updates", "new", "announces", "announced"}
+
 def classify_story(story):
-    text = (story["title"] + " " + story["summary"] + " " + story["source"]).lower()
-    if re.search(r"\binternet\b|\bnetwork(?:ing)?\b|router|routing|bgp|dns|dhcp|\bisp\b|broadband|wi-?fi|wireless|ethernet|firewall|switch(?:ing)?|connectivity|packet loss|latency|peering|fiber|fibre|telecom|\bcdn\b|ddos|cloudflare status|internet outage|cisco|unifi|mikrotik|fortinet|palo alto", text):
+    text = (story["title"] + " " + story["summary"]).lower()
+    if re.search(r"internet outage|network outage|service outage|major outage|service disruption|connectivity issue|packet loss|bgp|dns outage|isp outage|broadband outage|wifi outage|wi-fi outage|router vulnerability|firewall vulnerability|switch vulnerability|cisco|unifi|mikrotik|fortinet|palo alto|cloudflare status", text):
         return "Networking"
-    if re.search(r"outlook|microsoft 365|office 365|\bteams\b|exchange online|sharepoint|onedrive|windows|\bazure\b|microsoft", text):
-        return "Microsoft"
-    if re.search(r"aws|amazon web services|google cloud|gcp|cloud status|cloud service", text):
+    if re.search(r"actively exploited|known exploited|zero.day|zero day|ransomware|malware|phishing|data breach|security advisory|security bulletin|vulnerab|\\bcve-\\d{4}-\\d+\\b|\\bpsirt\\b|security update", text):
+        return "Cybersecurity"
+    if re.search(r"outlook|microsoft 365|office 365|\\bteams\\b|exchange online|sharepoint|onedrive", text):
+        return "Productivity"
+    if re.search(r"azure|aws|amazon web services|google cloud|gcp|cloud service|cloud status", text):
         return "Cloud"
     if re.search(r"ubuntu|debian|red hat|linux|kernel", text):
         return "Linux"
-    if re.search(r"vulnerab|cve-|ransomware|malware|phishing|breach|exploit|zero.day|security|cisa|psirt", text):
-        return "Cybersecurity"
-    if re.search(r"artificial intelligence|\bai\b|openai|chatgpt|machine learning", text):
+    if re.search(r"windows|vmware|chrome release", text):
+        return "Microsoft" if "windows" in text else "Technology"
+    if re.search(r"artificial intelligence|\\bai\\b|openai|chatgpt|machine learning", text):
         return "AI"
+    if re.search(r"router|routing|bgp|dns|dhcp|\\bisp\\b|broadband|wi-?fi|wireless|ethernet|firewall|switch|connectivity|latency|peering|fiber|fibre|telecom|\\bcdn\\b|ddos|network", text):
+        return "Networking"
     return story.get("category", "Technology")
+
+def canonical_url(value):
+    try:
+        parts = urlsplit(value)
+        ignored = {"fbclid", "gclid", "ref", "source"}
+        query = [(key, val) for key, val in parse_qsl(parts.query, keep_blank_values=True) if not key.lower().startswith("utm_") and key.lower() not in ignored]
+        host = (parts.hostname or "").lower()
+        if host.startswith("www."):
+            host = host[4:]
+        port = f":{parts.port}" if parts.port else ""
+        path = parts.path.rstrip("/") or "/"
+        return urlunsplit((parts.scheme.lower(), host + port, path, urlencode(query), ""))
+    except Exception:
+        return value
+
+def title_words(value):
+    return {word for word in re.findall(r"[a-z0-9]+", value.lower()) if word not in STOP_WORDS and len(word) > 1}
+
+def same_story(left, right):
+    if canonical_url(left["url"]) == canonical_url(right["url"]):
+        return True
+    left_words, right_words = title_words(left["title"]), title_words(right["title"])
+    if len(left_words) < 5 or len(right_words) < 5:
+        return False
+    overlap = len(left_words & right_words) / max(1, min(len(left_words), len(right_words)))
+    left_date, right_date = parse_date(left.get("published")), parse_date(right.get("published"))
+    close_in_time = not left_date or not right_date or abs((left_date - right_date).total_seconds()) <= 48 * 3600
+    return overlap >= 0.90 and close_in_time
+
+def story_score(story):
+    published = parse_date(story.get("published"))
+    age_hours = max(0.0, (now_utc() - published).total_seconds() / 3600) if published else 48.0
+    score = max(0.0, 48.0 - min(age_hours, 48.0))
+    severity = story.get("severity") or severity_for(story)
+    score += {"CRITICAL": 60, "HIGH": 35, "INFORMATIONAL": 0}.get(severity, 0)
+    text = (story["title"] + " " + story["summary"]).lower()
+    if re.search(r"actively exploited|known exploited|zero.day|zero day|ransomware|major outage|service outage|service disruption|internet outage|data breach", text):
+        score += 25
+    if re.search(r"release|general availability|available now|security update|patch|incident|degraded|resolved|maintenance", text):
+        score += 8
+    story["severity"] = severity
+    story["score"] = round(score, 2)
+    story["category"] = classify_story(story)
+    return score
+
+def deduplicate_stories(stories):
+    ranked = sorted(stories, key=story_score, reverse=True)
+    unique = []
+    for story in ranked:
+        match = next((item for item in unique if same_story(item, story)), None)
+        if match is None:
+            story["also_sources"] = []
+            unique.append(story)
+            continue
+        known = {entry["source"] for entry in match.get("also_sources", [])}
+        if story["source"] != match["source"] and story["source"] not in known:
+            match.setdefault("also_sources", []).append({"source": story["source"], "url": story["url"]})
+    return unique
+
+def balanced_top_stories(stories, limit=40, per_source=2):
+    grouped = {}
+    for story in stories:
+        grouped.setdefault(story["category"], {}).setdefault(story["source"], []).append(story)
+    selected = []
+    for category in sorted(grouped, key=lambda name: CATEGORY_ORDER.get(name, 99)):
+        source_groups = grouped[category]
+        ordered_sources = sorted(source_groups, key=lambda source: max(item.get("score", 0) for item in source_groups[source]), reverse=True)
+        for round_number in range(per_source):
+            for source in ordered_sources:
+                items = source_groups[source]
+                if round_number < len(items) and len(selected) < limit:
+                    selected.append(items[round_number])
+            if len(selected) >= limit:
+                break
+        if len(selected) >= limit:
+            break
+    return selected
+
+def publish_daily_digest(stories, failures):
+    today = now_utc().astimezone(PAKISTAN_TZ).date().isoformat()
+    existing = read_json(BRIEFING_FILE, {})
+    days = existing.get("days", {}) if isinstance(existing, dict) else {}
+    if not isinstance(days, dict):
+        days = {}
+    previous = days.get(today, {})
+    previous_stories = previous.get("stories", []) if isinstance(previous, dict) else []
+    current = []
+    for story in stories:
+        published = parse_date(story.get("published"))
+        if published and published.astimezone(PAKISTAN_TZ).date().isoformat() == today:
+            current.append(story)
+    merged = deduplicate_stories(previous_stories + current)
+    selected = balanced_top_stories(merged, limit=40, per_source=2)
+    sections = {}
+    for story in selected:
+        sections.setdefault(story["category"], []).append(story)
+    days[today] = {
+        "date": today,
+        "generated_utc": now_utc().isoformat(),
+        "story_count": len(selected),
+        "source_count": len({story["source"] for story in selected}),
+        "stories": selected,
+        "sections": sections,
+        "source_failures": failures,
+    }
+    for old_date in sorted(days, reverse=True)[30:]:
+        days.pop(old_date, None)
+    archive = {"generated_utc": now_utc().isoformat(), "latest_date": today, "available_dates": sorted(days.keys(), reverse=True), "days": days}
+    write_json(BRIEFING_FILE, archive)
+    return days[today]
+
 
 def severity_for(story):
     text = (story["title"] + " " + story["summary"]).lower()
@@ -246,44 +367,25 @@ def monitor():
         })
     else:
         print("No new high-priority alerts. No push notification sent.")
+    daily = publish_daily_digest(stories, failures)
     write_json(DATA / "status.json", {
         "last_monitor_utc": now_utc().isoformat(),
         "source_failures": failures,
         "stories_checked": len(stories),
         "new_alerts_sent": len(new_sent),
+        "daily_stories": daily["story_count"],
+        "daily_sources": daily["source_count"],
     })
     if failures:
         print(f"{len(failures)} source(s) could not be reached.")
 
 def briefing():
     stories, failures = fetch_all()
-    cutoff = now_utc() - timedelta(hours=24)
-    recent = []
-    for story in stories:
-        published = parse_date(story["published"])
-        if published is None or published >= cutoff:
-            story["severity"] = severity_for(story)
-            recent.append(story)
-    for story in recent:
-        story["category"] = classify_story(story)
-    category_order = {"Networking": 0, "Cybersecurity": 1, "Cloud": 2, "Microsoft": 3, "Linux": 4, "AI": 5, "Technology": 6, "Productivity": 7, "Pakistan IT": 8}
-    recent.sort(key=lambda story: (category_order.get(story["category"], 7), -(parse_date(story["published"]).timestamp() if parse_date(story["published"]) else 0)))
-    recent = recent[:30]
-    sections = {}
-    for story in recent:
-        sections.setdefault(story["category"], []).append(story)
-    briefing_data = {
-        "generated_utc": now_utc().isoformat(),
-        "window_hours": 24,
-        "summary": "A source-based digest of recent public IT updates. Verify details in the original source before taking action.",
-        "sections": sections,
-        "source_failures": failures,
-    }
-    write_json(BRIEFING_FILE, briefing_data)
-    priority = [item for item in recent if item["severity"] in ("CRITICAL", "HIGH")]
-    headline = priority[0]["title"] if priority else (recent[0]["title"] if recent else "No recent feed items were returned.")
+    daily = publish_daily_digest(stories, failures)
+    priority = [item for item in daily["stories"] if item.get("severity") in ("CRITICAL", "HIGH")]
+    headline = priority[0]["title"] if priority else (daily["stories"][0]["title"] if daily["stories"] else "No dated stories were returned today.")
     fcm_send("Your IT Pulse daily briefing is ready", headline[:180], SITE_URL)
-    print(f"Daily briefing prepared with {len(recent)} recent stories.")
+    print(f"Daily briefing prepared with {daily['story_count']} stories from {daily['source_count']} sources.")
 
 def test():
     fcm_send(

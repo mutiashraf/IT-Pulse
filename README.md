@@ -42,7 +42,7 @@ The monitor reads public RSS/Atom feeds from selected official vendor sources an
 
 Severity classification is a conservative keyword/CVSS heuristic, not a full vulnerability intelligence engine. It can miss important items or classify an item incorrectly. Review the linked original advisory before making operational changes. The daily briefing is a source-based digest of feed titles and descriptions, not independently verified research or AI-generated analysis.
 
-The dashboard and scheduled monitor use the same selected public feeds. The browser reads them through the RSS2JSON public conversion service; GitHub Actions reads RSS/Atom directly. Feed titles and descriptions are shown as published by their original sources, so external publisher content is not rewritten or guaranteed to be English.
+The dashboard and scheduled monitor use the same selected public feeds. The browser reads them through the RSS2JSON public conversion service; GitHub Actions reads RSS/Atom directly. Entries using common non-Latin writing systems are filtered out. Headlines written in other languages using Latin characters may still appear because publisher text is preserved rather than translated.
 
 ## Files added or updated
 

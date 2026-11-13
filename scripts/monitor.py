@@ -223,6 +223,8 @@ def balanced_top_stories(stories, limit=40, per_source=2):
     source_counts = {}
     for category in sorted(grouped, key=lambda name: CATEGORY_ORDER.get(name, 99)):
         source_groups = grouped[category]
+        for items in source_groups.values():
+            items.sort(key=lambda item: item.get("score", 0), reverse=True)
         ordered_sources = sorted(source_groups, key=lambda source: max(item.get("score", 0) for item in source_groups[source]), reverse=True)
         for round_number in range(per_source):
             for source in ordered_sources:

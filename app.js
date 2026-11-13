@@ -30,8 +30,6 @@ const SOURCES = [
   { name: "Cloudflare Status", url: "https://www.cloudflarestatus.com/history.rss", category: "networking" },
   { name: "Dawn Technology", url: "https://www.dawn.com/feeds/tech", category: "technology" }
 ];
-const CACHE_KEY = "it-pulse-news-v1";
-const CACHE_AGE = 15 * 60 * 1000;
 const newsList = document.querySelector("#newsList");
 const feedStatus = document.querySelector("#feedStatus");
 const feedMeta = document.querySelector("#feedMeta");

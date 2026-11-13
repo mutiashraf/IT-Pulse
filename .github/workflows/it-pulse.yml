@@ -28,9 +28,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      FIREBASE_SERVICE_ACCOUNT_JSON: \${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
-      FCM_DEVICE_TOKEN: \${{ secrets.FCM_DEVICE_TOKEN }}
-      RUN_MODE: \${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '30 13 * * *' && 'briefing' || 'monitor') }}
+      FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+      FCM_DEVICE_TOKEN: ${{ secrets.FCM_DEVICE_TOKEN }}
+      RUN_MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '30 13 * * *' && 'briefing' || 'monitor') }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -50,7 +50,7 @@ jobs:
         run: python scripts/monitor.py "$RUN_MODE"
 
       - name: Save alert history and briefing
-        if: success() && (hashFiles('data/seen.json', 'data/latest.json', 'data/briefing.json') != '')
+        if: success() && (hashFiles('data/seen.json', 'data/latest.json', 'data/briefing.json', 'data/status.json') != '')
         run: |
           if [[ -n "$(git status --porcelain data/)" ]]; then
             git config user.name "github-actions[bot]"

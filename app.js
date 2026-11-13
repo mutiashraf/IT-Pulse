@@ -167,11 +167,19 @@ async function loadPublishedData() {
   const monitorStatus = document.querySelector("#monitorStatus");
   const cacheBust = "?v=" + Date.now();
   try {
+    const statusResponse = await fetch("./data/status.json" + cacheBust, { cache: "no-store" });
+    if (statusResponse.ok) {
+      const statusData = await statusResponse.json();
+      monitorStatus.textContent = statusData.last_monitor_utc ? new Date(statusData.last_monitor_utc).toLocaleString() : "No successful run recorded";
+    }
+  } catch {
+    monitorStatus.textContent = "Waiting for the first successful monitoring run.";
+  }
+  try {
     const response = await fetch("./data/latest.json" + cacheBust, { cache: "no-store" });
     if (response.ok) {
       const data = await response.json();
       alertMeta.textContent = (data.alerts || []).length + " stored high-priority alerts";
-      monitorStatus.textContent = data.updated_utc ? new Date(data.updated_utc).toLocaleString() : "No timestamp available";
       alertsBox.replaceChildren();
       const alerts = data.alerts || [];
       if (!alerts.length) {

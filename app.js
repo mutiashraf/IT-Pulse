@@ -157,3 +157,103 @@ refreshButton.addEventListener("click", () => loadNews(true));
 searchInput.addEventListener("input", renderStories);
 categoryFilter.addEventListener("change", renderStories);
 loadNews();
+
+
+async function loadPublishedData() {
+  const alertsBox = document.querySelector("#criticalAlerts");
+  const briefingBox = document.querySelector("#dailyBriefing");
+  const alertMeta = document.querySelector("#alertMeta");
+  const briefingMeta = document.querySelector("#briefingMeta");
+  const monitorStatus = document.querySelector("#monitorStatus");
+  const cacheBust = "?v=" + Date.now();
+  try {
+    const response = await fetch("./data/latest.json" + cacheBust, { cache: "no-store" });
+    if (response.ok) {
+      const data = await response.json();
+      alertMeta.textContent = (data.alerts || []).length + " stored high-priority alerts";
+      monitorStatus.textContent = data.updated_utc ? new Date(data.updated_utc).toLocaleString() : "No timestamp available";
+      alertsBox.replaceChildren();
+      const alerts = data.alerts || [];
+      if (!alerts.length) {
+        alertsBox.textContent = "No critical or high-priority alerts have been recorded.";
+      } else {
+        for (const item of alerts.slice(0, 8)) {
+          const article = document.createElement("article");
+          article.className = "news-item";
+          const tag = document.createElement("span");
+          tag.className = "tag tag-security";
+          tag.textContent = item.severity || "ALERT";
+          const title = document.createElement("h3");
+          const link = document.createElement("a");
+          link.href = item.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = item.title;
+          title.append(link);
+          const detail = document.createElement("p");
+          detail.className = "news-summary";
+          detail.textContent = (item.source || "Source") + " · " + (item.published || "Publication date not supplied");
+          article.append(tag, title, detail);
+          alertsBox.append(article);
+        }
+      }
+    }
+  } catch {
+    alertMeta.textContent = "Monitoring data is not available yet.";
+  }
+  try {
+    const response = await fetch("./data/briefing.json" + cacheBust, { cache: "no-store" });
+    if (response.ok) {
+      const data = await response.json();
+      briefingMeta.textContent = "Generated " + new Date(data.generated_utc).toLocaleString() + " · Last 24 hours";
+      briefingBox.replaceChildren();
+      const sections = data.sections || {};
+      for (const [category, items] of Object.entries(sections)) {
+        const heading = document.createElement("h3");
+        heading.textContent = category;
+        briefingBox.append(heading);
+        for (const item of items.slice(0, 5)) {
+          const article = document.createElement("article");
+          article.className = "news-item";
+          const title = document.createElement("h3");
+          const link = document.createElement("a");
+          link.href = item.url;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = item.title;
+          title.append(link);
+          const summary = document.createElement("p");
+          summary.className = "news-summary";
+          summary.textContent = item.summary || "Open the source for details.";
+          const meta = document.createElement("p");
+          meta.className = "news-bottom";
+          meta.textContent = (item.severity || "INFORMATIONAL") + " · " + item.source + " · " + (item.published || "Date not supplied");
+          article.append(title, summary, meta);
+          briefingBox.append(article);
+        }
+      }
+      if (!briefingBox.children.length) briefingBox.textContent = "No recent feed items were available for this briefing.";
+    }
+  } catch {
+    briefingMeta.textContent = "The first briefing has not been published yet.";
+  }
+}
+
+async function registerPushReceiver() {
+  const status = document.querySelector("#pushStatus");
+  const permission = document.querySelector("#permissionStatus");
+  permission.textContent = ("Notification" in window) ? Notification.permission : "Not supported by this browser";
+  if (!("serviceWorker" in navigator)) {
+    status.textContent = "Service workers are not supported.";
+    return;
+  }
+  try {
+    await navigator.serviceWorker.register("./firebase-messaging-sw.js", { scope: "./" });
+    status.textContent = "Firebase background receiver registered. Sender test still needs to pass.";
+  } catch {
+    status.textContent = "Could not register the Firebase service worker.";
+  }
+}
+
+registerPushReceiver();
+loadPublishedData();

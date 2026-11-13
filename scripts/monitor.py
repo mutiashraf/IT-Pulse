@@ -21,13 +21,17 @@ SITE_URL = "https://mutiashraf.github.io/IT-Pulse/"
 SOURCES = [
     # Network and security vendors
     ("Cisco Security Advisories", "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", "Networking"),
+    ("Cisco Event Responses", "https://sec.cloudapps.cisco.com/security/center/eventResponses_20.xml", "Networking"),
     ("Fortinet PSIRT", "https://filestore.fortinet.com/fortiguard/rss/ir.xml", "Networking"),
+    ("Fortinet Outbreak Alerts", "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml", "Cybersecurity"),
     ("Fortinet Firmware Updates", "https://pub.kb.fortinet.com/rss/firmware.xml", "Networking"),
     ("Palo Alto Security Advisories", "https://security.paloaltonetworks.com/rss.xml", "Networking"),
     # Microsoft, Azure and Windows
     ("Microsoft Security Update Guide", "https://api.msrc.microsoft.com/update-guide/rss", "Microsoft"),
     ("Microsoft Security Blog", "https://www.microsoft.com/en-us/security/blog/feed/", "Microsoft"),
+    ("Microsoft 365 Blog", "https://www.microsoft.com/en-us/microsoft-365/blog/feed/", "Microsoft"),
     ("Azure Updates", "https://www.microsoft.com/releasecommunications/api/v2/azure/rss", "Cloud"),
+    ("Azure Blog", "https://azure.microsoft.com/en-us/blog/feed/", "Cloud"),
     ("Azure Status", "https://azure.status.microsoft/status/feed/", "Cloud"),
     # AWS and Google
     ("AWS What's New", "https://aws.amazon.com/about-aws/whats-new/recent/feed/", "Cloud"),
@@ -35,13 +39,13 @@ SOURCES = [
     ("AWS Status", "https://status.aws.amazon.com/rss/all.rss", "Cloud"),
     ("AWS News Blog", "https://aws.amazon.com/blogs/aws/feed/", "Cloud"),
     ("Google Cloud Status", "https://status.cloud.google.com/en/feed.atom", "Cloud"),
+    ("Google Cloud Blog", "https://cloudblog.withgoogle.com/rss/", "Cloud"),
     ("Google Cloud Release Notes", "https://docs.cloud.google.com/feeds/gcp-release-notes.xml", "Cloud"),
     ("Google Cloud Security Bulletins", "https://docs.cloud.google.com/feeds/google-cloud-security-bulletins.xml", "Cybersecurity"),
     ("Google Chrome Releases", "https://chromereleases.googleblog.com/feeds/posts/default", "Systems"),
     # Linux and independent technology reporting
     ("Ubuntu Security Notices", "https://ubuntu.com/security/notices/rss.xml", "Linux"),
     ("Red Hat Security Blog", "https://www.redhat.com/en/rss/blog/channel/security", "Linux"),
-    ("Debian Security Advisories", "https://www.debian.org/security/dsa", "Linux"),
     ("CISA Advisories", "https://www.cisa.gov/cybersecurity-advisories/all.xml", "Cybersecurity"),
     ("The Hacker News", "https://feeds.feedburner.com/TheHackersNews", "Cybersecurity"),
     ("BleepingComputer", "https://www.bleepingcomputer.com/feed/", "Cybersecurity"),

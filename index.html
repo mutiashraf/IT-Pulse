@@ -10,54 +10,51 @@
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="apple-touch-icon" href="./icons/icon-192.png">
   <link rel="stylesheet" href="./styles.css">
-  <title>IT Pulse</title>
+  <title>IT Pulse — IT news that matters</title>
 </head>
 <body>
   <header class="topbar">
-    <div class="brand"><div class="brand-icon">IP</div><div><strong>IT Pulse</strong><small>Personal IT intelligence</small></div></div>
-    <span class="live"><i></i> PERSONAL DASHBOARD</span>
+    <div class="brand"><div class="brand-icon">IP</div><div><strong>IT Pulse</strong><small>Your personal IT intelligence feed</small></div></div>
+    <span class="live"><i></i> LIVE FEED</span>
   </header>
   <main>
     <section class="welcome">
       <p class="eyebrow">YOUR IT INTELLIGENCE CENTRE</p>
-      <h1>Stay informed.<br><span>Stay ahead.</span></h1>
-      <p class="intro">Security advisories, service incidents and technology updates in one place.</p>
+      <h1>Know what matters.<br><span>Ignore the noise.</span></h1>
+      <p class="intro">Important cybersecurity alerts, technology news and service updates — gathered from trusted sources in one simple feed.</p>
     </section>
 
-    <section class="panel notification-panel">
-      <div class="panel-heading">
-        <div><p class="eyebrow">DEVICE NOTIFICATIONS</p><h2>Enable push alerts</h2></div>
-        <div class="bell">♧</div>
+    <section class="feed-panel">
+      <div class="feed-toolbar">
+        <div><p class="eyebrow">LATEST UPDATES</p><h2>IT news feed</h2><p id="feedMeta" class="muted small">Preparing your feed…</p></div>
+        <button id="refreshFeed" class="primary">↻ Refresh</button>
       </div>
-      <p class="muted">Install IT Pulse on your iPhone Home Screen first. Then enable notifications here.</p>
-      <button id="enablePush" class="primary">Enable notifications</button>
-      <p id="pushStatus" class="status" role="status">Notifications are not enabled yet.</p>
-      <details class="token-details">
-        <summary>Technical registration details</summary>
-        <p class="muted small">Your browser's Firebase registration token is used by the notification server to address this device. It is not a password, but treat it as private.</p>
-        <textarea id="tokenOutput" readonly rows="3" placeholder="A device token will appear here after registration."></textarea>
-        <button id="copyToken" class="secondary" disabled>Copy device token</button>
-      </details>
+      <div class="feed-controls">
+        <input id="searchNews" type="search" placeholder="Search headlines…" aria-label="Search headlines">
+        <select id="categoryFilter" aria-label="Filter category">
+          <option value="all">All important news</option>
+          <option value="security">Cybersecurity</option>
+          <option value="cloud">Cloud & services</option>
+          <option value="systems">Systems & infrastructure</option>
+          <option value="ai">AI & technology</option>
+        </select>
+      </div>
+      <p id="feedStatus" class="status" role="status">Loading latest stories…</p>
+      <div id="newsList" class="news-list" aria-live="polite"></div>
+      <p class="feed-footnote">Headlines and summaries are provided by the linked publishers. Open the original story for full details. This feed refreshes when you open the app or tap Refresh.</p>
     </section>
 
     <section class="section">
-      <div class="section-title"><div><p class="eyebrow">YOUR WATCHLIST</p><h2>Intelligence categories</h2></div></div>
+      <div class="section-title"><p class="eyebrow">WHAT WE TRACK</p><h2>Focused on the updates that matter</h2></div>
       <div class="cards">
-        <article class="card"><div class="symbol">⚠</div><h3>Security</h3><p>Critical CVEs, exploited vulnerabilities, ransomware and patches.</p><span>HIGH PRIORITY</span></article>
-        <article class="card"><div class="symbol">☁</div><h3>Cloud & services</h3><p>Microsoft 365, Azure, AWS, Google, Cloudflare and outages.</p><span>INCIDENTS</span></article>
-        <article class="card"><div class="symbol">⌘</div><h3>Infrastructure</h3><p>Windows, Linux, VMware, pfSense, Cisco and UniFi.</p><span>PRODUCT UPDATES</span></article>
-        <article class="card"><div class="symbol">✦</div><h3>AI & technology</h3><p>AI models, tools and practical enterprise developments.</p><span>INDUSTRY</span></article>
-        <article class="card"><div class="symbol">🇵🇰</div><h3>Pakistan IT</h3><p>PTA, PKCERT, telecom and local internet developments.</p><span>LOCAL UPDATES</span></article>
-        <article class="card"><div class="symbol">◷</div><h3>Daily briefing</h3><p>Your planned daily researched digest at 6:30 PM Pakistan time.</p><span>DAILY</span></article>
+        <article class="card"><div class="symbol">⚠</div><h3>Security</h3><p>Critical vulnerabilities, active exploits, ransomware and patches.</p></article>
+        <article class="card"><div class="symbol">☁</div><h3>Cloud & services</h3><p>Microsoft 365, Azure, AWS, Google and major service incidents.</p></article>
+        <article class="card"><div class="symbol">⌘</div><h3>Infrastructure</h3><p>Windows, Linux, networking, virtualization and IT operations.</p></article>
+        <article class="card"><div class="symbol">✦</div><h3>AI & technology</h3><p>Important AI releases, tools and enterprise technology changes.</p></article>
       </div>
     </section>
-    <section class="panel note">
-      <p class="eyebrow">NEXT STEP</p>
-      <h2>Notification service setup</h2>
-      <p class="muted">This release registers this device with Firebase Cloud Messaging. A secure sending backend is still required before alerts can be delivered. The app does not yet fetch live news or send scheduled briefings.</p>
-    </section>
   </main>
-  <footer>IT Pulse · Personal IT intelligence · Sources will be linked in each alert.</footer>
+  <footer>IT Pulse · Personal IT intelligence · Sources linked with every story.</footer>
   <script type="module" src="./app.js"></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 """Fetch selected public IT feeds and send high-priority alerts through FCM HTTP v1."""
 
 import email.utils
+import html
 import json
 import os
 import re
@@ -75,11 +76,17 @@ def parse_date(value):
         except (TypeError, ValueError):
             return None
 
+def clean_markup(value):
+    value = re.sub(r"(?is)<(script|style)\b[^>]*>.*?</\1>", " ", value or "")
+    value = re.sub(r"(?i)<br\s*/?>|</p\s*>|</div\s*>|</li\s*>", " ", value)
+    value = re.sub(r"<[^>]+>", " ", value)
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()
+
 def text_of(element, names):
     for child in element.iter():
         local = child.tag.rsplit("}", 1)[-1].lower()
         if local in names and child.text:
-            return " ".join(child.text.split())
+            return clean_markup(child.text)
     return ""
 
 def parse_feed(xml_bytes, source, category):
@@ -108,7 +115,7 @@ def parse_feed(xml_bytes, source, category):
             continue
         output.append({
             "title": title[:300],
-            "summary": re.sub(r"\s+", " ", summary)[:500],
+            "summary": clean_markup(summary)[:500],
             "url": link,
             "source": source,
             "category": category,

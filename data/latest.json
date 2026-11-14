@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-14T14:30:24.129677+00:00",
+  "updated_utc": "2026-11-14T19:31:28.386724+00:00",
   "alerts": [
+    {
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "source": "BleepingComputer",
+      "category": "AI",
+      "published": "Sat, 14 Nov 2026 12:27:25 -0500",
+      "severity": "HIGH",
+      "score": 81.08,
+      "also_sources": []
+    },
     {
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
@@ -1088,17 +1099,6 @@
       "published": "Thu, 12 Nov 2026 23:20:27 +0530",
       "severity": "CRITICAL",
       "score": 109.88,
-      "also_sources": []
-    },
-    {
-      "title": "Powering agentic cloud governance: What's new in Organization Policy",
-      "summary": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Even as sophisticated, new zero-day exploits continue to emerge, most cybersecurity incidents still start from the same common sources: an attacker locating and exploiting a fundamental, easily preventable cloud misconfiguration.</span></p> <p><a href=\"https://docs.cloud.google.com/organization-policy/overview\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Organization Policy Service</span></a>",
-      "url": "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
-      "source": "Google Cloud Blog",
-      "category": "Cybersecurity",
-      "published": "Thu, 12 Nov 2026 17:00:00 +0000",
-      "severity": "CRITICAL",
-      "score": 109.04,
       "also_sources": []
     }
   ],

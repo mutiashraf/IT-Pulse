@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T14:30:24.155227+00:00",
+  "generated_utc": "2026-11-14T18:53:13.483546+00:00",
   "latest_date": "2026-11-14",
   "available_dates": [
     "2026-11-14"
@@ -7,9 +7,9 @@
   "days": {
     "2026-11-14": {
       "date": "2026-11-14",
-      "generated_utc": "2026-11-14T14:30:24.155219+00:00",
-      "story_count": 8,
-      "source_count": 7,
+      "generated_utc": "2026-11-14T18:53:13.483538+00:00",
+      "story_count": 11,
+      "source_count": 8,
       "stories": [
         {
           "title": "FortiSwitchNMS 1.13.6",
@@ -19,7 +19,7 @@
           "category": "Networking",
           "published": "Sat, 14 Nov 2026 01:39:01 GMT",
           "severity": "INFORMATIONAL",
-          "score": 43.14,
+          "score": 38.76,
           "also_sources": []
         },
         {
@@ -30,7 +30,7 @@
           "category": "Networking",
           "published": "Fri, 13 Nov 2026 14:38:36 -0500",
           "severity": "INFORMATIONAL",
-          "score": 37.14,
+          "score": 32.76,
           "also_sources": []
         },
         {
@@ -41,7 +41,7 @@
           "category": "Cybersecurity",
           "published": "Sat, 14 Nov 2026 18:08:35 +0530",
           "severity": "CRITICAL",
-          "score": 131.14,
+          "score": 126.76,
           "also_sources": []
         },
         {
@@ -52,7 +52,18 @@
           "category": "Cybersecurity",
           "published": "2026-11-13 20:01:18.0",
           "severity": "HIGH",
-          "score": 64.51,
+          "score": 60.13,
+          "also_sources": []
+        },
+        {
+          "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+          "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Sat, 14 Nov 2026 10:15:49 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 44.38,
           "also_sources": []
         },
         {
@@ -63,7 +74,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-13 20:41:37.0",
           "severity": "INFORMATIONAL",
-          "score": 38.19,
+          "score": 33.81,
           "also_sources": []
         },
         {
@@ -74,7 +85,7 @@
           "category": "Cloud",
           "published": "Fri, 13 Nov 2026 19:54:45 Z",
           "severity": "INFORMATIONAL",
-          "score": 29.41,
+          "score": 25.03,
           "also_sources": []
         },
         {
@@ -85,7 +96,29 @@
           "category": "Microsoft",
           "published": "Fri, 13 Nov 2026 21:31:44 +0000",
           "severity": "INFORMATIONAL",
-          "score": 31.02,
+          "score": 26.64,
+          "also_sources": []
+        },
+        {
+          "title": "Microsoft announces service 'restored', global outage over",
+          "summary": "Tech giant Microsoft said on Saturday it has “restored service” to customers, effectively drawing a close to a massive outage that caused chaos and disrupted public services and business around the world. “We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions,” the US-based company said in an X post. Microsoft had already reported a “broad recovery” for Outlook email and other services the day before, st",
+          "url": "https://www.dawn.com/news/2044507/microsoft-announces-service-restored-global-outage-over",
+          "source": "Dawn Technology",
+          "category": "Productivity",
+          "published": "Sat, 14 Nov 2026 22:28:45 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 54.59,
+          "also_sources": []
+        },
+        {
+          "title": "Musk says Nvidia will lose 'critical' deals without Jensen Huang",
+          "summary": "Elon Musk said on Saturday that chipmaker Nvidia would lose “critical” deals without its now-ousted chief executive officer (CEO) Jensen Huang. Huang stepped down on Thursday after revelations of extramarital affairs, including one involving a suspected Chinese spy, plunging the chipmaker into crisis and sending shockwaves across an AI industry he helped bankroll. In a post on X, Musk said that while Huang drove the supply chain “brilliantly” at Nvidia, many such deals were “a handshake with Jen",
+          "url": "https://www.dawn.com/news/2044511/musk-says-nvidia-will-lose-critical-deals-without-jensen-huang",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Sat, 14 Nov 2026 22:28:12 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 46.58,
           "also_sources": []
         },
         {
@@ -96,7 +129,7 @@
           "category": "Systems",
           "published": "2026-11-13T21:00:54.817-08:00",
           "severity": "INFORMATIONAL",
-          "score": 38.51,
+          "score": 34.13,
           "also_sources": []
         }
       ],
@@ -110,7 +143,7 @@
             "category": "Networking",
             "published": "Sat, 14 Nov 2026 01:39:01 GMT",
             "severity": "INFORMATIONAL",
-            "score": 43.14,
+            "score": 38.76,
             "also_sources": []
           },
           {
@@ -121,7 +154,7 @@
             "category": "Networking",
             "published": "Fri, 13 Nov 2026 14:38:36 -0500",
             "severity": "INFORMATIONAL",
-            "score": 37.14,
+            "score": 32.76,
             "also_sources": []
           }
         ],
@@ -134,7 +167,7 @@
             "category": "Cybersecurity",
             "published": "Sat, 14 Nov 2026 18:08:35 +0530",
             "severity": "CRITICAL",
-            "score": 131.14,
+            "score": 126.76,
             "also_sources": []
           },
           {
@@ -145,7 +178,18 @@
             "category": "Cybersecurity",
             "published": "2026-11-13 20:01:18.0",
             "severity": "HIGH",
-            "score": 64.51,
+            "score": 60.13,
+            "also_sources": []
+          },
+          {
+            "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+            "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Sat, 14 Nov 2026 10:15:49 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 44.38,
             "also_sources": []
           },
           {
@@ -156,7 +200,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-13 20:41:37.0",
             "severity": "INFORMATIONAL",
-            "score": 38.19,
+            "score": 33.81,
             "also_sources": []
           }
         ],
@@ -169,7 +213,7 @@
             "category": "Cloud",
             "published": "Fri, 13 Nov 2026 19:54:45 Z",
             "severity": "INFORMATIONAL",
-            "score": 29.41,
+            "score": 25.03,
             "also_sources": []
           }
         ],
@@ -182,7 +226,33 @@
             "category": "Microsoft",
             "published": "Fri, 13 Nov 2026 21:31:44 +0000",
             "severity": "INFORMATIONAL",
-            "score": 31.02,
+            "score": 26.64,
+            "also_sources": []
+          }
+        ],
+        "Productivity": [
+          {
+            "title": "Microsoft announces service 'restored', global outage over",
+            "summary": "Tech giant Microsoft said on Saturday it has “restored service” to customers, effectively drawing a close to a massive outage that caused chaos and disrupted public services and business around the world. “We have completed our efforts to address the underlying issue of the incident and restored service to the remaining impacted customers and regions,” the US-based company said in an X post. Microsoft had already reported a “broad recovery” for Outlook email and other services the day before, st",
+            "url": "https://www.dawn.com/news/2044507/microsoft-announces-service-restored-global-outage-over",
+            "source": "Dawn Technology",
+            "category": "Productivity",
+            "published": "Sat, 14 Nov 2026 22:28:45 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 54.59,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Musk says Nvidia will lose 'critical' deals without Jensen Huang",
+            "summary": "Elon Musk said on Saturday that chipmaker Nvidia would lose “critical” deals without its now-ousted chief executive officer (CEO) Jensen Huang. Huang stepped down on Thursday after revelations of extramarital affairs, including one involving a suspected Chinese spy, plunging the chipmaker into crisis and sending shockwaves across an AI industry he helped bankroll. In a post on X, Musk said that while Huang drove the supply chain “brilliantly” at Nvidia, many such deals were “a handshake with Jen",
+            "url": "https://www.dawn.com/news/2044511/musk-says-nvidia-will-lose-critical-deals-without-jensen-huang",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Sat, 14 Nov 2026 22:28:12 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 46.58,
             "also_sources": []
           }
         ],
@@ -195,7 +265,7 @@
             "category": "Systems",
             "published": "2026-11-13T21:00:54.817-08:00",
             "severity": "INFORMATIONAL",
-            "score": 38.51,
+            "score": 34.13,
             "also_sources": []
           }
         ]

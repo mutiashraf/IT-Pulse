@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-14T01:03:57.257660+00:00",
+  "updated_utc": "2026-11-14T14:30:24.129677+00:00",
   "alerts": [
+    {
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Sat, 14 Nov 2026 18:08:35 +0530",
+      "severity": "CRITICAL",
+      "score": 131.23,
+      "also_sources": []
+    },
     {
       "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
       "summary": "<p>Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp;<strong>eMudhra</strong> was uncovered.</p> <p>A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp;",
@@ -1088,17 +1099,6 @@
       "published": "Thu, 12 Nov 2026 17:00:00 +0000",
       "severity": "CRITICAL",
       "score": 109.04,
-      "also_sources": []
-    },
-    {
-      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-      "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Thu, 12 Nov 2026 11:04:00 -0500",
-      "severity": "CRITICAL",
-      "score": 108.1,
       "also_sources": []
     }
   ],

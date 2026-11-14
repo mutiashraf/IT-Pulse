@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T07:32:43.700200+00:00",
+  "generated_utc": "2026-11-14T14:30:24.155227+00:00",
   "latest_date": "2026-11-14",
   "available_dates": [
     "2026-11-14"
@@ -7,9 +7,9 @@
   "days": {
     "2026-11-14": {
       "date": "2026-11-14",
-      "generated_utc": "2026-11-14T07:32:43.700192+00:00",
-      "story_count": 7,
-      "source_count": 6,
+      "generated_utc": "2026-11-14T14:30:24.155219+00:00",
+      "story_count": 8,
+      "source_count": 7,
       "stories": [
         {
           "title": "FortiSwitchNMS 1.13.6",
@@ -19,7 +19,7 @@
           "category": "Networking",
           "published": "Sat, 14 Nov 2026 01:39:01 GMT",
           "severity": "INFORMATIONAL",
-          "score": 50.1,
+          "score": 43.14,
           "also_sources": []
         },
         {
@@ -30,7 +30,18 @@
           "category": "Networking",
           "published": "Fri, 13 Nov 2026 14:38:36 -0500",
           "severity": "INFORMATIONAL",
-          "score": 44.1,
+          "score": 37.14,
+          "also_sources": []
+        },
+        {
+          "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+          "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Sat, 14 Nov 2026 18:08:35 +0530",
+          "severity": "CRITICAL",
+          "score": 131.14,
           "also_sources": []
         },
         {
@@ -41,7 +52,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-13 20:01:18.0",
           "severity": "HIGH",
-          "score": 71.48,
+          "score": 64.51,
           "also_sources": []
         },
         {
@@ -52,7 +63,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-13 20:41:37.0",
           "severity": "INFORMATIONAL",
-          "score": 45.15,
+          "score": 38.19,
           "also_sources": []
         },
         {
@@ -63,7 +74,7 @@
           "category": "Cloud",
           "published": "Fri, 13 Nov 2026 19:54:45 Z",
           "severity": "INFORMATIONAL",
-          "score": 36.37,
+          "score": 29.41,
           "also_sources": []
         },
         {
@@ -74,7 +85,7 @@
           "category": "Microsoft",
           "published": "Fri, 13 Nov 2026 21:31:44 +0000",
           "severity": "INFORMATIONAL",
-          "score": 37.98,
+          "score": 31.02,
           "also_sources": []
         },
         {
@@ -85,7 +96,7 @@
           "category": "Systems",
           "published": "2026-11-13T21:00:54.817-08:00",
           "severity": "INFORMATIONAL",
-          "score": 45.47,
+          "score": 38.51,
           "also_sources": []
         }
       ],
@@ -99,7 +110,7 @@
             "category": "Networking",
             "published": "Sat, 14 Nov 2026 01:39:01 GMT",
             "severity": "INFORMATIONAL",
-            "score": 50.1,
+            "score": 43.14,
             "also_sources": []
           },
           {
@@ -110,11 +121,22 @@
             "category": "Networking",
             "published": "Fri, 13 Nov 2026 14:38:36 -0500",
             "severity": "INFORMATIONAL",
-            "score": 44.1,
+            "score": 37.14,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
+          {
+            "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+            "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Sat, 14 Nov 2026 18:08:35 +0530",
+            "severity": "CRITICAL",
+            "score": 131.14,
+            "also_sources": []
+          },
           {
             "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
             "summary": "<p>Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp;<strong>eMudhra</strong> was uncovered.</p> <p>A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp;",
@@ -123,7 +145,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-13 20:01:18.0",
             "severity": "HIGH",
-            "score": 71.48,
+            "score": 64.51,
             "also_sources": []
           },
           {
@@ -134,7 +156,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-13 20:41:37.0",
             "severity": "INFORMATIONAL",
-            "score": 45.15,
+            "score": 38.19,
             "also_sources": []
           }
         ],
@@ -147,7 +169,7 @@
             "category": "Cloud",
             "published": "Fri, 13 Nov 2026 19:54:45 Z",
             "severity": "INFORMATIONAL",
-            "score": 36.37,
+            "score": 29.41,
             "also_sources": []
           }
         ],
@@ -160,7 +182,7 @@
             "category": "Microsoft",
             "published": "Fri, 13 Nov 2026 21:31:44 +0000",
             "severity": "INFORMATIONAL",
-            "score": 37.98,
+            "score": 31.02,
             "also_sources": []
           }
         ],
@@ -173,7 +195,7 @@
             "category": "Systems",
             "published": "2026-11-13T21:00:54.817-08:00",
             "severity": "INFORMATIONAL",
-            "score": 45.47,
+            "score": 38.51,
             "also_sources": []
           }
         ]

@@ -1,8 +1,10 @@
 {
-  "last_monitor_utc": "2026-11-14T19:31:28.417750+00:00",
-  "source_failures": [],
-  "stories_checked": 4682,
-  "new_alerts_sent": 1,
+  "last_monitor_utc": "2026-11-14T23:18:27.910649+00:00",
+  "source_failures": [
+    "Dawn Technology"
+  ],
+  "stories_checked": 4652,
+  "new_alerts_sent": 0,
   "daily_stories": 0,
   "daily_sources": 0
 }

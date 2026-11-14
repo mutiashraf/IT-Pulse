@@ -256,8 +256,9 @@ function showArchiveDate(date) {
   }
   stories = (day.stories || []).map(item => ({
     ...item,
+    title: cleanText(item.title || ""),
     date: item.published || item.date || "",
-    description: item.summary || item.description || "",
+    description: cleanText(item.summary || item.description || ""),
     category: ({ Networking: "networking", Cybersecurity: "security", Cloud: "cloud", Microsoft: "systems", Linux: "systems", Productivity: "productivity", AI: "ai", Technology: "technology" })[item.category] || item.category || "technology"
   }));
   const sourceCount = day.source_count || new Set(stories.map(item => item.source)).size;

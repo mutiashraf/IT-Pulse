@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-14T01:03:57.281172+00:00",
+  "generated_utc": "2026-11-14T07:32:43.700200+00:00",
   "latest_date": "2026-11-14",
   "available_dates": [
     "2026-11-14"
@@ -7,10 +7,21 @@
   "days": {
     "2026-11-14": {
       "date": "2026-11-14",
-      "generated_utc": "2026-11-14T01:03:57.281164+00:00",
-      "story_count": 5,
-      "source_count": 4,
+      "generated_utc": "2026-11-14T07:32:43.700192+00:00",
+      "story_count": 7,
+      "source_count": 6,
       "stories": [
+        {
+          "title": "FortiSwitchNMS 1.13.6",
+          "summary": "<p>FortiSwitchNMS 1.13.6 B0985 and release notes are available for download from the Support site : <a href=\"https://support.fortinet.com/EndUser/FirmwareImages.aspx\">https://support.fortinet.com</a></p>",
+          "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+          "source": "Fortinet Firmware Updates",
+          "category": "Networking",
+          "published": "Sat, 14 Nov 2026 01:39:01 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 50.1,
+          "also_sources": []
+        },
         {
           "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
           "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
@@ -19,7 +30,7 @@
           "category": "Networking",
           "published": "Fri, 13 Nov 2026 14:38:36 -0500",
           "severity": "INFORMATIONAL",
-          "score": 50.58,
+          "score": 44.1,
           "also_sources": []
         },
         {
@@ -30,7 +41,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-13 20:01:18.0",
           "severity": "HIGH",
-          "score": 77.96,
+          "score": 71.48,
           "also_sources": []
         },
         {
@@ -41,7 +52,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-13 20:41:37.0",
           "severity": "INFORMATIONAL",
-          "score": 51.63,
+          "score": 45.15,
           "also_sources": []
         },
         {
@@ -52,7 +63,7 @@
           "category": "Cloud",
           "published": "Fri, 13 Nov 2026 19:54:45 Z",
           "severity": "INFORMATIONAL",
-          "score": 42.85,
+          "score": 36.37,
           "also_sources": []
         },
         {
@@ -63,12 +74,34 @@
           "category": "Microsoft",
           "published": "Fri, 13 Nov 2026 21:31:44 +0000",
           "severity": "INFORMATIONAL",
-          "score": 44.46,
+          "score": 37.98,
+          "also_sources": []
+        },
+        {
+          "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+          "summary": "<p><span style=\"font-family: Arial, sans-serif; white-space: pre-wrap;\">M-156, ChromeOS version 16836.33.0 (Browser version 156.0.8078.102）has rolled out to ChromeOS devices on the Stable channel.&nbsp;</span></p><span id=\"docs-internal-guid-60c2217f-7fff-60a7-7b27-5bb23fa7813d\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;\"><span style=\"font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">If you find new issues, ",
+          "url": "http://chromereleases.googleblog.com/feeds/1255102436487258966/comments/default",
+          "source": "Google Chrome Releases",
+          "category": "Systems",
+          "published": "2026-11-13T21:00:54.817-08:00",
+          "severity": "INFORMATIONAL",
+          "score": 45.47,
           "also_sources": []
         }
       ],
       "sections": {
         "Networking": [
+          {
+            "title": "FortiSwitchNMS 1.13.6",
+            "summary": "<p>FortiSwitchNMS 1.13.6 B0985 and release notes are available for download from the Support site : <a href=\"https://support.fortinet.com/EndUser/FirmwareImages.aspx\">https://support.fortinet.com</a></p>",
+            "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+            "source": "Fortinet Firmware Updates",
+            "category": "Networking",
+            "published": "Sat, 14 Nov 2026 01:39:01 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 50.1,
+            "also_sources": []
+          },
           {
             "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
             "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send them to attackers over cellular networks. [...]",
@@ -77,7 +110,7 @@
             "category": "Networking",
             "published": "Fri, 13 Nov 2026 14:38:36 -0500",
             "severity": "INFORMATIONAL",
-            "score": 50.58,
+            "score": 44.1,
             "also_sources": []
           }
         ],
@@ -90,7 +123,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-13 20:01:18.0",
             "severity": "HIGH",
-            "score": 77.96,
+            "score": 71.48,
             "also_sources": []
           },
           {
@@ -101,7 +134,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-13 20:41:37.0",
             "severity": "INFORMATIONAL",
-            "score": 51.63,
+            "score": 45.15,
             "also_sources": []
           }
         ],
@@ -114,7 +147,7 @@
             "category": "Cloud",
             "published": "Fri, 13 Nov 2026 19:54:45 Z",
             "severity": "INFORMATIONAL",
-            "score": 42.85,
+            "score": 36.37,
             "also_sources": []
           }
         ],
@@ -127,7 +160,20 @@
             "category": "Microsoft",
             "published": "Fri, 13 Nov 2026 21:31:44 +0000",
             "severity": "INFORMATIONAL",
-            "score": 44.46,
+            "score": 37.98,
+            "also_sources": []
+          }
+        ],
+        "Systems": [
+          {
+            "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+            "summary": "<p><span style=\"font-family: Arial, sans-serif; white-space: pre-wrap;\">M-156, ChromeOS version 16836.33.0 (Browser version 156.0.8078.102）has rolled out to ChromeOS devices on the Stable channel.&nbsp;</span></p><span id=\"docs-internal-guid-60c2217f-7fff-60a7-7b27-5bb23fa7813d\"><p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 12pt; margin-top: 12pt;\"><span style=\"font-family: Arial, sans-serif; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">If you find new issues, ",
+            "url": "http://chromereleases.googleblog.com/feeds/1255102436487258966/comments/default",
+            "source": "Google Chrome Releases",
+            "category": "Systems",
+            "published": "2026-11-13T21:00:54.817-08:00",
+            "severity": "INFORMATIONAL",
+            "score": 45.47,
             "also_sources": []
           }
         ]

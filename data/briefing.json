@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-15T17:29:05.210997+00:00",
-  "latest_date": "2026-11-15",
+  "generated_utc": "2026-11-15T19:31:43.818848+00:00",
+  "latest_date": "2026-11-16",
   "available_dates": [
+    "2026-11-16",
     "2026-11-15",
     "2026-11-14"
   ],
@@ -398,6 +399,15 @@
           }
         ]
       },
+      "source_failures": []
+    },
+    "2026-11-16": {
+      "date": "2026-11-16",
+      "generated_utc": "2026-11-15T19:31:43.818835+00:00",
+      "story_count": 0,
+      "source_count": 0,
+      "stories": [],
+      "sections": {},
       "source_failures": []
     }
   }

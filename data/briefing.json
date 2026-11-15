@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T03:01:24.282069+00:00",
+  "generated_utc": "2026-11-15T10:30:56.291181+00:00",
   "latest_date": "2026-11-15",
   "available_dates": [
     "2026-11-15",
@@ -275,11 +275,59 @@
     },
     "2026-11-15": {
       "date": "2026-11-15",
-      "generated_utc": "2026-11-15T03:01:24.282061+00:00",
-      "story_count": 0,
-      "source_count": 0,
-      "stories": [],
-      "sections": {},
+      "generated_utc": "2026-11-15T10:30:56.291174+00:00",
+      "story_count": 2,
+      "source_count": 2,
+      "stories": [
+        {
+          "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+          "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+          "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+          "source": "The Hacker News",
+          "category": "AI",
+          "published": "Sun, 15 Nov 2026 13:52:04 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 53.85,
+          "also_sources": []
+        },
+        {
+          "title": "South Korea probes top exam scorer after AI cheating confession",
+          "summary": "South Korean police said Sunday they had launched an investigation after the top scorer in a national tax accountant exam admitted to using artificial intelligence to cheat. The candidate, who ranked first in both rounds of the qualification exam held in April and July, confessed through his lawyer that he used AI to obtain answers during the tests. His score of 397.5 out of 400 points in the first round, with only one wrong answer out of 160 questions, had sparked accusations that he cheated us",
+          "url": "https://www.dawn.com/news/2044706/south-korea-probes-top-exam-scorer-after-ai-cheating-confession",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Sun, 15 Nov 2026 14:06:17 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 46.59,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "AI": [
+          {
+            "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+            "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+            "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+            "source": "The Hacker News",
+            "category": "AI",
+            "published": "Sun, 15 Nov 2026 13:52:04 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 53.85,
+            "also_sources": []
+          },
+          {
+            "title": "South Korea probes top exam scorer after AI cheating confession",
+            "summary": "South Korean police said Sunday they had launched an investigation after the top scorer in a national tax accountant exam admitted to using artificial intelligence to cheat. The candidate, who ranked first in both rounds of the qualification exam held in April and July, confessed through his lawyer that he used AI to obtain answers during the tests. His score of 397.5 out of 400 points in the first round, with only one wrong answer out of 160 questions, had sparked accusations that he cheated us",
+            "url": "https://www.dawn.com/news/2044706/south-korea-probes-top-exam-scorer-after-ai-cheating-confession",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Sun, 15 Nov 2026 14:06:17 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 46.59,
+            "also_sources": []
+          }
+        ]
+      },
       "source_failures": []
     }
   }

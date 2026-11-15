@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-15T10:30:56.291181+00:00",
+  "generated_utc": "2026-11-15T17:29:05.210997+00:00",
   "latest_date": "2026-11-15",
   "available_dates": [
     "2026-11-15",
@@ -275,10 +275,32 @@
     },
     "2026-11-15": {
       "date": "2026-11-15",
-      "generated_utc": "2026-11-15T10:30:56.291174+00:00",
-      "story_count": 2,
-      "source_count": 2,
+      "generated_utc": "2026-11-15T17:29:05.210985+00:00",
+      "story_count": 5,
+      "source_count": 3,
       "stories": [
+        {
+          "title": "TSMC employee data breach linked to cloud provider",
+          "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Sun, 15 Nov 2026 10:23:48 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 70.91,
+          "also_sources": []
+        },
+        {
+          "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+          "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to",
+          "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Sun, 15 Nov 2026 16:57:31 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 41.97,
+          "also_sources": []
+        },
         {
           "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
           "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI. \"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
@@ -287,7 +309,7 @@
           "category": "AI",
           "published": "Sun, 15 Nov 2026 13:52:04 +0530",
           "severity": "INFORMATIONAL",
-          "score": 53.85,
+          "score": 46.88,
           "also_sources": []
         },
         {
@@ -298,11 +320,46 @@
           "category": "AI",
           "published": "Sun, 15 Nov 2026 14:06:17 +0500",
           "severity": "INFORMATIONAL",
-          "score": 46.59,
+          "score": 39.62,
+          "also_sources": []
+        },
+        {
+          "title": "Megaspeed says Alice Huang left the company in August 2025",
+          "summary": "Megaspeed said on Sunday that Chinese businesswoman Alice Huang, whose ties to former Nvidia CEO Jensen Huang have raised US national security concerns, officially left the company on August 30, 2025, and has no current role there. The Singapore-based cloud-computing company is an Nvidia business partner in the Asia-Pacific region and has been in the spotlight after reports that Jensen Huang had an affair with former Megaspeed executive Alice Huang, whom US authorities suspect of being a Chinese",
+          "url": "https://www.dawn.com/news/2044714/megaspeed-says-alice-huang-left-the-company-in-august-2025",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Sun, 15 Nov 2026 16:33:05 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 42.07,
           "also_sources": []
         }
       ],
       "sections": {
+        "Cybersecurity": [
+          {
+            "title": "TSMC employee data breach linked to cloud provider",
+            "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Sun, 15 Nov 2026 10:23:48 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 70.91,
+            "also_sources": []
+          },
+          {
+            "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+            "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent. The company has 60 days to",
+            "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Sun, 15 Nov 2026 16:57:31 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 41.97,
+            "also_sources": []
+          }
+        ],
         "AI": [
           {
             "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
@@ -312,7 +369,7 @@
             "category": "AI",
             "published": "Sun, 15 Nov 2026 13:52:04 +0530",
             "severity": "INFORMATIONAL",
-            "score": 53.85,
+            "score": 46.88,
             "also_sources": []
           },
           {
@@ -323,7 +380,20 @@
             "category": "AI",
             "published": "Sun, 15 Nov 2026 14:06:17 +0500",
             "severity": "INFORMATIONAL",
-            "score": 46.59,
+            "score": 39.62,
+            "also_sources": []
+          }
+        ],
+        "Technology": [
+          {
+            "title": "Megaspeed says Alice Huang left the company in August 2025",
+            "summary": "Megaspeed said on Sunday that Chinese businesswoman Alice Huang, whose ties to former Nvidia CEO Jensen Huang have raised US national security concerns, officially left the company on August 30, 2025, and has no current role there. The Singapore-based cloud-computing company is an Nvidia business partner in the Asia-Pacific region and has been in the spotlight after reports that Jensen Huang had an affair with former Megaspeed executive Alice Huang, whom US authorities suspect of being a Chinese",
+            "url": "https://www.dawn.com/news/2044714/megaspeed-says-alice-huang-left-the-company-in-august-2025",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Sun, 15 Nov 2026 16:33:05 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 42.07,
             "also_sources": []
           }
         ]

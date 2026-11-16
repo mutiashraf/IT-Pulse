@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-16T09:03:07.660659+00:00",
-  "latest_date": "2026-11-16",
+  "generated_utc": "2026-11-16T19:27:08.080133+00:00",
+  "latest_date": "2026-11-17",
   "available_dates": [
+    "2026-11-17",
     "2026-11-16",
     "2026-11-15",
     "2026-11-14"
@@ -570,6 +571,63 @@
             "published": "Mon, 16 Nov 2026 12:23:34 +0530",
             "severity": "INFORMATIONAL",
             "score": 45.84,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-17": {
+      "date": "2026-11-17",
+      "generated_utc": "2026-11-16T19:27:08.080125+00:00",
+      "story_count": 2,
+      "source_count": 1,
+      "stories": [
+        {
+          "title": "SIN (Singapore) on 2026-11-17",
+          "summary": "Nov 10 , 17:41 UTC Scheduled - We will be performing scheduled maintenance in SIN (Singapore) datacenter on 2026-11-17 between 18:00 and 22:00 UTC. Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network i",
+          "url": "https://www.cloudflarestatus.com/incidents/t7rp8jaev5vm",
+          "source": "Cloudflare Status",
+          "category": "Networking",
+          "published": "Tue, 17 Nov 2026 18:00:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 56.0,
+          "also_sources": []
+        },
+        {
+          "title": "ANC (Anchorage) on 2026-11-17",
+          "summary": "Nov 12 , 12:30 UTC Scheduled - We will be performing scheduled maintenance in ANC (Anchorage) datacenter on 2026-11-17 between 11:00 and 15:00 UTC. Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network i",
+          "url": "https://www.cloudflarestatus.com/incidents/4l9cqy33fd6i",
+          "source": "Cloudflare Status",
+          "category": "Networking",
+          "published": "Tue, 17 Nov 2026 11:00:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 56.0,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "SIN (Singapore) on 2026-11-17",
+            "summary": "Nov 10 , 17:41 UTC Scheduled - We will be performing scheduled maintenance in SIN (Singapore) datacenter on 2026-11-17 between 18:00 and 22:00 UTC. Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network i",
+            "url": "https://www.cloudflarestatus.com/incidents/t7rp8jaev5vm",
+            "source": "Cloudflare Status",
+            "category": "Networking",
+            "published": "Tue, 17 Nov 2026 18:00:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 56.0,
+            "also_sources": []
+          },
+          {
+            "title": "ANC (Anchorage) on 2026-11-17",
+            "summary": "Nov 12 , 12:30 UTC Scheduled - We will be performing scheduled maintenance in ANC (Anchorage) datacenter on 2026-11-17 between 11:00 and 15:00 UTC. Traffic might be re-routed from this location, hence there is a possibility of a slight increase in latency during this maintenance window for end-users in the affected region. For PNI / CNI customers connecting with us in this location, please make sure you are expecting this traffic to fail over elsewhere during this maintenance window as network i",
+            "url": "https://www.cloudflarestatus.com/incidents/4l9cqy33fd6i",
+            "source": "Cloudflare Status",
+            "category": "Networking",
+            "published": "Tue, 17 Nov 2026 11:00:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 56.0,
             "also_sources": []
           }
         ]

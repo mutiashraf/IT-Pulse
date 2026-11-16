@@ -1,6 +1,7 @@
 {
   "sent": [
     "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108401",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109473",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
@@ -12,6 +13,8 @@
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119861",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-119988",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-121680",
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124222",
+    "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124223",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125342",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125344",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125348",

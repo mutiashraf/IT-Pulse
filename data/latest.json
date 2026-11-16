@@ -1,6 +1,39 @@
 {
-  "updated_utc": "2026-11-14T19:31:28.386724+00:00",
+  "updated_utc": "2026-11-16T19:27:08.056873+00:00",
   "alerts": [
+    {
+      "title": "CVE-2026-124223 Microsoft Office SharePoint Remote Code Execution Vulnerability",
+      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124223",
+      "source": "Microsoft Security Update Guide",
+      "category": "Cybersecurity",
+      "published": "Mon, 16 Nov 2026 08:00:00 -0800",
+      "severity": "HIGH",
+      "score": 87.64,
+      "also_sources": []
+    },
+    {
+      "title": "CVE-2026-124222 Microsoft Office SharePoint Elevation of Privilege Vulnerability",
+      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124222",
+      "source": "Microsoft Security Update Guide",
+      "category": "Cybersecurity",
+      "published": "Mon, 16 Nov 2026 08:00:00 -0800",
+      "severity": "HIGH",
+      "score": 87.64,
+      "also_sources": []
+    },
+    {
+      "title": "CVE-2026-105544 .NET VSTest Elevation of Privilege Vulnerability",
+      "summary": "Corrected the CVE description and title. This is an informational change only.",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
+      "source": "Microsoft Security Update Guide",
+      "category": "Cybersecurity",
+      "published": "Mon, 16 Nov 2026 08:00:00 -0800",
+      "severity": "HIGH",
+      "score": 79.64,
+      "also_sources": []
+    },
     {
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
       "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
@@ -1066,39 +1099,6 @@
       "published": "Fri, 13 Nov 2026 05:44:22 -0500",
       "severity": "CRITICAL",
       "score": 126.78,
-      "also_sources": []
-    },
-    {
-      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-      "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Thu, 12 Nov 2026 14:51:16 -0500",
-      "severity": "CRITICAL",
-      "score": 111.89,
-      "also_sources": []
-    },
-    {
-      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-      "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Thu, 12 Nov 2026 14:12:55 -0500",
-      "severity": "CRITICAL",
-      "score": 86.25,
-      "also_sources": []
-    },
-    {
-      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver. The proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion files when a privileged process opens a prepared log, using path redirection to take control of",
-      "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Thu, 12 Nov 2026 23:20:27 +0530",
-      "severity": "CRITICAL",
-      "score": 109.88,
       "also_sources": []
     }
   ],

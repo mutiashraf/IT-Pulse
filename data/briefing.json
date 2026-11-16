@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-16T19:27:08.080133+00:00",
+  "generated_utc": "2026-11-16T23:02:43.997713+00:00",
   "latest_date": "2026-11-17",
   "available_dates": [
     "2026-11-17",
@@ -579,9 +579,9 @@
     },
     "2026-11-17": {
       "date": "2026-11-17",
-      "generated_utc": "2026-11-16T19:27:08.080125+00:00",
-      "story_count": 2,
-      "source_count": 1,
+      "generated_utc": "2026-11-16T23:02:43.997705+00:00",
+      "story_count": 9,
+      "source_count": 5,
       "stories": [
         {
           "title": "SIN (Singapore) on 2026-11-17",
@@ -603,6 +603,83 @@
           "published": "Tue, 17 Nov 2026 11:00:00 +0000",
           "severity": "INFORMATIONAL",
           "score": 56.0,
+          "also_sources": []
+        },
+        {
+          "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+          "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see eMudhra Intermediate CA Compromise an",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-16 22:25:32.0",
+          "severity": "HIGH",
+          "score": 82.38,
+          "also_sources": []
+        },
+        {
+          "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+          "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 46.48,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-126681 - Improper restriction of intended endpoints in AWS Labs Timestream for InfluxDB MCP Server",
+          "summary": "Bulletin ID: 2026-185-AWS Publication Date: 11/16/2026 12:30 PM PST Description: Improper restriction of intended endpoints in the connection configuration handling of the AWS Labs Timestream for InfluxDB MCP Server (awslabs.timestream-for-influxdb-mcp-server) before 0.0.19 might allow a remote unauthenticated actor (via prompt injection) to obtain the InfluxDB API token configured on the server, sent to a crafted endpoint controlled through an InfluxDB URL introduced in the MCP client context. ",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-185-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Mon, 16 Nov 2026 21:03:04 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 46.01,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-126816 - Path traversal and arbitrary file write in the cost report generator of aws-pricing-mcp-server",
+          "summary": "Bulletin ID: 2026-184-AWS Publication Date: 11/16/2026 12:00 PM PST Description: Improper limitation of a pathname to a restricted directory in the cost report generation tool in AWS Pricing MCP Server (aws-pricing-mcp-server) before 1.0.31 might allow an actor who can influence the MCP agent to write actor controlled content to arbitrary locations outside the intended output directory via absolute paths or directory traversal sequences in the report output path. Impacted versions: - awslabs.aws",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-184-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Mon, 16 Nov 2026 20:12:51 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.17,
+          "also_sources": []
+        },
+        {
+          "title": "AWS DevOps Agent is now available in AWS GovCloud (US-West)",
+          "summary": "Now available in AWS GovCloud (US-West), AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-prem environments. DevOps Agent investigates incidents and identifies operational improvements as an experienced teammate would: by learning your applications and their relationships, working with your observability tools, runbooks, ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-govcloud-west/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Mon, 16 Nov 2026 19:55:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 52.87,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+          "summary": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines directly on Iceberg tables and audit the results, with the transaction semantics you expect from a data warehouse. This helps anyone writing to Iceberg tables at production scale. Batch jobs get all-or-nothing commits across multiple steps. Streaming and scheduled jobs can write to the same tables at",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Mon, 16 Nov 2026 20:30:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 45.45,
+          "also_sources": []
+        },
+        {
+          "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+          "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+          "source": "BleepingComputer",
+          "category": "AI",
+          "published": "Mon, 16 Nov 2026 15:59:44 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 45.95,
           "also_sources": []
         }
       ],
@@ -628,6 +705,89 @@
             "published": "Tue, 17 Nov 2026 11:00:00 +0000",
             "severity": "INFORMATIONAL",
             "score": 56.0,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+            "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see eMudhra Intermediate CA Compromise an",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-16 22:25:32.0",
+            "severity": "HIGH",
+            "score": 82.38,
+            "also_sources": []
+          },
+          {
+            "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+            "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 46.48,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-126681 - Improper restriction of intended endpoints in AWS Labs Timestream for InfluxDB MCP Server",
+            "summary": "Bulletin ID: 2026-185-AWS Publication Date: 11/16/2026 12:30 PM PST Description: Improper restriction of intended endpoints in the connection configuration handling of the AWS Labs Timestream for InfluxDB MCP Server (awslabs.timestream-for-influxdb-mcp-server) before 0.0.19 might allow a remote unauthenticated actor (via prompt injection) to obtain the InfluxDB API token configured on the server, sent to a crafted endpoint controlled through an InfluxDB URL introduced in the MCP client context. ",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-185-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Mon, 16 Nov 2026 21:03:04 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 46.01,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-126816 - Path traversal and arbitrary file write in the cost report generator of aws-pricing-mcp-server",
+            "summary": "Bulletin ID: 2026-184-AWS Publication Date: 11/16/2026 12:00 PM PST Description: Improper limitation of a pathname to a restricted directory in the cost report generation tool in AWS Pricing MCP Server (aws-pricing-mcp-server) before 1.0.31 might allow an actor who can influence the MCP agent to write actor controlled content to arbitrary locations outside the intended output directory via absolute paths or directory traversal sequences in the report output path. Impacted versions: - awslabs.aws",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-184-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Mon, 16 Nov 2026 20:12:51 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.17,
+            "also_sources": []
+          }
+        ],
+        "Cloud": [
+          {
+            "title": "AWS DevOps Agent is now available in AWS GovCloud (US-West)",
+            "summary": "Now available in AWS GovCloud (US-West), AWS DevOps Agent is your always-available operations teammate that resolves and proactively prevents incidents, optimizes application reliability and performance, and handles on-demand SRE tasks across AWS, multicloud, and on-prem environments. DevOps Agent investigates incidents and identifies operational improvements as an experienced teammate would: by learning your applications and their relationships, working with your observability tools, runbooks, ",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-devops-agent-govcloud-west/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Mon, 16 Nov 2026 19:55:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 52.87,
+            "also_sources": []
+          },
+          {
+            "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
+            "summary": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines directly on Iceberg tables and audit the results, with the transaction semantics you expect from a data warehouse. This helps anyone writing to Iceberg tables at production scale. Batch jobs get all-or-nothing commits across multiple steps. Streaming and scheduled jobs can write to the same tables at",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Mon, 16 Nov 2026 20:30:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 45.45,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+            "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+            "source": "BleepingComputer",
+            "category": "AI",
+            "published": "Mon, 16 Nov 2026 15:59:44 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 45.95,
             "also_sources": []
           }
         ]

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-16T01:47:21.997961+00:00",
+  "generated_utc": "2026-11-16T09:03:07.660659+00:00",
   "latest_date": "2026-11-16",
   "available_dates": [
     "2026-11-16",
@@ -403,11 +403,177 @@
     },
     "2026-11-16": {
       "date": "2026-11-16",
-      "generated_utc": "2026-11-16T01:47:21.997947+00:00",
-      "story_count": 0,
-      "source_count": 0,
-      "stories": [],
-      "sections": {},
+      "generated_utc": "2026-11-16T09:03:07.660651+00:00",
+      "story_count": 7,
+      "source_count": 4,
+      "stories": [
+        {
+          "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+          "summary": "A Vulcan rocket owned by United Launch Alliance, the joint venture of Boeing and Lockheed Martin, failed on Sunday shortly after liftoff from Florida, destroying its payload of 40 satellites from Amazon’s Leo internet network in the launch company’s first mission failure. The rocket failed roughly 10 minutes after liftoff from the Cape Canaveral Space Force Station in Florida, and the cause was not immediately clear. It represented a major setback for the two-decade-old company’s new flagship ro",
+          "url": "https://www.dawn.com/news/2044909/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites",
+          "source": "Dawn Technology",
+          "category": "Networking",
+          "published": "Mon, 16 Nov 2026 12:01:50 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 45.98,
+          "also_sources": []
+        },
+        {
+          "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+          "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Mon, 16 Nov 2026 03:26:52 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 55.4,
+          "also_sources": []
+        },
+        {
+          "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+          "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in France and BSI C3A in Germany. To help organizations accomplish this, Google Cloud Dedicated provides the architectural, security, and API consistency of Google Cloud in locally governed environments ma",
+          "url": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+          "source": "Google Cloud Blog",
+          "category": "Cloud",
+          "published": "Mon, 16 Nov 2026 08:05:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 47.03,
+          "also_sources": []
+        },
+        {
+          "title": "Inside the new Google Cloud Data Boundary experience",
+          "summary": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across Asia-Pacific and the Middle East, organizations can build deeper global trust through clear governance over data locality, encryption keys and system access. Historically, achieving that level of control meant acc",
+          "url": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+          "source": "Google Cloud Blog",
+          "category": "Cloud",
+          "published": "Mon, 16 Nov 2026 08:05:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 47.03,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+          "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys. The team said this",
+          "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+          "source": "The Hacker News",
+          "category": "AI",
+          "published": "Mon, 16 Nov 2026 13:04:21 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 46.52,
+          "also_sources": []
+        },
+        {
+          "title": "Punjab working on first AI-run climate observatory: CM Maryam",
+          "summary": "https://www.dawn.com/news/2044841",
+          "url": "https://www.dawn.com/news/2044869/punjab-working-on-first-ai-run-climate-observatory-cm-maryam",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Mon, 16 Nov 2026 07:36:41 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 41.56,
+          "also_sources": []
+        },
+        {
+          "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+          "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
+          "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+          "source": "The Hacker News",
+          "category": "Technology",
+          "published": "Mon, 16 Nov 2026 12:23:34 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 45.84,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+            "summary": "A Vulcan rocket owned by United Launch Alliance, the joint venture of Boeing and Lockheed Martin, failed on Sunday shortly after liftoff from Florida, destroying its payload of 40 satellites from Amazon’s Leo internet network in the launch company’s first mission failure. The rocket failed roughly 10 minutes after liftoff from the Cape Canaveral Space Force Station in Florida, and the cause was not immediately clear. It represented a major setback for the two-decade-old company’s new flagship ro",
+            "url": "https://www.dawn.com/news/2044909/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites",
+            "source": "Dawn Technology",
+            "category": "Networking",
+            "published": "Mon, 16 Nov 2026 12:01:50 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 45.98,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "Microsoft pushes Windows emergency updates to fix activation failures",
+            "summary": "Microsoft has released emergency out-of-band updates to fix Windows activation and licensing failures caused by this month's security updates. [...]",
+            "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Mon, 16 Nov 2026 03:26:52 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 55.4,
+            "also_sources": []
+          }
+        ],
+        "Cloud": [
+          {
+            "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+            "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in France and BSI C3A in Germany. To help organizations accomplish this, Google Cloud Dedicated provides the architectural, security, and API consistency of Google Cloud in locally governed environments ma",
+            "url": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+            "source": "Google Cloud Blog",
+            "category": "Cloud",
+            "published": "Mon, 16 Nov 2026 08:05:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 47.03,
+            "also_sources": []
+          },
+          {
+            "title": "Inside the new Google Cloud Data Boundary experience",
+            "summary": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across Asia-Pacific and the Middle East, organizations can build deeper global trust through clear governance over data locality, encryption keys and system access. Historically, achieving that level of control meant acc",
+            "url": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+            "source": "Google Cloud Blog",
+            "category": "Cloud",
+            "published": "Mon, 16 Nov 2026 08:05:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 47.03,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+            "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records. The records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys. The team said this",
+            "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+            "source": "The Hacker News",
+            "category": "AI",
+            "published": "Mon, 16 Nov 2026 13:04:21 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 46.52,
+            "also_sources": []
+          },
+          {
+            "title": "Punjab working on first AI-run climate observatory: CM Maryam",
+            "summary": "https://www.dawn.com/news/2044841",
+            "url": "https://www.dawn.com/news/2044869/punjab-working-on-first-ai-run-climate-observatory-cm-maryam",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Mon, 16 Nov 2026 07:36:41 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 41.56,
+            "also_sources": []
+          }
+        ],
+        "Technology": [
+          {
+            "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+            "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server. The activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
+            "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+            "source": "The Hacker News",
+            "category": "Technology",
+            "published": "Mon, 16 Nov 2026 12:23:34 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 45.84,
+            "also_sources": []
+          }
+        ]
+      },
       "source_failures": []
     }
   }

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-16T23:02:43.997713+00:00",
+  "generated_utc": "2026-11-17T02:38:18.725895+00:00",
   "latest_date": "2026-11-17",
   "available_dates": [
     "2026-11-17",
@@ -579,9 +579,9 @@
     },
     "2026-11-17": {
       "date": "2026-11-17",
-      "generated_utc": "2026-11-16T23:02:43.997705+00:00",
-      "story_count": 9,
-      "source_count": 5,
+      "generated_utc": "2026-11-17T02:38:18.725886+00:00",
+      "story_count": 10,
+      "source_count": 6,
       "stories": [
         {
           "title": "SIN (Singapore) on 2026-11-17",
@@ -613,18 +613,29 @@
           "category": "Cybersecurity",
           "published": "2026-11-16 22:25:32.0",
           "severity": "HIGH",
-          "score": 82.38,
+          "score": 78.79,
           "also_sources": []
         },
         {
-          "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-          "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+          "title": "Optimizely supply chain attack infects major brands' sites with malware",
+          "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
           "source": "BleepingComputer",
           "category": "Cybersecurity",
-          "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+          "published": "Mon, 16 Nov 2026 21:12:17 -0500",
           "severity": "INFORMATIONAL",
-          "score": 46.48,
+          "score": 47.57,
+          "also_sources": []
+        },
+        {
+          "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+          "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+          "source": "Microsoft Security Blog",
+          "category": "Cybersecurity",
+          "published": "Tue, 17 Nov 2026 00:08:41 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.51,
           "also_sources": []
         },
         {
@@ -635,7 +646,18 @@
           "category": "Cybersecurity",
           "published": "Mon, 16 Nov 2026 21:03:04 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.01,
+          "score": 42.41,
+          "also_sources": []
+        },
+        {
+          "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+          "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 42.89,
           "also_sources": []
         },
         {
@@ -646,7 +668,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 16 Nov 2026 20:12:51 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.17,
+          "score": 41.58,
           "also_sources": []
         },
         {
@@ -657,29 +679,18 @@
           "category": "Cloud",
           "published": "Mon, 16 Nov 2026 19:55:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 52.87,
+          "score": 49.28,
           "also_sources": []
         },
         {
-          "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
-          "summary": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines directly on Iceberg tables and audit the results, with the transaction semantics you expect from a data warehouse. This helps anyone writing to Iceberg tables at production scale. Batch jobs get all-or-nothing commits across multiple steps. Streaming and scheduled jobs can write to the same tables at",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+          "title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+          "summary": "Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots across accounts without first re-encrypting them, simplifying your disaster recovery and backup workflows. Customers use EBS snapshots as durable, point-in-time backups of EBS volumes. By associating an additional customer-managed KMS key (CMK) with a snapshot encrypted with an AWS managed key (AMK), f",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
           "source": "AWS What's New",
           "category": "Cloud",
-          "published": "Mon, 16 Nov 2026 20:30:00 GMT",
+          "published": "Mon, 16 Nov 2026 22:00:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 45.45,
-          "also_sources": []
-        },
-        {
-          "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-          "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-          "source": "BleepingComputer",
-          "category": "AI",
-          "published": "Mon, 16 Nov 2026 15:59:44 -0500",
-          "severity": "INFORMATIONAL",
-          "score": 45.95,
+          "score": 43.36,
           "also_sources": []
         }
       ],
@@ -717,18 +728,29 @@
             "category": "Cybersecurity",
             "published": "2026-11-16 22:25:32.0",
             "severity": "HIGH",
-            "score": 82.38,
+            "score": 78.79,
             "also_sources": []
           },
           {
-            "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-            "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+            "title": "Optimizely supply chain attack infects major brands' sites with malware",
+            "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
             "source": "BleepingComputer",
             "category": "Cybersecurity",
-            "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+            "published": "Mon, 16 Nov 2026 21:12:17 -0500",
             "severity": "INFORMATIONAL",
-            "score": 46.48,
+            "score": 47.57,
+            "also_sources": []
+          },
+          {
+            "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+            "summary": "Microsoft Threat Intelligence observed a high-volume phishing campaign using Microsoft 365 outage-themed lures to target organizations across multiple sectors worldwide. The post High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors appeared first on Microsoft Security Blog .",
+            "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+            "source": "Microsoft Security Blog",
+            "category": "Cybersecurity",
+            "published": "Tue, 17 Nov 2026 00:08:41 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.51,
             "also_sources": []
           },
           {
@@ -739,7 +761,18 @@
             "category": "Cybersecurity",
             "published": "Mon, 16 Nov 2026 21:03:04 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.01,
+            "score": 42.41,
+            "also_sources": []
+          },
+          {
+            "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+            "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 42.89,
             "also_sources": []
           },
           {
@@ -750,7 +783,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 16 Nov 2026 20:12:51 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.17,
+            "score": 41.58,
             "also_sources": []
           }
         ],
@@ -763,31 +796,18 @@
             "category": "Cloud",
             "published": "Mon, 16 Nov 2026 19:55:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 52.87,
+            "score": 49.28,
             "also_sources": []
           },
           {
-            "title": "Amazon Redshift now supports multi-statement transactions, conflict resolution, and time travel for Apache Iceberg",
-            "summary": "Amazon Redshift now supports multi-statement transactions, automatic write-conflict resolution, and time travel for Apache Iceberg tables. You can run multi-step, concurrent transformation pipelines directly on Iceberg tables and audit the results, with the transaction semantics you expect from a data warehouse. This helps anyone writing to Iceberg tables at production scale. Batch jobs get all-or-nothing commits across multiple steps. Streaming and scheduled jobs can write to the same tables at",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/redshift-time-travel-multi-statement",
+            "title": "Amazon EBS now supports associating additional KMS keys with snapshots",
+            "summary": "Amazon Elastic Block Store (EBS) now supports associating additional AWS Key Management Service (KMS) keys with EBS snapshots. This new capability enables you to share and copy encrypted snapshots across accounts without first re-encrypting them, simplifying your disaster recovery and backup workflows. Customers use EBS snapshots as durable, point-in-time backups of EBS volumes. By associating an additional customer-managed KMS key (CMK) with a snapshot encrypted with an AWS managed key (AMK), f",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/ebs-snapshots-associate-kms-keys/",
             "source": "AWS What's New",
             "category": "Cloud",
-            "published": "Mon, 16 Nov 2026 20:30:00 GMT",
+            "published": "Mon, 16 Nov 2026 22:00:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 45.45,
-            "also_sources": []
-          }
-        ],
-        "AI": [
-          {
-            "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-            "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organizations. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-            "source": "BleepingComputer",
-            "category": "AI",
-            "published": "Mon, 16 Nov 2026 15:59:44 -0500",
-            "severity": "INFORMATIONAL",
-            "score": 45.95,
+            "score": 43.36,
             "also_sources": []
           }
         ]

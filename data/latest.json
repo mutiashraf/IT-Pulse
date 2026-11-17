@@ -1,6 +1,28 @@
 {
-  "updated_utc": "2026-11-16T19:27:08.056873+00:00",
+  "updated_utc": "2026-11-17T11:35:05.083022+00:00",
   "alerts": [
+    {
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Tue, 17 Nov 2026 02:25:44 -0500",
+      "severity": "CRITICAL",
+      "score": 128.97,
+      "also_sources": []
+    },
+    {
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
+      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Tue, 17 Nov 2026 10:30:34 +0530",
+      "severity": "HIGH",
+      "score": 84.55,
+      "also_sources": []
+    },
     {
       "title": "CVE-2026-124223 Microsoft Office SharePoint Remote Code Execution Vulnerability",
       "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
@@ -1078,29 +1100,9 @@
       "severity": "CRITICAL",
       "score": 120.04,
       "also_sources": []
-    },
-    {
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader:",
-      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 16:25:03 +0530",
-      "severity": "CRITICAL",
-      "score": 118.95,
-      "also_sources": []
-    },
-    {
-      "title": "Check Point warns of zero-day flaw exploited for root access",
-      "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 05:44:22 -0500",
-      "severity": "CRITICAL",
-      "score": 126.78,
-      "also_sources": []
     }
   ],
-  "source_failures": []
+  "source_failures": [
+    "Ubuntu Security Notices"
+  ]
 }

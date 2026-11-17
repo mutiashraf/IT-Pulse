@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-17T02:38:18.725895+00:00",
+  "generated_utc": "2026-11-17T11:35:05.131931+00:00",
   "latest_date": "2026-11-17",
   "available_dates": [
     "2026-11-17",
@@ -579,9 +579,9 @@
     },
     "2026-11-17": {
       "date": "2026-11-17",
-      "generated_utc": "2026-11-17T02:38:18.725886+00:00",
-      "story_count": 10,
-      "source_count": 6,
+      "generated_utc": "2026-11-17T11:35:05.131918+00:00",
+      "story_count": 16,
+      "source_count": 9,
       "stories": [
         {
           "title": "SIN (Singapore) on 2026-11-17",
@@ -602,7 +602,29 @@
           "category": "Networking",
           "published": "Tue, 17 Nov 2026 11:00:00 +0000",
           "severity": "INFORMATIONAL",
-          "score": 56.0,
+          "score": 55.42,
+          "also_sources": []
+        },
+        {
+          "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+          "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Tue, 17 Nov 2026 02:25:44 -0500",
+          "severity": "CRITICAL",
+          "score": 128.84,
+          "also_sources": []
+        },
+        {
+          "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+          "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
+          "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Tue, 17 Nov 2026 10:30:34 +0530",
+          "severity": "HIGH",
+          "score": 84.42,
           "also_sources": []
         },
         {
@@ -613,18 +635,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-16 22:25:32.0",
           "severity": "HIGH",
-          "score": 78.79,
-          "also_sources": []
-        },
-        {
-          "title": "Optimizely supply chain attack infects major brands' sites with malware",
-          "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
-          "source": "BleepingComputer",
-          "category": "Cybersecurity",
-          "published": "Mon, 16 Nov 2026 21:12:17 -0500",
-          "severity": "INFORMATIONAL",
-          "score": 47.57,
+          "score": 69.84,
           "also_sources": []
         },
         {
@@ -635,7 +646,7 @@
           "category": "Cybersecurity",
           "published": "Tue, 17 Nov 2026 00:08:41 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.51,
+          "score": 36.56,
           "also_sources": []
         },
         {
@@ -646,18 +657,29 @@
           "category": "Cybersecurity",
           "published": "Mon, 16 Nov 2026 21:03:04 +0000",
           "severity": "INFORMATIONAL",
-          "score": 42.41,
+          "score": 33.47,
           "also_sources": []
         },
         {
-          "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-          "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+          "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+          "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
           "source": "BleepingComputer",
           "category": "Cybersecurity",
-          "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+          "published": "Tue, 17 Nov 2026 03:35:42 -0500",
           "severity": "INFORMATIONAL",
-          "score": 42.89,
+          "score": 70.01,
+          "also_sources": []
+        },
+        {
+          "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+          "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+          "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Tue, 17 Nov 2026 11:59:27 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 50.91,
           "also_sources": []
         },
         {
@@ -668,7 +690,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 16 Nov 2026 20:12:51 +0000",
           "severity": "INFORMATIONAL",
-          "score": 41.58,
+          "score": 32.63,
           "also_sources": []
         },
         {
@@ -679,7 +701,7 @@
           "category": "Cloud",
           "published": "Mon, 16 Nov 2026 19:55:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 49.28,
+          "score": 40.33,
           "also_sources": []
         },
         {
@@ -690,7 +712,51 @@
           "category": "Cloud",
           "published": "Mon, 16 Nov 2026 22:00:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 43.36,
+          "score": 34.42,
+          "also_sources": []
+        },
+        {
+          "title": "Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator",
+          "summary": "Today we’re announcing an open call for applications for the Google for Startups Accelerator: Sovereign AI . Available in Europe and Israel, this initiative supports startups that are building cutting-edge AI solutions for European regulatory environments. Artificial intelligence represents an estimated €1.2 trillion economic opportunity for Europe . To realize this potential, European enterprises and public institutions need to adopt advanced AI while also meeting crucial data governance requir",
+          "url": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/",
+          "source": "Google Cloud Blog",
+          "category": "AI",
+          "published": "Tue, 17 Nov 2026 08:30:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 44.92,
+          "also_sources": []
+        },
+        {
+          "title": "Sovereign AI in Europe: New ways to control your AI stack",
+          "summary": "Today in Brussels, public sector leaders, policymakers and partners are meeting at the Sovereign AI Summit to discuss how to build the next decade of Europe's public services, healthcare, and finance with AI under European control. We're here with our European partners to help deliver it. Achieving that goal takes more than deciding where data is stored. When we talk with European organizations, we hear four common questions from them: Will choosing more control mean settling for less capable AI",
+          "url": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
+          "source": "Google Cloud Blog",
+          "category": "AI",
+          "published": "Tue, 17 Nov 2026 08:00:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 44.42,
+          "also_sources": []
+        },
+        {
+          "title": "Gamers in Asia stoked to play 'GTA VI', many on grey market",
+          "summary": "It’s censored in Japan, not officially sold in China, and has floundered in Asian markets where mobile games are king, but “ Grand Theft Auto ” fever is sweeping the continent regardless. Excitement among gamers in Asia for Thursday’s “ GTA VI ” mega-release shows how the industry has evolved since the fifth installment in 2013, and quashes the idea that cultural aversion to lawless escapades holds it back, analysts say. “The game was part of my youth,” Yang Hauiyu, a market research professiona",
+          "url": "https://www.dawn.com/news/2045139/gamers-in-asia-stoked-to-play-gta-vi-many-on-grey-market",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Tue, 17 Nov 2026 13:13:55 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 52.65,
+          "also_sources": []
+        },
+        {
+          "title": "US releases details of Megaspeed probe, says investigation began in 2024",
+          "summary": "The US Commerce Department and Justice Department released information on Monday about Washington’s investigation into Singapore-based cloud-computing company Megaspeed, Nvidia’s Asia-Pacific partner, which the departments said began two years ago. Megaspeed has come under scrutiny after reports that Nvidia’s former CEO Jensen Huang had an affair with Chinese businesswoman Alice Huang, a former top executive at Megaspeed who some US authorities suspect had ties to Chinese espionage efforts. Jens",
+          "url": "https://www.dawn.com/news/2045159/us-releases-details-of-megaspeed-probe-says-investigation-began-in-2024",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Tue, 17 Nov 2026 13:04:19 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 52.49,
           "also_sources": []
         }
       ],
@@ -715,11 +781,33 @@
             "category": "Networking",
             "published": "Tue, 17 Nov 2026 11:00:00 +0000",
             "severity": "INFORMATIONAL",
-            "score": 56.0,
+            "score": 55.42,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
+          {
+            "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+            "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Tue, 17 Nov 2026 02:25:44 -0500",
+            "severity": "CRITICAL",
+            "score": 128.84,
+            "also_sources": []
+          },
+          {
+            "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+            "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
+            "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Tue, 17 Nov 2026 10:30:34 +0530",
+            "severity": "HIGH",
+            "score": 84.42,
+            "also_sources": []
+          },
           {
             "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
             "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see eMudhra Intermediate CA Compromise an",
@@ -728,18 +816,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-16 22:25:32.0",
             "severity": "HIGH",
-            "score": 78.79,
-            "also_sources": []
-          },
-          {
-            "title": "Optimizely supply chain attack infects major brands' sites with malware",
-            "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS devices. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
-            "source": "BleepingComputer",
-            "category": "Cybersecurity",
-            "published": "Mon, 16 Nov 2026 21:12:17 -0500",
-            "severity": "INFORMATIONAL",
-            "score": 47.57,
+            "score": 69.84,
             "also_sources": []
           },
           {
@@ -750,7 +827,7 @@
             "category": "Cybersecurity",
             "published": "Tue, 17 Nov 2026 00:08:41 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.51,
+            "score": 36.56,
             "also_sources": []
           },
           {
@@ -761,18 +838,29 @@
             "category": "Cybersecurity",
             "published": "Mon, 16 Nov 2026 21:03:04 +0000",
             "severity": "INFORMATIONAL",
-            "score": 42.41,
+            "score": 33.47,
             "also_sources": []
           },
           {
-            "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-            "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+            "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+            "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
             "source": "BleepingComputer",
             "category": "Cybersecurity",
-            "published": "Mon, 16 Nov 2026 16:31:44 -0500",
+            "published": "Tue, 17 Nov 2026 03:35:42 -0500",
             "severity": "INFORMATIONAL",
-            "score": 42.89,
+            "score": 70.01,
+            "also_sources": []
+          },
+          {
+            "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+            "summary": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later. The company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+            "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Tue, 17 Nov 2026 11:59:27 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 50.91,
             "also_sources": []
           },
           {
@@ -783,7 +871,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 16 Nov 2026 20:12:51 +0000",
             "severity": "INFORMATIONAL",
-            "score": 41.58,
+            "score": 32.63,
             "also_sources": []
           }
         ],
@@ -796,7 +884,7 @@
             "category": "Cloud",
             "published": "Mon, 16 Nov 2026 19:55:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 49.28,
+            "score": 40.33,
             "also_sources": []
           },
           {
@@ -807,12 +895,62 @@
             "category": "Cloud",
             "published": "Mon, 16 Nov 2026 22:00:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 43.36,
+            "score": 34.42,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator",
+            "summary": "Today we’re announcing an open call for applications for the Google for Startups Accelerator: Sovereign AI . Available in Europe and Israel, this initiative supports startups that are building cutting-edge AI solutions for European regulatory environments. Artificial intelligence represents an estimated €1.2 trillion economic opportunity for Europe . To realize this potential, European enterprises and public institutions need to adopt advanced AI while also meeting crucial data governance requir",
+            "url": "https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open/",
+            "source": "Google Cloud Blog",
+            "category": "AI",
+            "published": "Tue, 17 Nov 2026 08:30:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 44.92,
+            "also_sources": []
+          },
+          {
+            "title": "Sovereign AI in Europe: New ways to control your AI stack",
+            "summary": "Today in Brussels, public sector leaders, policymakers and partners are meeting at the Sovereign AI Summit to discuss how to build the next decade of Europe's public services, healthcare, and finance with AI under European control. We're here with our European partners to help deliver it. Achieving that goal takes more than deciding where data is stored. When we talk with European organizations, we hear four common questions from them: Will choosing more control mean settling for less capable AI",
+            "url": "https://cloud.google.com/blog/products/identity-security/sovereign-ai-on-your-terms-made-with-europe/",
+            "source": "Google Cloud Blog",
+            "category": "AI",
+            "published": "Tue, 17 Nov 2026 08:00:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 44.42,
+            "also_sources": []
+          }
+        ],
+        "Technology": [
+          {
+            "title": "Gamers in Asia stoked to play 'GTA VI', many on grey market",
+            "summary": "It’s censored in Japan, not officially sold in China, and has floundered in Asian markets where mobile games are king, but “ Grand Theft Auto ” fever is sweeping the continent regardless. Excitement among gamers in Asia for Thursday’s “ GTA VI ” mega-release shows how the industry has evolved since the fifth installment in 2013, and quashes the idea that cultural aversion to lawless escapades holds it back, analysts say. “The game was part of my youth,” Yang Hauiyu, a market research professiona",
+            "url": "https://www.dawn.com/news/2045139/gamers-in-asia-stoked-to-play-gta-vi-many-on-grey-market",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Tue, 17 Nov 2026 13:13:55 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 52.65,
+            "also_sources": []
+          },
+          {
+            "title": "US releases details of Megaspeed probe, says investigation began in 2024",
+            "summary": "The US Commerce Department and Justice Department released information on Monday about Washington’s investigation into Singapore-based cloud-computing company Megaspeed, Nvidia’s Asia-Pacific partner, which the departments said began two years ago. Megaspeed has come under scrutiny after reports that Nvidia’s former CEO Jensen Huang had an affair with Chinese businesswoman Alice Huang, a former top executive at Megaspeed who some US authorities suspect had ties to Chinese espionage efforts. Jens",
+            "url": "https://www.dawn.com/news/2045159/us-releases-details-of-megaspeed-probe-says-investigation-began-in-2024",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Tue, 17 Nov 2026 13:04:19 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 52.49,
             "also_sources": []
           }
         ]
       },
-      "source_failures": []
+      "source_failures": [
+        "Ubuntu Security Notices"
+      ]
     }
   }
 }

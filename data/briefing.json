@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-17T11:35:05.131931+00:00",
-  "latest_date": "2026-11-17",
+  "generated_utc": "2026-11-17T20:03:29.259383+00:00",
+  "latest_date": "2026-11-18",
   "available_dates": [
+    "2026-11-18",
     "2026-11-17",
     "2026-11-16",
     "2026-11-15",
@@ -951,6 +952,89 @@
       "source_failures": [
         "Ubuntu Security Notices"
       ]
+    },
+    "2026-11-18": {
+      "date": "2026-11-18",
+      "generated_utc": "2026-11-17T20:03:29.259376+00:00",
+      "story_count": 3,
+      "source_count": 3,
+      "stories": [
+        {
+          "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+          "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+          "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+          "source": "BleepingComputer",
+          "category": "Networking",
+          "published": "Tue, 17 Nov 2026 14:24:07 -0500",
+          "severity": "HIGH",
+          "score": 107.34,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-130621- Time-of-check time-of-use race condition in the port selection in AWS efs-utils",
+          "summary": "Bulletin ID: 2026-186-AWS Publication Date: 11/17/2026 11:00 AM PST Description: A time-of-check time-of-use (TOCTOU) race condition in the local port selection in AWS efs-utils (amazon-efs-utils) before 3.3.5 might allow a user that can start EFS mounts on a shared host to read and write a different Amazon EFS or S3 Files file system that is mounted on that same host, under that mount's IAM identity and access point, via concurrent mount operations. Only file systems mounted on the same host at",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-186-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Tue, 17 Nov 2026 19:18:32 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 47.25,
+          "also_sources": []
+        },
+        {
+          "title": "Over 170 major websites hit by attack, including BBC, Ikea and Air France: report",
+          "summary": "Nearly 200 major websites, including those of the BBC , HSBC UAE bank, Air France and Ikea were targeted by a malicious cyber attack seeking to steal financial information and infect Apple devices, specialist media reported on Tuesday. Hackers injected corrupted JavaScript code into tools hosted by Optimizely, a digital platform used by major companies to customise users’ online experiences, Cyber News reported, with some 178 websites targeted. “The list includes some of the most visited sites i",
+          "url": "https://www.dawn.com/news/2045214/over-170-major-websites-hit-by-attack-including-bbc-ikea-and-air-france-report",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Wed, 18 Nov 2026 00:00:17 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 46.95,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+            "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+            "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+            "source": "BleepingComputer",
+            "category": "Networking",
+            "published": "Tue, 17 Nov 2026 14:24:07 -0500",
+            "severity": "HIGH",
+            "score": 107.34,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "CVE-2026-130621- Time-of-check time-of-use race condition in the port selection in AWS efs-utils",
+            "summary": "Bulletin ID: 2026-186-AWS Publication Date: 11/17/2026 11:00 AM PST Description: A time-of-check time-of-use (TOCTOU) race condition in the local port selection in AWS efs-utils (amazon-efs-utils) before 3.3.5 might allow a user that can start EFS mounts on a shared host to read and write a different Amazon EFS or S3 Files file system that is mounted on that same host, under that mount's IAM identity and access point, via concurrent mount operations. Only file systems mounted on the same host at",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-186-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Tue, 17 Nov 2026 19:18:32 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 47.25,
+            "also_sources": []
+          }
+        ],
+        "Technology": [
+          {
+            "title": "Over 170 major websites hit by attack, including BBC, Ikea and Air France: report",
+            "summary": "Nearly 200 major websites, including those of the BBC , HSBC UAE bank, Air France and Ikea were targeted by a malicious cyber attack seeking to steal financial information and infect Apple devices, specialist media reported on Tuesday. Hackers injected corrupted JavaScript code into tools hosted by Optimizely, a digital platform used by major companies to customise users’ online experiences, Cyber News reported, with some 178 websites targeted. “The list includes some of the most visited sites i",
+            "url": "https://www.dawn.com/news/2045214/over-170-major-websites-hit-by-attack-including-bbc-ikea-and-air-france-report",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Wed, 18 Nov 2026 00:00:17 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 46.95,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
     }
   }
 }

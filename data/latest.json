@@ -1,6 +1,39 @@
 {
-  "updated_utc": "2026-11-18T10:33:50.460194+00:00",
+  "updated_utc": "2026-11-18T19:04:54.671930+00:00",
   "alerts": [
+    {
+      "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+      "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+      "source": "Cisco Security Advisories",
+      "category": "Cybersecurity",
+      "published": "2026-11-18 16:00:00.0",
+      "severity": "HIGH",
+      "score": 88.01,
+      "also_sources": []
+    },
+    {
+      "title": "CVE-2026-118148 Active Directory Domain Services Elevation of Privilege Vulnerability",
+      "summary": "Updated the CVSS score and corrected FAQs. This is an informational change only.",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118148",
+      "source": "Microsoft Security Update Guide",
+      "category": "Cybersecurity",
+      "published": "Wed, 18 Nov 2026 08:00:00 -0800",
+      "severity": "HIGH",
+      "score": 80.01,
+      "also_sources": []
+    },
+    {
+      "title": "Java4Shell Vulnerability - CVE-2026-114938",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-114938Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple ",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278",
+      "source": "Fortinet PSIRT",
+      "category": "Cybersecurity",
+      "published": "Wed, 18 Nov 2026 00:00:00 -0800",
+      "severity": "HIGH",
+      "score": 72.01,
+      "also_sources": []
+    },
     {
       "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
@@ -1067,42 +1100,7 @@
       "severity": "HIGH",
       "score": 82.04,
       "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126900: Use after free",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126900",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126901: Use after free",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126901",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126902: Incorrect reference resolution",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126902",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
     }
   ],
-  "source_failures": [
-    "Dawn Technology"
-  ]
+  "source_failures": []
 }

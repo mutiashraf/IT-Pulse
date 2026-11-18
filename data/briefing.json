@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-18T10:33:50.927735+00:00",
-  "latest_date": "2026-11-18",
+  "generated_utc": "2026-11-18T19:04:54.694841+00:00",
+  "latest_date": "2026-11-19",
   "available_dates": [
+    "2026-11-19",
     "2026-11-18",
     "2026-11-17",
     "2026-11-16",
@@ -1349,6 +1350,41 @@
       "source_failures": [
         "Dawn Technology"
       ]
+    },
+    "2026-11-19": {
+      "date": "2026-11-19",
+      "generated_utc": "2026-11-18T19:04:54.694833+00:00",
+      "story_count": 1,
+      "source_count": 1,
+      "stories": [
+        {
+          "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
+          "summary": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to retire, too complex and costly to rewrite—yet unequipped for the security challenges and productivity opportunities of the AI era. That doesn’t have to block your modernization strategy. By delivering Windows and legacy applications directly inside the Chrome browser, Cameyo by Googl",
+          "url": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
+          "source": "Google Cloud Blog",
+          "category": "Microsoft",
+          "published": "Wed, 18 Nov 2026 21:36:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 48.0,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Microsoft": [
+          {
+            "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
+            "summary": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to retire, too complex and costly to rewrite—yet unequipped for the security challenges and productivity opportunities of the AI era. That doesn’t have to block your modernization strategy. By delivering Windows and legacy applications directly inside the Chrome browser, Cameyo by Googl",
+            "url": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
+            "source": "Google Cloud Blog",
+            "category": "Microsoft",
+            "published": "Wed, 18 Nov 2026 21:36:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 48.0,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
     }
   }
 }

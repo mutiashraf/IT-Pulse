@@ -1,6 +1,39 @@
 {
-  "updated_utc": "2026-11-18T02:20:03.062220+00:00",
+  "updated_utc": "2026-11-18T10:33:50.460194+00:00",
   "alerts": [
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Wed, 18 Nov 2026 13:54:31 +0530",
+      "severity": "CRITICAL",
+      "score": 130.92,
+      "also_sources": []
+    },
+    {
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
+      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Wed, 18 Nov 2026 13:54:23 +0530",
+      "severity": "HIGH",
+      "score": 88.92,
+      "also_sources": []
+    },
+    {
+      "title": "Amazon Corretto November 2026 Critical Security Patch Updates",
+      "summary": "On Nov 17, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.1.4, 25.0.5.1.2, 21.0.13.1.2, 17.0.21.1.2, 11.0.33.1.1, and 8u514 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get t",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-corretto-nov-2026-updates/",
+      "source": "AWS What's New",
+      "category": "Cloud",
+      "published": "Tue, 17 Nov 2026 15:00:00 GMT",
+      "severity": "HIGH",
+      "score": 71.52,
+      "also_sources": []
+    },
     {
       "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
       "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
@@ -1067,40 +1100,9 @@
       "severity": "HIGH",
       "score": 82.04,
       "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126903: Improper state validation",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126903",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126905: Incomplete cleanup",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126905",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126906: Race condition",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126906",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
     }
   ],
-  "source_failures": []
+  "source_failures": [
+    "Dawn Technology"
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T02:20:03.489189+00:00",
+  "generated_utc": "2026-11-18T10:33:50.927735+00:00",
   "latest_date": "2026-11-18",
   "available_dates": [
     "2026-11-18",
@@ -955,8 +955,8 @@
     },
     "2026-11-18": {
       "date": "2026-11-18",
-      "generated_utc": "2026-11-18T02:20:03.489173+00:00",
-      "story_count": 16,
+      "generated_utc": "2026-11-18T10:33:50.927718+00:00",
+      "story_count": 17,
       "source_count": 11,
       "stories": [
         {
@@ -967,7 +967,7 @@
           "category": "Networking",
           "published": "Tue, 17 Nov 2026 14:24:07 -0500",
           "severity": "HIGH",
-          "score": 101.07,
+          "score": 92.84,
           "also_sources": []
         },
         {
@@ -978,7 +978,7 @@
           "category": "Networking",
           "published": "Wed, 18 Nov 2026 00:33:06 GMT",
           "severity": "INFORMATIONAL",
-          "score": 54.22,
+          "score": 45.99,
           "also_sources": []
         },
         {
@@ -989,7 +989,7 @@
           "category": "Networking",
           "published": "Tue, 17 Nov 2026 20:51:13 Z",
           "severity": "INFORMATIONAL",
-          "score": 50.52,
+          "score": 42.29,
           "also_sources": []
         },
         {
@@ -1000,7 +1000,18 @@
           "category": "Networking",
           "published": "Tue, 17 Nov 2026 23:00:02 Z",
           "severity": "INFORMATIONAL",
-          "score": 44.67,
+          "score": 36.44,
+          "also_sources": []
+        },
+        {
+          "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+          "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Wed, 18 Nov 2026 13:54:31 +0530",
+          "severity": "CRITICAL",
+          "score": 130.84,
           "also_sources": []
         },
         {
@@ -1011,7 +1022,7 @@
           "category": "Cybersecurity",
           "published": "Tue, 17 Nov 2026 18:04:21 -0500",
           "severity": "CRITICAL",
-          "score": 104.74,
+          "score": 96.51,
           "also_sources": []
         },
         {
@@ -1022,7 +1033,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-17T22:03:33.418511+00:00",
           "severity": "HIGH",
-          "score": 86.73,
+          "score": 78.5,
           "also_sources": []
         },
         {
@@ -1033,7 +1044,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-17 23:53:12.0",
           "severity": "INFORMATIONAL",
-          "score": 53.55,
+          "score": 45.32,
           "also_sources": []
         },
         {
@@ -1044,18 +1055,18 @@
           "category": "Cybersecurity",
           "published": "Tue, 17 Nov 2026 20:11:26 +0000",
           "severity": "INFORMATIONAL",
-          "score": 41.86,
+          "score": 33.63,
           "also_sources": []
         },
         {
-          "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-          "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
-          "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+          "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
+          "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
           "source": "The Hacker News",
           "category": "Cybersecurity",
-          "published": "Wed, 18 Nov 2026 01:04:20 +0530",
-          "severity": "INFORMATIONAL",
-          "score": 41.24,
+          "published": "Wed, 18 Nov 2026 13:54:23 +0530",
+          "severity": "HIGH",
+          "score": 88.84,
           "also_sources": []
         },
         {
@@ -1066,7 +1077,7 @@
           "category": "Cybersecurity",
           "published": "Tue, 17 Nov 2026 19:18:32 +0000",
           "severity": "INFORMATIONAL",
-          "score": 40.97,
+          "score": 32.74,
           "also_sources": []
         },
         {
@@ -1077,7 +1088,7 @@
           "category": "Cloud",
           "published": "Tue, 17 Nov 2026 22:25:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 52.08,
+          "score": 43.85,
           "also_sources": []
         },
         {
@@ -1088,18 +1099,18 @@
           "category": "Cloud",
           "published": "Wed, 18 Nov 2026 00:11:00 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.85,
+          "score": 37.62,
           "also_sources": []
         },
         {
-          "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
-          "summary": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Server",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
+          "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
+          "summary": "Amazon WorkSpaces Applications now supports smart card redirection on single-session and multi-session fleets, so users can access the smart card connected to their local device from applications inside their streaming session. It also extends smart card sign-in, previously limited to single-session fleets, to multi-session fleets. This launch helps public sector, healthcare, and other regulated organizations that use Common Access Card (CAC) or Personal Identity Verification (PIV) cards run tho",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/",
           "source": "AWS What's New",
           "category": "Cloud",
-          "published": "Tue, 17 Nov 2026 22:25:00 GMT",
+          "published": "Tue, 17 Nov 2026 23:46:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 44.08,
+          "score": 37.2,
           "also_sources": []
         },
         {
@@ -1110,7 +1121,7 @@
           "category": "Linux",
           "published": "2026-11-17T11:57:34.246-08:00",
           "severity": "INFORMATIONAL",
-          "score": 49.63,
+          "score": 41.4,
           "also_sources": []
         },
         {
@@ -1121,7 +1132,7 @@
           "category": "Linux",
           "published": "2026-11-17T11:12:07.339-08:00",
           "severity": "INFORMATIONAL",
-          "score": 40.87,
+          "score": 32.64,
           "also_sources": []
         },
         {
@@ -1132,7 +1143,7 @@
           "category": "Technology",
           "published": "Wed, 18 Nov 2026 00:00:17 +0500",
           "severity": "INFORMATIONAL",
-          "score": 40.67,
+          "score": 32.44,
           "also_sources": []
         }
       ],
@@ -1146,7 +1157,7 @@
             "category": "Networking",
             "published": "Tue, 17 Nov 2026 14:24:07 -0500",
             "severity": "HIGH",
-            "score": 101.07,
+            "score": 92.84,
             "also_sources": []
           },
           {
@@ -1157,7 +1168,7 @@
             "category": "Networking",
             "published": "Wed, 18 Nov 2026 00:33:06 GMT",
             "severity": "INFORMATIONAL",
-            "score": 54.22,
+            "score": 45.99,
             "also_sources": []
           },
           {
@@ -1168,7 +1179,7 @@
             "category": "Networking",
             "published": "Tue, 17 Nov 2026 20:51:13 Z",
             "severity": "INFORMATIONAL",
-            "score": 50.52,
+            "score": 42.29,
             "also_sources": []
           },
           {
@@ -1179,11 +1190,22 @@
             "category": "Networking",
             "published": "Tue, 17 Nov 2026 23:00:02 Z",
             "severity": "INFORMATIONAL",
-            "score": 44.67,
+            "score": 36.44,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
+          {
+            "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+            "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Wed, 18 Nov 2026 13:54:31 +0530",
+            "severity": "CRITICAL",
+            "score": 130.84,
+            "also_sources": []
+          },
           {
             "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
             "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
@@ -1192,7 +1214,7 @@
             "category": "Cybersecurity",
             "published": "Tue, 17 Nov 2026 18:04:21 -0500",
             "severity": "CRITICAL",
-            "score": 104.74,
+            "score": 96.51,
             "also_sources": []
           },
           {
@@ -1203,7 +1225,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-17T22:03:33.418511+00:00",
             "severity": "HIGH",
-            "score": 86.73,
+            "score": 78.5,
             "also_sources": []
           },
           {
@@ -1214,7 +1236,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-17 23:53:12.0",
             "severity": "INFORMATIONAL",
-            "score": 53.55,
+            "score": 45.32,
             "also_sources": []
           },
           {
@@ -1225,18 +1247,18 @@
             "category": "Cybersecurity",
             "published": "Tue, 17 Nov 2026 20:11:26 +0000",
             "severity": "INFORMATIONAL",
-            "score": 41.86,
+            "score": 33.63,
             "also_sources": []
           },
           {
-            "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-            "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
-            "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+            "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
+            "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
             "source": "The Hacker News",
             "category": "Cybersecurity",
-            "published": "Wed, 18 Nov 2026 01:04:20 +0530",
-            "severity": "INFORMATIONAL",
-            "score": 41.24,
+            "published": "Wed, 18 Nov 2026 13:54:23 +0530",
+            "severity": "HIGH",
+            "score": 88.84,
             "also_sources": []
           },
           {
@@ -1247,7 +1269,7 @@
             "category": "Cybersecurity",
             "published": "Tue, 17 Nov 2026 19:18:32 +0000",
             "severity": "INFORMATIONAL",
-            "score": 40.97,
+            "score": 32.74,
             "also_sources": []
           }
         ],
@@ -1260,7 +1282,7 @@
             "category": "Cloud",
             "published": "Tue, 17 Nov 2026 22:25:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 52.08,
+            "score": 43.85,
             "also_sources": []
           },
           {
@@ -1271,18 +1293,18 @@
             "category": "Cloud",
             "published": "Wed, 18 Nov 2026 00:11:00 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.85,
+            "score": 37.62,
             "also_sources": []
           },
           {
-            "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
-            "summary": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Server",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
+            "title": "Amazon WorkSpaces Applications adds support for smart card redirection",
+            "summary": "Amazon WorkSpaces Applications now supports smart card redirection on single-session and multi-session fleets, so users can access the smart card connected to their local device from applications inside their streaming session. It also extends smart card sign-in, previously limited to single-session fleets, to multi-session fleets. This launch helps public sector, healthcare, and other regulated organizations that use Common Access Card (CAC) or Personal Identity Verification (PIV) cards run tho",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-workspaces-applications-smart-card-redirection/",
             "source": "AWS What's New",
             "category": "Cloud",
-            "published": "Tue, 17 Nov 2026 22:25:00 GMT",
+            "published": "Tue, 17 Nov 2026 23:46:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 44.08,
+            "score": 37.2,
             "also_sources": []
           }
         ],
@@ -1295,7 +1317,7 @@
             "category": "Linux",
             "published": "2026-11-17T11:57:34.246-08:00",
             "severity": "INFORMATIONAL",
-            "score": 49.63,
+            "score": 41.4,
             "also_sources": []
           },
           {
@@ -1306,7 +1328,7 @@
             "category": "Linux",
             "published": "2026-11-17T11:12:07.339-08:00",
             "severity": "INFORMATIONAL",
-            "score": 40.87,
+            "score": 32.64,
             "also_sources": []
           }
         ],
@@ -1319,12 +1341,14 @@
             "category": "Technology",
             "published": "Wed, 18 Nov 2026 00:00:17 +0500",
             "severity": "INFORMATIONAL",
-            "score": 40.67,
+            "score": 32.44,
             "also_sources": []
           }
         ]
       },
-      "source_failures": []
+      "source_failures": [
+        "Dawn Technology"
+      ]
     }
   }
 }

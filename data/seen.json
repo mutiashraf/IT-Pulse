@@ -1,6 +1,8 @@
 {
   "sent": [
+    "https://azure.microsoft.com/updates?id=580689",
     "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
+    "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-082",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108401",
     "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108440",
@@ -116,11 +118,14 @@
     "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
     "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
     "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+    "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
     "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+    "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
     "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
     "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
     "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
     "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
     "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
     "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
     "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",

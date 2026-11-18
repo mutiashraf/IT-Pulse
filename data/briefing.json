@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-17T21:59:58.300901+00:00",
+  "generated_utc": "2026-11-18T02:20:03.489189+00:00",
   "latest_date": "2026-11-18",
   "available_dates": [
     "2026-11-18",
@@ -955,9 +955,9 @@
     },
     "2026-11-18": {
       "date": "2026-11-18",
-      "generated_utc": "2026-11-17T21:59:58.300884+00:00",
-      "story_count": 13,
-      "source_count": 8,
+      "generated_utc": "2026-11-18T02:20:03.489173+00:00",
+      "story_count": 16,
+      "source_count": 11,
       "stories": [
         {
           "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
@@ -967,7 +967,18 @@
           "category": "Networking",
           "published": "Tue, 17 Nov 2026 14:24:07 -0500",
           "severity": "HIGH",
-          "score": 105.4,
+          "score": 101.07,
+          "also_sources": []
+        },
+        {
+          "title": "FortiADC 7.6.8",
+          "summary": "FortiADC 7.6.8 B0711 and release notes are available for download from the Support site : https://support.fortinet.com",
+          "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+          "source": "Fortinet Firmware Updates",
+          "category": "Networking",
+          "published": "Wed, 18 Nov 2026 00:33:06 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 54.22,
           "also_sources": []
         },
         {
@@ -978,18 +989,29 @@
           "category": "Networking",
           "published": "Tue, 17 Nov 2026 20:51:13 Z",
           "severity": "INFORMATIONAL",
-          "score": 54.85,
+          "score": 50.52,
           "also_sources": []
         },
         {
-          "title": "[In preview] Public Preview: Service tags for inbound rules in network security perimeter",
-          "summary": "Announcing the public preview of 'service tags as inbound rules' support for third-party customers in network security perimeter. This new capability simplifies how customers manage access to in network security perimeter-protected resources by allowing t",
-          "url": "https://azure.microsoft.com/updates?id=579201",
+          "title": "[In preview] Public Preview: Pod Sandboxing kata-vm-isolation-v2 runtime class",
+          "summary": "Isolated pods should not force a tradeoff between security and startup performance. With classic sandboxed pod flows, every pod boots a new Kata VM, which adds cold-start latency and extra memory overhead before your app begins work.The new kata-vm-isolat",
+          "url": "https://azure.microsoft.com/updates?id=581120",
           "source": "Azure Updates",
           "category": "Networking",
-          "published": "Tue, 17 Nov 2026 20:52:28 Z",
+          "published": "Tue, 17 Nov 2026 23:00:02 Z",
           "severity": "INFORMATIONAL",
-          "score": 46.88,
+          "score": 44.67,
+          "also_sources": []
+        },
+        {
+          "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+          "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Tue, 17 Nov 2026 18:04:21 -0500",
+          "severity": "CRITICAL",
+          "score": 104.74,
           "also_sources": []
         },
         {
@@ -998,20 +1020,20 @@
           "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-082",
           "source": "Google Cloud Security Bulletins",
           "category": "Cybersecurity",
-          "published": "2026-11-17T21:13:43.416542+00:00",
+          "published": "2026-11-17T22:03:33.418511+00:00",
           "severity": "HIGH",
-          "score": 90.23,
+          "score": 86.73,
           "also_sources": []
         },
         {
-          "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-          "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-          "source": "BleepingComputer",
+          "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+          "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
           "category": "Cybersecurity",
-          "published": "Tue, 17 Nov 2026 15:51:21 -0500",
-          "severity": "HIGH",
-          "score": 81.86,
+          "published": "2026-11-17 23:53:12.0",
+          "severity": "INFORMATIONAL",
+          "score": 53.55,
           "also_sources": []
         },
         {
@@ -1022,7 +1044,7 @@
           "category": "Cybersecurity",
           "published": "Tue, 17 Nov 2026 20:11:26 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.19,
+          "score": 41.86,
           "also_sources": []
         },
         {
@@ -1033,7 +1055,7 @@
           "category": "Cybersecurity",
           "published": "Wed, 18 Nov 2026 01:04:20 +0530",
           "severity": "INFORMATIONAL",
-          "score": 45.57,
+          "score": 41.24,
           "also_sources": []
         },
         {
@@ -1044,29 +1066,40 @@
           "category": "Cybersecurity",
           "published": "Tue, 17 Nov 2026 19:18:32 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.31,
+          "score": 40.97,
           "also_sources": []
         },
         {
-          "title": "Amazon Bedrock AgentCore Memory now supports short-term memory retention of up to 10 years",
-          "summary": "Amazon Bedrock AgentCore Memory now lets you keep short-term memory events for up to 10 years, up from one year. Developers can now use short-term memory as a long-lived record of agent conversations and interactions. This helps when that history needs to stay available for a long time, such as for compliance and audit, for users who come back after months away, or for agents that need to look back at past sessions. You set retention on the memory resource, and it's applied to each event when th",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-10-year-retention",
+          "title": "Amazon EMR 8.2 is now available",
+          "summary": "Amazon EMR 8.2 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless. This release upgrades Apache Spark to 4.1.3, Apache Iceberg to 1.11.0, and Delta Lake to 4.2.0, and it is designated a Long Term Support (LTS) release. This release makes it easier to run secure, governed analytics at scale — you can now write to the same Delta Lake table on Amazon S3 from multiple clusters concurrently, refresh Iceberg materialized views incrementally, and p",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/",
           "source": "AWS What's New",
           "category": "Cloud",
-          "published": "Tue, 17 Nov 2026 19:22:00 GMT",
+          "published": "Tue, 17 Nov 2026 22:25:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 45.37,
+          "score": 52.08,
           "also_sources": []
         },
         {
-          "title": "Amazon API Gateway REST APIs now support JWT authorizers",
-          "summary": "Amazon API Gateway now offers a native JWT authorizer for REST APIs, a new authorizer type that validates JSON Web Tokens directly in the gateway. Until now, validating tokens from an OpenID Connect or OAuth 2.0 identity provider other than Amazon Cognito required a Lambda authorizer. You now configure token validation instead of writing and operating code for it. You can define one or more issuers, the audiences accepted for each, the signing algorithms you permit, and any additional claims a t",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-rest-authorizers-jwt/",
+          "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+          "summary": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the model (not the model itself) is now my primary constraint in software engineering. In this article, I'll show you how to build and verify those harnesses so you can move from single-turn instructions to durable agentic loops in Google Antigravity . Not all tasks are equal You can cate",
+          "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
+          "source": "Google Cloud Blog",
+          "category": "Cloud",
+          "published": "Wed, 18 Nov 2026 00:11:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.85,
+          "also_sources": []
+        },
+        {
+          "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
+          "summary": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Server",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
           "source": "AWS What's New",
           "category": "Cloud",
-          "published": "Tue, 17 Nov 2026 19:22:00 GMT",
+          "published": "Tue, 17 Nov 2026 22:25:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 45.37,
+          "score": 44.08,
           "also_sources": []
         },
         {
@@ -1077,7 +1110,7 @@
           "category": "Linux",
           "published": "2026-11-17T11:57:34.246-08:00",
           "severity": "INFORMATIONAL",
-          "score": 53.96,
+          "score": 49.63,
           "also_sources": []
         },
         {
@@ -1088,7 +1121,7 @@
           "category": "Linux",
           "published": "2026-11-17T11:12:07.339-08:00",
           "severity": "INFORMATIONAL",
-          "score": 45.2,
+          "score": 40.87,
           "also_sources": []
         },
         {
@@ -1099,7 +1132,7 @@
           "category": "Technology",
           "published": "Wed, 18 Nov 2026 00:00:17 +0500",
           "severity": "INFORMATIONAL",
-          "score": 45.01,
+          "score": 40.67,
           "also_sources": []
         }
       ],
@@ -1113,7 +1146,18 @@
             "category": "Networking",
             "published": "Tue, 17 Nov 2026 14:24:07 -0500",
             "severity": "HIGH",
-            "score": 105.4,
+            "score": 101.07,
+            "also_sources": []
+          },
+          {
+            "title": "FortiADC 7.6.8",
+            "summary": "FortiADC 7.6.8 B0711 and release notes are available for download from the Support site : https://support.fortinet.com",
+            "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+            "source": "Fortinet Firmware Updates",
+            "category": "Networking",
+            "published": "Wed, 18 Nov 2026 00:33:06 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 54.22,
             "also_sources": []
           },
           {
@@ -1124,42 +1168,53 @@
             "category": "Networking",
             "published": "Tue, 17 Nov 2026 20:51:13 Z",
             "severity": "INFORMATIONAL",
-            "score": 54.85,
+            "score": 50.52,
             "also_sources": []
           },
           {
-            "title": "[In preview] Public Preview: Service tags for inbound rules in network security perimeter",
-            "summary": "Announcing the public preview of 'service tags as inbound rules' support for third-party customers in network security perimeter. This new capability simplifies how customers manage access to in network security perimeter-protected resources by allowing t",
-            "url": "https://azure.microsoft.com/updates?id=579201",
+            "title": "[In preview] Public Preview: Pod Sandboxing kata-vm-isolation-v2 runtime class",
+            "summary": "Isolated pods should not force a tradeoff between security and startup performance. With classic sandboxed pod flows, every pod boots a new Kata VM, which adds cold-start latency and extra memory overhead before your app begins work.The new kata-vm-isolat",
+            "url": "https://azure.microsoft.com/updates?id=581120",
             "source": "Azure Updates",
             "category": "Networking",
-            "published": "Tue, 17 Nov 2026 20:52:28 Z",
+            "published": "Tue, 17 Nov 2026 23:00:02 Z",
             "severity": "INFORMATIONAL",
-            "score": 46.88,
+            "score": 44.67,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
+          {
+            "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+            "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Tue, 17 Nov 2026 18:04:21 -0500",
+            "severity": "CRITICAL",
+            "score": 104.74,
+            "also_sources": []
+          },
           {
             "title": "GCP-2026-082",
             "summary": "Published: 2026-11-17 Description Description Severity Notes A remote code execution vulnerability ( CVE-2026-114938 ) was disclosed in OpenJDK 17.0.6 and later (including 17.0.6+, 21.x, 25.x, and 27.x across Eclipse Temurin and other distributions) on x86-64 processors that support AVX-512 VBMI. OpenJDK 8, 11, and 17.0.0 through 17.0.5 are not affected. Workloads running unpatched OpenJDK 17.0.6 or later on Google Cloud (whether self-managed in VMs and containers or running on managed services ",
             "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-082",
             "source": "Google Cloud Security Bulletins",
             "category": "Cybersecurity",
-            "published": "2026-11-17T21:13:43.416542+00:00",
+            "published": "2026-11-17T22:03:33.418511+00:00",
             "severity": "HIGH",
-            "score": 90.23,
+            "score": 86.73,
             "also_sources": []
           },
           {
-            "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-            "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-            "source": "BleepingComputer",
+            "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+            "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate validation. The vulnerabilities pose risks for remote code execution and traffic interception. For more information, see Node.js Security Release . The following vulnerabilities have a Security Impact Rating (SIR) of High and",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
             "category": "Cybersecurity",
-            "published": "Tue, 17 Nov 2026 15:51:21 -0500",
-            "severity": "HIGH",
-            "score": 81.86,
+            "published": "2026-11-17 23:53:12.0",
+            "severity": "INFORMATIONAL",
+            "score": 53.55,
             "also_sources": []
           },
           {
@@ -1170,7 +1225,7 @@
             "category": "Cybersecurity",
             "published": "Tue, 17 Nov 2026 20:11:26 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.19,
+            "score": 41.86,
             "also_sources": []
           },
           {
@@ -1181,7 +1236,7 @@
             "category": "Cybersecurity",
             "published": "Wed, 18 Nov 2026 01:04:20 +0530",
             "severity": "INFORMATIONAL",
-            "score": 45.57,
+            "score": 41.24,
             "also_sources": []
           },
           {
@@ -1192,31 +1247,42 @@
             "category": "Cybersecurity",
             "published": "Tue, 17 Nov 2026 19:18:32 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.31,
+            "score": 40.97,
             "also_sources": []
           }
         ],
         "Cloud": [
           {
-            "title": "Amazon Bedrock AgentCore Memory now supports short-term memory retention of up to 10 years",
-            "summary": "Amazon Bedrock AgentCore Memory now lets you keep short-term memory events for up to 10 years, up from one year. Developers can now use short-term memory as a long-lived record of agent conversations and interactions. This helps when that history needs to stay available for a long time, such as for compliance and audit, for users who come back after months away, or for agents that need to look back at past sessions. You set retention on the memory resource, and it's applied to each event when th",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-bedrock-agentcore-memory-10-year-retention",
+            "title": "Amazon EMR 8.2 is now available",
+            "summary": "Amazon EMR 8.2 is now available with new features across Amazon EMR on EC2, Amazon EMR on EKS, and Amazon EMR Serverless. This release upgrades Apache Spark to 4.1.3, Apache Iceberg to 1.11.0, and Delta Lake to 4.2.0, and it is designated a Long Term Support (LTS) release. This release makes it easier to run secure, governed analytics at scale — you can now write to the same Delta Lake table on Amazon S3 from multiple clusters concurrently, refresh Iceberg materialized views incrementally, and p",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-emr-8.2/",
             "source": "AWS What's New",
             "category": "Cloud",
-            "published": "Tue, 17 Nov 2026 19:22:00 GMT",
+            "published": "Tue, 17 Nov 2026 22:25:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 45.37,
+            "score": 52.08,
             "also_sources": []
           },
           {
-            "title": "Amazon API Gateway REST APIs now support JWT authorizers",
-            "summary": "Amazon API Gateway now offers a native JWT authorizer for REST APIs, a new authorizer type that validates JSON Web Tokens directly in the gateway. Until now, validating tokens from an OpenID Connect or OAuth 2.0 identity provider other than Amazon Cognito required a Lambda authorizer. You now configure token validation instead of writing and operating code for it. You can define one or more issuers, the audiences accepted for each, the signing algorithms you permit, and any additional claims a t",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-api-gateway-rest-authorizers-jwt/",
+            "title": "How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops",
+            "summary": "I watched the discussion on agentic loops grow louder over the past few months. But for me, the reality is simpler: prompt engineering has shifted from individual tasks to systems design, and the harness around the model (not the model itself) is now my primary constraint in software engineering. In this article, I'll show you how to build and verify those harnesses so you can move from single-turn instructions to durable agentic loops in Google Antigravity . Not all tasks are equal You can cate",
+            "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops/",
+            "source": "Google Cloud Blog",
+            "category": "Cloud",
+            "published": "Wed, 18 Nov 2026 00:11:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.85,
+            "also_sources": []
+          },
+          {
+            "title": "Introducing the Apache Spark Optimization Agent for Amazon EMR Serverless",
+            "summary": "Amazon EMR Serverless now offers the Apache Spark optimization agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations in seconds. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and plain-language reasoning behind each suggestion. The agent can analyze a single run or compare it against a known-good baseline to pinpoint what changed. You access it from the EMR Server",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-optimization-agent/",
             "source": "AWS What's New",
             "category": "Cloud",
-            "published": "Tue, 17 Nov 2026 19:22:00 GMT",
+            "published": "Tue, 17 Nov 2026 22:25:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 45.37,
+            "score": 44.08,
             "also_sources": []
           }
         ],
@@ -1229,7 +1295,7 @@
             "category": "Linux",
             "published": "2026-11-17T11:57:34.246-08:00",
             "severity": "INFORMATIONAL",
-            "score": 53.96,
+            "score": 49.63,
             "also_sources": []
           },
           {
@@ -1240,7 +1306,7 @@
             "category": "Linux",
             "published": "2026-11-17T11:12:07.339-08:00",
             "severity": "INFORMATIONAL",
-            "score": 45.2,
+            "score": 40.87,
             "also_sources": []
           }
         ],
@@ -1253,7 +1319,7 @@
             "category": "Technology",
             "published": "Wed, 18 Nov 2026 00:00:17 +0500",
             "severity": "INFORMATIONAL",
-            "score": 45.01,
+            "score": 40.67,
             "also_sources": []
           }
         ]

@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-19T18:35:48.027430+00:00",
-  "latest_date": "2026-11-19",
+  "generated_utc": "2026-11-19T21:46:13.837599+00:00",
+  "latest_date": "2026-11-20",
   "available_dates": [
+    "2026-11-20",
     "2026-11-19",
     "2026-11-18",
     "2026-11-17",
@@ -1872,6 +1873,223 @@
             "published": "2026-11-18T14:00:00.000-08:00",
             "severity": "INFORMATIONAL",
             "score": 35.4,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-20": {
+      "date": "2026-11-20",
+      "generated_utc": "2026-11-19T21:46:13.837592+00:00",
+      "story_count": 9,
+      "source_count": 7,
+      "stories": [
+        {
+          "title": "Amazon Route 53 now supports health checks for private endpoints",
+          "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to use native health monitoring and automatic DNS failover. Customers can health-check any reachable private target by IP address, domain, or port over HTTP, HTTPS, or TCP. Customers can associate these health checks with Route 53 DNS records across routin",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+          "source": "AWS What's New",
+          "category": "Networking",
+          "published": "Thu, 19 Nov 2026 19:50:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 46.06,
+          "also_sources": []
+        },
+        {
+          "title": "NCCIA claims uncovering network allegedly involved in up to Rs1tr betting, money laundering",
+          "summary": "KARACHI: The National Cyber Crime Investigation Agency (NCCIA) on Thursday claimed to have uncovered an extensive alleged financial network involved in illegal online betting and gambling, fraudulent business operations and suspected money laundering, with an estimated transaction exposure of up to approximately Rs1 trillion. Speaking at a press conference at his office, Karachi NCCIA Additional Director Shahzad Akbar said the investigation was initiated after suspicious financial activities wer",
+          "url": "https://www.dawn.com/news/2045716/nccia-claims-uncovering-network-allegedly-involved-in-up-to-rs1tr-betting-money-laundering",
+          "source": "Dawn Technology",
+          "category": "Networking",
+          "published": "Fri, 20 Nov 2026 00:32:27 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 45.77,
+          "also_sources": []
+        },
+        {
+          "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+          "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-19 20:22:53.0",
+          "severity": "HIGH",
+          "score": 89.61,
+          "also_sources": []
+        },
+        {
+          "title": "GCP-2026-084",
+          "summary": "Published: 2026-11-19 Description Description Severity Notes A path traversal vulnerability in workspace directory handling and Git integration was discovered in Dataform, BigQuery Studio, and Colab Enterprise. What should I do? No customer action is required. This vulnerability was patched on October 10, 2026. What vulnerabilities are being addressed? An authenticated remote attacker could read private files and create arbitrary files across tenant repositories. Critical CVE-2026-126054",
+          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-084",
+          "source": "Google Cloud Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "2026-11-19T20:20:26.759495+00:00",
+          "severity": "HIGH",
+          "score": 89.57,
+          "also_sources": []
+        },
+        {
+          "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+          "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 16:15:59 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 55.5,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9176-1: Ruby vulnerabilities",
+          "summary": "Stephan Lipp discovered that Ruby incorrectly handled converting the case of certain strings. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (GHSA-34m4-m9fh-gqp5) Owais Lone discovered that Ruby incorrectly handled compiling certain large regular expressions. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (GHSA-3p8q-wmhx-vm2w) Stephan Lipp discovered that Ruby incorrectly handled converting cert",
+          "url": "https://ubuntu.com/security/notices/USN-9176-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 20:07:34 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 46.36,
+          "also_sources": []
+        },
+        {
+          "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
+          "summary": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zones b",
+          "url": "https://azure.microsoft.com/updates?id=581254",
+          "source": "Azure Updates",
+          "category": "Cloud",
+          "published": "Thu, 19 Nov 2026 20:34:19 Z",
+          "severity": "INFORMATIONAL",
+          "score": 46.8,
+          "also_sources": []
+        },
+        {
+          "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
+          "summary": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You share your requirement once, and agent mode applies them as it guides you through discovery, purchase, and deployment. Describe your use case in natural language to get recommended software, services, AI agents and tools, and multi-product solutions that fit your business needs. To assess a seller's sec",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Thu, 19 Nov 2026 20:00:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 46.23,
+          "also_sources": []
+        },
+        {
+          "title": "Silicon Valley elites 'bankrolled' news platform Visegrad24 publishing pro-Israel content: report",
+          "summary": "An extensive investigation by American magazine Wired revealed on Thursday how an “anti-migrant, pro-Israel propaganda machine” took form and gained traction via bankrolling by Silicon Valley elites. The investigative report, published by Wired on Thursday morning, detailed the rise of the Polish right-wing news media platform Visegrad24 and how its founder, Stefan Tompson, deliberately engineered a pro-Israel editorial stance to make money from influential supporters, rapidly coming to “dominat",
+          "url": "https://www.dawn.com/news/2045708/silicon-valley-elites-bankrolled-news-platform-visegrad24-publishing-pro-israel-content-report",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Fri, 20 Nov 2026 01:04:03 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 46.3,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "Amazon Route 53 now supports health checks for private endpoints",
+            "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to use native health monitoring and automatic DNS failover. Customers can health-check any reachable private target by IP address, domain, or port over HTTP, HTTPS, or TCP. Customers can associate these health checks with Route 53 DNS records across routin",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+            "source": "AWS What's New",
+            "category": "Networking",
+            "published": "Thu, 19 Nov 2026 19:50:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 46.06,
+            "also_sources": []
+          },
+          {
+            "title": "NCCIA claims uncovering network allegedly involved in up to Rs1tr betting, money laundering",
+            "summary": "KARACHI: The National Cyber Crime Investigation Agency (NCCIA) on Thursday claimed to have uncovered an extensive alleged financial network involved in illegal online betting and gambling, fraudulent business operations and suspected money laundering, with an estimated transaction exposure of up to approximately Rs1 trillion. Speaking at a press conference at his office, Karachi NCCIA Additional Director Shahzad Akbar said the investigation was initiated after suspicious financial activities wer",
+            "url": "https://www.dawn.com/news/2045716/nccia-claims-uncovering-network-allegedly-involved-in-up-to-rs1tr-betting-money-laundering",
+            "source": "Dawn Technology",
+            "category": "Networking",
+            "published": "Fri, 20 Nov 2026 00:32:27 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 45.77,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+            "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-19 20:22:53.0",
+            "severity": "HIGH",
+            "score": 89.61,
+            "also_sources": []
+          },
+          {
+            "title": "GCP-2026-084",
+            "summary": "Published: 2026-11-19 Description Description Severity Notes A path traversal vulnerability in workspace directory handling and Git integration was discovered in Dataform, BigQuery Studio, and Colab Enterprise. What should I do? No customer action is required. This vulnerability was patched on October 10, 2026. What vulnerabilities are being addressed? An authenticated remote attacker could read private files and create arbitrary files across tenant repositories. Critical CVE-2026-126054",
+            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-084",
+            "source": "Google Cloud Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "2026-11-19T20:20:26.759495+00:00",
+            "severity": "HIGH",
+            "score": 89.57,
+            "also_sources": []
+          },
+          {
+            "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+            "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 16:15:59 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 55.5,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9176-1: Ruby vulnerabilities",
+            "summary": "Stephan Lipp discovered that Ruby incorrectly handled converting the case of certain strings. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (GHSA-34m4-m9fh-gqp5) Owais Lone discovered that Ruby incorrectly handled compiling certain large regular expressions. An attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (GHSA-3p8q-wmhx-vm2w) Stephan Lipp discovered that Ruby incorrectly handled converting cert",
+            "url": "https://ubuntu.com/security/notices/USN-9176-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 20:07:34 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 46.36,
+            "also_sources": []
+          }
+        ],
+        "Cloud": [
+          {
+            "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
+            "summary": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zones b",
+            "url": "https://azure.microsoft.com/updates?id=581254",
+            "source": "Azure Updates",
+            "category": "Cloud",
+            "published": "Thu, 19 Nov 2026 20:34:19 Z",
+            "severity": "INFORMATIONAL",
+            "score": 46.8,
+            "also_sources": []
+          },
+          {
+            "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
+            "summary": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You share your requirement once, and agent mode applies them as it guides you through discovery, purchase, and deployment. Describe your use case in natural language to get recommended software, services, AI agents and tools, and multi-product solutions that fit your business needs. To assess a seller's sec",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Thu, 19 Nov 2026 20:00:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 46.23,
+            "also_sources": []
+          }
+        ],
+        "Technology": [
+          {
+            "title": "Silicon Valley elites 'bankrolled' news platform Visegrad24 publishing pro-Israel content: report",
+            "summary": "An extensive investigation by American magazine Wired revealed on Thursday how an “anti-migrant, pro-Israel propaganda machine” took form and gained traction via bankrolling by Silicon Valley elites. The investigative report, published by Wired on Thursday morning, detailed the rise of the Polish right-wing news media platform Visegrad24 and how its founder, Stefan Tompson, deliberately engineered a pro-Israel editorial stance to make money from influential supporters, rapidly coming to “dominat",
+            "url": "https://www.dawn.com/news/2045708/silicon-valley-elites-bankrolled-news-platform-visegrad24-publishing-pro-israel-content-report",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Fri, 20 Nov 2026 01:04:03 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 46.3,
             "also_sources": []
           }
         ]

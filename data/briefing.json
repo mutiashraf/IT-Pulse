@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-19T09:11:18.444087+00:00",
+  "generated_utc": "2026-11-19T18:35:48.027430+00:00",
   "latest_date": "2026-11-19",
   "available_dates": [
     "2026-11-19",
@@ -1353,30 +1353,85 @@
     },
     "2026-11-19": {
       "date": "2026-11-19",
-      "generated_utc": "2026-11-19T09:11:18.444078+00:00",
-      "story_count": 16,
-      "source_count": 10,
+      "generated_utc": "2026-11-19T18:35:48.027412+00:00",
+      "story_count": 23,
+      "source_count": 15,
       "stories": [
         {
-          "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-          "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-          "source": "BleepingComputer",
-          "category": "Cybersecurity",
-          "published": "Wed, 18 Nov 2026 18:08:33 -0500",
-          "severity": "CRITICAL",
-          "score": 122.95,
+          "title": "Amazon Aurora DSQL now supports multi-Region peering across continents",
+          "summary": "Amazon Aurora DSQL now lets you create multi-Region clusters whose Regions are on different continents, such as US East (N. Virginia) and Europe (Ireland). Until now, the Regions in a multi-Region cluster had to be in the same geographic Region set. With intercontinental multi-Region clusters, applications on two continents read and write to one strongly consistent database. If a Region becomes unavailable, committed writes are preserved and applications keep reading and writing in the other Reg",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/",
+          "source": "AWS What's New",
+          "category": "Networking",
+          "published": "Thu, 19 Nov 2026 15:56:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 45.34,
           "also_sources": []
         },
         {
-          "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-          "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-          "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+          "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+          "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+          "source": "BleepingComputer",
+          "category": "Networking",
+          "published": "Thu, 19 Nov 2026 06:46:00 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 41.17,
+          "also_sources": []
+        },
+        {
+          "title": "ARMORY CASTLE Exploits vSphere",
+          "summary": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
+          "source": "Google Cloud Blog",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 14:00:00 +0000",
+          "severity": "CRITICAL",
+          "score": 136.4,
+          "also_sources": []
+        },
+        {
+          "title": "Five warning signs of ransomware breach before encryption or data theft",
+          "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 10:00:10 -0500",
+          "severity": "CRITICAL",
+          "score": 129.41,
+          "also_sources": []
+        },
+        {
+          "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -",
+          "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
           "source": "The Hacker News",
           "category": "Cybersecurity",
-          "published": "Thu, 19 Nov 2026 10:03:46 +0530",
+          "published": "Thu, 19 Nov 2026 13:30:00 +0530",
+          "severity": "CRITICAL",
+          "score": 122.4,
+          "also_sources": []
+        },
+        {
+          "title": "GCP-2026-084",
+          "summary": "Published: 2026-11-19 Description Description Severity Notes A path traversal vulnerability in workspace directory handling and Git integration was discovered in Dataform, BigQuery Studio, and Colab Enterprise. What should I do? No customer action is required. This vulnerability was patched on October 10, 2026. What vulnerabilities are being addressed? An authenticated remote attacker could read private files and create arbitrary files across tenant repositories. Critical CVE-2026-126054",
+          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-084",
+          "source": "Google Cloud Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "2026-11-19T16:48:09.815693+00:00",
           "severity": "HIGH",
-          "score": 86.37,
+          "score": 89.21,
+          "also_sources": []
+        },
+        {
+          "title": "Elecbrakes EB2, VM1, ELBC2000",
+          "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of Elecbrakes EB2, VM1, ELBC2000 are affected: EB2 <=3.0.4.2.0 (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805) ELBC2000 vers:all/* (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805) VM1 <1.3.4.2.1 (CVE-2026-124281, CVE-20",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+          "source": "CISA Advisories",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 26 12:00:00 +0000",
+          "severity": "HIGH",
+          "score": 76.4,
           "also_sources": []
         },
         {
@@ -1387,18 +1442,29 @@
           "category": "Cybersecurity",
           "published": "2026-11-18 21:16:38.0",
           "severity": "HIGH",
-          "score": 79.09,
+          "score": 69.68,
           "also_sources": []
         },
         {
-          "title": "USN-9159-1: nginx vulnerabilities",
-          "summary": "Stephen Fewer and Tomer Schwartz discovered that nginx did not correctly handle certain memory operations. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. (CVE-2026-123007) Albert Ebb Metnir and Nir Ohfeld discovered that nginx did not correctly handle certain reusable HTTP/2 connections. A re",
-          "url": "https://ubuntu.com/security/notices/USN-9159-1",
+          "title": "USN-9175-1: Linux kernel (Oracle) vulnerabilities",
+          "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Intel NPU Driver; - Compute Acceleration Framework; - ACPI drivers; - Drivers core; - Ublk userspace block drive",
+          "url": "https://ubuntu.com/security/notices/USN-9175-1",
           "source": "Ubuntu Security Notices",
           "category": "Cybersecurity",
-          "published": "Thu, 19 Nov 2026 05:21:17 +0000",
+          "published": "Thu, 19 Nov 2026 15:43:10 +0000",
           "severity": "INFORMATIONAL",
-          "score": 44.17,
+          "score": 45.12,
+          "also_sources": []
+        },
+        {
+          "title": "PHP2Shell Remote Code Execution Vulnerabilities",
+          "summary": "Successful exploitation could allow attackers to execute arbitrary code within the PHP application process, potentially compromising the affected server and exposing sensitive data, application files, or connected databases, depending on the process privileges and system configuration. FortiGuard Labs is monitoring the PHP2Shell vulnerabilities and related threat activity. Updates will be provided as new threat intelligence emerges and additional protections become available. Organizations are a",
+          "url": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+          "source": "Fortinet Outbreak Alerts",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 00:00:00 -0800",
+          "severity": "INFORMATIONAL",
+          "score": 37.4,
           "also_sources": []
         },
         {
@@ -1409,7 +1475,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-18T21:16:06.168-08:00",
           "severity": "INFORMATIONAL",
-          "score": 44.08,
+          "score": 34.67,
           "also_sources": []
         },
         {
@@ -1420,40 +1486,73 @@
           "category": "Cybersecurity",
           "published": "Thu, 19 Nov 2026 03:02:28 +0000",
           "severity": "INFORMATIONAL",
-          "score": 41.85,
+          "score": 32.44,
           "also_sources": []
         },
         {
-          "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-          "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-          "source": "BleepingComputer",
-          "category": "Cybersecurity",
-          "published": "Wed, 18 Nov 2026 14:39:33 -0500",
-          "severity": "INFORMATIONAL",
-          "score": 59.47,
-          "also_sources": []
-        },
-        {
-          "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-          "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
-          "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+          "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+          "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+          "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
           "source": "The Hacker News",
           "category": "Cybersecurity",
-          "published": "Thu, 19 Nov 2026 13:44:00 +0530",
-          "severity": "INFORMATIONAL",
-          "score": 47.04,
+          "published": "Thu, 19 Nov 2026 20:03:06 +0530",
+          "severity": "CRITICAL",
+          "score": 111.96,
           "also_sources": []
         },
         {
-          "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
-          "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
-          "url": "https://ubuntu.com/security/notices/USN-9158-1",
+          "title": "libumqtt",
+          "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libumqtt 1 Vulnerability Integer Underflow (Wrap or Wraparound) Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Information Technology, Transportation Systems, Water and Wastewater",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+          "source": "CISA Advisories",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 26 12:00:00 +0000",
+          "severity": "HIGH",
+          "score": 76.4,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9173-1: Linux kernel vulnerabilities",
+          "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Intel NPU Driver; - Compute Acceleration Framework; - ACPI drivers; - Drivers core; - Ublk ",
+          "url": "https://ubuntu.com/security/notices/USN-9173-1",
           "source": "Ubuntu Security Notices",
           "category": "Cybersecurity",
-          "published": "Wed, 18 Nov 2026 22:13:47 +0000",
+          "published": "Thu, 19 Nov 2026 15:13:04 +0000",
           "severity": "INFORMATIONAL",
-          "score": 37.04,
+          "score": 44.62,
+          "also_sources": []
+        },
+        {
+          "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+          "summary": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configuration,",
+          "url": "https://azure.microsoft.com/updates?id=579579",
+          "source": "Azure Updates",
+          "category": "Cloud",
+          "published": "Thu, 19 Nov 2026 17:25:28 Z",
+          "severity": "INFORMATIONAL",
+          "score": 46.83,
+          "also_sources": []
+        },
+        {
+          "title": "Helping our partners market smarter, together, with Gemini",
+          "summary": "At Google Cloud, our commitment to agentic transformation extends to everyone, including the partners who build and grow alongside us. Today, we are excited to introduce new Gemini-powered co-marketing capabilities directly within everyday go-to-market workflows for our partners. These new features enable partners to produce customized, brand-aligned joint assets in minutes, scaling campaign execution and driving pipeline more effectively. From marketing together to innovating together: Scaling ",
+          "url": "https://cloud.google.com/blog/topics/partners/helping-our-partners-market-smarter-together-with-gemini/",
+          "source": "Google Cloud Blog",
+          "category": "Cloud",
+          "published": "Thu, 19 Nov 2026 17:00:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 46.4,
+          "also_sources": []
+        },
+        {
+          "title": "AWS Marketplace now supports buyer approval workflows",
+          "summary": "Today, AWS Marketplace announces the general availability of buyer approvals. This lets you decide which AWS Marketplace purchases need sign-off, who approves them, and where approval happens. You can define buying policies for the conditions that matter to you, such as purchase amount, product type, pricing, and whether an offer is public or private. Additionally, you can choose to route each purchase request to the right place: the AWS Marketplace console, a chain of approvers by email, or you",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-buyer-approvals/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Thu, 19 Nov 2026 08:00:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 45.4,
           "also_sources": []
         },
         {
@@ -1464,18 +1563,18 @@
           "category": "Cloud",
           "published": "Thu, 19 Nov 2026 11:36:03 +0500",
           "severity": "INFORMATIONAL",
-          "score": 53.41,
+          "score": 44.0,
           "also_sources": []
         },
         {
-          "title": "Amazon OpenSearch Memory is now generally available",
-          "summary": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives useful memories, and retrieves relevant context across sessions, so agents can recall prior decisions, earlier interactions, and user preferences without replaying the full conversation history to the model. Customers can give agents long-term memory ",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
-          "source": "AWS What's New",
+          "title": "November 19, 2026",
+          "summary": "Cloud Load Balancing Feature The DENY_BY_DEFAULT action for authorization policies is generally available (GA) for regional external Application Load Balancers, regional internal Application Load Balancers, and cross-region internal Application Load Balancers. Attaching a DENY_BY_DEFAULT authorization policy to a load balancer's forwarding rule establishes a deny-by-default security baseline that blocks all requests unless they are explicitly permitted by a separate ALLOW or CUSTOM authorization",
+          "url": "https://docs.cloud.google.com/release-notes#November_19_2026",
+          "source": "Google Cloud Release Notes",
           "category": "Cloud",
-          "published": "Wed, 18 Nov 2026 21:09:00 GMT",
+          "published": "2026-11-19T00:00:00-08:00",
           "severity": "INFORMATIONAL",
-          "score": 43.96,
+          "score": 37.4,
           "also_sources": []
         },
         {
@@ -1486,29 +1585,7 @@
           "category": "Cloud",
           "published": "Wed, 18 Nov 2026 19:39:07 +0000",
           "severity": "INFORMATIONAL",
-          "score": 34.46,
-          "also_sources": []
-        },
-        {
-          "title": "Introducing the Apache Spark Optimization Agent for AWS Glue ETL",
-          "summary": "AWS Glue ETL now offers the Apache Spark Optimization Agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations within minutes. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and reasoning behind each suggestion. You can use the agent on any completed job run from the AWS Glue console, or from your own tools through the Amazon SageMaker Unified Studio MCP Server. The a",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
-          "source": "AWS What's New",
-          "category": "Cloud",
-          "published": "Wed, 18 Nov 2026 20:00:00 GMT",
-          "severity": "INFORMATIONAL",
-          "score": 34.81,
-          "also_sources": []
-        },
-        {
-          "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
-          "summary": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to retire, too complex and costly to rewrite—yet unequipped for the security challenges and productivity opportunities of the AI era. That doesn’t have to block your modernization strategy. By delivering Windows and legacy applications directly inside the Chrome browser, Cameyo by Googl",
-          "url": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
-          "source": "Google Cloud Blog",
-          "category": "Microsoft",
-          "published": "Wed, 18 Nov 2026 21:36:00 +0000",
-          "severity": "INFORMATIONAL",
-          "score": 36.41,
+          "score": 25.06,
           "also_sources": []
         },
         {
@@ -1519,7 +1596,7 @@
           "category": "AI",
           "published": "Thu, 19 Nov 2026 10:46:32 +0500",
           "severity": "INFORMATIONAL",
-          "score": 44.59,
+          "score": 35.18,
           "also_sources": []
         },
         {
@@ -1530,32 +1607,89 @@
           "category": "Systems",
           "published": "2026-11-18T14:00:00.000-08:00",
           "severity": "INFORMATIONAL",
-          "score": 44.81,
+          "score": 35.4,
           "also_sources": []
         }
       ],
       "sections": {
-        "Cybersecurity": [
+        "Networking": [
           {
-            "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-            "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-            "source": "BleepingComputer",
-            "category": "Cybersecurity",
-            "published": "Wed, 18 Nov 2026 18:08:33 -0500",
-            "severity": "CRITICAL",
-            "score": 122.95,
+            "title": "Amazon Aurora DSQL now supports multi-Region peering across continents",
+            "summary": "Amazon Aurora DSQL now lets you create multi-Region clusters whose Regions are on different continents, such as US East (N. Virginia) and Europe (Ireland). Until now, the Regions in a multi-Region cluster had to be in the same geographic Region set. With intercontinental multi-Region clusters, applications on two continents read and write to one strongly consistent database. If a Region becomes unavailable, committed writes are preserved and applications keep reading and writing in the other Reg",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aurora-dsql-intercontinental-multi-region-clusters/",
+            "source": "AWS What's New",
+            "category": "Networking",
+            "published": "Thu, 19 Nov 2026 15:56:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 45.34,
             "also_sources": []
           },
           {
-            "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-            "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-            "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+            "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+            "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
+            "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+            "source": "BleepingComputer",
+            "category": "Networking",
+            "published": "Thu, 19 Nov 2026 06:46:00 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 41.17,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "ARMORY CASTLE Exploits vSphere",
+            "summary": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’",
+            "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
+            "source": "Google Cloud Blog",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 14:00:00 +0000",
+            "severity": "CRITICAL",
+            "score": 136.4,
+            "also_sources": []
+          },
+          {
+            "title": "Five warning signs of ransomware breach before encryption or data theft",
+            "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 10:00:10 -0500",
+            "severity": "CRITICAL",
+            "score": 129.41,
+            "also_sources": []
+          },
+          {
+            "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -",
+            "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
             "source": "The Hacker News",
             "category": "Cybersecurity",
-            "published": "Thu, 19 Nov 2026 10:03:46 +0530",
+            "published": "Thu, 19 Nov 2026 13:30:00 +0530",
+            "severity": "CRITICAL",
+            "score": 122.4,
+            "also_sources": []
+          },
+          {
+            "title": "GCP-2026-084",
+            "summary": "Published: 2026-11-19 Description Description Severity Notes A path traversal vulnerability in workspace directory handling and Git integration was discovered in Dataform, BigQuery Studio, and Colab Enterprise. What should I do? No customer action is required. This vulnerability was patched on October 10, 2026. What vulnerabilities are being addressed? An authenticated remote attacker could read private files and create arbitrary files across tenant repositories. Critical CVE-2026-126054",
+            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-084",
+            "source": "Google Cloud Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "2026-11-19T16:48:09.815693+00:00",
             "severity": "HIGH",
-            "score": 86.37,
+            "score": 89.21,
+            "also_sources": []
+          },
+          {
+            "title": "Elecbrakes EB2, VM1, ELBC2000",
+            "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of Elecbrakes EB2, VM1, ELBC2000 are affected: EB2 <=3.0.4.2.0 (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805) ELBC2000 vers:all/* (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805) VM1 <1.3.4.2.1 (CVE-2026-124281, CVE-20",
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+            "source": "CISA Advisories",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 26 12:00:00 +0000",
+            "severity": "HIGH",
+            "score": 76.4,
             "also_sources": []
           },
           {
@@ -1566,18 +1700,29 @@
             "category": "Cybersecurity",
             "published": "2026-11-18 21:16:38.0",
             "severity": "HIGH",
-            "score": 79.09,
+            "score": 69.68,
             "also_sources": []
           },
           {
-            "title": "USN-9159-1: nginx vulnerabilities",
-            "summary": "Stephen Fewer and Tomer Schwartz discovered that nginx did not correctly handle certain memory operations. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. (CVE-2026-123007) Albert Ebb Metnir and Nir Ohfeld discovered that nginx did not correctly handle certain reusable HTTP/2 connections. A re",
-            "url": "https://ubuntu.com/security/notices/USN-9159-1",
+            "title": "USN-9175-1: Linux kernel (Oracle) vulnerabilities",
+            "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Intel NPU Driver; - Compute Acceleration Framework; - ACPI drivers; - Drivers core; - Ublk userspace block drive",
+            "url": "https://ubuntu.com/security/notices/USN-9175-1",
             "source": "Ubuntu Security Notices",
             "category": "Cybersecurity",
-            "published": "Thu, 19 Nov 2026 05:21:17 +0000",
+            "published": "Thu, 19 Nov 2026 15:43:10 +0000",
             "severity": "INFORMATIONAL",
-            "score": 44.17,
+            "score": 45.12,
+            "also_sources": []
+          },
+          {
+            "title": "PHP2Shell Remote Code Execution Vulnerabilities",
+            "summary": "Successful exploitation could allow attackers to execute arbitrary code within the PHP application process, potentially compromising the affected server and exposing sensitive data, application files, or connected databases, depending on the process privileges and system configuration. FortiGuard Labs is monitoring the PHP2Shell vulnerabilities and related threat activity. Updates will be provided as new threat intelligence emerges and additional protections become available. Organizations are a",
+            "url": "https://fortiguard.fortinet.com/outbreak-alert/php2shell",
+            "source": "Fortinet Outbreak Alerts",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 00:00:00 -0800",
+            "severity": "INFORMATIONAL",
+            "score": 37.4,
             "also_sources": []
           },
           {
@@ -1588,7 +1733,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-18T21:16:06.168-08:00",
             "severity": "INFORMATIONAL",
-            "score": 44.08,
+            "score": 34.67,
             "also_sources": []
           },
           {
@@ -1599,44 +1744,77 @@
             "category": "Cybersecurity",
             "published": "Thu, 19 Nov 2026 03:02:28 +0000",
             "severity": "INFORMATIONAL",
-            "score": 41.85,
+            "score": 32.44,
             "also_sources": []
           },
           {
-            "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-            "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-            "source": "BleepingComputer",
-            "category": "Cybersecurity",
-            "published": "Wed, 18 Nov 2026 14:39:33 -0500",
-            "severity": "INFORMATIONAL",
-            "score": 59.47,
-            "also_sources": []
-          },
-          {
-            "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-            "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
-            "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+            "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+            "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+            "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
             "source": "The Hacker News",
             "category": "Cybersecurity",
-            "published": "Thu, 19 Nov 2026 13:44:00 +0530",
-            "severity": "INFORMATIONAL",
-            "score": 47.04,
+            "published": "Thu, 19 Nov 2026 20:03:06 +0530",
+            "severity": "CRITICAL",
+            "score": 111.96,
             "also_sources": []
           },
           {
-            "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
-            "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
-            "url": "https://ubuntu.com/security/notices/USN-9158-1",
+            "title": "libumqtt",
+            "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libumqtt 1 Vulnerability Integer Underflow (Wrap or Wraparound) Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Information Technology, Transportation Systems, Water and Wastewater",
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+            "source": "CISA Advisories",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 26 12:00:00 +0000",
+            "severity": "HIGH",
+            "score": 76.4,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9173-1: Linux kernel vulnerabilities",
+            "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Intel NPU Driver; - Compute Acceleration Framework; - ACPI drivers; - Drivers core; - Ublk ",
+            "url": "https://ubuntu.com/security/notices/USN-9173-1",
             "source": "Ubuntu Security Notices",
             "category": "Cybersecurity",
-            "published": "Wed, 18 Nov 2026 22:13:47 +0000",
+            "published": "Thu, 19 Nov 2026 15:13:04 +0000",
             "severity": "INFORMATIONAL",
-            "score": 37.04,
+            "score": 44.62,
             "also_sources": []
           }
         ],
         "Cloud": [
+          {
+            "title": "[In preview] Public Preview: Database Agent for Azure Database for PostgreSQL",
+            "summary": "Database Agent helps you detect, understand, and respond to database health and performance issues more quickly in Azure Database for PostgreSQL. It proactively monitors database health to identify issues, brings together database metrics, configuration,",
+            "url": "https://azure.microsoft.com/updates?id=579579",
+            "source": "Azure Updates",
+            "category": "Cloud",
+            "published": "Thu, 19 Nov 2026 17:25:28 Z",
+            "severity": "INFORMATIONAL",
+            "score": 46.83,
+            "also_sources": []
+          },
+          {
+            "title": "Helping our partners market smarter, together, with Gemini",
+            "summary": "At Google Cloud, our commitment to agentic transformation extends to everyone, including the partners who build and grow alongside us. Today, we are excited to introduce new Gemini-powered co-marketing capabilities directly within everyday go-to-market workflows for our partners. These new features enable partners to produce customized, brand-aligned joint assets in minutes, scaling campaign execution and driving pipeline more effectively. From marketing together to innovating together: Scaling ",
+            "url": "https://cloud.google.com/blog/topics/partners/helping-our-partners-market-smarter-together-with-gemini/",
+            "source": "Google Cloud Blog",
+            "category": "Cloud",
+            "published": "Thu, 19 Nov 2026 17:00:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 46.4,
+            "also_sources": []
+          },
+          {
+            "title": "AWS Marketplace now supports buyer approval workflows",
+            "summary": "Today, AWS Marketplace announces the general availability of buyer approvals. This lets you decide which AWS Marketplace purchases need sign-off, who approves them, and where approval happens. You can define buying policies for the conditions that matter to you, such as purchase amount, product type, pricing, and whether an offer is public or private. Additionally, you can choose to route each purchase request to the right place: the AWS Marketplace console, a chain of approvers by email, or you",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/marketplace-buyer-approvals/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Thu, 19 Nov 2026 08:00:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 45.4,
+            "also_sources": []
+          },
           {
             "title": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
             "summary": "After 13 years and an estimated $1 billion or more in production costs, “ Grand Theft Auto VI ” rolled out across the globe on Thursday, gaining rapturous early reviews for the most anticipated video game release in history. The game, which could bring in billions of dollars for its developer, Take-Two Interactive’s studio Rockstar Games, raced to the top of Metacritic’s all-time gaming leaderboard with a score of 99, a mark matched by only one other title, Nintendo’s 1998 classic “The Legend of",
@@ -1645,18 +1823,18 @@
             "category": "Cloud",
             "published": "Thu, 19 Nov 2026 11:36:03 +0500",
             "severity": "INFORMATIONAL",
-            "score": 53.41,
+            "score": 44.0,
             "also_sources": []
           },
           {
-            "title": "Amazon OpenSearch Memory is now generally available",
-            "summary": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives useful memories, and retrieves relevant context across sessions, so agents can recall prior decisions, earlier interactions, and user preferences without replaying the full conversation history to the model. Customers can give agents long-term memory ",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
-            "source": "AWS What's New",
+            "title": "November 19, 2026",
+            "summary": "Cloud Load Balancing Feature The DENY_BY_DEFAULT action for authorization policies is generally available (GA) for regional external Application Load Balancers, regional internal Application Load Balancers, and cross-region internal Application Load Balancers. Attaching a DENY_BY_DEFAULT authorization policy to a load balancer's forwarding rule establishes a deny-by-default security baseline that blocks all requests unless they are explicitly permitted by a separate ALLOW or CUSTOM authorization",
+            "url": "https://docs.cloud.google.com/release-notes#November_19_2026",
+            "source": "Google Cloud Release Notes",
             "category": "Cloud",
-            "published": "Wed, 18 Nov 2026 21:09:00 GMT",
+            "published": "2026-11-19T00:00:00-08:00",
             "severity": "INFORMATIONAL",
-            "score": 43.96,
+            "score": 37.4,
             "also_sources": []
           },
           {
@@ -1667,31 +1845,7 @@
             "category": "Cloud",
             "published": "Wed, 18 Nov 2026 19:39:07 +0000",
             "severity": "INFORMATIONAL",
-            "score": 34.46,
-            "also_sources": []
-          },
-          {
-            "title": "Introducing the Apache Spark Optimization Agent for AWS Glue ETL",
-            "summary": "AWS Glue ETL now offers the Apache Spark Optimization Agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations within minutes. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and reasoning behind each suggestion. You can use the agent on any completed job run from the AWS Glue console, or from your own tools through the Amazon SageMaker Unified Studio MCP Server. The a",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
-            "source": "AWS What's New",
-            "category": "Cloud",
-            "published": "Wed, 18 Nov 2026 20:00:00 GMT",
-            "severity": "INFORMATIONAL",
-            "score": 34.81,
-            "also_sources": []
-          }
-        ],
-        "Microsoft": [
-          {
-            "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
-            "summary": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to retire, too complex and costly to rewrite—yet unequipped for the security challenges and productivity opportunities of the AI era. That doesn’t have to block your modernization strategy. By delivering Windows and legacy applications directly inside the Chrome browser, Cameyo by Googl",
-            "url": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
-            "source": "Google Cloud Blog",
-            "category": "Microsoft",
-            "published": "Wed, 18 Nov 2026 21:36:00 +0000",
-            "severity": "INFORMATIONAL",
-            "score": 36.41,
+            "score": 25.06,
             "also_sources": []
           }
         ],
@@ -1704,7 +1858,7 @@
             "category": "AI",
             "published": "Thu, 19 Nov 2026 10:46:32 +0500",
             "severity": "INFORMATIONAL",
-            "score": 44.59,
+            "score": 35.18,
             "also_sources": []
           }
         ],
@@ -1717,7 +1871,7 @@
             "category": "Systems",
             "published": "2026-11-18T14:00:00.000-08:00",
             "severity": "INFORMATIONAL",
-            "score": 44.81,
+            "score": 35.4,
             "also_sources": []
           }
         ]

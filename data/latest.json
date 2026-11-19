@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-19T01:08:14.520578+00:00",
+  "updated_utc": "2026-11-19T09:11:18.408043+00:00",
   "alerts": [
+    {
+      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
+      "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Thu, 19 Nov 2026 10:03:46 +0530",
+      "severity": "HIGH",
+      "score": 86.47,
+      "also_sources": []
+    },
     {
       "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
       "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
@@ -1089,20 +1100,7 @@
       "severity": "HIGH",
       "score": 82.04,
       "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126895: Use after free",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126895",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
     }
   ],
-  "source_failures": [
-    "Google Cloud Blog"
-  ]
+  "source_failures": []
 }

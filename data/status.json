@@ -1,10 +1,8 @@
 {
-  "last_monitor_utc": "2026-11-19T01:08:14.553005+00:00",
-  "source_failures": [
-    "Google Cloud Blog"
-  ],
-  "stories_checked": 4647,
-  "new_alerts_sent": 3,
-  "daily_stories": 10,
-  "daily_sources": 7
+  "last_monitor_utc": "2026-11-19T09:11:18.446206+00:00",
+  "source_failures": [],
+  "stories_checked": 4666,
+  "new_alerts_sent": 1,
+  "daily_stories": 16,
+  "daily_sources": 10
 }

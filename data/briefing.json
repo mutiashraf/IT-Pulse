@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-19T01:08:14.551115+00:00",
+  "generated_utc": "2026-11-19T09:11:18.444087+00:00",
   "latest_date": "2026-11-19",
   "available_dates": [
     "2026-11-19",
@@ -1353,9 +1353,9 @@
     },
     "2026-11-19": {
       "date": "2026-11-19",
-      "generated_utc": "2026-11-19T01:08:14.551106+00:00",
-      "story_count": 10,
-      "source_count": 7,
+      "generated_utc": "2026-11-19T09:11:18.444078+00:00",
+      "story_count": 16,
+      "source_count": 10,
       "stories": [
         {
           "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
@@ -1365,7 +1365,18 @@
           "category": "Cybersecurity",
           "published": "Wed, 18 Nov 2026 18:08:33 -0500",
           "severity": "CRITICAL",
-          "score": 131.01,
+          "score": 122.95,
+          "also_sources": []
+        },
+        {
+          "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+          "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
+          "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 10:03:46 +0530",
+          "severity": "HIGH",
+          "score": 86.37,
           "also_sources": []
         },
         {
@@ -1376,18 +1387,40 @@
           "category": "Cybersecurity",
           "published": "2026-11-18 21:16:38.0",
           "severity": "HIGH",
-          "score": 87.14,
+          "score": 79.09,
           "also_sources": []
         },
         {
-          "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
-          "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
-          "url": "https://ubuntu.com/security/notices/USN-9158-1",
+          "title": "USN-9159-1: nginx vulnerabilities",
+          "summary": "Stephen Fewer and Tomer Schwartz discovered that nginx did not correctly handle certain memory operations. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. (CVE-2026-123007) Albert Ebb Metnir and Nir Ohfeld discovered that nginx did not correctly handle certain reusable HTTP/2 connections. A re",
+          "url": "https://ubuntu.com/security/notices/USN-9159-1",
           "source": "Ubuntu Security Notices",
           "category": "Cybersecurity",
-          "published": "Wed, 18 Nov 2026 22:13:47 +0000",
+          "published": "Thu, 19 Nov 2026 05:21:17 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.09,
+          "score": 44.17,
+          "also_sources": []
+        },
+        {
+          "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+          "summary": "The Stable channel is being updated to OS version 16868.24.0 (Browser version 158.0.8127.65 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug Visit our ChromeOS communities General: Chromebook Help Community Beta Specific: ChromeOS Beta Help Community Report an issue or send feedback on Chrome Interested in switching channels? Find out how. Luis Menezes Google ChromeOS ChromeOS Vulnerability Rewards Program Reported Bug Fixes: N/A Other",
+          "url": "http://chromereleases.googleblog.com/feeds/2787571721876523793/comments/default",
+          "source": "Google Chrome Releases",
+          "category": "Cybersecurity",
+          "published": "2026-11-18T21:16:06.168-08:00",
+          "severity": "INFORMATIONAL",
+          "score": 44.08,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-114938 - OpenJDK Base64 Decoder Intrinsic Out-of-Bounds Write Issue",
+          "summary": "Bulletin ID: 2026-189-AWS Publication Date: 11/18/2026 17:00 PM PST Description: AWS is aware of CVE-2026-114938, a memory issue in the Base64 decoder intrinsic of OpenJDK 17.0.6 and later on x86-64 processors that support AVX-512 VBMI. A fix is available in the November 2026 OpenJDK updates. AWS is working to deploy the fix to affected AWS services Refer to the article for the most up-to-date and complete information.",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-189-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 03:02:28 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 41.85,
           "also_sources": []
         },
         {
@@ -1398,18 +1431,40 @@
           "category": "Cybersecurity",
           "published": "Wed, 18 Nov 2026 14:39:33 -0500",
           "severity": "INFORMATIONAL",
-          "score": 67.52,
+          "score": 59.47,
           "also_sources": []
         },
         {
-          "title": "USN-9157-1: OpenJDK 25 vulnerabilities",
-          "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 25 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
-          "url": "https://ubuntu.com/security/notices/USN-9157-1",
+          "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+          "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+          "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 13:44:00 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 47.04,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
+          "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
+          "url": "https://ubuntu.com/security/notices/USN-9158-1",
           "source": "Ubuntu Security Notices",
           "category": "Cybersecurity",
-          "published": "Wed, 18 Nov 2026 22:13:33 +0000",
+          "published": "Wed, 18 Nov 2026 22:13:47 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.09,
+          "score": 37.04,
+          "also_sources": []
+        },
+        {
+          "title": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
+          "summary": "After 13 years and an estimated $1 billion or more in production costs, “ Grand Theft Auto VI ” rolled out across the globe on Thursday, gaining rapturous early reviews for the most anticipated video game release in history. The game, which could bring in billions of dollars for its developer, Take-Two Interactive’s studio Rockstar Games, raced to the top of Metacritic’s all-time gaming leaderboard with a score of 99, a mark matched by only one other title, Nintendo’s 1998 classic “The Legend of",
+          "url": "https://www.dawn.com/news/2045650/grand-theft-auto-vi-draws-rave-reviews-as-gamers-enter-vice-city",
+          "source": "Dawn Technology",
+          "category": "Cloud",
+          "published": "Thu, 19 Nov 2026 11:36:03 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 53.41,
           "also_sources": []
         },
         {
@@ -1420,7 +1475,7 @@
           "category": "Cloud",
           "published": "Wed, 18 Nov 2026 21:09:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 52.01,
+          "score": 43.96,
           "also_sources": []
         },
         {
@@ -1431,7 +1486,7 @@
           "category": "Cloud",
           "published": "Wed, 18 Nov 2026 19:39:07 +0000",
           "severity": "INFORMATIONAL",
-          "score": 42.51,
+          "score": 34.46,
           "also_sources": []
         },
         {
@@ -1442,7 +1497,7 @@
           "category": "Cloud",
           "published": "Wed, 18 Nov 2026 20:00:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 42.86,
+          "score": 34.81,
           "also_sources": []
         },
         {
@@ -1453,7 +1508,18 @@
           "category": "Microsoft",
           "published": "Wed, 18 Nov 2026 21:36:00 +0000",
           "severity": "INFORMATIONAL",
-          "score": 44.46,
+          "score": 36.41,
+          "also_sources": []
+        },
+        {
+          "title": "Anthropic to begin trading after record-breaking market debut tops SpaceX record",
+          "summary": "Anthropic will begin trading on Thursday on the Nasdaq exchange after pricing its initial public offering at $83 a share, above its expected range and toppling SpaceX’s IPO to set a new record. Hot demand for the AI giant brushed aside market jitters over the spy scandal that toppled Nvidia’s chief executive, despite lingering concerns of an investment bubble. The company said on Wednesday that it offered 956 million shares for sale, which gives the maker of the Claude chatbot a valuation of $1.",
+          "url": "https://www.dawn.com/news/2045642/anthropic-to-begin-trading-after-record-breaking-market-debut-tops-spacex-record",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Thu, 19 Nov 2026 10:46:32 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 44.59,
           "also_sources": []
         },
         {
@@ -1464,7 +1530,7 @@
           "category": "Systems",
           "published": "2026-11-18T14:00:00.000-08:00",
           "severity": "INFORMATIONAL",
-          "score": 52.86,
+          "score": 44.81,
           "also_sources": []
         }
       ],
@@ -1478,7 +1544,18 @@
             "category": "Cybersecurity",
             "published": "Wed, 18 Nov 2026 18:08:33 -0500",
             "severity": "CRITICAL",
-            "score": 131.01,
+            "score": 122.95,
+            "also_sources": []
+          },
+          {
+            "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+            "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
+            "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 10:03:46 +0530",
+            "severity": "HIGH",
+            "score": 86.37,
             "also_sources": []
           },
           {
@@ -1489,18 +1566,40 @@
             "category": "Cybersecurity",
             "published": "2026-11-18 21:16:38.0",
             "severity": "HIGH",
-            "score": 87.14,
+            "score": 79.09,
             "also_sources": []
           },
           {
-            "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
-            "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
-            "url": "https://ubuntu.com/security/notices/USN-9158-1",
+            "title": "USN-9159-1: nginx vulnerabilities",
+            "summary": "Stephen Fewer and Tomer Schwartz discovered that nginx did not correctly handle certain memory operations. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. This issue only affected Ubuntu 16.04 LTS, Ubuntu 18.04 LTS, Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 24.04 LTS, Ubuntu 26.04 LTS and Ubuntu 26.10. (CVE-2026-123007) Albert Ebb Metnir and Nir Ohfeld discovered that nginx did not correctly handle certain reusable HTTP/2 connections. A re",
+            "url": "https://ubuntu.com/security/notices/USN-9159-1",
             "source": "Ubuntu Security Notices",
             "category": "Cybersecurity",
-            "published": "Wed, 18 Nov 2026 22:13:47 +0000",
+            "published": "Thu, 19 Nov 2026 05:21:17 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.09,
+            "score": 44.17,
+            "also_sources": []
+          },
+          {
+            "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+            "summary": "The Stable channel is being updated to OS version 16868.24.0 (Browser version 158.0.8127.65 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug Visit our ChromeOS communities General: Chromebook Help Community Beta Specific: ChromeOS Beta Help Community Report an issue or send feedback on Chrome Interested in switching channels? Find out how. Luis Menezes Google ChromeOS ChromeOS Vulnerability Rewards Program Reported Bug Fixes: N/A Other",
+            "url": "http://chromereleases.googleblog.com/feeds/2787571721876523793/comments/default",
+            "source": "Google Chrome Releases",
+            "category": "Cybersecurity",
+            "published": "2026-11-18T21:16:06.168-08:00",
+            "severity": "INFORMATIONAL",
+            "score": 44.08,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-114938 - OpenJDK Base64 Decoder Intrinsic Out-of-Bounds Write Issue",
+            "summary": "Bulletin ID: 2026-189-AWS Publication Date: 11/18/2026 17:00 PM PST Description: AWS is aware of CVE-2026-114938, a memory issue in the Base64 decoder intrinsic of OpenJDK 17.0.6 and later on x86-64 processors that support AVX-512 VBMI. A fix is available in the November 2026 OpenJDK updates. AWS is working to deploy the fix to affected AWS services Refer to the article for the most up-to-date and complete information.",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-189-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 03:02:28 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 41.85,
             "also_sources": []
           },
           {
@@ -1511,22 +1610,44 @@
             "category": "Cybersecurity",
             "published": "Wed, 18 Nov 2026 14:39:33 -0500",
             "severity": "INFORMATIONAL",
-            "score": 67.52,
+            "score": 59.47,
             "also_sources": []
           },
           {
-            "title": "USN-9157-1: OpenJDK 25 vulnerabilities",
-            "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 25 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
-            "url": "https://ubuntu.com/security/notices/USN-9157-1",
+            "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+            "summary": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+            "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 13:44:00 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 47.04,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
+            "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
+            "url": "https://ubuntu.com/security/notices/USN-9158-1",
             "source": "Ubuntu Security Notices",
             "category": "Cybersecurity",
-            "published": "Wed, 18 Nov 2026 22:13:33 +0000",
+            "published": "Wed, 18 Nov 2026 22:13:47 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.09,
+            "score": 37.04,
             "also_sources": []
           }
         ],
         "Cloud": [
+          {
+            "title": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
+            "summary": "After 13 years and an estimated $1 billion or more in production costs, “ Grand Theft Auto VI ” rolled out across the globe on Thursday, gaining rapturous early reviews for the most anticipated video game release in history. The game, which could bring in billions of dollars for its developer, Take-Two Interactive’s studio Rockstar Games, raced to the top of Metacritic’s all-time gaming leaderboard with a score of 99, a mark matched by only one other title, Nintendo’s 1998 classic “The Legend of",
+            "url": "https://www.dawn.com/news/2045650/grand-theft-auto-vi-draws-rave-reviews-as-gamers-enter-vice-city",
+            "source": "Dawn Technology",
+            "category": "Cloud",
+            "published": "Thu, 19 Nov 2026 11:36:03 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 53.41,
+            "also_sources": []
+          },
           {
             "title": "Amazon OpenSearch Memory is now generally available",
             "summary": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives useful memories, and retrieves relevant context across sessions, so agents can recall prior decisions, earlier interactions, and user preferences without replaying the full conversation history to the model. Customers can give agents long-term memory ",
@@ -1535,7 +1656,7 @@
             "category": "Cloud",
             "published": "Wed, 18 Nov 2026 21:09:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 52.01,
+            "score": 43.96,
             "also_sources": []
           },
           {
@@ -1546,7 +1667,7 @@
             "category": "Cloud",
             "published": "Wed, 18 Nov 2026 19:39:07 +0000",
             "severity": "INFORMATIONAL",
-            "score": 42.51,
+            "score": 34.46,
             "also_sources": []
           },
           {
@@ -1557,7 +1678,7 @@
             "category": "Cloud",
             "published": "Wed, 18 Nov 2026 20:00:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 42.86,
+            "score": 34.81,
             "also_sources": []
           }
         ],
@@ -1570,7 +1691,20 @@
             "category": "Microsoft",
             "published": "Wed, 18 Nov 2026 21:36:00 +0000",
             "severity": "INFORMATIONAL",
-            "score": 44.46,
+            "score": 36.41,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Anthropic to begin trading after record-breaking market debut tops SpaceX record",
+            "summary": "Anthropic will begin trading on Thursday on the Nasdaq exchange after pricing its initial public offering at $83 a share, above its expected range and toppling SpaceX’s IPO to set a new record. Hot demand for the AI giant brushed aside market jitters over the spy scandal that toppled Nvidia’s chief executive, despite lingering concerns of an investment bubble. The company said on Wednesday that it offered 956 million shares for sale, which gives the maker of the Claude chatbot a valuation of $1.",
+            "url": "https://www.dawn.com/news/2045642/anthropic-to-begin-trading-after-record-breaking-market-debut-tops-spacex-record",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Thu, 19 Nov 2026 10:46:32 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 44.59,
             "also_sources": []
           }
         ],
@@ -1583,14 +1717,12 @@
             "category": "Systems",
             "published": "2026-11-18T14:00:00.000-08:00",
             "severity": "INFORMATIONAL",
-            "score": 52.86,
+            "score": 44.81,
             "also_sources": []
           }
         ]
       },
-      "source_failures": [
-        "Google Cloud Blog"
-      ]
+      "source_failures": []
     }
   }
 }

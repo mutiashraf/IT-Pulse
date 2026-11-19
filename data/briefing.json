@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-18T21:36:20.484523+00:00",
+  "generated_utc": "2026-11-19T01:08:14.551115+00:00",
   "latest_date": "2026-11-19",
   "available_dates": [
     "2026-11-19",
@@ -1353,10 +1353,21 @@
     },
     "2026-11-19": {
       "date": "2026-11-19",
-      "generated_utc": "2026-11-18T21:36:20.484512+00:00",
-      "story_count": 6,
-      "source_count": 5,
+      "generated_utc": "2026-11-19T01:08:14.551106+00:00",
+      "story_count": 10,
+      "source_count": 7,
       "stories": [
+        {
+          "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+          "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Wed, 18 Nov 2026 18:08:33 -0500",
+          "severity": "CRITICAL",
+          "score": 131.01,
+          "also_sources": []
+        },
         {
           "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
           "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
@@ -1365,7 +1376,18 @@
           "category": "Cybersecurity",
           "published": "2026-11-18 21:16:38.0",
           "severity": "HIGH",
-          "score": 90.67,
+          "score": 87.14,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
+          "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
+          "url": "https://ubuntu.com/security/notices/USN-9158-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Wed, 18 Nov 2026 22:13:47 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.09,
           "also_sources": []
         },
         {
@@ -1376,18 +1398,29 @@
           "category": "Cybersecurity",
           "published": "Wed, 18 Nov 2026 14:39:33 -0500",
           "severity": "INFORMATIONAL",
-          "score": 71.05,
+          "score": 67.52,
           "also_sources": []
         },
         {
-          "title": "USN-9153-1: cloud-init vulnerability",
-          "summary": "It was discovered that cloud-init incorrectly handled certain errors when configuring user passwords on systems with SSSD installed but not configured. An attacker could possibly use this issue to access affected user accounts without a password, resulting in unauthorized access.",
-          "url": "https://ubuntu.com/security/notices/USN-9153-1",
+          "title": "USN-9157-1: OpenJDK 25 vulnerabilities",
+          "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 25 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
+          "url": "https://ubuntu.com/security/notices/USN-9157-1",
           "source": "Ubuntu Security Notices",
           "category": "Cybersecurity",
-          "published": "Wed, 18 Nov 2026 19:07:16 +0000",
+          "published": "Wed, 18 Nov 2026 22:13:33 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.52,
+          "score": 45.09,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon OpenSearch Memory is now generally available",
+          "summary": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives useful memories, and retrieves relevant context across sessions, so agents can recall prior decisions, earlier interactions, and user preferences without replaying the full conversation history to the model. Customers can give agents long-term memory ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Wed, 18 Nov 2026 21:09:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 52.01,
           "also_sources": []
         },
         {
@@ -1398,7 +1431,18 @@
           "category": "Cloud",
           "published": "Wed, 18 Nov 2026 19:39:07 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.05,
+          "score": 42.51,
+          "also_sources": []
+        },
+        {
+          "title": "Introducing the Apache Spark Optimization Agent for AWS Glue ETL",
+          "summary": "AWS Glue ETL now offers the Apache Spark Optimization Agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations within minutes. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and reasoning behind each suggestion. You can use the agent on any completed job run from the AWS Glue console, or from your own tools through the Amazon SageMaker Unified Studio MCP Server. The a",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Wed, 18 Nov 2026 20:00:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 42.86,
           "also_sources": []
         },
         {
@@ -1409,23 +1453,34 @@
           "category": "Microsoft",
           "published": "Wed, 18 Nov 2026 21:36:00 +0000",
           "severity": "INFORMATIONAL",
-          "score": 47.99,
+          "score": 44.46,
           "also_sources": []
         },
         {
-          "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-          "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-          "source": "BleepingComputer",
-          "category": "AI",
-          "published": "Wed, 18 Nov 2026 15:49:32 -0500",
+          "title": "Chrome for Android Update",
+          "summary": "Hello Everyone! We've just released Chrome 159 (159.0.8154.18) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about early Stable releases here . This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new issue, please let us know by filing a bug . Harry Souders Google Chrome",
+          "url": "http://chromereleases.googleblog.com/feeds/2523127188279849773/comments/default",
+          "source": "Google Chrome Releases",
+          "category": "Systems",
+          "published": "2026-11-18T14:00:00.000-08:00",
           "severity": "INFORMATIONAL",
-          "score": 47.22,
+          "score": 52.86,
           "also_sources": []
         }
       ],
       "sections": {
         "Cybersecurity": [
+          {
+            "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+            "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Wed, 18 Nov 2026 18:08:33 -0500",
+            "severity": "CRITICAL",
+            "score": 131.01,
+            "also_sources": []
+          },
           {
             "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
             "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
@@ -1434,7 +1489,18 @@
             "category": "Cybersecurity",
             "published": "2026-11-18 21:16:38.0",
             "severity": "HIGH",
-            "score": 90.67,
+            "score": 87.14,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9158-1: OpenJDK 27 vulnerabilities",
+            "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 27 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 27 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
+            "url": "https://ubuntu.com/security/notices/USN-9158-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Wed, 18 Nov 2026 22:13:47 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.09,
             "also_sources": []
           },
           {
@@ -1445,22 +1511,33 @@
             "category": "Cybersecurity",
             "published": "Wed, 18 Nov 2026 14:39:33 -0500",
             "severity": "INFORMATIONAL",
-            "score": 71.05,
+            "score": 67.52,
             "also_sources": []
           },
           {
-            "title": "USN-9153-1: cloud-init vulnerability",
-            "summary": "It was discovered that cloud-init incorrectly handled certain errors when configuring user passwords on systems with SSSD installed but not configured. An attacker could possibly use this issue to access affected user accounts without a password, resulting in unauthorized access.",
-            "url": "https://ubuntu.com/security/notices/USN-9153-1",
+            "title": "USN-9157-1: OpenJDK 25 vulnerabilities",
+            "summary": "Albert Yang and Quang Luong discovered that the Compiler component of OpenJDK 25 did not correctly handle certain inputs. A remote attacker could possibly use this issue to cause a denial of service or execute arbitrary code. (CVE-2026-114938) It was discovered that the JGSS component of OpenJDK 25 did not correctly authenticate users. A remote attacker could possibly use this issue to read or modify sensitive data. (CVE-2026-114939) Nicholas Carlini discovered that the JSSE component of OpenJDK",
+            "url": "https://ubuntu.com/security/notices/USN-9157-1",
             "source": "Ubuntu Security Notices",
             "category": "Cybersecurity",
-            "published": "Wed, 18 Nov 2026 19:07:16 +0000",
+            "published": "Wed, 18 Nov 2026 22:13:33 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.52,
+            "score": 45.09,
             "also_sources": []
           }
         ],
         "Cloud": [
+          {
+            "title": "Amazon OpenSearch Memory is now generally available",
+            "summary": "Today, AWS announced the general availability of Amazon OpenSearch Memory, a new serverless capability in Amazon OpenSearch Service for adding persistent memory to AI agents. OpenSearch Memory stores agent interactions as searchable events, derives useful memories, and retrieves relevant context across sessions, so agents can recall prior decisions, earlier interactions, and user preferences without replaying the full conversation history to the model. Customers can give agents long-term memory ",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-memory-generally-available/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Wed, 18 Nov 2026 21:09:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 52.01,
+            "also_sources": []
+          },
           {
             "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
             "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing plus a management fee",
@@ -1469,7 +1546,18 @@
             "category": "Cloud",
             "published": "Wed, 18 Nov 2026 19:39:07 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.05,
+            "score": 42.51,
+            "also_sources": []
+          },
+          {
+            "title": "Introducing the Apache Spark Optimization Agent for AWS Glue ETL",
+            "summary": "AWS Glue ETL now offers the Apache Spark Optimization Agent, which analyzes completed Spark job runs and delivers cost and performance optimization recommendations within minutes. You can select a cost or performance goal, and the agent returns specific configuration changes with the telemetry evidence and reasoning behind each suggestion. You can use the agent on any completed job run from the AWS Glue console, or from your own tools through the Amazon SageMaker Unified Studio MCP Server. The a",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/apache-spark-aws-glue-etl/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Wed, 18 Nov 2026 20:00:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 42.86,
             "also_sources": []
           }
         ],
@@ -1482,25 +1570,27 @@
             "category": "Microsoft",
             "published": "Wed, 18 Nov 2026 21:36:00 +0000",
             "severity": "INFORMATIONAL",
-            "score": 47.99,
+            "score": 44.46,
             "also_sources": []
           }
         ],
-        "AI": [
+        "Systems": [
           {
-            "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-            "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-            "source": "BleepingComputer",
-            "category": "AI",
-            "published": "Wed, 18 Nov 2026 15:49:32 -0500",
+            "title": "Chrome for Android Update",
+            "summary": "Hello Everyone! We've just released Chrome 159 (159.0.8154.18) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about early Stable releases here . This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new issue, please let us know by filing a bug . Harry Souders Google Chrome",
+            "url": "http://chromereleases.googleblog.com/feeds/2523127188279849773/comments/default",
+            "source": "Google Chrome Releases",
+            "category": "Systems",
+            "published": "2026-11-18T14:00:00.000-08:00",
             "severity": "INFORMATIONAL",
-            "score": 47.22,
+            "score": 52.86,
             "also_sources": []
           }
         ]
       },
-      "source_failures": []
+      "source_failures": [
+        "Google Cloud Blog"
+      ]
     }
   }
 }

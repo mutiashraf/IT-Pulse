@@ -1,6 +1,39 @@
 {
-  "updated_utc": "2026-11-18T19:04:54.671930+00:00",
+  "updated_utc": "2026-11-19T01:08:14.520578+00:00",
   "alerts": [
+    {
+      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Wed, 18 Nov 2026 18:08:33 -0500",
+      "severity": "CRITICAL",
+      "score": 131.1,
+      "also_sources": []
+    },
+    {
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
+      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Wed, 18 Nov 2026 22:40:45 +0530",
+      "severity": "CRITICAL",
+      "score": 100.14,
+      "also_sources": []
+    },
+    {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis Unsafe Reflection Vulnerability CVE-2026-90817 Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability These types of vu",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "Cybersecurity",
+      "published": "Wed, 18 Nov 26 12:00:00 +0000",
+      "severity": "CRITICAL",
+      "score": 119.96,
+      "also_sources": []
+    },
     {
       "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
       "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
@@ -1067,40 +1100,9 @@
       "severity": "HIGH",
       "score": 82.04,
       "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126896: Missing authorization",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126896",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126897: Type confusion",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126897",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
-    },
-    {
-      "title": "Chromium CVE-2026-126898: Uninitialized resource",
-      "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126898",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
-      "also_sources": []
     }
   ],
-  "source_failures": []
+  "source_failures": [
+    "Google Cloud Blog"
+  ]
 }

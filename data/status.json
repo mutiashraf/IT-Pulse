@@ -1,8 +1,8 @@
 {
-  "last_monitor_utc": "2026-11-19T18:35:48.030431+00:00",
+  "last_monitor_utc": "2026-11-20T00:55:48.132382+00:00",
   "source_failures": [],
-  "stories_checked": 4666,
-  "new_alerts_sent": 12,
-  "daily_stories": 23,
-  "daily_sources": 15
+  "stories_checked": 4641,
+  "new_alerts_sent": 42,
+  "daily_stories": 15,
+  "daily_sources": 10
 }

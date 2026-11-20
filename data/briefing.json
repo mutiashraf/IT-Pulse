@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-19T21:46:13.837599+00:00",
+  "generated_utc": "2026-11-20T00:55:48.128587+00:00",
   "latest_date": "2026-11-20",
   "available_dates": [
     "2026-11-20",
@@ -1881,19 +1881,19 @@
     },
     "2026-11-20": {
       "date": "2026-11-20",
-      "generated_utc": "2026-11-19T21:46:13.837592+00:00",
-      "story_count": 9,
-      "source_count": 7,
+      "generated_utc": "2026-11-20T00:55:48.128578+00:00",
+      "story_count": 15,
+      "source_count": 10,
       "stories": [
         {
-          "title": "Amazon Route 53 now supports health checks for private endpoints",
-          "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to use native health monitoring and automatic DNS failover. Customers can health-check any reachable private target by IP address, domain, or port over HTTP, HTTPS, or TCP. Customers can associate these health checks with Route 53 DNS records across routin",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+          "title": "Amazon CloudFront adds IP based routing and connection logs to SaaS Manager",
+          "summary": "Amazon CloudFront now allows web development and SaaS platforms to serve different tiers of customers on the same wildcard domain by using IP addresses to route them to the right configuration. For example, these platforms can serve premium and pro customers from dedicated Anycast static IP address lists, each with its own configuration, and serve free-tier customers on the shared CloudFront IP addresses, all under *. example.com . Additionally, these customers also have visibility into viewer c",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-ip-based-routing-connection-logging",
           "source": "AWS What's New",
           "category": "Networking",
-          "published": "Thu, 19 Nov 2026 19:50:00 GMT",
+          "published": "Thu, 19 Nov 2026 20:26:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 46.06,
+          "score": 43.5,
           "also_sources": []
         },
         {
@@ -1904,7 +1904,29 @@
           "category": "Networking",
           "published": "Fri, 20 Nov 2026 00:32:27 +0500",
           "severity": "INFORMATIONAL",
-          "score": 45.77,
+          "score": 42.61,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon Route 53 now supports health checks for private endpoints",
+          "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to use native health monitoring and automatic DNS failover. Customers can health-check any reachable private target by IP address, domain, or port over HTTP, HTTPS, or TCP. Customers can associate these health checks with Route 53 DNS records across routin",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+          "source": "AWS What's New",
+          "category": "Networking",
+          "published": "Thu, 19 Nov 2026 19:50:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 42.9,
+          "also_sources": []
+        },
+        {
+          "title": "VMware patches vCenter zero-day exploited in attacks since September",
+          "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 19:26:25 -0500",
+          "severity": "CRITICAL",
+          "score": 140.51,
           "also_sources": []
         },
         {
@@ -1915,7 +1937,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-19 20:22:53.0",
           "severity": "HIGH",
-          "score": 89.61,
+          "score": 86.45,
           "also_sources": []
         },
         {
@@ -1926,18 +1948,29 @@
           "category": "Cybersecurity",
           "published": "2026-11-19T20:20:26.759495+00:00",
           "severity": "HIGH",
-          "score": 89.57,
+          "score": 86.41,
           "also_sources": []
         },
         {
-          "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-          "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-          "source": "BleepingComputer",
+          "title": "CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)",
+          "summary": "",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-114938",
+          "source": "Palo Alto Security Advisories",
           "category": "Cybersecurity",
-          "published": "Thu, 19 Nov 2026 16:15:59 -0500",
+          "published": "2026-11-19T23:00:00.000Z",
+          "severity": "HIGH",
+          "score": 81.07,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-132825 and related issues – Ruby regular expression engine and string case conversion",
+          "summary": "Bulletin ID: 2026-193-AWS Publication Date: 11/19/2026 15:05 PM PST Description: On November 18, 2026, the Ruby maintainers published fixes for seven issues in CRuby's regular expression engine and string case conversion, including CVE-2026-132825. These issues affect Ruby versions before 4.0.10, 3.4.13, and 3.3.14 and could allow remote code execution in some configurations. These issues are memory-safety issues in Ruby's regular expression engine and in string case conversion on certain non-UT",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-193-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 23:06:34 +0000",
           "severity": "INFORMATIONAL",
-          "score": 55.5,
+          "score": 46.18,
           "also_sources": []
         },
         {
@@ -1948,29 +1981,62 @@
           "category": "Cybersecurity",
           "published": "Thu, 19 Nov 2026 20:07:34 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.36,
+          "score": 43.2,
           "also_sources": []
         },
         {
-          "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
-          "summary": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zones b",
-          "url": "https://azure.microsoft.com/updates?id=581254",
+          "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+          "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 17:25:42 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 53.5,
+          "also_sources": []
+        },
+        {
+          "title": "Issue with nginx HTTP/2 Implementation",
+          "summary": "Bulletin ID: 2026-192-AWS Publication Date: 11/19/2026 15:00 PM PST Description: AWS is aware of the nginx issues published on November 18, 2026 (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-113425, CVE-2026-121810 and CVE-2026-118899). These issues have been addressed in nginx version 1.30.7 (stable) and 1.31.9 (mainline). We recommend upgrading to the latest version. We are actively deploying mitigations worldwide to address these issues. Because these issues can be leveraged at",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-192-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Thu, 19 Nov 2026 22:48:05 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.87,
+          "also_sources": []
+        },
+        {
+          "title": "[Launched] Generally Available: Soft delete in Azure Compute Gallery",
+          "summary": "Soft delete in Azure Compute Gallery is now generally available, so you can recover image versions that were deleted by accident. You can set a retention period of 7 to 365 days. During retention, you can still deploy from soft-deleted images (API version",
+          "url": "https://azure.microsoft.com/updates?id=581907",
           "source": "Azure Updates",
           "category": "Cloud",
-          "published": "Thu, 19 Nov 2026 20:34:19 Z",
+          "published": "Thu, 19 Nov 2026 23:47:55 Z",
           "severity": "INFORMATIONAL",
-          "score": 46.8,
+          "score": 46.87,
           "also_sources": []
         },
         {
-          "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
-          "summary": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You share your requirement once, and agent mode applies them as it guides you through discovery, purchase, and deployment. Describe your use case in natural language to get recommended software, services, AI agents and tools, and multi-product solutions that fit your business needs. To assess a seller's sec",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
-          "source": "AWS What's New",
+          "title": "The Blueprint: How Kult built a gaming companion that actually knows your game",
+          "summary": "Welcome to The Blueprint , our ongoing series where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work. Kult is a London-based startup building a companion experience for games. It sits alongside your session, understands the game you are playing and where you are in it, and answers by voice and on a second screen. The more you play with it, the",
+          "url": "https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game/",
+          "source": "Google Cloud Blog",
           "category": "Cloud",
-          "published": "Thu, 19 Nov 2026 20:00:00 GMT",
+          "published": "Thu, 19 Nov 2026 23:00:00 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.23,
+          "score": 46.07,
+          "also_sources": []
+        },
+        {
+          "title": "[In preview] Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+          "summary": "You can now try PostgreSQL 19 in public preview on Azure Database for PostgreSQL – Flexible Server in the East Asia region. With this preview, you can provision new PostgreSQL 19 servers through the Azure portal and Azure CLI, enabling you to test major v",
+          "url": "https://azure.microsoft.com/updates?id=574587",
+          "source": "Azure Updates",
+          "category": "Cloud",
+          "published": "Thu, 19 Nov 2026 23:25:49 Z",
+          "severity": "INFORMATIONAL",
+          "score": 46.5,
           "also_sources": []
         },
         {
@@ -1981,21 +2047,21 @@
           "category": "Technology",
           "published": "Fri, 20 Nov 2026 01:04:03 +0500",
           "severity": "INFORMATIONAL",
-          "score": 46.3,
+          "score": 43.14,
           "also_sources": []
         }
       ],
       "sections": {
         "Networking": [
           {
-            "title": "Amazon Route 53 now supports health checks for private endpoints",
-            "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to use native health monitoring and automatic DNS failover. Customers can health-check any reachable private target by IP address, domain, or port over HTTP, HTTPS, or TCP. Customers can associate these health checks with Route 53 DNS records across routin",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+            "title": "Amazon CloudFront adds IP based routing and connection logs to SaaS Manager",
+            "summary": "Amazon CloudFront now allows web development and SaaS platforms to serve different tiers of customers on the same wildcard domain by using IP addresses to route them to the right configuration. For example, these platforms can serve premium and pro customers from dedicated Anycast static IP address lists, each with its own configuration, and serve free-tier customers on the shared CloudFront IP addresses, all under *. example.com . Additionally, these customers also have visibility into viewer c",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudfront-ip-based-routing-connection-logging",
             "source": "AWS What's New",
             "category": "Networking",
-            "published": "Thu, 19 Nov 2026 19:50:00 GMT",
+            "published": "Thu, 19 Nov 2026 20:26:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 46.06,
+            "score": 43.5,
             "also_sources": []
           },
           {
@@ -2006,11 +2072,33 @@
             "category": "Networking",
             "published": "Fri, 20 Nov 2026 00:32:27 +0500",
             "severity": "INFORMATIONAL",
-            "score": 45.77,
+            "score": 42.61,
+            "also_sources": []
+          },
+          {
+            "title": "Amazon Route 53 now supports health checks for private endpoints",
+            "summary": "Amazon Route 53 now offers Private Endpoint Health Checks, enabling business-critical workloads that never touch the public internet, such as internal APIs, databases, and self-hosted nodes behind internal load balancers or in private subnets, to use native health monitoring and automatic DNS failover. Customers can health-check any reachable private target by IP address, domain, or port over HTTP, HTTPS, or TCP. Customers can associate these health checks with Route 53 DNS records across routin",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/route-53-private-endpoint-health-checks/",
+            "source": "AWS What's New",
+            "category": "Networking",
+            "published": "Thu, 19 Nov 2026 19:50:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 42.9,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
+          {
+            "title": "VMware patches vCenter zero-day exploited in attacks since September",
+            "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 19:26:25 -0500",
+            "severity": "CRITICAL",
+            "score": 140.51,
+            "also_sources": []
+          },
           {
             "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
             "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
@@ -2019,7 +2107,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-19 20:22:53.0",
             "severity": "HIGH",
-            "score": 89.61,
+            "score": 86.45,
             "also_sources": []
           },
           {
@@ -2030,18 +2118,29 @@
             "category": "Cybersecurity",
             "published": "2026-11-19T20:20:26.759495+00:00",
             "severity": "HIGH",
-            "score": 89.57,
+            "score": 86.41,
             "also_sources": []
           },
           {
-            "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-            "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-            "source": "BleepingComputer",
+            "title": "CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)",
+            "summary": "",
+            "url": "https://security.paloaltonetworks.com/CVE-2026-114938",
+            "source": "Palo Alto Security Advisories",
             "category": "Cybersecurity",
-            "published": "Thu, 19 Nov 2026 16:15:59 -0500",
+            "published": "2026-11-19T23:00:00.000Z",
+            "severity": "HIGH",
+            "score": 81.07,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-132825 and related issues – Ruby regular expression engine and string case conversion",
+            "summary": "Bulletin ID: 2026-193-AWS Publication Date: 11/19/2026 15:05 PM PST Description: On November 18, 2026, the Ruby maintainers published fixes for seven issues in CRuby's regular expression engine and string case conversion, including CVE-2026-132825. These issues affect Ruby versions before 4.0.10, 3.4.13, and 3.3.14 and could allow remote code execution in some configurations. These issues are memory-safety issues in Ruby's regular expression engine and in string case conversion on certain non-UT",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-193-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 23:06:34 +0000",
             "severity": "INFORMATIONAL",
-            "score": 55.5,
+            "score": 46.18,
             "also_sources": []
           },
           {
@@ -2052,31 +2151,64 @@
             "category": "Cybersecurity",
             "published": "Thu, 19 Nov 2026 20:07:34 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.36,
+            "score": 43.2,
+            "also_sources": []
+          },
+          {
+            "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+            "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 17:25:42 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 53.5,
+            "also_sources": []
+          },
+          {
+            "title": "Issue with nginx HTTP/2 Implementation",
+            "summary": "Bulletin ID: 2026-192-AWS Publication Date: 11/19/2026 15:00 PM PST Description: AWS is aware of the nginx issues published on November 18, 2026 (CVE-2026-123007, CVE-2026-123633, CVE-2026-123634, CVE-2026-113425, CVE-2026-121810 and CVE-2026-118899). These issues have been addressed in nginx version 1.30.7 (stable) and 1.31.9 (mainline). We recommend upgrading to the latest version. We are actively deploying mitigations worldwide to address these issues. Because these issues can be leveraged at",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-192-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Thu, 19 Nov 2026 22:48:05 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.87,
             "also_sources": []
           }
         ],
         "Cloud": [
           {
-            "title": "[In preview] Public Preview: Zone resilience for Azure VMs",
-            "summary": "Zone resilience for Azure VMs, now in public preview, lets you recover an eligible zonal VM in another availability zone in the same region, retaining the existing VM resource and configuration.ZRS managed disks replicate data synchronously across zones b",
-            "url": "https://azure.microsoft.com/updates?id=581254",
+            "title": "[Launched] Generally Available: Soft delete in Azure Compute Gallery",
+            "summary": "Soft delete in Azure Compute Gallery is now generally available, so you can recover image versions that were deleted by accident. You can set a retention period of 7 to 365 days. During retention, you can still deploy from soft-deleted images (API version",
+            "url": "https://azure.microsoft.com/updates?id=581907",
             "source": "Azure Updates",
             "category": "Cloud",
-            "published": "Thu, 19 Nov 2026 20:34:19 Z",
+            "published": "Thu, 19 Nov 2026 23:47:55 Z",
             "severity": "INFORMATIONAL",
-            "score": 46.8,
+            "score": 46.87,
             "also_sources": []
           },
           {
-            "title": "AWS Marketplace agent mode now helps you assess, buy, and deploy solutions",
-            "summary": "You can now assess a seller's security, buy, and deploy supported products in one conversation with AWS Marketplace agent mode, the conversational AI experience for procuring cloud solutions. You share your requirement once, and agent mode applies them as it guides you through discovery, purchase, and deployment. Describe your use case in natural language to get recommended software, services, AI agents and tools, and multi-product solutions that fit your business needs. To assess a seller's sec",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-marketplace/aws-marketplace-agent-mode-expansion",
-            "source": "AWS What's New",
+            "title": "The Blueprint: How Kult built a gaming companion that actually knows your game",
+            "summary": "Welcome to The Blueprint , our ongoing series where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work. Kult is a London-based startup building a companion experience for games. It sits alongside your session, understands the game you are playing and where you are in it, and answers by voice and on a second screen. The more you play with it, the",
+            "url": "https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game/",
+            "source": "Google Cloud Blog",
             "category": "Cloud",
-            "published": "Thu, 19 Nov 2026 20:00:00 GMT",
+            "published": "Thu, 19 Nov 2026 23:00:00 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.23,
+            "score": 46.07,
+            "also_sources": []
+          },
+          {
+            "title": "[In preview] Public Preview: PostgreSQL 19 on Azure Database for PostgreSQL",
+            "summary": "You can now try PostgreSQL 19 in public preview on Azure Database for PostgreSQL – Flexible Server in the East Asia region. With this preview, you can provision new PostgreSQL 19 servers through the Azure portal and Azure CLI, enabling you to test major v",
+            "url": "https://azure.microsoft.com/updates?id=574587",
+            "source": "Azure Updates",
+            "category": "Cloud",
+            "published": "Thu, 19 Nov 2026 23:25:49 Z",
+            "severity": "INFORMATIONAL",
+            "score": 46.5,
             "also_sources": []
           }
         ],
@@ -2089,7 +2221,7 @@
             "category": "Technology",
             "published": "Fri, 20 Nov 2026 01:04:03 +0500",
             "severity": "INFORMATIONAL",
-            "score": 46.3,
+            "score": 43.14,
             "also_sources": []
           }
         ]

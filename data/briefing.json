@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-20T21:29:11.540611+00:00",
+  "generated_utc": "2026-11-20T23:24:00.791688+00:00",
   "latest_date": "2026-11-21",
   "available_dates": [
     "2026-11-21",
@@ -2297,7 +2297,7 @@
     },
     "2026-11-21": {
       "date": "2026-11-21",
-      "generated_utc": "2026-11-20T21:29:11.540601+00:00",
+      "generated_utc": "2026-11-20T23:24:00.791677+00:00",
       "story_count": 7,
       "source_count": 6,
       "stories": [
@@ -2309,7 +2309,18 @@
           "category": "Networking",
           "published": "Fri, 20 Nov 2026 19:15:55 GMT",
           "severity": "INFORMATIONAL",
-          "score": 53.78,
+          "score": 51.87,
+          "also_sources": []
+        },
+        {
+          "title": "GCP-2026-088",
+          "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
+          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
+          "source": "Google Cloud Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "2026-11-20T21:12:32.358507+00:00",
+          "severity": "HIGH",
+          "score": 88.81,
           "also_sources": []
         },
         {
@@ -2320,18 +2331,18 @@
           "category": "Cybersecurity",
           "published": "2026-11-20 20:37:16.0",
           "severity": "HIGH",
-          "score": 90.13,
+          "score": 88.22,
           "also_sources": []
         },
         {
-          "title": "GCP-2026-088",
-          "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
-          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
-          "source": "Google Cloud Security Bulletins",
-          "category": "Cybersecurity",
-          "published": "2026-11-20T20:20:23.206636+00:00",
-          "severity": "HIGH",
-          "score": 89.85,
+          "title": "AWS Quick now supports group assignments for custom permissions and limit profiles",
+          "summary": "AWS Quick now supports assignments for custom permissions and limit profiles to groups from your enterprise identity provider (IdP). Administrators can now apply feature restrictions and per-user resource limits to IdP groups, in addition to the existing user, role, and account assignments. Organizations can align governance with their enterprise identity structure without maintaining assignments for individual users. Administrators manage user, account or group assignments in the Quick administ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Fri, 20 Nov 2026 20:42:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 45.3,
           "also_sources": []
         },
         {
@@ -2342,29 +2353,18 @@
           "category": "Cloud",
           "published": "Fri, 20 Nov 2026 20:05:17 Z",
           "severity": "INFORMATIONAL",
-          "score": 46.6,
+          "score": 44.69,
           "also_sources": []
         },
         {
-          "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
-          "summary": "Today, Amazon CloudWatch announces support for your own application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent you already run now accepts metrics, traces, and logs from your applications, so you don't deploy and operate a separate collector to get them into CloudWatch. Applications instrumented with an OpenTelemetry SDK send to an OTLP endpoint that the agent serves on every node, on by default. Metrics arrive as CloudWatch metrics you query with PromQL, traces g",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
+          "title": "AWS Quick introduces enterprise guardrails (preview)",
+          "summary": "AWS Quick now includes enterprise guardrails, giving administrators configurable content safety and sensitive-information controls for user prompts. Administrators can apply guardrail policies to individual users or enterprise identity provider (IdP) groups or set a policy as the account default. User-level policies take precedence over group policies and account defaults. When multiple group policies apply, Quick combines their content restrictions, using the stricter setting when controls over",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
           "source": "AWS What's New",
           "category": "Cloud",
-          "published": "Fri, 20 Nov 2026 20:05:00 GMT",
+          "published": "Fri, 20 Nov 2026 20:30:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 46.6,
-          "also_sources": []
-        },
-        {
-          "title": "Amazon Transcribe announces a synchronous transcription API",
-          "summary": "Amazon Transcribe now offers a synchronous transcription API, `TranscribeAudio`. Send a complete audio file in a single request and get the full transcript back in the same response. There is no job to start, no status to poll, no connection to manage. Add fast, accurate speech-to-text to interactive applications such as voice assistants, agent-assist tools and on-demand \"transcribe this clip\" features. The synchronous API supports the Amazon Transcribe features you already use, including: Word-",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
-          "source": "AWS What's New",
-          "category": "Cloud",
-          "published": "Fri, 20 Nov 2026 20:00:00 GMT",
-          "severity": "INFORMATIONAL",
-          "score": 46.51,
+          "score": 45.1,
           "also_sources": []
         },
         {
@@ -2375,7 +2375,7 @@
           "category": "Technology",
           "published": "2026-11-20T11:13:32.556-08:00",
           "severity": "INFORMATIONAL",
-          "score": 53.74,
+          "score": 51.83,
           "also_sources": []
         }
       ],
@@ -2389,11 +2389,22 @@
             "category": "Networking",
             "published": "Fri, 20 Nov 2026 19:15:55 GMT",
             "severity": "INFORMATIONAL",
-            "score": 53.78,
+            "score": 51.87,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
+          {
+            "title": "GCP-2026-088",
+            "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
+            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
+            "source": "Google Cloud Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "2026-11-20T21:12:32.358507+00:00",
+            "severity": "HIGH",
+            "score": 88.81,
+            "also_sources": []
+          },
           {
             "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
             "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
@@ -2402,22 +2413,22 @@
             "category": "Cybersecurity",
             "published": "2026-11-20 20:37:16.0",
             "severity": "HIGH",
-            "score": 90.13,
-            "also_sources": []
-          },
-          {
-            "title": "GCP-2026-088",
-            "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
-            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
-            "source": "Google Cloud Security Bulletins",
-            "category": "Cybersecurity",
-            "published": "2026-11-20T20:20:23.206636+00:00",
-            "severity": "HIGH",
-            "score": 89.85,
+            "score": 88.22,
             "also_sources": []
           }
         ],
         "Cloud": [
+          {
+            "title": "AWS Quick now supports group assignments for custom permissions and limit profiles",
+            "summary": "AWS Quick now supports assignments for custom permissions and limit profiles to groups from your enterprise identity provider (IdP). Administrators can now apply feature restrictions and per-user resource limits to IdP groups, in addition to the existing user, role, and account assignments. Organizations can align governance with their enterprise identity structure without maintaining assignments for individual users. Administrators manage user, account or group assignments in the Quick administ",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-group-assignments-custom-permissions-limit-profiles/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Fri, 20 Nov 2026 20:42:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 45.3,
+            "also_sources": []
+          },
           {
             "title": "[In preview] Public Preview: Azure Firewall for Containers",
             "summary": "Azure Firewall for Containers extends Azure Firewall protection to containerized workloads, providing a centralized approach to securing network traffic for container environments. Customers can use Azure Firewall capabilities as part of their container n",
@@ -2426,29 +2437,18 @@
             "category": "Cloud",
             "published": "Fri, 20 Nov 2026 20:05:17 Z",
             "severity": "INFORMATIONAL",
-            "score": 46.6,
+            "score": 44.69,
             "also_sources": []
           },
           {
-            "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
-            "summary": "Today, Amazon CloudWatch announces support for your own application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent you already run now accepts metrics, traces, and logs from your applications, so you don't deploy and operate a separate collector to get them into CloudWatch. Applications instrumented with an OpenTelemetry SDK send to an OTLP endpoint that the agent serves on every node, on by default. Metrics arrive as CloudWatch metrics you query with PromQL, traces g",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
+            "title": "AWS Quick introduces enterprise guardrails (preview)",
+            "summary": "AWS Quick now includes enterprise guardrails, giving administrators configurable content safety and sensitive-information controls for user prompts. Administrators can apply guardrail policies to individual users or enterprise identity provider (IdP) groups or set a policy as the account default. User-level policies take precedence over group policies and account defaults. When multiple group policies apply, Quick combines their content restrictions, using the stricter setting when controls over",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-enterprise-guardrails-preview/",
             "source": "AWS What's New",
             "category": "Cloud",
-            "published": "Fri, 20 Nov 2026 20:05:00 GMT",
+            "published": "Fri, 20 Nov 2026 20:30:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 46.6,
-            "also_sources": []
-          },
-          {
-            "title": "Amazon Transcribe announces a synchronous transcription API",
-            "summary": "Amazon Transcribe now offers a synchronous transcription API, `TranscribeAudio`. Send a complete audio file in a single request and get the full transcript back in the same response. There is no job to start, no status to poll, no connection to manage. Add fast, accurate speech-to-text to interactive applications such as voice assistants, agent-assist tools and on-demand \"transcribe this clip\" features. The synchronous API supports the Amazon Transcribe features you already use, including: Word-",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
-            "source": "AWS What's New",
-            "category": "Cloud",
-            "published": "Fri, 20 Nov 2026 20:00:00 GMT",
-            "severity": "INFORMATIONAL",
-            "score": 46.51,
+            "score": 45.1,
             "also_sources": []
           }
         ],
@@ -2461,7 +2461,7 @@
             "category": "Technology",
             "published": "2026-11-20T11:13:32.556-08:00",
             "severity": "INFORMATIONAL",
-            "score": 53.74,
+            "score": 51.83,
             "also_sources": []
           }
         ]

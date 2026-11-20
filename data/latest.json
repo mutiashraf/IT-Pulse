@@ -1,6 +1,105 @@
 {
-  "updated_utc": "2026-11-20T08:09:05.326909+00:00",
+  "updated_utc": "2026-11-20T23:24:00.751844+00:00",
   "alerts": [
+    {
+      "title": "GCP-2026-088",
+      "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
+      "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
+      "source": "Google Cloud Security Bulletins",
+      "category": "Cybersecurity",
+      "published": "2026-11-20T21:12:32.358507+00:00",
+      "severity": "HIGH",
+      "score": 88.95,
+      "also_sources": []
+    },
+    {
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "summary": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Fri, 20 Nov 2026 23:27:20 +0530",
+      "severity": "HIGH",
+      "score": 85.7,
+      "also_sources": []
+    },
+    {
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Fri, 20 Nov 2026 12:30:00 -0500",
+      "severity": "CRITICAL",
+      "score": 127.24,
+      "also_sources": []
+    },
+    {
+      "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+      "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+      "source": "Cisco Security Advisories",
+      "category": "Cybersecurity",
+      "published": "2026-11-20 16:00:00.0",
+      "severity": "HIGH",
+      "score": 83.74,
+      "also_sources": []
+    },
+    {
+      "title": "N-able says recent security breach led to major service outage",
+      "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+      "source": "BleepingComputer",
+      "category": "Networking",
+      "published": "Fri, 20 Nov 2026 08:18:36 -0500",
+      "severity": "HIGH",
+      "score": 98.05,
+      "also_sources": []
+    },
+    {
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-42884 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability CVE-2026-76466 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability CVE-2026-123890 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-129448 Apache Roller Deserialization of Untrusted Data Vulnera",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "Cybersecurity",
+      "published": "Fri, 20 Nov 26 12:00:00 +0000",
+      "severity": "CRITICAL",
+      "score": 121.74,
+      "also_sources": []
+    },
+    {
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+      "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Fri, 20 Nov 2026 05:57:43 -0500",
+      "severity": "CRITICAL",
+      "score": 103.7,
+      "also_sources": []
+    },
+    {
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept (PoC) exploit. The activity involves the exploitation of CVE-2026-76466 (CVSS score: 9.8), a vulnerability that could allow an unauthenticated, remote attacker with network access to a Cisco Expressway",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Fri, 20 Nov 2026 16:02:50 +0530",
+      "severity": "CRITICAL",
+      "score": 103.29,
+      "also_sources": []
+    },
+    {
+      "title": "NGINX vulnerabilities",
+      "summary": "CVSSv3 Score: 8.1 CVE-2026-123007 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.9.5 - 1.30.6. NGINX Plus 37.1.0 - 37.2.0.1, 37.0.0 - 37.0.7.1.CVE-2026-123633 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.19.7 - 1.30.6. NGINX Plus 37.1.0 - 37.1.1, 37.0.0 - 37.0.6.1.CVE-2026-121810 (high)This vulnerability affects NGINX OSS versions 1.31.0 - 1.31.8, 1.25.0 - 1.30.6. NGINX Plus 37.1.0 - 37.2.0.1, 37.0.0 - 37.0.7.1.CVE-2026-123634 (high)This vulnerab",
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-279",
+      "source": "Fortinet PSIRT",
+      "category": "Cybersecurity",
+      "published": "Fri, 20 Nov 2026 00:00:00 -0800",
+      "severity": "HIGH",
+      "score": 67.74,
+      "also_sources": []
+    },
     {
       "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
       "summary": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
@@ -1000,105 +1099,6 @@
       "published": "Tue, 17 Nov 26 12:00:00 +0000",
       "severity": "HIGH",
       "score": 75.02,
-      "also_sources": []
-    },
-    {
-      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-      "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 2026 02:25:44 -0500",
-      "severity": "CRITICAL",
-      "score": 128.97,
-      "also_sources": []
-    },
-    {
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-      "summary": "N-able has released a new security update to address additional critical security flaws impacting N-central. Describing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform. \"HF3 builds on the",
-      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 2026 10:30:34 +0530",
-      "severity": "HIGH",
-      "score": 84.55,
-      "also_sources": []
-    },
-    {
-      "title": "CVE-2026-124223 Microsoft Office SharePoint Remote Code Execution Vulnerability",
-      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124223",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Mon, 16 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 87.64,
-      "also_sources": []
-    },
-    {
-      "title": "CVE-2026-124222 Microsoft Office SharePoint Elevation of Privilege Vulnerability",
-      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-124222",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Mon, 16 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 87.64,
-      "also_sources": []
-    },
-    {
-      "title": "CVE-2026-105544 .NET VSTest Elevation of Privilege Vulnerability",
-      "summary": "Corrected the CVE description and title. This is an informational change only.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Mon, 16 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 79.64,
-      "also_sources": []
-    },
-    {
-      "title": "Cursor confirms security breach led to malicious Claude Code extension",
-      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-      "source": "BleepingComputer",
-      "category": "AI",
-      "published": "Sat, 14 Nov 2026 12:27:25 -0500",
-      "severity": "HIGH",
-      "score": 81.08,
-      "also_sources": []
-    },
-    {
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Sat, 14 Nov 2026 18:08:35 +0530",
-      "severity": "CRITICAL",
-      "score": 131.23,
-      "also_sources": []
-    },
-    {
-      "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-      "summary": "<p>Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by&nbsp;<strong>eMudhra</strong> was uncovered.</p> <p>A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see&nbsp;",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-      "source": "Cisco Security Advisories",
-      "category": "Cybersecurity",
-      "published": "2026-11-13 20:01:18.0",
-      "severity": "HIGH",
-      "score": 78.06,
-      "also_sources": []
-    },
-    {
-      "title": "CVE-2026-95922 Windows Graphics Kernel Elevation of Privilege Vulnerability",
-      "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95922",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 82.04,
       "also_sources": []
     }
   ],

@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-20T08:09:05.399006+00:00",
-  "latest_date": "2026-11-20",
+  "generated_utc": "2026-11-20T21:29:11.540611+00:00",
+  "latest_date": "2026-11-21",
   "available_dates": [
+    "2026-11-21",
     "2026-11-20",
     "2026-11-19",
     "2026-11-18",
@@ -2288,6 +2289,179 @@
             "published": "Fri, 20 Nov 2026 12:30:05 +0500",
             "severity": "INFORMATIONAL",
             "score": 47.35,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-21": {
+      "date": "2026-11-21",
+      "generated_utc": "2026-11-20T21:29:11.540601+00:00",
+      "story_count": 7,
+      "source_count": 6,
+      "stories": [
+        {
+          "title": "FortiNAC-F 7.6.8",
+          "summary": "FortiNAC-F 7.6.8 B1007 and release notes are available for download from the Support site : https://support.fortinet.com",
+          "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+          "source": "Fortinet Firmware Updates",
+          "category": "Networking",
+          "published": "Fri, 20 Nov 2026 19:15:55 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 53.78,
+          "also_sources": []
+        },
+        {
+          "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+          "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-20 20:37:16.0",
+          "severity": "HIGH",
+          "score": 90.13,
+          "also_sources": []
+        },
+        {
+          "title": "GCP-2026-088",
+          "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
+          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
+          "source": "Google Cloud Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "2026-11-20T20:20:23.206636+00:00",
+          "severity": "HIGH",
+          "score": 89.85,
+          "also_sources": []
+        },
+        {
+          "title": "[In preview] Public Preview: Azure Firewall for Containers",
+          "summary": "Azure Firewall for Containers extends Azure Firewall protection to containerized workloads, providing a centralized approach to securing network traffic for container environments. Customers can use Azure Firewall capabilities as part of their container n",
+          "url": "https://azure.microsoft.com/updates?id=581963",
+          "source": "Azure Updates",
+          "category": "Cloud",
+          "published": "Fri, 20 Nov 2026 20:05:17 Z",
+          "severity": "INFORMATIONAL",
+          "score": 46.6,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
+          "summary": "Today, Amazon CloudWatch announces support for your own application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent you already run now accepts metrics, traces, and logs from your applications, so you don't deploy and operate a separate collector to get them into CloudWatch. Applications instrumented with an OpenTelemetry SDK send to an OTLP endpoint that the agent serves on every node, on by default. Metrics arrive as CloudWatch metrics you query with PromQL, traces g",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Fri, 20 Nov 2026 20:05:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 46.6,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon Transcribe announces a synchronous transcription API",
+          "summary": "Amazon Transcribe now offers a synchronous transcription API, `TranscribeAudio`. Send a complete audio file in a single request and get the full transcript back in the same response. There is no job to start, no status to poll, no connection to manage. Add fast, accurate speech-to-text to interactive applications such as voice assistants, agent-assist tools and on-demand \"transcribe this clip\" features. The synchronous API supports the Amazon Transcribe features you already use, including: Word-",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Fri, 20 Nov 2026 20:00:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 46.51,
+          "also_sources": []
+        },
+        {
+          "title": "Chrome Dev for Android Update",
+          "summary": "Hi everyone! We've just released Chrome Dev 160 (160.0.8171.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features, check out the Chromium blog , and for details on web platform updates, check here . If you find a new issue, please let us know by filing a bug . Chrome Release Team Google Chrome",
+          "url": "http://chromereleases.googleblog.com/feeds/3394830820157986563/comments/default",
+          "source": "Google Chrome Releases",
+          "category": "Technology",
+          "published": "2026-11-20T11:13:32.556-08:00",
+          "severity": "INFORMATIONAL",
+          "score": 53.74,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "FortiNAC-F 7.6.8",
+            "summary": "FortiNAC-F 7.6.8 B1007 and release notes are available for download from the Support site : https://support.fortinet.com",
+            "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+            "source": "Fortinet Firmware Updates",
+            "category": "Networking",
+            "published": "Fri, 20 Nov 2026 19:15:55 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 53.78,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+            "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-20 20:37:16.0",
+            "severity": "HIGH",
+            "score": 90.13,
+            "also_sources": []
+          },
+          {
+            "title": "GCP-2026-088",
+            "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
+            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
+            "source": "Google Cloud Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "2026-11-20T20:20:23.206636+00:00",
+            "severity": "HIGH",
+            "score": 89.85,
+            "also_sources": []
+          }
+        ],
+        "Cloud": [
+          {
+            "title": "[In preview] Public Preview: Azure Firewall for Containers",
+            "summary": "Azure Firewall for Containers extends Azure Firewall protection to containerized workloads, providing a centralized approach to securing network traffic for container environments. Customers can use Azure Firewall capabilities as part of their container n",
+            "url": "https://azure.microsoft.com/updates?id=581963",
+            "source": "Azure Updates",
+            "category": "Cloud",
+            "published": "Fri, 20 Nov 2026 20:05:17 Z",
+            "severity": "INFORMATIONAL",
+            "score": 46.6,
+            "also_sources": []
+          },
+          {
+            "title": "Amazon CloudWatch Observability EKS add-on now supports custom OpenTelemetry and Prometheus telemetry",
+            "summary": "Today, Amazon CloudWatch announces support for your own application telemetry in the CloudWatch Observability EKS add-on. The CloudWatch agent you already run now accepts metrics, traces, and logs from your applications, so you don't deploy and operate a separate collector to get them into CloudWatch. Applications instrumented with an OpenTelemetry SDK send to an OTLP endpoint that the agent serves on every node, on by default. Metrics arrive as CloudWatch metrics you query with PromQL, traces g",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/cloudwatch-eks-addon-custom-telemetry/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Fri, 20 Nov 2026 20:05:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 46.6,
+            "also_sources": []
+          },
+          {
+            "title": "Amazon Transcribe announces a synchronous transcription API",
+            "summary": "Amazon Transcribe now offers a synchronous transcription API, `TranscribeAudio`. Send a complete audio file in a single request and get the full transcript back in the same response. There is no job to start, no status to poll, no connection to manage. Add fast, accurate speech-to-text to interactive applications such as voice assistants, agent-assist tools and on-demand \"transcribe this clip\" features. The synchronous API supports the Amazon Transcribe features you already use, including: Word-",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-transcribe-sync-api/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Fri, 20 Nov 2026 20:00:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 46.51,
+            "also_sources": []
+          }
+        ],
+        "Technology": [
+          {
+            "title": "Chrome Dev for Android Update",
+            "summary": "Hi everyone! We've just released Chrome Dev 160 (160.0.8171.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features, check out the Chromium blog , and for details on web platform updates, check here . If you find a new issue, please let us know by filing a bug . Chrome Release Team Google Chrome",
+            "url": "http://chromereleases.googleblog.com/feeds/3394830820157986563/comments/default",
+            "source": "Google Chrome Releases",
+            "category": "Technology",
+            "published": "2026-11-20T11:13:32.556-08:00",
+            "severity": "INFORMATIONAL",
+            "score": 53.74,
             "also_sources": []
           }
         ]

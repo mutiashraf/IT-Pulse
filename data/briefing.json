@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-21T12:58:53.758003+00:00",
-  "latest_date": "2026-11-21",
+  "generated_utc": "2026-11-21T20:17:36.411123+00:00",
+  "latest_date": "2026-11-22",
   "available_dates": [
+    "2026-11-22",
     "2026-11-21",
     "2026-11-20",
     "2026-11-19",
@@ -2594,6 +2595,41 @@
             "published": "2026-11-20T11:13:32.556-08:00",
             "severity": "INFORMATIONAL",
             "score": 38.24,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-22": {
+      "date": "2026-11-22",
+      "generated_utc": "2026-11-21T20:17:36.411112+00:00",
+      "story_count": 1,
+      "source_count": 1,
+      "stories": [
+        {
+          "title": "Internet provider expects submarine cable repairs to be completed by Dec 6",
+          "summary": "Internet service provider Transworld Associates has said repair work on an affected international submarine cable is expected to be completed by December 6, with users likely to experience slower internet speeds during peak hours until the work is finished. In an email to customers, the company said repair operations were actively underway and that the tentative timeline for completion was Dec 6. “Further to our earlier notice on November 18, 2026, repair operations for the affected internationa",
+          "url": "https://www.dawn.com/news/2046093/internet-provider-expects-submarine-cable-repairs-to-be-completed-by-dec-6",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Sun, 22 Nov 2026 00:19:19 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 47.03,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Technology": [
+          {
+            "title": "Internet provider expects submarine cable repairs to be completed by Dec 6",
+            "summary": "Internet service provider Transworld Associates has said repair work on an affected international submarine cable is expected to be completed by December 6, with users likely to experience slower internet speeds during peak hours until the work is finished. In an email to customers, the company said repair operations were actively underway and that the tentative timeline for completion was Dec 6. “Further to our earlier notice on November 18, 2026, repair operations for the affected internationa",
+            "url": "https://www.dawn.com/news/2046093/internet-provider-expects-submarine-cable-repairs-to-be-completed-by-dec-6",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Sun, 22 Nov 2026 00:19:19 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 47.03,
             "also_sources": []
           }
         ]

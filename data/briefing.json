@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-21T20:17:36.411123+00:00",
+  "generated_utc": "2026-11-21T20:28:58.993360+00:00",
   "latest_date": "2026-11-22",
   "available_dates": [
     "2026-11-22",
@@ -2603,7 +2603,7 @@
     },
     "2026-11-22": {
       "date": "2026-11-22",
-      "generated_utc": "2026-11-21T20:17:36.411112+00:00",
+      "generated_utc": "2026-11-21T20:28:58.993349+00:00",
       "story_count": 1,
       "source_count": 1,
       "stories": [
@@ -2615,7 +2615,7 @@
           "category": "Technology",
           "published": "Sun, 22 Nov 2026 00:19:19 +0500",
           "severity": "INFORMATIONAL",
-          "score": 47.03,
+          "score": 46.84,
           "also_sources": []
         }
       ],
@@ -2629,7 +2629,7 @@
             "category": "Technology",
             "published": "Sun, 22 Nov 2026 00:19:19 +0500",
             "severity": "INFORMATIONAL",
-            "score": 47.03,
+            "score": 46.84,
             "also_sources": []
           }
         ]

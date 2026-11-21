@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-21T04:14:23.847472+00:00",
+  "generated_utc": "2026-11-21T12:58:53.758003+00:00",
   "latest_date": "2026-11-21",
   "available_dates": [
     "2026-11-21",
@@ -2297,10 +2297,21 @@
     },
     "2026-11-21": {
       "date": "2026-11-21",
-      "generated_utc": "2026-11-21T04:14:23.847462+00:00",
-      "story_count": 9,
-      "source_count": 7,
+      "generated_utc": "2026-11-21T12:58:53.757993+00:00",
+      "story_count": 13,
+      "source_count": 9,
       "stories": [
+        {
+          "title": "FBI, US Agriculture Department breached by hackers: reports",
+          "summary": "The US Agriculture Department and the Federal Bureau of Investigation (FBI) were breached by hackers in cyberattacks, US media reported on Saturday, as concerns deepened over the recent spate of tech outages at key American institutions. The incidents were first reported by NBC News and CNN , respectively, and it remained unclear whether they were related and who was responsible. Major outages in recent weeks have disrupted travel , communications and e-commerce for countless users across the Un",
+          "url": "https://www.dawn.com/news/2046105/fbi-us-agriculture-department-breached-by-hackers-reports",
+          "source": "Dawn Technology",
+          "category": "Networking",
+          "published": "Sat, 21 Nov 2026 12:31:03 +0500",
+          "severity": "HIGH",
+          "score": 110.54,
+          "also_sources": []
+        },
         {
           "title": "FortiPAM 7.0.1",
           "summary": "FortiPAM 7.0.1 B0034 and release notes are available for download from the Support site : https://support.fortinet.com",
@@ -2309,7 +2320,7 @@
           "category": "Networking",
           "published": "Sat, 21 Nov 2026 00:13:52 GMT",
           "severity": "INFORMATIONAL",
-          "score": 51.99,
+          "score": 43.25,
           "also_sources": []
         },
         {
@@ -2320,18 +2331,29 @@
           "category": "Networking",
           "published": "Fri, 20 Nov 2026 22:54:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 42.66,
+          "score": 33.92,
           "also_sources": []
         },
         {
-          "title": "GCP-2026-088",
-          "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
-          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
+          "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+          "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+          "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Sat, 21 Nov 2026 16:33:17 +0530",
+          "severity": "CRITICAL",
+          "score": 131.07,
+          "also_sources": []
+        },
+        {
+          "title": "GCP-2026-090",
+          "summary": "Published: 2026-11-20 Description Description Severity Notes A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following Google Cloud products are impacted: App Engine Standard (second-generation PHP 7.2–8.5 runtimes) App Engine Flexible Cloud Run Cloud Run functions What should I do? Immediate mitigat",
+          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-090",
           "source": "Google Cloud Security Bulletins",
           "category": "Cybersecurity",
-          "published": "2026-11-20T21:12:32.358507+00:00",
-          "severity": "HIGH",
-          "score": 83.97,
+          "published": "2026-11-21T00:05:07.650246+00:00",
+          "severity": "CRITICAL",
+          "score": 95.1,
           "also_sources": []
         },
         {
@@ -2342,7 +2364,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-20 20:37:16.0",
           "severity": "HIGH",
-          "score": 83.38,
+          "score": 74.64,
           "also_sources": []
         },
         {
@@ -2353,7 +2375,18 @@
           "category": "Cybersecurity",
           "published": "2026-11-20T23:00:00.000Z",
           "severity": "INFORMATIONAL",
-          "score": 42.76,
+          "score": 34.02,
+          "also_sources": []
+        },
+        {
+          "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Sat, 21 Nov 2026 14:19:13 +0530",
+          "severity": "CRITICAL",
+          "score": 128.84,
           "also_sources": []
         },
         {
@@ -2364,7 +2397,7 @@
           "category": "Cloud",
           "published": "Fri, 20 Nov 2026 22:00:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 49.76,
+          "score": 41.02,
           "also_sources": []
         },
         {
@@ -2375,7 +2408,7 @@
           "category": "Cloud",
           "published": "Sat, 21 Nov 2026 00:45:13 Z",
           "severity": "INFORMATIONAL",
-          "score": 44.51,
+          "score": 35.77,
           "also_sources": []
         },
         {
@@ -2386,7 +2419,18 @@
           "category": "Cloud",
           "published": "Sat, 21 Nov 2026 00:43:13 Z",
           "severity": "INFORMATIONAL",
-          "score": 44.48,
+          "score": 35.74,
+          "also_sources": []
+        },
+        {
+          "title": "Internet provider expects submarine cable repairs to be completed by Dec 6",
+          "summary": "Internet service provider Transworld Associates has said repair work on an affected international submarine cable is expected to be completed by December 6, with users likely to experience slower internet speeds during peak hours until the work is finished. In an email to customers, the company said repair operations were actively underway and that the tentative timeline for completion was Dec 6. “Further to our earlier notice on November 18, 2026, repair operations for the affected internationa",
+          "url": "https://www.dawn.com/news/2046093/internet-provider-expects-submarine-cable-repairs-to-be-completed-by-dec-6",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Sat, 21 Nov 2026 13:07:29 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 43.14,
           "also_sources": []
         },
         {
@@ -2397,12 +2441,23 @@
           "category": "Technology",
           "published": "2026-11-20T11:13:32.556-08:00",
           "severity": "INFORMATIONAL",
-          "score": 46.99,
+          "score": 38.24,
           "also_sources": []
         }
       ],
       "sections": {
         "Networking": [
+          {
+            "title": "FBI, US Agriculture Department breached by hackers: reports",
+            "summary": "The US Agriculture Department and the Federal Bureau of Investigation (FBI) were breached by hackers in cyberattacks, US media reported on Saturday, as concerns deepened over the recent spate of tech outages at key American institutions. The incidents were first reported by NBC News and CNN , respectively, and it remained unclear whether they were related and who was responsible. Major outages in recent weeks have disrupted travel , communications and e-commerce for countless users across the Un",
+            "url": "https://www.dawn.com/news/2046105/fbi-us-agriculture-department-breached-by-hackers-reports",
+            "source": "Dawn Technology",
+            "category": "Networking",
+            "published": "Sat, 21 Nov 2026 12:31:03 +0500",
+            "severity": "HIGH",
+            "score": 110.54,
+            "also_sources": []
+          },
           {
             "title": "FortiPAM 7.0.1",
             "summary": "FortiPAM 7.0.1 B0034 and release notes are available for download from the Support site : https://support.fortinet.com",
@@ -2411,7 +2466,7 @@
             "category": "Networking",
             "published": "Sat, 21 Nov 2026 00:13:52 GMT",
             "severity": "INFORMATIONAL",
-            "score": 51.99,
+            "score": 43.25,
             "also_sources": []
           },
           {
@@ -2422,20 +2477,31 @@
             "category": "Networking",
             "published": "Fri, 20 Nov 2026 22:54:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 42.66,
+            "score": 33.92,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
           {
-            "title": "GCP-2026-088",
-            "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
-            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-088",
+            "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+            "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+            "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Sat, 21 Nov 2026 16:33:17 +0530",
+            "severity": "CRITICAL",
+            "score": 131.07,
+            "also_sources": []
+          },
+          {
+            "title": "GCP-2026-090",
+            "summary": "Published: 2026-11-20 Description Description Severity Notes A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following Google Cloud products are impacted: App Engine Standard (second-generation PHP 7.2–8.5 runtimes) App Engine Flexible Cloud Run Cloud Run functions What should I do? Immediate mitigat",
+            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-090",
             "source": "Google Cloud Security Bulletins",
             "category": "Cybersecurity",
-            "published": "2026-11-20T21:12:32.358507+00:00",
-            "severity": "HIGH",
-            "score": 83.97,
+            "published": "2026-11-21T00:05:07.650246+00:00",
+            "severity": "CRITICAL",
+            "score": 95.1,
             "also_sources": []
           },
           {
@@ -2446,7 +2512,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-20 20:37:16.0",
             "severity": "HIGH",
-            "score": 83.38,
+            "score": 74.64,
             "also_sources": []
           },
           {
@@ -2457,7 +2523,18 @@
             "category": "Cybersecurity",
             "published": "2026-11-20T23:00:00.000Z",
             "severity": "INFORMATIONAL",
-            "score": 42.76,
+            "score": 34.02,
+            "also_sources": []
+          },
+          {
+            "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+            "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Sat, 21 Nov 2026 14:19:13 +0530",
+            "severity": "CRITICAL",
+            "score": 128.84,
             "also_sources": []
           }
         ],
@@ -2470,7 +2547,7 @@
             "category": "Cloud",
             "published": "Fri, 20 Nov 2026 22:00:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 49.76,
+            "score": 41.02,
             "also_sources": []
           },
           {
@@ -2481,7 +2558,7 @@
             "category": "Cloud",
             "published": "Sat, 21 Nov 2026 00:45:13 Z",
             "severity": "INFORMATIONAL",
-            "score": 44.51,
+            "score": 35.77,
             "also_sources": []
           },
           {
@@ -2492,11 +2569,22 @@
             "category": "Cloud",
             "published": "Sat, 21 Nov 2026 00:43:13 Z",
             "severity": "INFORMATIONAL",
-            "score": 44.48,
+            "score": 35.74,
             "also_sources": []
           }
         ],
         "Technology": [
+          {
+            "title": "Internet provider expects submarine cable repairs to be completed by Dec 6",
+            "summary": "Internet service provider Transworld Associates has said repair work on an affected international submarine cable is expected to be completed by December 6, with users likely to experience slower internet speeds during peak hours until the work is finished. In an email to customers, the company said repair operations were actively underway and that the tentative timeline for completion was Dec 6. “Further to our earlier notice on November 18, 2026, repair operations for the affected internationa",
+            "url": "https://www.dawn.com/news/2046093/internet-provider-expects-submarine-cable-repairs-to-be-completed-by-dec-6",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Sat, 21 Nov 2026 13:07:29 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 43.14,
+            "also_sources": []
+          },
           {
             "title": "Chrome Dev for Android Update",
             "summary": "Hi everyone! We've just released Chrome Dev 160 (160.0.8171.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features, check out the Chromium blog , and for details on web platform updates, check here . If you find a new issue, please let us know by filing a bug . Chrome Release Team Google Chrome",
@@ -2505,14 +2593,12 @@
             "category": "Technology",
             "published": "2026-11-20T11:13:32.556-08:00",
             "severity": "INFORMATIONAL",
-            "score": 46.99,
+            "score": 38.24,
             "also_sources": []
           }
         ]
       },
-      "source_failures": [
-        "Google Cloud Security Bulletins"
-      ]
+      "source_failures": []
     }
   }
 }

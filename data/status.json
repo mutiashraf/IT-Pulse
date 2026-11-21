@@ -1,10 +1,8 @@
 {
-  "last_monitor_utc": "2026-11-21T04:14:23.853424+00:00",
-  "source_failures": [
-    "Google Cloud Security Bulletins"
-  ],
-  "stories_checked": 4638,
-  "new_alerts_sent": 0,
-  "daily_stories": 9,
-  "daily_sources": 7
+  "last_monitor_utc": "2026-11-21T12:58:53.760842+00:00",
+  "source_failures": [],
+  "stories_checked": 4639,
+  "new_alerts_sent": 4,
+  "daily_stories": 13,
+  "daily_sources": 9
 }

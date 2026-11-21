@@ -1,6 +1,50 @@
 {
-  "updated_utc": "2026-11-20T23:24:00.751844+00:00",
+  "updated_utc": "2026-11-21T12:58:53.713890+00:00",
   "alerts": [
+    {
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Sat, 21 Nov 2026 16:33:17 +0530",
+      "severity": "CRITICAL",
+      "score": 131.15,
+      "also_sources": []
+    },
+    {
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Sat, 21 Nov 2026 14:19:13 +0530",
+      "severity": "CRITICAL",
+      "score": 128.92,
+      "also_sources": []
+    },
+    {
+      "title": "FBI, US Agriculture Department breached by hackers: reports",
+      "summary": "The US Agriculture Department and the Federal Bureau of Investigation (FBI) were breached by hackers in cyberattacks, US media reported on Saturday, as concerns deepened over the recent spate of tech outages at key American institutions. The incidents were first reported by NBC News and CNN , respectively, and it remained unclear whether they were related and who was responsible. Major outages in recent weeks have disrupted travel , communications and e-commerce for countless users across the Un",
+      "url": "https://www.dawn.com/news/2046105/fbi-us-agriculture-department-breached-by-hackers-reports",
+      "source": "Dawn Technology",
+      "category": "Networking",
+      "published": "Sat, 21 Nov 2026 12:31:03 +0500",
+      "severity": "HIGH",
+      "score": 110.62,
+      "also_sources": []
+    },
+    {
+      "title": "GCP-2026-090",
+      "summary": "Published: 2026-11-20 Description Description Severity Notes A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following Google Cloud products are impacted: App Engine Standard (second-generation PHP 7.2–8.5 runtimes) App Engine Flexible Cloud Run Cloud Run functions What should I do? Immediate mitigat",
+      "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-090",
+      "source": "Google Cloud Security Bulletins",
+      "category": "Cybersecurity",
+      "published": "2026-11-21T00:05:07.650246+00:00",
+      "severity": "CRITICAL",
+      "score": 95.18,
+      "also_sources": []
+    },
     {
       "title": "GCP-2026-088",
       "summary": "Published: 2026-11-19 Updated: 2026-11-20 Description Description Severity Notes 2026-11-20 Update: Added GKE patch versions containing fixes for Container-Optimized OS for minor versions 1.32 and 1.33. Patches for GKE 1.37 on Container-Optimized OS and Ubuntu node images are still in progress. A denial-of-service vulnerability (CVE-2026-99288) was discovered in the Linux kernel TCP implementation. The flaw can cause a kernel panic (denial of service) on the affected virtual machine; it does not",
@@ -1050,50 +1094,6 @@
       "title": "Dorsett Controls InfoScan",
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are affected: InfoScan <=1.45.0 (CVE-2026-117659, CVE-2026-120157, CVE-2026-120255, CVE-2026-120260, CVE-2026-120271, CVE-2026-120298) CVSS Vendor Equipment v3 8.1 Dorsett Controls InfoSca",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 75.02,
-      "also_sources": []
-    },
-    {
-      "title": "Siemens meta-iot2050",
-      "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fixes and recommends mitigations for products where fixes are not or not yet available. The following versions of Siemens meta-iot2050 are affected: meta-iot2050 vers:intdot/>=01.03.01 (CVE-2026-109830)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 75.02,
-      "also_sources": []
-    },
-    {
-      "title": "Siemens SIMATIC WinCC",
-      "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC WinCC are affected: SIMATIC WinCC V7.5 vers:all/* (CVE-2026-59082) SIMATIC WinCC V8.0 vers:all/* (CVE-2026-59082) SI",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 75.02,
-      "also_sources": []
-    },
-    {
-      "title": "Siemens RUGGEDCOM APE1808",
-      "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information The following versions of Siemens RUGGEDCOM APE1808 are affected: RUGGEDCOM APE1808 vers:all/* (CVE-2026-106175) CVSS Vendor Equipment v3 2.3 Siemens RUGGEDCOM APE1808 1",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 75.02,
-      "also_sources": []
-    },
-    {
-      "title": "Siemens SIMATIC",
-      "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC are affected: SIMATIC BATCH V9.1 vers:all/* (CVE-2026-58114) SIMATIC Information Server 2020 vers:a",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
       "source": "CISA Advisories",
       "category": "Cybersecurity",
       "published": "Tue, 17 Nov 26 12:00:00 +0000",

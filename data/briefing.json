@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-22T07:52:00.970243+00:00",
+  "generated_utc": "2026-11-22T16:01:42.131268+00:00",
   "latest_date": "2026-11-22",
   "available_dates": [
     "2026-11-22",
@@ -2603,10 +2603,21 @@
     },
     "2026-11-22": {
       "date": "2026-11-22",
-      "generated_utc": "2026-11-22T07:52:00.970233+00:00",
-      "story_count": 4,
+      "generated_utc": "2026-11-22T16:01:42.131256+00:00",
+      "story_count": 5,
       "source_count": 3,
       "stories": [
+        {
+          "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+          "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Sun, 22 Nov 2026 10:43:04 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 72.69,
+          "also_sources": []
+        },
         {
           "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
           "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
@@ -2615,7 +2626,7 @@
           "category": "Cybersecurity",
           "published": "Sat, 21 Nov 2026 17:59:58 -0500",
           "severity": "INFORMATIONAL",
-          "score": 39.13,
+          "score": 30.97,
           "also_sources": []
         },
         {
@@ -2626,7 +2637,7 @@
           "category": "Linux",
           "published": "Sun, 22 Nov 2026 10:33:41 +0530",
           "severity": "INFORMATIONAL",
-          "score": 53.19,
+          "score": 45.03,
           "also_sources": []
         },
         {
@@ -2637,7 +2648,7 @@
           "category": "AI",
           "published": "Sun, 22 Nov 2026 10:36:55 +0530",
           "severity": "INFORMATIONAL",
-          "score": 45.25,
+          "score": 37.09,
           "also_sources": []
         },
         {
@@ -2648,12 +2659,23 @@
           "category": "Technology",
           "published": "Sun, 22 Nov 2026 00:19:19 +0500",
           "severity": "INFORMATIONAL",
-          "score": 35.46,
+          "score": 27.29,
           "also_sources": []
         }
       ],
       "sections": {
         "Cybersecurity": [
+          {
+            "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+            "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Sun, 22 Nov 2026 10:43:04 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 72.69,
+            "also_sources": []
+          },
           {
             "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
             "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
@@ -2662,7 +2684,7 @@
             "category": "Cybersecurity",
             "published": "Sat, 21 Nov 2026 17:59:58 -0500",
             "severity": "INFORMATIONAL",
-            "score": 39.13,
+            "score": 30.97,
             "also_sources": []
           }
         ],
@@ -2675,7 +2697,7 @@
             "category": "Linux",
             "published": "Sun, 22 Nov 2026 10:33:41 +0530",
             "severity": "INFORMATIONAL",
-            "score": 53.19,
+            "score": 45.03,
             "also_sources": []
           }
         ],
@@ -2688,7 +2710,7 @@
             "category": "AI",
             "published": "Sun, 22 Nov 2026 10:36:55 +0530",
             "severity": "INFORMATIONAL",
-            "score": 45.25,
+            "score": 37.09,
             "also_sources": []
           }
         ],
@@ -2701,7 +2723,7 @@
             "category": "Technology",
             "published": "Sun, 22 Nov 2026 00:19:19 +0500",
             "severity": "INFORMATIONAL",
-            "score": 35.46,
+            "score": 27.29,
             "also_sources": []
           }
         ]

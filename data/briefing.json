@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-23T10:18:29.676926+00:00",
-  "latest_date": "2026-11-23",
+  "generated_utc": "2026-11-23T22:17:54.920136+00:00",
+  "latest_date": "2026-11-24",
   "available_dates": [
+    "2026-11-24",
     "2026-11-23",
     "2026-11-22",
     "2026-11-21",
@@ -2876,6 +2877,289 @@
             "published": "Mon, 23 Nov 2026 05:03:53 +0500",
             "severity": "INFORMATIONAL",
             "score": 37.76,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-24": {
+      "date": "2026-11-24",
+      "generated_utc": "2026-11-23T22:17:54.920126+00:00",
+      "story_count": 12,
+      "source_count": 7,
+      "stories": [
+        {
+          "title": "[Launched] Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
+          "summary": "Model router in Microsoft Foundry now supports the Responses API protocol in general availability on both resource and project endpoints. Set model to your model router deployment name to add automatic model selection to Responses-based applications and a",
+          "url": "https://azure.microsoft.com/updates?id=581393",
+          "source": "Azure Updates",
+          "category": "Networking",
+          "published": "Mon, 23 Nov 2026 20:28:24 Z",
+          "severity": "INFORMATIONAL",
+          "score": 54.17,
+          "also_sources": []
+        },
+        {
+          "title": "[In preview] Public Preview: Call model router without a deployment in Microsoft Foundry",
+          "summary": "Microsoft Foundry now lets you use model router without deploying it first. In a region that supports model router, set model to auto in a Responses or Chat Completions request to your Foundry resource.By default, Auto uses the Balanced routing mode acros",
+          "url": "https://azure.microsoft.com/updates?id=581378",
+          "source": "Azure Updates",
+          "category": "Networking",
+          "published": "Mon, 23 Nov 2026 20:32:57 Z",
+          "severity": "INFORMATIONAL",
+          "score": 46.25,
+          "also_sources": []
+        },
+        {
+          "title": "GCP-2026-090",
+          "summary": "Published: 2026-11-20 Description Description Severity Notes 2026-11-23 Update: Added details on patched PHP versions on App Engine, Cloud Run, and Cloud Run functions and noted additional details on CVEs addressed by the updated PHP versions. A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following",
+          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-090",
+          "source": "Google Cloud Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "2026-11-23T20:44:29.086965+00:00",
+          "severity": "CRITICAL",
+          "score": 114.44,
+          "also_sources": []
+        },
+        {
+          "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+          "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-23 20:32:33.0",
+          "severity": "HIGH",
+          "score": 89.24,
+          "also_sources": []
+        },
+        {
+          "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+          "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 15:54:51 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 71.62,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-134069 - Use of a default cryptographic key in the instance registration of Amazon SSM Agent on AWS Windows Server AMIs",
+          "summary": "Bulletin ID: 2026-197-AWS Publication Date: 11/23/2026 13:30 PM PST Description: Amazon SSM Agent is the AWS Systems Manager agent that runs on EC2 instances so they can be managed through Systems Manager. We identified CVE-2026-134069, an issue in Amazon SSM Agent on AWS-provided Windows Server AMIs released before 2026-09-09, where instances launched from the same AMI shared one instance registration key. On instances managed through Default Host Management Configuration, a local user without ",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-197-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 21:54:18 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 55.61,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9188-1: OAuthLib vulnerabilities",
+          "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
+          "url": "https://ubuntu.com/security/notices/USN-9188-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 19:44:23 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.44,
+          "also_sources": []
+        },
+        {
+          "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+          "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-23 20:14:39.0",
+          "severity": "HIGH",
+          "score": 88.95,
+          "also_sources": []
+        },
+        {
+          "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+          "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 14:42:20 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 45.41,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-134056 - Out-of-bounds write in padded block cipher decryption in AWS-LC",
+          "summary": "Bulletin ID: 2026-196-AWS Publication Date: 11/23/2026 12:00 PM PST Description: We identified CVE-2026-134056, an out-of-bounds write issue in AWS-LC's padded block cipher decryption. It affects applications that decrypt CBC or ECB ciphertext with PKCS7 padding over multiple update calls. If the output buffer is the minimum documented size, AWS-LC can write one byte past its end. This might crash the application or corrupt adjacent memory. This issue does not disclose data. The aws-lc-rs Stream",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-196-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 20:29:41 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 46.2,
+          "also_sources": []
+        },
+        {
+          "title": "Extended Stable Update for Desktop",
+          "summary": "The Extended Stable channel has been updated to 156.0.8078.114 for Windows and Mac, which will roll out over the coming days/weeks. A full list of changes in this build is available in the Log . Security Changes will be updated shortly Interested in switching release channels? Find out how here . If you find a new issue, please let us know by filing a bug . The community help forum is also a great place to reach out for help or learn about common issues. Srinivas Sista Google Chrome",
+          "url": "http://chromereleases.googleblog.com/feeds/2327056192103010130/comments/default",
+          "source": "Google Chrome Releases",
+          "category": "Microsoft",
+          "published": "2026-11-23T12:52:47.796-08:00",
+          "severity": "INFORMATIONAL",
+          "score": 54.58,
+          "also_sources": []
+        },
+        {
+          "title": "Stable Channel Update for Desktop",
+          "summary": "The Stable channel has been updated to 158.0.8127.88/.89 for Windows and Mac and 158.0.8127.88 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is available in the Log . Security changes will be updated shortly Interested in switching release channels? Find out how here . If you find a new issue, please let us know by filing a bug . The community help forum is also a great place to reach out for help or learn about common issues. Srinivas Sista Google",
+          "url": "http://chromereleases.googleblog.com/feeds/7461982108631076503/comments/default",
+          "source": "Google Chrome Releases",
+          "category": "Linux",
+          "published": "2026-11-23T12:52:51.321-08:00",
+          "severity": "INFORMATIONAL",
+          "score": 54.58,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "[Launched] Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
+            "summary": "Model router in Microsoft Foundry now supports the Responses API protocol in general availability on both resource and project endpoints. Set model to your model router deployment name to add automatic model selection to Responses-based applications and a",
+            "url": "https://azure.microsoft.com/updates?id=581393",
+            "source": "Azure Updates",
+            "category": "Networking",
+            "published": "Mon, 23 Nov 2026 20:28:24 Z",
+            "severity": "INFORMATIONAL",
+            "score": 54.17,
+            "also_sources": []
+          },
+          {
+            "title": "[In preview] Public Preview: Call model router without a deployment in Microsoft Foundry",
+            "summary": "Microsoft Foundry now lets you use model router without deploying it first. In a region that supports model router, set model to auto in a Responses or Chat Completions request to your Foundry resource.By default, Auto uses the Balanced routing mode acros",
+            "url": "https://azure.microsoft.com/updates?id=581378",
+            "source": "Azure Updates",
+            "category": "Networking",
+            "published": "Mon, 23 Nov 2026 20:32:57 Z",
+            "severity": "INFORMATIONAL",
+            "score": 46.25,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "GCP-2026-090",
+            "summary": "Published: 2026-11-20 Description Description Severity Notes 2026-11-23 Update: Added details on patched PHP versions on App Engine, Cloud Run, and Cloud Run functions and noted additional details on CVEs addressed by the updated PHP versions. A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following",
+            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-090",
+            "source": "Google Cloud Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "2026-11-23T20:44:29.086965+00:00",
+            "severity": "CRITICAL",
+            "score": 114.44,
+            "also_sources": []
+          },
+          {
+            "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+            "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-23 20:32:33.0",
+            "severity": "HIGH",
+            "score": 89.24,
+            "also_sources": []
+          },
+          {
+            "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+            "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 15:54:51 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 71.62,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-134069 - Use of a default cryptographic key in the instance registration of Amazon SSM Agent on AWS Windows Server AMIs",
+            "summary": "Bulletin ID: 2026-197-AWS Publication Date: 11/23/2026 13:30 PM PST Description: Amazon SSM Agent is the AWS Systems Manager agent that runs on EC2 instances so they can be managed through Systems Manager. We identified CVE-2026-134069, an issue in Amazon SSM Agent on AWS-provided Windows Server AMIs released before 2026-09-09, where instances launched from the same AMI shared one instance registration key. On instances managed through Default Host Management Configuration, a local user without ",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-197-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 21:54:18 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 55.61,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9188-1: OAuthLib vulnerabilities",
+            "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
+            "url": "https://ubuntu.com/security/notices/USN-9188-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 19:44:23 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.44,
+            "also_sources": []
+          },
+          {
+            "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+            "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-23 20:14:39.0",
+            "severity": "HIGH",
+            "score": 88.95,
+            "also_sources": []
+          },
+          {
+            "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+            "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 14:42:20 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 45.41,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-134056 - Out-of-bounds write in padded block cipher decryption in AWS-LC",
+            "summary": "Bulletin ID: 2026-196-AWS Publication Date: 11/23/2026 12:00 PM PST Description: We identified CVE-2026-134056, an out-of-bounds write issue in AWS-LC's padded block cipher decryption. It affects applications that decrypt CBC or ECB ciphertext with PKCS7 padding over multiple update calls. If the output buffer is the minimum documented size, AWS-LC can write one byte past its end. This might crash the application or corrupt adjacent memory. This issue does not disclose data. The aws-lc-rs Stream",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-196-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 20:29:41 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 46.2,
+            "also_sources": []
+          }
+        ],
+        "Microsoft": [
+          {
+            "title": "Extended Stable Update for Desktop",
+            "summary": "The Extended Stable channel has been updated to 156.0.8078.114 for Windows and Mac, which will roll out over the coming days/weeks. A full list of changes in this build is available in the Log . Security Changes will be updated shortly Interested in switching release channels? Find out how here . If you find a new issue, please let us know by filing a bug . The community help forum is also a great place to reach out for help or learn about common issues. Srinivas Sista Google Chrome",
+            "url": "http://chromereleases.googleblog.com/feeds/2327056192103010130/comments/default",
+            "source": "Google Chrome Releases",
+            "category": "Microsoft",
+            "published": "2026-11-23T12:52:47.796-08:00",
+            "severity": "INFORMATIONAL",
+            "score": 54.58,
+            "also_sources": []
+          }
+        ],
+        "Linux": [
+          {
+            "title": "Stable Channel Update for Desktop",
+            "summary": "The Stable channel has been updated to 158.0.8127.88/.89 for Windows and Mac and 158.0.8127.88 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is available in the Log . Security changes will be updated shortly Interested in switching release channels? Find out how here . If you find a new issue, please let us know by filing a bug . The community help forum is also a great place to reach out for help or learn about common issues. Srinivas Sista Google",
+            "url": "http://chromereleases.googleblog.com/feeds/7461982108631076503/comments/default",
+            "source": "Google Chrome Releases",
+            "category": "Linux",
+            "published": "2026-11-23T12:52:51.321-08:00",
+            "severity": "INFORMATIONAL",
+            "score": 54.58,
             "also_sources": []
           }
         ]

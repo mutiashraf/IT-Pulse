@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-23T02:00:57.884760+00:00",
+  "generated_utc": "2026-11-23T10:18:29.676926+00:00",
   "latest_date": "2026-11-23",
   "available_dates": [
     "2026-11-23",
@@ -2733,11 +2733,153 @@
     },
     "2026-11-23": {
       "date": "2026-11-23",
-      "generated_utc": "2026-11-23T02:00:57.884749+00:00",
-      "story_count": 0,
-      "source_count": 0,
-      "stories": [],
-      "sections": {},
+      "generated_utc": "2026-11-23T10:18:29.676917+00:00",
+      "story_count": 6,
+      "source_count": 3,
+      "stories": [
+        {
+          "title": "China’s intelligent computing expected to top 90pc of total computing capacity",
+          "summary": "CHANGSHA: The 2026 World Computing Conference, which opened in Central China’s Hunan province, unveiled 10 major trends in China’s computing power development, including a growing share for intelligent computing and faster building of a nationwide integrated computing network. Liu Wenqiang, vice-president of the China Centre for Information Industry De­­v­­e­lopment, a co-organiser of the conference, said that by 2030, China’s intelligent computing capacity is expected to app­roach 10,000 EFLOPS",
+          "url": "https://www.dawn.com/news/2046451/chinas-intelligent-computing-expected-to-top-90pc-of-total-computing-capacity",
+          "source": "Dawn Technology",
+          "category": "Networking",
+          "published": "Mon, 23 Nov 2026 05:03:53 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 37.76,
+          "also_sources": []
+        },
+        {
+          "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+          "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 02:44:19 -0500",
+          "severity": "CRITICAL",
+          "score": 138.43,
+          "also_sources": []
+        },
+        {
+          "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+          "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 14:41:56 +0530",
+          "severity": "CRITICAL",
+          "score": 106.89,
+          "also_sources": []
+        },
+        {
+          "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+          "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+          "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 14:34:08 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 46.76,
+          "also_sources": []
+        },
+        {
+          "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+          "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+          "source": "BleepingComputer",
+          "category": "Microsoft",
+          "published": "Mon, 23 Nov 2026 04:11:15 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 54.88,
+          "also_sources": []
+        },
+        {
+          "title": "S. Korea education minister resigns amid AI cheating scandal",
+          "summary": "SEOUL: South Korea’s education minister resigned on Sunday over an AI-assisted cheating scandal that erupted ahead of the country’s key college entrance exams last week. The country has been gripped by fears of AI-assisted exam cheating since last Sunday, when the top scorer in a national tax accountant exam confessed to using a miniature camera and smartphone to achieve a near-perfect score, just four days before the crucial college entrance exam known as the Suneung. The annual nine-hour Suneu",
+          "url": "https://www.dawn.com/news/2046449/s-korea-education-minister-resigns-amid-ai-cheating-scandal",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Mon, 23 Nov 2026 05:03:53 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 37.76,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "China’s intelligent computing expected to top 90pc of total computing capacity",
+            "summary": "CHANGSHA: The 2026 World Computing Conference, which opened in Central China’s Hunan province, unveiled 10 major trends in China’s computing power development, including a growing share for intelligent computing and faster building of a nationwide integrated computing network. Liu Wenqiang, vice-president of the China Centre for Information Industry De­­v­­e­lopment, a co-organiser of the conference, said that by 2030, China’s intelligent computing capacity is expected to app­roach 10,000 EFLOPS",
+            "url": "https://www.dawn.com/news/2046451/chinas-intelligent-computing-expected-to-top-90pc-of-total-computing-capacity",
+            "source": "Dawn Technology",
+            "category": "Networking",
+            "published": "Mon, 23 Nov 2026 05:03:53 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 37.76,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+            "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 02:44:19 -0500",
+            "severity": "CRITICAL",
+            "score": 138.43,
+            "also_sources": []
+          },
+          {
+            "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+            "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+            "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 14:41:56 +0530",
+            "severity": "CRITICAL",
+            "score": 106.89,
+            "also_sources": []
+          },
+          {
+            "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+            "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today. The company identified and fixed the flaw on Friday and blocked the access the attacker used, so devices can no longer be infected through this route.",
+            "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 14:34:08 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 46.76,
+            "also_sources": []
+          }
+        ],
+        "Microsoft": [
+          {
+            "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+            "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
+            "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+            "source": "BleepingComputer",
+            "category": "Microsoft",
+            "published": "Mon, 23 Nov 2026 04:11:15 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 54.88,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "S. Korea education minister resigns amid AI cheating scandal",
+            "summary": "SEOUL: South Korea’s education minister resigned on Sunday over an AI-assisted cheating scandal that erupted ahead of the country’s key college entrance exams last week. The country has been gripped by fears of AI-assisted exam cheating since last Sunday, when the top scorer in a national tax accountant exam confessed to using a miniature camera and smartphone to achieve a near-perfect score, just four days before the crucial college entrance exam known as the Suneung. The annual nine-hour Suneu",
+            "url": "https://www.dawn.com/news/2046449/s-korea-education-minister-resigns-amid-ai-cheating-scandal",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Mon, 23 Nov 2026 05:03:53 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 37.76,
+            "also_sources": []
+          }
+        ]
+      },
       "source_failures": []
     }
   }

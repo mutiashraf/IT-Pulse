@@ -1,6 +1,28 @@
 {
-  "updated_utc": "2026-11-21T12:58:53.713890+00:00",
+  "updated_utc": "2026-11-23T10:18:29.658563+00:00",
   "alerts": [
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild. The vulnerability, tracked as CVE-2026-131914, carries a CVSS score of 9.3 out of 10.0. The issue affects versions 0.9.1.0 and 0.9.1 Beta, and relates to an",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Mon, 23 Nov 2026 14:41:56 +0530",
+      "severity": "CRITICAL",
+      "score": 106.96,
+      "also_sources": []
+    },
+    {
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Mon, 23 Nov 2026 02:44:19 -0500",
+      "severity": "CRITICAL",
+      "score": 138.5,
+      "also_sources": []
+    },
     {
       "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
       "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
@@ -1077,28 +1099,6 @@
       "published": "Tue, 17 Nov 26 12:00:00 +0000",
       "severity": "HIGH",
       "score": 83.02,
-      "also_sources": []
-    },
-    {
-      "title": "Siemens Simcenter Femap",
-      "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version. The following versions of Siemens Simcenter Femap are affected: Simcenter Femap vers:intdot/<2606.0002 (CVE-2026-64629) CVSS Vendor Equipment v3 7.8 Siemens Si",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 83.02,
-      "also_sources": []
-    },
-    {
-      "title": "Dorsett Controls InfoScan",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are affected: InfoScan <=1.45.0 (CVE-2026-117659, CVE-2026-120157, CVE-2026-120255, CVE-2026-120260, CVE-2026-120271, CVE-2026-120298) CVSS Vendor Equipment v3 8.1 Dorsett Controls InfoSca",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 75.02,
       "also_sources": []
     }
   ],

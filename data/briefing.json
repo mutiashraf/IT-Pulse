@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-23T22:17:54.920136+00:00",
+  "generated_utc": "2026-11-24T01:11:34.886895+00:00",
   "latest_date": "2026-11-24",
   "available_dates": [
     "2026-11-24",
@@ -2885,9 +2885,9 @@
     },
     "2026-11-24": {
       "date": "2026-11-24",
-      "generated_utc": "2026-11-23T22:17:54.920126+00:00",
-      "story_count": 12,
-      "source_count": 7,
+      "generated_utc": "2026-11-24T01:11:34.886885+00:00",
+      "story_count": 15,
+      "source_count": 8,
       "stories": [
         {
           "title": "[Launched] Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
@@ -2897,7 +2897,7 @@
           "category": "Networking",
           "published": "Mon, 23 Nov 2026 20:28:24 Z",
           "severity": "INFORMATIONAL",
-          "score": 54.17,
+          "score": 51.28,
           "also_sources": []
         },
         {
@@ -2908,7 +2908,7 @@
           "category": "Networking",
           "published": "Mon, 23 Nov 2026 20:32:57 Z",
           "severity": "INFORMATIONAL",
-          "score": 46.25,
+          "score": 43.36,
           "also_sources": []
         },
         {
@@ -2919,18 +2919,18 @@
           "category": "Cybersecurity",
           "published": "2026-11-23T20:44:29.086965+00:00",
           "severity": "CRITICAL",
-          "score": 114.44,
+          "score": 111.55,
           "also_sources": []
         },
         {
-          "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
-          "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
+          "summary": "On November 19, 2026, the PHP Foundation announced the availability of security fixes that address a critical vulnerability that could lead to remote code execution. This vulnerability is identified by CVE-2026-126714. For information about this vulnerability, see the advisory GHSA-fm2m-fjf5-v3cp . This vulnerability is being referenced as phpAfterShell . For information about Splunk products and offerings, see Vulnerabilities in PHP affecting Splunk Products - November 2026 . This advisory will",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
           "source": "Cisco Security Advisories",
           "category": "Cybersecurity",
-          "published": "2026-11-23 20:32:33.0",
-          "severity": "HIGH",
-          "score": 89.24,
+          "published": "2026-11-23 20:20:00.0",
+          "severity": "CRITICAL",
+          "score": 103.14,
           "also_sources": []
         },
         {
@@ -2941,7 +2941,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 15:54:51 -0500",
           "severity": "INFORMATIONAL",
-          "score": 71.62,
+          "score": 68.72,
           "also_sources": []
         },
         {
@@ -2952,29 +2952,29 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 21:54:18 +0000",
           "severity": "INFORMATIONAL",
-          "score": 55.61,
+          "score": 52.71,
           "also_sources": []
         },
         {
-          "title": "USN-9188-1: OAuthLib vulnerabilities",
-          "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
-          "url": "https://ubuntu.com/security/notices/USN-9188-1",
+          "title": "USN-9189-1: Qt5Compat vulnerability",
+          "summary": "It was discovered that Qt5Compat did not correctly handle certain text codec names, which could lead to an out-of-bounds read. An attacker could possibly use this issue to cause a denial of service.",
+          "url": "https://ubuntu.com/security/notices/USN-9189-1",
           "source": "Ubuntu Security Notices",
           "category": "Cybersecurity",
-          "published": "Mon, 23 Nov 2026 19:44:23 +0000",
+          "published": "Mon, 23 Nov 2026 23:21:59 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.44,
+          "score": 46.17,
           "also_sources": []
         },
         {
-          "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-          "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
-          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+          "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
           "source": "Cisco Security Advisories",
           "category": "Cybersecurity",
-          "published": "2026-11-23 20:14:39.0",
+          "published": "2026-11-23 20:32:33.0",
           "severity": "HIGH",
-          "score": 88.95,
+          "score": 86.35,
           "also_sources": []
         },
         {
@@ -2985,7 +2985,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 14:42:20 -0500",
           "severity": "INFORMATIONAL",
-          "score": 45.41,
+          "score": 42.51,
           "also_sources": []
         },
         {
@@ -2996,7 +2996,29 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 20:29:41 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.2,
+          "score": 43.3,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9188-1: OAuthLib vulnerabilities",
+          "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
+          "url": "https://ubuntu.com/security/notices/USN-9188-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Mon, 23 Nov 2026 19:44:23 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 42.55,
+          "also_sources": []
+        },
+        {
+          "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+          "summary": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration , which controls how long an OAuth Sign-in session remains active, for individual IAM users and roles. This capability reduces authentication interruptions for long-running workflows and provides a more secure alternative to static access keys by using short-lived, renewable credentials. Existing ses",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Mon, 23 Nov 2026 23:14:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 46.04,
           "also_sources": []
         },
         {
@@ -3007,18 +3029,29 @@
           "category": "Microsoft",
           "published": "2026-11-23T12:52:47.796-08:00",
           "severity": "INFORMATIONAL",
-          "score": 54.58,
+          "score": 51.69,
           "also_sources": []
         },
         {
-          "title": "Stable Channel Update for Desktop",
-          "summary": "The Stable channel has been updated to 158.0.8127.88/.89 for Windows and Mac and 158.0.8127.88 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is available in the Log . Security changes will be updated shortly Interested in switching release channels? Find out how here . If you find a new issue, please let us know by filing a bug . The community help forum is also a great place to reach out for help or learn about common issues. Srinivas Sista Google",
-          "url": "http://chromereleases.googleblog.com/feeds/7461982108631076503/comments/default",
+          "title": "Chrome for Android Update",
+          "summary": "Hi, everyone! We've just released Chrome 158 (158.0.8127.92) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new issue, please let us know by filing a bug . Android releases contain the same security fixes as their corresponding Desktop releases (Windows & Mac: 158.0.8127.88 /.89 Linux: 158.0.8127.88 ) unless otherwise noted. Krishna Govin",
+          "url": "http://chromereleases.googleblog.com/feeds/7801676998065608639/comments/default",
           "source": "Google Chrome Releases",
           "category": "Linux",
-          "published": "2026-11-23T12:52:51.321-08:00",
+          "published": "2026-11-23T14:09:51.297-08:00",
           "severity": "INFORMATIONAL",
-          "score": 54.58,
+          "score": 52.97,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+          "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these features for you, and you keep lifecycle scripts and custom A",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+          "source": "AWS What's New",
+          "category": "AI",
+          "published": "Mon, 23 Nov 2026 20:00:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 42.81,
           "also_sources": []
         }
       ],
@@ -3032,7 +3065,7 @@
             "category": "Networking",
             "published": "Mon, 23 Nov 2026 20:28:24 Z",
             "severity": "INFORMATIONAL",
-            "score": 54.17,
+            "score": 51.28,
             "also_sources": []
           },
           {
@@ -3043,7 +3076,7 @@
             "category": "Networking",
             "published": "Mon, 23 Nov 2026 20:32:57 Z",
             "severity": "INFORMATIONAL",
-            "score": 46.25,
+            "score": 43.36,
             "also_sources": []
           }
         ],
@@ -3056,18 +3089,18 @@
             "category": "Cybersecurity",
             "published": "2026-11-23T20:44:29.086965+00:00",
             "severity": "CRITICAL",
-            "score": 114.44,
+            "score": 111.55,
             "also_sources": []
           },
           {
-            "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
-            "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
-            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
+            "summary": "On November 19, 2026, the PHP Foundation announced the availability of security fixes that address a critical vulnerability that could lead to remote code execution. This vulnerability is identified by CVE-2026-126714. For information about this vulnerability, see the advisory GHSA-fm2m-fjf5-v3cp . This vulnerability is being referenced as phpAfterShell . For information about Splunk products and offerings, see Vulnerabilities in PHP affecting Splunk Products - November 2026 . This advisory will",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
             "source": "Cisco Security Advisories",
             "category": "Cybersecurity",
-            "published": "2026-11-23 20:32:33.0",
-            "severity": "HIGH",
-            "score": 89.24,
+            "published": "2026-11-23 20:20:00.0",
+            "severity": "CRITICAL",
+            "score": 103.14,
             "also_sources": []
           },
           {
@@ -3078,7 +3111,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 15:54:51 -0500",
             "severity": "INFORMATIONAL",
-            "score": 71.62,
+            "score": 68.72,
             "also_sources": []
           },
           {
@@ -3089,29 +3122,29 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 21:54:18 +0000",
             "severity": "INFORMATIONAL",
-            "score": 55.61,
+            "score": 52.71,
             "also_sources": []
           },
           {
-            "title": "USN-9188-1: OAuthLib vulnerabilities",
-            "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
-            "url": "https://ubuntu.com/security/notices/USN-9188-1",
+            "title": "USN-9189-1: Qt5Compat vulnerability",
+            "summary": "It was discovered that Qt5Compat did not correctly handle certain text codec names, which could lead to an out-of-bounds read. An attacker could possibly use this issue to cause a denial of service.",
+            "url": "https://ubuntu.com/security/notices/USN-9189-1",
             "source": "Ubuntu Security Notices",
             "category": "Cybersecurity",
-            "published": "Mon, 23 Nov 2026 19:44:23 +0000",
+            "published": "Mon, 23 Nov 2026 23:21:59 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.44,
+            "score": 46.17,
             "also_sources": []
           },
           {
-            "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-            "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
-            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
+            "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
             "source": "Cisco Security Advisories",
             "category": "Cybersecurity",
-            "published": "2026-11-23 20:14:39.0",
+            "published": "2026-11-23 20:32:33.0",
             "severity": "HIGH",
-            "score": 88.95,
+            "score": 86.35,
             "also_sources": []
           },
           {
@@ -3122,7 +3155,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 14:42:20 -0500",
             "severity": "INFORMATIONAL",
-            "score": 45.41,
+            "score": 42.51,
             "also_sources": []
           },
           {
@@ -3133,7 +3166,31 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 20:29:41 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.2,
+            "score": 43.3,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9188-1: OAuthLib vulnerabilities",
+            "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
+            "url": "https://ubuntu.com/security/notices/USN-9188-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Mon, 23 Nov 2026 19:44:23 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 42.55,
+            "also_sources": []
+          }
+        ],
+        "Cloud": [
+          {
+            "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
+            "summary": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration , which controls how long an OAuth Sign-in session remains active, for individual IAM users and roles. This capability reduces authentication interruptions for long-running workflows and provides a more secure alternative to static access keys by using short-lived, renewable credentials. Existing ses",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/configurable-aws-sign-in-duration/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Mon, 23 Nov 2026 23:14:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 46.04,
             "also_sources": []
           }
         ],
@@ -3146,20 +3203,33 @@
             "category": "Microsoft",
             "published": "2026-11-23T12:52:47.796-08:00",
             "severity": "INFORMATIONAL",
-            "score": 54.58,
+            "score": 51.69,
             "also_sources": []
           }
         ],
         "Linux": [
           {
-            "title": "Stable Channel Update for Desktop",
-            "summary": "The Stable channel has been updated to 158.0.8127.88/.89 for Windows and Mac and 158.0.8127.88 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is available in the Log . Security changes will be updated shortly Interested in switching release channels? Find out how here . If you find a new issue, please let us know by filing a bug . The community help forum is also a great place to reach out for help or learn about common issues. Srinivas Sista Google",
-            "url": "http://chromereleases.googleblog.com/feeds/7461982108631076503/comments/default",
+            "title": "Chrome for Android Update",
+            "summary": "Hi, everyone! We've just released Chrome 158 (158.0.8127.92) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new issue, please let us know by filing a bug . Android releases contain the same security fixes as their corresponding Desktop releases (Windows & Mac: 158.0.8127.88 /.89 Linux: 158.0.8127.88 ) unless otherwise noted. Krishna Govin",
+            "url": "http://chromereleases.googleblog.com/feeds/7801676998065608639/comments/default",
             "source": "Google Chrome Releases",
             "category": "Linux",
-            "published": "2026-11-23T12:52:51.321-08:00",
+            "published": "2026-11-23T14:09:51.297-08:00",
             "severity": "INFORMATIONAL",
-            "score": 54.58,
+            "score": 52.97,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
+            "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these features for you, and you keep lifecycle scripts and custom A",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
+            "source": "AWS What's New",
+            "category": "AI",
+            "published": "Mon, 23 Nov 2026 20:00:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 42.81,
             "also_sources": []
           }
         ]

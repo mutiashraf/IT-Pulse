@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-24T01:11:34.886895+00:00",
+  "generated_utc": "2026-11-24T06:21:09.988882+00:00",
   "latest_date": "2026-11-24",
   "available_dates": [
     "2026-11-24",
@@ -2885,7 +2885,7 @@
     },
     "2026-11-24": {
       "date": "2026-11-24",
-      "generated_utc": "2026-11-24T01:11:34.886885+00:00",
+      "generated_utc": "2026-11-24T06:21:09.988871+00:00",
       "story_count": 15,
       "source_count": 8,
       "stories": [
@@ -2897,7 +2897,18 @@
           "category": "Networking",
           "published": "Mon, 23 Nov 2026 20:28:24 Z",
           "severity": "INFORMATIONAL",
-          "score": 51.28,
+          "score": 46.12,
+          "also_sources": []
+        },
+        {
+          "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+          "summary": "The Stable channel is being updated to OS version 16868.29.0 (Browser version 158.0.8127.98 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug Visit our ChromeOS communities General: Chromebook Help Community Beta Specific: ChromeOS Beta Help Community Report an issue or send feedback on Chrome Interested in switching channels? Find out how. Luis Menezes Google ChromeOS",
+          "url": "http://chromereleases.googleblog.com/feeds/2125183493433786231/comments/default",
+          "source": "Google Chrome Releases",
+          "category": "Networking",
+          "published": "2026-11-23T18:54:25.241-08:00",
+          "severity": "INFORMATIONAL",
+          "score": 44.55,
           "also_sources": []
         },
         {
@@ -2908,7 +2919,7 @@
           "category": "Networking",
           "published": "Mon, 23 Nov 2026 20:32:57 Z",
           "severity": "INFORMATIONAL",
-          "score": 43.36,
+          "score": 38.2,
           "also_sources": []
         },
         {
@@ -2919,7 +2930,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-23T20:44:29.086965+00:00",
           "severity": "CRITICAL",
-          "score": 111.55,
+          "score": 106.39,
           "also_sources": []
         },
         {
@@ -2930,7 +2941,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-23 20:20:00.0",
           "severity": "CRITICAL",
-          "score": 103.14,
+          "score": 97.98,
           "also_sources": []
         },
         {
@@ -2941,7 +2952,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 15:54:51 -0500",
           "severity": "INFORMATIONAL",
-          "score": 68.72,
+          "score": 63.56,
           "also_sources": []
         },
         {
@@ -2952,7 +2963,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 21:54:18 +0000",
           "severity": "INFORMATIONAL",
-          "score": 52.71,
+          "score": 47.55,
           "also_sources": []
         },
         {
@@ -2963,7 +2974,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 23:21:59 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.17,
+          "score": 41.01,
           "also_sources": []
         },
         {
@@ -2974,7 +2985,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-23 20:32:33.0",
           "severity": "HIGH",
-          "score": 86.35,
+          "score": 81.19,
           "also_sources": []
         },
         {
@@ -2985,7 +2996,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 14:42:20 -0500",
           "severity": "INFORMATIONAL",
-          "score": 42.51,
+          "score": 37.35,
           "also_sources": []
         },
         {
@@ -2996,7 +3007,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 20:29:41 +0000",
           "severity": "INFORMATIONAL",
-          "score": 43.3,
+          "score": 38.14,
           "also_sources": []
         },
         {
@@ -3007,7 +3018,18 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 19:44:23 +0000",
           "severity": "INFORMATIONAL",
-          "score": 42.55,
+          "score": 37.39,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
+          "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generati",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Mon, 23 Nov 2026 23:21:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 41.0,
           "also_sources": []
         },
         {
@@ -3018,7 +3040,7 @@
           "category": "Cloud",
           "published": "Mon, 23 Nov 2026 23:14:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 46.04,
+          "score": 40.88,
           "also_sources": []
         },
         {
@@ -3029,29 +3051,7 @@
           "category": "Microsoft",
           "published": "2026-11-23T12:52:47.796-08:00",
           "severity": "INFORMATIONAL",
-          "score": 51.69,
-          "also_sources": []
-        },
-        {
-          "title": "Chrome for Android Update",
-          "summary": "Hi, everyone! We've just released Chrome 158 (158.0.8127.92) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new issue, please let us know by filing a bug . Android releases contain the same security fixes as their corresponding Desktop releases (Windows & Mac: 158.0.8127.88 /.89 Linux: 158.0.8127.88 ) unless otherwise noted. Krishna Govin",
-          "url": "http://chromereleases.googleblog.com/feeds/7801676998065608639/comments/default",
-          "source": "Google Chrome Releases",
-          "category": "Linux",
-          "published": "2026-11-23T14:09:51.297-08:00",
-          "severity": "INFORMATIONAL",
-          "score": 52.97,
-          "also_sources": []
-        },
-        {
-          "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
-          "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these features for you, and you keep lifecycle scripts and custom A",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
-          "source": "AWS What's New",
-          "category": "AI",
-          "published": "Mon, 23 Nov 2026 20:00:00 GMT",
-          "severity": "INFORMATIONAL",
-          "score": 42.81,
+          "score": 46.53,
           "also_sources": []
         }
       ],
@@ -3065,7 +3065,18 @@
             "category": "Networking",
             "published": "Mon, 23 Nov 2026 20:28:24 Z",
             "severity": "INFORMATIONAL",
-            "score": 51.28,
+            "score": 46.12,
+            "also_sources": []
+          },
+          {
+            "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+            "summary": "The Stable channel is being updated to OS version 16868.29.0 (Browser version 158.0.8127.98 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug Visit our ChromeOS communities General: Chromebook Help Community Beta Specific: ChromeOS Beta Help Community Report an issue or send feedback on Chrome Interested in switching channels? Find out how. Luis Menezes Google ChromeOS",
+            "url": "http://chromereleases.googleblog.com/feeds/2125183493433786231/comments/default",
+            "source": "Google Chrome Releases",
+            "category": "Networking",
+            "published": "2026-11-23T18:54:25.241-08:00",
+            "severity": "INFORMATIONAL",
+            "score": 44.55,
             "also_sources": []
           },
           {
@@ -3076,7 +3087,7 @@
             "category": "Networking",
             "published": "Mon, 23 Nov 2026 20:32:57 Z",
             "severity": "INFORMATIONAL",
-            "score": 43.36,
+            "score": 38.2,
             "also_sources": []
           }
         ],
@@ -3089,7 +3100,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-23T20:44:29.086965+00:00",
             "severity": "CRITICAL",
-            "score": 111.55,
+            "score": 106.39,
             "also_sources": []
           },
           {
@@ -3100,7 +3111,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-23 20:20:00.0",
             "severity": "CRITICAL",
-            "score": 103.14,
+            "score": 97.98,
             "also_sources": []
           },
           {
@@ -3111,7 +3122,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 15:54:51 -0500",
             "severity": "INFORMATIONAL",
-            "score": 68.72,
+            "score": 63.56,
             "also_sources": []
           },
           {
@@ -3122,7 +3133,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 21:54:18 +0000",
             "severity": "INFORMATIONAL",
-            "score": 52.71,
+            "score": 47.55,
             "also_sources": []
           },
           {
@@ -3133,7 +3144,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 23:21:59 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.17,
+            "score": 41.01,
             "also_sources": []
           },
           {
@@ -3144,7 +3155,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-23 20:32:33.0",
             "severity": "HIGH",
-            "score": 86.35,
+            "score": 81.19,
             "also_sources": []
           },
           {
@@ -3155,7 +3166,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 14:42:20 -0500",
             "severity": "INFORMATIONAL",
-            "score": 42.51,
+            "score": 37.35,
             "also_sources": []
           },
           {
@@ -3166,7 +3177,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 20:29:41 +0000",
             "severity": "INFORMATIONAL",
-            "score": 43.3,
+            "score": 38.14,
             "also_sources": []
           },
           {
@@ -3177,11 +3188,22 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 19:44:23 +0000",
             "severity": "INFORMATIONAL",
-            "score": 42.55,
+            "score": 37.39,
             "also_sources": []
           }
         ],
         "Cloud": [
+          {
+            "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
+            "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generati",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-ec2-x8i-new-zealand/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Mon, 23 Nov 2026 23:21:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 41.0,
+            "also_sources": []
+          },
           {
             "title": "AWS Sign-In introduces configurable Sign-in duration of up to 90 days",
             "summary": "AWS Sign-In now enables developers and AI agents to stay authenticated for up to 90 days without frequent sign-ins or consent prompts. With this launch, administrators can configure Sign-in duration , which controls how long an OAuth Sign-in session remains active, for individual IAM users and roles. This capability reduces authentication interruptions for long-running workflows and provides a more secure alternative to static access keys by using short-lived, renewable credentials. Existing ses",
@@ -3190,7 +3212,7 @@
             "category": "Cloud",
             "published": "Mon, 23 Nov 2026 23:14:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 46.04,
+            "score": 40.88,
             "also_sources": []
           }
         ],
@@ -3203,33 +3225,7 @@
             "category": "Microsoft",
             "published": "2026-11-23T12:52:47.796-08:00",
             "severity": "INFORMATIONAL",
-            "score": 51.69,
-            "also_sources": []
-          }
-        ],
-        "Linux": [
-          {
-            "title": "Chrome for Android Update",
-            "summary": "Hi, everyone! We've just released Chrome 158 (158.0.8127.92) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. You can see a full list of the changes in the Git log . If you find a new issue, please let us know by filing a bug . Android releases contain the same security fixes as their corresponding Desktop releases (Windows & Mac: 158.0.8127.88 /.89 Linux: 158.0.8127.88 ) unless otherwise noted. Krishna Govin",
-            "url": "http://chromereleases.googleblog.com/feeds/7801676998065608639/comments/default",
-            "source": "Google Chrome Releases",
-            "category": "Linux",
-            "published": "2026-11-23T14:09:51.297-08:00",
-            "severity": "INFORMATIONAL",
-            "score": 52.97,
-            "also_sources": []
-          }
-        ],
-        "AI": [
-          {
-            "title": "Amazon SageMaker HyperPod now supports managed observability and user management extensions for Slurm clusters",
-            "summary": "Amazon SageMaker HyperPod now supports managed cluster extensions for Slurm clusters. You can install, configure, update, and remove managed features through the SageMaker AI console or API. The first two extensions cover observability and user management. Earlier, every observability or user management change for HyperPod Slurm clusters meant editing lifecycle scripts and then replacing or rerunning nodes. Now, HyperPod manages these features for you, and you keep lifecycle scripts and custom A",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/sagemaker-hyperpod-extensions/",
-            "source": "AWS What's New",
-            "category": "AI",
-            "published": "Mon, 23 Nov 2026 20:00:00 GMT",
-            "severity": "INFORMATIONAL",
-            "score": 42.81,
+            "score": 46.53,
             "also_sources": []
           }
         ]

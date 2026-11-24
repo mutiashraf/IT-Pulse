@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-24T18:10:04.460327+00:00",
-  "latest_date": "2026-11-24",
+  "generated_utc": "2026-11-24T23:18:13.190802+00:00",
+  "latest_date": "2026-11-25",
   "available_dates": [
+    "2026-11-25",
     "2026-11-24",
     "2026-11-23",
     "2026-11-22",
@@ -3426,6 +3427,219 @@
             "published": "Tue, 24 Nov 2026 12:09:31 +0500",
             "severity": "INFORMATIONAL",
             "score": 36.99,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-25": {
+      "date": "2026-11-25",
+      "generated_utc": "2026-11-24T23:18:13.190791+00:00",
+      "story_count": 9,
+      "source_count": 5,
+      "stories": [
+        {
+          "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
+          "summary": "On November 19, 2026, the PHP Foundation announced the availability of security fixes that address a critical vulnerability that could lead to remote code execution. This vulnerability is identified by CVE-2026-126714. For information about this vulnerability, see the advisory GHSA-fm2m-fjf5-v3cp . This vulnerability is being referenced as phpAfterShell . For information about Splunk products and offerings, see Vulnerabilities in PHP affecting Splunk Products - November 2026 . This advisory will",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-24 19:47:02.0",
+          "severity": "CRITICAL",
+          "score": 104.48,
+          "also_sources": []
+        },
+        {
+          "title": "Rackspace shuts down Spot cloud platform after security breach",
+          "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 16:37:30 -0500",
+          "severity": "HIGH",
+          "score": 81.32,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+          "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold, matched by stronger identity verification, monitoring, and access controls, improves the speed and depth of an investigation. Your infere",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
+          "source": "AWS What's New",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 21:27:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 46.15,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-135614 - Sensitive data redaction bypass in the troubleshooting tool in Amazon ECS MCP Server",
+          "summary": "Bulletin ID: 2026-200-AWS Publication Date: 11/24/2026 11:00 AM PST Description: Amazon ECS MCP Server is an open-source Model Context Protocol server that lets AI agents and assistants manage and troubleshoot Amazon ECS workloads using the operator's AWS credentials. We identified CVE-2026-135614, an issue in the troubleshooting tool of the Amazon ECS MCP Server (awslabs.ecs-mcp-server) before 0.1.36. With the sensitive data setting at its default, the troubleshooting tool returned container en",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-200-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 19:27:19 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 44.15,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
+          "summary": "",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-123633",
+          "source": "Palo Alto Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-24T19:00:00.000Z",
+          "severity": "INFORMATIONAL",
+          "score": 43.7,
+          "also_sources": []
+        },
+        {
+          "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+          "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-24 22:15:16.0",
+          "severity": "HIGH",
+          "score": 89.95,
+          "also_sources": []
+        },
+        {
+          "title": "New Inception extortion gang launches large-scale vishing campaign",
+          "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 15:21:20 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 45.05,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-135414 - Server-side request forgery in snapshot repository registration in Amazon OpenSearch Service",
+          "summary": "Bulletin ID: 2026-201-AWS Publication Date: 11/24/2026 11:15 AM PST Description: Amazon OpenSearch Service is a managed service for deploying, operating, and scaling OpenSearch clusters in the AWS Cloud. We identified CVE-2026-135414, an issue in snapshot repository registration in Amazon OpenSearch Service. A user with snapshot management permissions on a domain could set a repository endpoint that caused the domain's service-operated nodes to send requests to network destinations that the user",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-201-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 19:27:19 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 44.15,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region",
+          "summary": "Starting today, the next generation of Amazon OpenSearch Serverless is available in the AWS Africa (Cape Town) Region. Customers can now use a fully managed search, vector and analytics engine that provisions resources in seconds, auto scales instantly to meet changing demand, and scales to zero when idle, so customers only pay for the compute they use. With this launch, customers in the Africa (Cape Town) Region can run agentic AI, search, and observability workloads without provisioning or man",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Tue, 24 Nov 2026 20:22:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 45.06,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Cybersecurity": [
+          {
+            "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
+            "summary": "On November 19, 2026, the PHP Foundation announced the availability of security fixes that address a critical vulnerability that could lead to remote code execution. This vulnerability is identified by CVE-2026-126714. For information about this vulnerability, see the advisory GHSA-fm2m-fjf5-v3cp . This vulnerability is being referenced as phpAfterShell . For information about Splunk products and offerings, see Vulnerabilities in PHP affecting Splunk Products - November 2026 . This advisory will",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-phpaftershell-nov-2026-kT9pL4Xe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20PHP%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-24 19:47:02.0",
+            "severity": "CRITICAL",
+            "score": 104.48,
+            "also_sources": []
+          },
+          {
+            "title": "Rackspace shuts down Spot cloud platform after security breach",
+            "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 16:37:30 -0500",
+            "severity": "HIGH",
+            "score": 81.32,
+            "also_sources": []
+          },
+          {
+            "title": "Amazon Bedrock adds bedrock-runtime endpoint support for OpenAI Daybreak Red in AWS GovCloud (US)",
+            "summary": "Eligible customers can now access OpenAI’s specialized cybersecurity models Daybreak Red: GPT-5.6 Cyber through the bedrock-runtime endpoint on Amazon Bedrock in AWS GovCloud (US). Daybreak Red is designed for advanced, authorized tasks such as vulnerability research, exploit reproduction, and mitigation development. For these tasks, a lower refusal threshold, matched by stronger identity verification, monitoring, and access controls, improves the speed and depth of an investigation. Your infere",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/gpt-daybreak-red-runtime-govcloud/",
+            "source": "AWS What's New",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 21:27:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 46.15,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-135614 - Sensitive data redaction bypass in the troubleshooting tool in Amazon ECS MCP Server",
+            "summary": "Bulletin ID: 2026-200-AWS Publication Date: 11/24/2026 11:00 AM PST Description: Amazon ECS MCP Server is an open-source Model Context Protocol server that lets AI agents and assistants manage and troubleshoot Amazon ECS workloads using the operator's AWS credentials. We identified CVE-2026-135614, an issue in the troubleshooting tool of the Amazon ECS MCP Server (awslabs.ecs-mcp-server) before 0.1.36. With the sensitive data setting at its default, the troubleshooting tool returned container en",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-200-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 19:27:19 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 44.15,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
+            "summary": "",
+            "url": "https://security.paloaltonetworks.com/CVE-2026-123633",
+            "source": "Palo Alto Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-24T19:00:00.000Z",
+            "severity": "INFORMATIONAL",
+            "score": 43.7,
+            "also_sources": []
+          },
+          {
+            "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+            "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-24 22:15:16.0",
+            "severity": "HIGH",
+            "score": 89.95,
+            "also_sources": []
+          },
+          {
+            "title": "New Inception extortion gang launches large-scale vishing campaign",
+            "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 15:21:20 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 45.05,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-135414 - Server-side request forgery in snapshot repository registration in Amazon OpenSearch Service",
+            "summary": "Bulletin ID: 2026-201-AWS Publication Date: 11/24/2026 11:15 AM PST Description: Amazon OpenSearch Service is a managed service for deploying, operating, and scaling OpenSearch clusters in the AWS Cloud. We identified CVE-2026-135414, an issue in snapshot repository registration in Amazon OpenSearch Service. A user with snapshot management permissions on a domain could set a repository endpoint that caused the domain's service-operated nodes to send requests to network destinations that the user",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-201-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 19:27:19 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 44.15,
+            "also_sources": []
+          }
+        ],
+        "Cloud": [
+          {
+            "title": "Amazon OpenSearch Serverless is now available in the Africa (Cape Town) Region",
+            "summary": "Starting today, the next generation of Amazon OpenSearch Serverless is available in the AWS Africa (Cape Town) Region. Customers can now use a fully managed search, vector and analytics engine that provisions resources in seconds, auto scales instantly to meet changing demand, and scales to zero when idle, so customers only pay for the compute they use. With this launch, customers in the Africa (Cape Town) Region can run agentic AI, search, and observability workloads without provisioning or man",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-opensearch-serverless-available-cape-town-region/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Tue, 24 Nov 2026 20:22:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 45.06,
             "also_sources": []
           }
         ]

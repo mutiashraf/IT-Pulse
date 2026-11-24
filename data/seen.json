@@ -183,6 +183,7 @@
     "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
     "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
     "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
     "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
     "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
     "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
@@ -193,6 +194,7 @@
     "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
     "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
     "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+    "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
     "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
     "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
     "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
@@ -229,6 +231,8 @@
     "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
     "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
     "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+    "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
     "https://www.dawn.com/news/2046105/fbi-us-agriculture-department-breached-by-hackers-reports"
   ]
 }

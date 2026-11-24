@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-24T06:21:09.988882+00:00",
+  "generated_utc": "2026-11-24T18:10:04.460327+00:00",
   "latest_date": "2026-11-24",
   "available_dates": [
     "2026-11-24",
@@ -2885,10 +2885,32 @@
     },
     "2026-11-24": {
       "date": "2026-11-24",
-      "generated_utc": "2026-11-24T06:21:09.988871+00:00",
-      "story_count": 15,
-      "source_count": 8,
+      "generated_utc": "2026-11-24T18:10:04.460310+00:00",
+      "story_count": 24,
+      "source_count": 13,
       "stories": [
+        {
+          "title": "Radware discloses breach exposing customer cloud access keys",
+          "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+          "source": "BleepingComputer",
+          "category": "Networking",
+          "published": "Tue, 24 Nov 2026 12:49:05 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 47.65,
+          "also_sources": []
+        },
+        {
+          "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+          "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of",
+          "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+          "source": "The Hacker News",
+          "category": "Networking",
+          "published": "Tue, 24 Nov 2026 22:24:07 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 46.73,
+          "also_sources": []
+        },
         {
           "title": "[Launched] Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
           "summary": "Model router in Microsoft Foundry now supports the Responses API protocol in general availability on both resource and project endpoints. Set model to your model router deployment name to add automatic model selection to Responses-based applications and a",
@@ -2897,7 +2919,7 @@
           "category": "Networking",
           "published": "Mon, 23 Nov 2026 20:28:24 Z",
           "severity": "INFORMATIONAL",
-          "score": 46.12,
+          "score": 34.31,
           "also_sources": []
         },
         {
@@ -2908,7 +2930,7 @@
           "category": "Networking",
           "published": "2026-11-23T18:54:25.241-08:00",
           "severity": "INFORMATIONAL",
-          "score": 44.55,
+          "score": 32.74,
           "also_sources": []
         },
         {
@@ -2919,7 +2941,18 @@
           "category": "Networking",
           "published": "Mon, 23 Nov 2026 20:32:57 Z",
           "severity": "INFORMATIONAL",
-          "score": 38.2,
+          "score": 26.38,
+          "also_sources": []
+        },
+        {
+          "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+          "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+          "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 18:58:26 +0530",
+          "severity": "CRITICAL",
+          "score": 136.31,
           "also_sources": []
         },
         {
@@ -2930,7 +2963,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-23T20:44:29.086965+00:00",
           "severity": "CRITICAL",
-          "score": 106.39,
+          "score": 94.57,
           "also_sources": []
         },
         {
@@ -2941,18 +2974,51 @@
           "category": "Cybersecurity",
           "published": "2026-11-23 20:20:00.0",
           "severity": "CRITICAL",
-          "score": 97.98,
+          "score": 86.17,
           "also_sources": []
         },
         {
-          "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-          "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+          "title": "Danfoss AK-SM 8xxA Series",
+          "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8 Danfoss AK-SM8xxA 1 Vulnerability Stack-based Buffer Overflow Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: Denmark Vulnerabilities CVE-2026-",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+          "source": "CISA Advisories",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 26 12:00:00 +0000",
+          "severity": "HIGH",
+          "score": 76.83,
+          "also_sources": []
+        },
+        {
+          "title": "McDonald's Japan data breach exposes customer location information",
+          "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
           "source": "BleepingComputer",
           "category": "Cybersecurity",
-          "published": "Mon, 23 Nov 2026 15:54:51 -0500",
+          "published": "Tue, 24 Nov 2026 09:09:37 -0500",
           "severity": "INFORMATIONAL",
-          "score": 63.56,
+          "score": 68.99,
+          "also_sources": []
+        },
+        {
+          "title": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud",
+          "summary": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to board materials, regulated workloads, applications, and AI models, those safeguards protect what matters most. Blocking >99.9% of spam, phishing, and malware, alongside encryption and data residency, follows one principle: your data is yours, and you should always know and decide who can access it. T",
+          "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
+          "source": "Google Cloud Blog",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 17:00:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 46.83,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9192-1: Linux kernel (NVIDIA) vulnerabilities",
+          "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ",
+          "url": "https://ubuntu.com/security/notices/USN-9192-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 08:42:57 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 38.55,
           "also_sources": []
         },
         {
@@ -2963,18 +3029,7 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 21:54:18 +0000",
           "severity": "INFORMATIONAL",
-          "score": 47.55,
-          "also_sources": []
-        },
-        {
-          "title": "USN-9189-1: Qt5Compat vulnerability",
-          "summary": "It was discovered that Qt5Compat did not correctly handle certain text codec names, which could lead to an out-of-bounds read. An attacker could possibly use this issue to cause a denial of service.",
-          "url": "https://ubuntu.com/security/notices/USN-9189-1",
-          "source": "Ubuntu Security Notices",
-          "category": "Cybersecurity",
-          "published": "Mon, 23 Nov 2026 23:21:59 +0000",
-          "severity": "INFORMATIONAL",
-          "score": 41.01,
+          "score": 35.74,
           "also_sources": []
         },
         {
@@ -2985,18 +3040,29 @@
           "category": "Cybersecurity",
           "published": "2026-11-23 20:32:33.0",
           "severity": "HIGH",
-          "score": 81.19,
+          "score": 69.37,
           "also_sources": []
         },
         {
-          "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-          "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-          "source": "BleepingComputer",
+          "title": "AutomationDirect C-More EA9 Programming Software",
+          "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of AutomationDirect C-More EA9 Programming Software are affected: C-More EA9 Programming Software <=V6.80 (CVE-2026-127280) CVSS Vendor Equipment v3 7.8 AutomationDirect C-More EA9 Programming Software 1 Vulnerability Heap-based ",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+          "source": "CISA Advisories",
           "category": "Cybersecurity",
-          "published": "Mon, 23 Nov 2026 14:42:20 -0500",
+          "published": "Tue, 24 Nov 26 12:00:00 +0000",
+          "severity": "HIGH",
+          "score": 76.83,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9191-1: Linux kernel (Azure) vulnerabilities",
+          "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Intel NPU Driver; - Compute Acceleration Framework; - ACPI drivers; - Drivers core; - Ublk ",
+          "url": "https://ubuntu.com/security/notices/USN-9191-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Tue, 24 Nov 2026 08:42:14 +0000",
           "severity": "INFORMATIONAL",
-          "score": 37.35,
+          "score": 38.54,
           "also_sources": []
         },
         {
@@ -3007,18 +3073,29 @@
           "category": "Cybersecurity",
           "published": "Mon, 23 Nov 2026 20:29:41 +0000",
           "severity": "INFORMATIONAL",
-          "score": 38.14,
+          "score": 26.33,
           "also_sources": []
         },
         {
-          "title": "USN-9188-1: OAuthLib vulnerabilities",
-          "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
-          "url": "https://ubuntu.com/security/notices/USN-9188-1",
-          "source": "Ubuntu Security Notices",
-          "category": "Cybersecurity",
-          "published": "Mon, 23 Nov 2026 19:44:23 +0000",
+          "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+          "summary": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the limit doubled, and in the same week Lambda learned to run on GPUs and gave […]",
+          "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+          "source": "AWS News Blog",
+          "category": "Cloud",
+          "published": "Tue, 24 Nov 2026 15:39:59 +0000",
           "severity": "INFORMATIONAL",
-          "score": 37.39,
+          "score": 45.5,
+          "also_sources": []
+        },
+        {
+          "title": "Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium",
+          "summary": "Editor’s note: Founded in 1988 in Kota, Rajasthan, ALLEN is one of India’s leading coaching institutions, serving over 400,000 students across 350+ classroom campuses in 78 cities. Here, the IT and Cybersecurity Leadership Team shares how they standardized on Chrome Enterprise Premium to secure sensitive data and enable zero trust across over 5,000 users. With a workforce that lives in the browser across a SaaS and multi-cloud estate, securing our digital environment is paramount. Our 5,000+ use",
+          "url": "https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/",
+          "source": "Google Cloud Blog",
+          "category": "Cloud",
+          "published": "Tue, 24 Nov 2026 15:02:00 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 44.87,
           "also_sources": []
         },
         {
@@ -3029,7 +3106,7 @@
           "category": "Cloud",
           "published": "Mon, 23 Nov 2026 23:21:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 41.0,
+          "score": 29.18,
           "also_sources": []
         },
         {
@@ -3040,7 +3117,7 @@
           "category": "Cloud",
           "published": "Mon, 23 Nov 2026 23:14:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 40.88,
+          "score": 29.07,
           "also_sources": []
         },
         {
@@ -3051,12 +3128,56 @@
           "category": "Microsoft",
           "published": "2026-11-23T12:52:47.796-08:00",
           "severity": "INFORMATIONAL",
-          "score": 46.53,
+          "score": 34.71,
+          "also_sources": []
+        },
+        {
+          "title": "Tech firms soar as Huang’s return reinvigorates AI trade",
+          "summary": "Technology firms rocketed Tuesday as Asia joined a global stock surge following the reinstatement of Jensen Huang as Nvidia boss less than two weeks after stepping down over extramarital affairs including with an alleged Chinese spy . The Silicon Valley giant’s resignation on November 12 sent shockwaves through markets and dealt a severe blow to the AI trade, which was already under pressure amid worries over profitability and the vast sums pumped into the sector. His role as a fixer and visiona",
+          "url": "https://www.dawn.com/news/2046746/tech-firms-soar-as-huangs-return-reinvigorates-ai-trade",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Tue, 24 Nov 2026 12:18:55 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 37.15,
+          "also_sources": []
+        },
+        {
+          "title": "Huang’s Nvidia return sparks relief for battered AI trade, but questions remain",
+          "summary": "The stunning return of Nvidia CEO Jensen Huang brought a sigh of relief from investors in the battered AI trade, one worth trillions of dollars, as some took it as a cue that the AI boom and the man in the middle of it were too big to fail. Huang’s reinstatement atop the semiconductor giant halted a slide in technology shares that had sent the benchmark S&P 500 into a correction, though there was also some caution that his second coming may raise new risks for the company and industry. The abrup",
+          "url": "https://www.dawn.com/news/2046744/huangs-nvidia-return-sparks-relief-for-battered-ai-trade-but-questions-remain",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Tue, 24 Nov 2026 12:09:31 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 36.99,
           "also_sources": []
         }
       ],
       "sections": {
         "Networking": [
+          {
+            "title": "Radware discloses breach exposing customer cloud access keys",
+            "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+            "source": "BleepingComputer",
+            "category": "Networking",
+            "published": "Tue, 24 Nov 2026 12:49:05 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 47.65,
+            "also_sources": []
+          },
+          {
+            "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+            "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for command-and-control (C2) and deploys Homa, a post-compromise framework that's a reimplementation of",
+            "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+            "source": "The Hacker News",
+            "category": "Networking",
+            "published": "Tue, 24 Nov 2026 22:24:07 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 46.73,
+            "also_sources": []
+          },
           {
             "title": "[Launched] Generally Available: Model router now supports the Responses API protocol in Microsoft Foundry",
             "summary": "Model router in Microsoft Foundry now supports the Responses API protocol in general availability on both resource and project endpoints. Set model to your model router deployment name to add automatic model selection to Responses-based applications and a",
@@ -3065,7 +3186,7 @@
             "category": "Networking",
             "published": "Mon, 23 Nov 2026 20:28:24 Z",
             "severity": "INFORMATIONAL",
-            "score": 46.12,
+            "score": 34.31,
             "also_sources": []
           },
           {
@@ -3076,7 +3197,7 @@
             "category": "Networking",
             "published": "2026-11-23T18:54:25.241-08:00",
             "severity": "INFORMATIONAL",
-            "score": 44.55,
+            "score": 32.74,
             "also_sources": []
           },
           {
@@ -3087,11 +3208,22 @@
             "category": "Networking",
             "published": "Mon, 23 Nov 2026 20:32:57 Z",
             "severity": "INFORMATIONAL",
-            "score": 38.2,
+            "score": 26.38,
             "also_sources": []
           }
         ],
         "Cybersecurity": [
+          {
+            "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+            "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+            "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 18:58:26 +0530",
+            "severity": "CRITICAL",
+            "score": 136.31,
+            "also_sources": []
+          },
           {
             "title": "GCP-2026-090",
             "summary": "Published: 2026-11-20 Description Description Severity Notes 2026-11-23 Update: Added details on patched PHP versions on App Engine, Cloud Run, and Cloud Run functions and noted additional details on CVEs addressed by the updated PHP versions. A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following",
@@ -3100,7 +3232,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-23T20:44:29.086965+00:00",
             "severity": "CRITICAL",
-            "score": 106.39,
+            "score": 94.57,
             "also_sources": []
           },
           {
@@ -3111,18 +3243,51 @@
             "category": "Cybersecurity",
             "published": "2026-11-23 20:20:00.0",
             "severity": "CRITICAL",
-            "score": 97.98,
+            "score": 86.17,
             "also_sources": []
           },
           {
-            "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-            "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+            "title": "Danfoss AK-SM 8xxA Series",
+            "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8 Danfoss AK-SM8xxA 1 Vulnerability Stack-based Buffer Overflow Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: Denmark Vulnerabilities CVE-2026-",
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+            "source": "CISA Advisories",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 26 12:00:00 +0000",
+            "severity": "HIGH",
+            "score": 76.83,
+            "also_sources": []
+          },
+          {
+            "title": "McDonald's Japan data breach exposes customer location information",
+            "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
             "source": "BleepingComputer",
             "category": "Cybersecurity",
-            "published": "Mon, 23 Nov 2026 15:54:51 -0500",
+            "published": "Tue, 24 Nov 2026 09:09:37 -0500",
             "severity": "INFORMATIONAL",
-            "score": 63.56,
+            "score": 68.99,
+            "also_sources": []
+          },
+          {
+            "title": "Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud",
+            "summary": "For over 20 years, we have protected 4 billion users and 13 million organizations in Workspace, and critical enterprise and government systems on Google Cloud. From personal and financial records to board materials, regulated workloads, applications, and AI models, those safeguards protect what matters most. Blocking >99.9% of spam, phishing, and malware, alongside encryption and data residency, follows one principle: your data is yours, and you should always know and decide who can access it. T",
+            "url": "https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise/",
+            "source": "Google Cloud Blog",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 17:00:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 46.83,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9192-1: Linux kernel (NVIDIA) vulnerabilities",
+            "summary": "It was discovered that some AMD processors did not properly perform Reverse Map Table (RMP) checks when the IOMMU accessed certain host buffers. A local attacker with hypervisor access could possibly use this to trigger an out-of-bounds condition and compromise the integrity of SEV-SNP guest memory. (CVE-2023-20585) Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - ",
+            "url": "https://ubuntu.com/security/notices/USN-9192-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 08:42:57 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 38.55,
             "also_sources": []
           },
           {
@@ -3133,18 +3298,7 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 21:54:18 +0000",
             "severity": "INFORMATIONAL",
-            "score": 47.55,
-            "also_sources": []
-          },
-          {
-            "title": "USN-9189-1: Qt5Compat vulnerability",
-            "summary": "It was discovered that Qt5Compat did not correctly handle certain text codec names, which could lead to an out-of-bounds read. An attacker could possibly use this issue to cause a denial of service.",
-            "url": "https://ubuntu.com/security/notices/USN-9189-1",
-            "source": "Ubuntu Security Notices",
-            "category": "Cybersecurity",
-            "published": "Mon, 23 Nov 2026 23:21:59 +0000",
-            "severity": "INFORMATIONAL",
-            "score": 41.01,
+            "score": 35.74,
             "also_sources": []
           },
           {
@@ -3155,18 +3309,29 @@
             "category": "Cybersecurity",
             "published": "2026-11-23 20:32:33.0",
             "severity": "HIGH",
-            "score": 81.19,
+            "score": 69.37,
             "also_sources": []
           },
           {
-            "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-            "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-            "source": "BleepingComputer",
+            "title": "AutomationDirect C-More EA9 Programming Software",
+            "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of AutomationDirect C-More EA9 Programming Software are affected: C-More EA9 Programming Software <=V6.80 (CVE-2026-127280) CVSS Vendor Equipment v3 7.8 AutomationDirect C-More EA9 Programming Software 1 Vulnerability Heap-based ",
+            "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+            "source": "CISA Advisories",
             "category": "Cybersecurity",
-            "published": "Mon, 23 Nov 2026 14:42:20 -0500",
+            "published": "Tue, 24 Nov 26 12:00:00 +0000",
+            "severity": "HIGH",
+            "score": 76.83,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9191-1: Linux kernel (Azure) vulnerabilities",
+            "summary": "Several security issues were discovered in the Linux kernel. An attacker could possibly use these to compromise the system. This update corrects flaws in the following subsystems: - Multiple devices driver; - eXpress Data Path; - Kernel build system; - ARM64 architecture; - PowerPC architecture; - RISC-V architecture; - S390 architecture; - x86 architecture; - Block layer subsystem; - Cryptographic API; - Intel NPU Driver; - Compute Acceleration Framework; - ACPI drivers; - Drivers core; - Ublk ",
+            "url": "https://ubuntu.com/security/notices/USN-9191-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Tue, 24 Nov 2026 08:42:14 +0000",
             "severity": "INFORMATIONAL",
-            "score": 37.35,
+            "score": 38.54,
             "also_sources": []
           },
           {
@@ -3177,22 +3342,33 @@
             "category": "Cybersecurity",
             "published": "Mon, 23 Nov 2026 20:29:41 +0000",
             "severity": "INFORMATIONAL",
-            "score": 38.14,
-            "also_sources": []
-          },
-          {
-            "title": "USN-9188-1: OAuthLib vulnerabilities",
-            "summary": "It was discovered that OAuthLib incorrectly handled JSONP callback parameters in the token revocation endpoint. A remote attacker could possibly use this issue to execute arbitrary code in a client application. (CVE-2026-49264) Elvin Latifli discovered that OAuthLib incorrectly compared PKCE code verifiers, using a comparison that was not constant-time. A remote attacker could possibly use this issue to obtain access tokens, resulting in an account takeover. This issue only affected Ubuntu 26.10",
-            "url": "https://ubuntu.com/security/notices/USN-9188-1",
-            "source": "Ubuntu Security Notices",
-            "category": "Cybersecurity",
-            "published": "Mon, 23 Nov 2026 19:44:23 +0000",
-            "severity": "INFORMATIONAL",
-            "score": 37.39,
+            "score": 26.33,
             "also_sources": []
           }
         ],
         "Cloud": [
+          {
+            "title": "AWS Weekly Roundup: Local Zone in Bogotá, 30-minute Lambda timeout, and more (November 24, 2026)",
+            "summary": "Some limits shape architecture more than any feature does. AWS Lambda launched in 2014 with a 60-second timeout, moved to 5 minutes in 2015 and to 15 minutes in 2018, and then stayed there for eight years. Last week the limit doubled, and in the same week Lambda learned to run on GPUs and gave […]",
+            "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-local-zone-in-bogota-30-minute-lambda-timeout-and-more-november-24-2026/",
+            "source": "AWS News Blog",
+            "category": "Cloud",
+            "published": "Tue, 24 Nov 2026 15:39:59 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.5,
+            "also_sources": []
+          },
+          {
+            "title": "Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium",
+            "summary": "Editor’s note: Founded in 1988 in Kota, Rajasthan, ALLEN is one of India’s leading coaching institutions, serving over 400,000 students across 350+ classroom campuses in 78 cities. Here, the IT and Cybersecurity Leadership Team shares how they standardized on Chrome Enterprise Premium to secure sensitive data and enable zero trust across over 5,000 users. With a workforce that lives in the browser across a SaaS and multi-cloud estate, securing our digital environment is paramount. Our 5,000+ use",
+            "url": "https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium/",
+            "source": "Google Cloud Blog",
+            "category": "Cloud",
+            "published": "Tue, 24 Nov 2026 15:02:00 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 44.87,
+            "also_sources": []
+          },
           {
             "title": "Amazon EC2 X8i instances are now available in the Asia Pacific (New Zealand) Region",
             "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) X8i instances are available in the Asia Pacific (New Zealand) Region. These instances are powered by custom Intel Xeon 6 processors available only on AWS. X8i instances are SAP-certified and deliver the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. They deliver up to 43% higher performance, 1.5x more memory capacity (up to 6TB), and 3.3x more memory bandwidth compared to previous generati",
@@ -3201,7 +3377,7 @@
             "category": "Cloud",
             "published": "Mon, 23 Nov 2026 23:21:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 41.0,
+            "score": 29.18,
             "also_sources": []
           },
           {
@@ -3212,7 +3388,7 @@
             "category": "Cloud",
             "published": "Mon, 23 Nov 2026 23:14:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 40.88,
+            "score": 29.07,
             "also_sources": []
           }
         ],
@@ -3225,7 +3401,31 @@
             "category": "Microsoft",
             "published": "2026-11-23T12:52:47.796-08:00",
             "severity": "INFORMATIONAL",
-            "score": 46.53,
+            "score": 34.71,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Tech firms soar as Huang’s return reinvigorates AI trade",
+            "summary": "Technology firms rocketed Tuesday as Asia joined a global stock surge following the reinstatement of Jensen Huang as Nvidia boss less than two weeks after stepping down over extramarital affairs including with an alleged Chinese spy . The Silicon Valley giant’s resignation on November 12 sent shockwaves through markets and dealt a severe blow to the AI trade, which was already under pressure amid worries over profitability and the vast sums pumped into the sector. His role as a fixer and visiona",
+            "url": "https://www.dawn.com/news/2046746/tech-firms-soar-as-huangs-return-reinvigorates-ai-trade",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Tue, 24 Nov 2026 12:18:55 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 37.15,
+            "also_sources": []
+          },
+          {
+            "title": "Huang’s Nvidia return sparks relief for battered AI trade, but questions remain",
+            "summary": "The stunning return of Nvidia CEO Jensen Huang brought a sigh of relief from investors in the battered AI trade, one worth trillions of dollars, as some took it as a cue that the AI boom and the man in the middle of it were too big to fail. Huang’s reinstatement atop the semiconductor giant halted a slide in technology shares that had sent the benchmark S&P 500 into a correction, though there was also some caution that his second coming may raise new risks for the company and industry. The abrup",
+            "url": "https://www.dawn.com/news/2046744/huangs-nvidia-return-sparks-relief-for-battered-ai-trade-but-questions-remain",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Tue, 24 Nov 2026 12:09:31 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 36.99,
             "also_sources": []
           }
         ]

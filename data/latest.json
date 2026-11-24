@@ -1,6 +1,50 @@
 {
-  "updated_utc": "2026-11-24T06:21:09.942748+00:00",
+  "updated_utc": "2026-11-24T18:10:04.355299+00:00",
   "alerts": [
+    {
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Tue, 24 Nov 2026 18:58:26 +0530",
+      "severity": "CRITICAL",
+      "score": 136.4,
+      "also_sources": []
+    },
+    {
+      "title": "Danfoss AK-SM 8xxA Series",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8 Danfoss AK-SM8xxA 1 Vulnerability Stack-based Buffer Overflow Background Critical Infrastructure Sectors: Commercial Facilities Countries/Areas Deployed: Worldwide Company Headquarters Location: Denmark Vulnerabilities CVE-2026-",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+      "source": "CISA Advisories",
+      "category": "Cybersecurity",
+      "published": "Tue, 24 Nov 26 12:00:00 +0000",
+      "severity": "HIGH",
+      "score": 76.93,
+      "also_sources": []
+    },
+    {
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of AutomationDirect C-More EA9 Programming Software are affected: C-More EA9 Programming Software <=V6.80 (CVE-2026-127280) CVSS Vendor Equipment v3 7.8 AutomationDirect C-More EA9 Programming Software 1 Vulnerability Heap-based ",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "source": "CISA Advisories",
+      "category": "Cybersecurity",
+      "published": "Tue, 24 Nov 26 12:00:00 +0000",
+      "severity": "HIGH",
+      "score": 76.93,
+      "also_sources": []
+    },
+    {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Tue, 24 Nov 2026 11:32:45 +0530",
+      "severity": "CRITICAL",
+      "score": 120.97,
+      "also_sources": []
+    },
     {
       "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
       "summary": "On November 19, 2026, the PHP Foundation announced the availability of security fixes that address a critical vulnerability that could lead to remote code execution. This vulnerability is identified by CVE-2026-126714. For information about this vulnerability, see the advisory GHSA-fm2m-fjf5-v3cp . This vulnerability is being referenced as phpAfterShell . For information about Splunk products and offerings, see Vulnerabilities in PHP affecting Splunk Products - November 2026 . This advisory will",
@@ -1055,50 +1099,6 @@
       "published": "Tue, 17 Nov 2026 18:04:21 -0500",
       "severity": "CRITICAL",
       "score": 104.82,
-      "also_sources": []
-    },
-    {
-      "title": "GCP-2026-082",
-      "summary": "Published: 2026-11-17 Description Description Severity Notes A remote code execution vulnerability ( CVE-2026-114938 ) was disclosed in OpenJDK 17.0.6 and later (including 17.0.6+, 21.x, 25.x, and 27.x across Eclipse Temurin and other distributions) on x86-64 processors that support AVX-512 VBMI. OpenJDK 8, 11, and 17.0.0 through 17.0.5 are not affected. Workloads running unpatched OpenJDK 17.0.6 or later on Google Cloud (whether self-managed in VMs and containers or running on managed services ",
-      "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-082",
-      "source": "Google Cloud Security Bulletins",
-      "category": "Cybersecurity",
-      "published": "2026-11-17T22:03:33.418511+00:00",
-      "severity": "HIGH",
-      "score": 86.81,
-      "also_sources": []
-    },
-    {
-      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-      "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 2026 15:51:21 -0500",
-      "severity": "HIGH",
-      "score": 77.6,
-      "also_sources": []
-    },
-    {
-      "title": "[In preview] Public Preview: Azure Adaptive Virtual Patching",
-      "summary": "Azure Adaptive Virtual Patching introduces an AI-orchestrated Adaptive Shield designed to reduce exposure to new, emerging, and newly disclosed zero-day vulnerabilities while customers test and deploy software patches. The initial workload focus is Linux",
-      "url": "https://azure.microsoft.com/updates?id=580689",
-      "source": "Azure Updates",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 2026 20:29:13 Z",
-      "severity": "CRITICAL",
-      "score": 135.24,
-      "also_sources": []
-    },
-    {
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution. Actions to take CISA urges organizations to take the following actions",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 76.75,
       "also_sources": []
     }
   ],

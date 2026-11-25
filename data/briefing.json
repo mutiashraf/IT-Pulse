@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-25T12:11:32.024971+00:00",
-  "latest_date": "2026-11-25",
+  "generated_utc": "2026-11-25T22:02:18.053499+00:00",
+  "latest_date": "2026-11-26",
   "available_dates": [
+    "2026-11-26",
     "2026-11-25",
     "2026-11-24",
     "2026-11-23",
@@ -3761,6 +3762,153 @@
       "source_failures": [
         "Ubuntu Security Notices"
       ]
+    },
+    "2026-11-26": {
+      "date": "2026-11-26",
+      "generated_utc": "2026-11-25T22:02:18.053489+00:00",
+      "story_count": 6,
+      "source_count": 4,
+      "stories": [
+        {
+          "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+          "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see eMudhra Intermediate CA Compromise an",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-25 21:11:32.0",
+          "severity": "HIGH",
+          "score": 82.15,
+          "also_sources": []
+        },
+        {
+          "title": "1Password customer data stolen after employee GitHub account breach",
+          "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Wed, 25 Nov 2026 16:33:33 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 72.52,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9198-1: HTTP::Tiny vulnerability",
+          "summary": "It was discovered that HTTP::Tiny incorrectly forwarded credential headers supplied by the caller, such as Authorization, Cookie and Proxy-Authorization, when following cross-origin redirects, including redirects from HTTPS to HTTP. An attacker could possibly use this issue to obtain sensitive information.",
+          "url": "https://ubuntu.com/security/notices/USN-9198-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Wed, 25 Nov 2026 21:14:58 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 47.21,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-134070 - Improper input sanitization in the AWS Config remediation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3",
+          "summary": "Bulletin ID: 2026-203-AWS Publication Date: 11/25/2026 11:30 AM PST Description: AWS Systems Manager Automation provides AWS-managed runbooks that customers can run directly or through integrations such as AWS Config remediation. Session Manager, a capability of AWS Systems Manager, stores each account's regional session preferences in the SSM-SessionManagerRunShell document. We identified CVE-2026-134070, where improper input validation in the AWS-managed AWS Systems Manager Automation runbook ",
+          "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-203-aws/",
+          "source": "AWS Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "Wed, 25 Nov 2026 19:41:20 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.65,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9202-1: Kerberos vulnerabilities",
+          "summary": "It was discovered that the Kerberos KDC incorrectly handled certain ASN.1 encodings in requests. A remote attacker could possibly use this issue to cause the KDC to crash, resulting in a denial of service. (CVE-2026-107364) It was discovered that the Kerberos KDC incorrectly handled malformed client names in PAC data during S4U2Proxy requests. A remote attacker controlling a trusted cross-realm KDC could possibly use this issue to cause the KDC to crash, resulting in a denial of service. This is",
+          "url": "https://ubuntu.com/security/notices/USN-9202-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Wed, 25 Nov 2026 20:37:30 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 46.59,
+          "also_sources": []
+        },
+        {
+          "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+          "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+          "source": "BleepingComputer",
+          "category": "AI",
+          "published": "Wed, 25 Nov 2026 14:39:31 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 45.62,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Cybersecurity": [
+          {
+            "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+            "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due to an unprecedented error in their Key Generation Ceremony (KGC) in April 2025. This allows anyone to brute-force acquire these private keys within seconds. For more information, see eMudhra Intermediate CA Compromise an",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-25 21:11:32.0",
+            "severity": "HIGH",
+            "score": 82.15,
+            "also_sources": []
+          },
+          {
+            "title": "1Password customer data stolen after employee GitHub account breach",
+            "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Wed, 25 Nov 2026 16:33:33 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 72.52,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9198-1: HTTP::Tiny vulnerability",
+            "summary": "It was discovered that HTTP::Tiny incorrectly forwarded credential headers supplied by the caller, such as Authorization, Cookie and Proxy-Authorization, when following cross-origin redirects, including redirects from HTTPS to HTTP. An attacker could possibly use this issue to obtain sensitive information.",
+            "url": "https://ubuntu.com/security/notices/USN-9198-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Wed, 25 Nov 2026 21:14:58 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 47.21,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-134070 - Improper input sanitization in the AWS Config remediation runbook AWSConfigRemediation-EnableSystemsManagerSessionManagerAuditLogsToS3",
+            "summary": "Bulletin ID: 2026-203-AWS Publication Date: 11/25/2026 11:30 AM PST Description: AWS Systems Manager Automation provides AWS-managed runbooks that customers can run directly or through integrations such as AWS Config remediation. Session Manager, a capability of AWS Systems Manager, stores each account's regional session preferences in the SSM-SessionManagerRunShell document. We identified CVE-2026-134070, where improper input validation in the AWS-managed AWS Systems Manager Automation runbook ",
+            "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-203-aws/",
+            "source": "AWS Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "Wed, 25 Nov 2026 19:41:20 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.65,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9202-1: Kerberos vulnerabilities",
+            "summary": "It was discovered that the Kerberos KDC incorrectly handled certain ASN.1 encodings in requests. A remote attacker could possibly use this issue to cause the KDC to crash, resulting in a denial of service. (CVE-2026-107364) It was discovered that the Kerberos KDC incorrectly handled malformed client names in PAC data during S4U2Proxy requests. A remote attacker controlling a trusted cross-realm KDC could possibly use this issue to cause the KDC to crash, resulting in a denial of service. This is",
+            "url": "https://ubuntu.com/security/notices/USN-9202-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Wed, 25 Nov 2026 20:37:30 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 46.59,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+            "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+            "source": "BleepingComputer",
+            "category": "AI",
+            "published": "Wed, 25 Nov 2026 14:39:31 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 45.62,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
     }
   }
 }

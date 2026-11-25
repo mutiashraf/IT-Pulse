@@ -1,6 +1,50 @@
 {
-  "updated_utc": "2026-11-25T12:11:31.971512+00:00",
+  "updated_utc": "2026-11-25T22:02:18.021095+00:00",
   "alerts": [
+    {
+      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Wed, 25 Nov 2026 11:13:40 -0500",
+      "severity": "CRITICAL",
+      "score": 110.33,
+      "also_sources": []
+    },
+    {
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below - CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Wed, 25 Nov 2026 18:18:54 +0530",
+      "severity": "HIGH",
+      "score": 81.92,
+      "also_sources": []
+    },
+    {
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability CVE-2025-41450 Danfoss AK-SM 800A Series Improper Authentication Vulnerability CVE-2026-103406 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerab",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "Cybersecurity",
+      "published": "Wed, 25 Nov 26 12:00:00 +0000",
+      "severity": "CRITICAL",
+      "score": 123.1,
+      "also_sources": []
+    },
+    {
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026. The vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core. \"Drupal Core",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Wed, 25 Nov 2026 16:53:26 +0530",
+      "severity": "CRITICAL",
+      "score": 122.49,
+      "also_sources": []
+    },
     {
       "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
       "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
@@ -1056,53 +1100,7 @@
       "severity": "CRITICAL",
       "score": 100.14,
       "also_sources": []
-    },
-    {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability CVE-2026-90436 Apache Axis Unsafe Reflection Vulnerability CVE-2026-90817 Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability These types of vu",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Wed, 18 Nov 26 12:00:00 +0000",
-      "severity": "CRITICAL",
-      "score": 119.96,
-      "also_sources": []
-    },
-    {
-      "title": "Vulnerability in Oracle OpenJDK (Java4Shell) Affecting Cisco Products: November 2026",
-      "summary": "On November 17, 2026, Oracle announced the availability of fixes for a vulnerability in OpenJDK that could lead to remote code execution identified by CVE-2026-114938. The vulnerability affects OpenJDK Java 17.0.6 and later on x86-64 platforms when processing Base64 encoded content. For more information, see the Oracle Critical Security Patch Update Advisory - November 2026 and the OpenJDK Vulnerability Advisory: 2026/11/17 . For additional information, see the Talos blog post: Talos Threat Advi",
-      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nov2026-java-rce-eCa6ss9z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerability%20in%20Oracle%20OpenJDK%20(Java4Shell)%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-      "source": "Cisco Security Advisories",
-      "category": "Cybersecurity",
-      "published": "2026-11-18 16:00:00.0",
-      "severity": "HIGH",
-      "score": 88.01,
-      "also_sources": []
-    },
-    {
-      "title": "CVE-2026-118148 Active Directory Domain Services Elevation of Privilege Vulnerability",
-      "summary": "Updated the CVSS score and corrected FAQs. This is an informational change only.",
-      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118148",
-      "source": "Microsoft Security Update Guide",
-      "category": "Cybersecurity",
-      "published": "Wed, 18 Nov 2026 08:00:00 -0800",
-      "severity": "HIGH",
-      "score": 80.01,
-      "also_sources": []
-    },
-    {
-      "title": "Java4Shell Vulnerability - CVE-2026-114938",
-      "summary": "CVSSv3 Score: 8.1 CVE-2026-114938Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler). Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple ",
-      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-278",
-      "source": "Fortinet PSIRT",
-      "category": "Cybersecurity",
-      "published": "Wed, 18 Nov 2026 00:00:00 -0800",
-      "severity": "HIGH",
-      "score": 72.01,
-      "also_sources": []
     }
   ],
-  "source_failures": [
-    "Ubuntu Security Notices"
-  ]
+  "source_failures": []
 }

@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-25T22:02:18.053499+00:00",
+  "generated_utc": "2026-11-25T22:44:33.792599+00:00",
   "latest_date": "2026-11-26",
   "available_dates": [
     "2026-11-26",
@@ -3765,9 +3765,9 @@
     },
     "2026-11-26": {
       "date": "2026-11-26",
-      "generated_utc": "2026-11-25T22:02:18.053489+00:00",
-      "story_count": 6,
-      "source_count": 4,
+      "generated_utc": "2026-11-25T22:44:33.792590+00:00",
+      "story_count": 7,
+      "source_count": 5,
       "stories": [
         {
           "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
@@ -3777,7 +3777,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-25 21:11:32.0",
           "severity": "HIGH",
-          "score": 82.15,
+          "score": 81.45,
           "also_sources": []
         },
         {
@@ -3788,7 +3788,18 @@
           "category": "Cybersecurity",
           "published": "Wed, 25 Nov 2026 16:33:33 -0500",
           "severity": "INFORMATIONAL",
-          "score": 72.52,
+          "score": 71.82,
+          "also_sources": []
+        },
+        {
+          "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+          "summary": "Support for Java 8, 11 and 17 on Azure Functions is ending on September 1, 2027. Your apps that are hosted on Azure Functions will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Java 8,",
+          "url": "https://azure.microsoft.com/updates?id=568586",
+          "source": "Azure Updates",
+          "category": "Cybersecurity",
+          "published": "Wed, 25 Nov 2026 21:53:30 Z",
+          "severity": "INFORMATIONAL",
+          "score": 55.15,
           "also_sources": []
         },
         {
@@ -3799,7 +3810,7 @@
           "category": "Cybersecurity",
           "published": "Wed, 25 Nov 2026 21:14:58 +0000",
           "severity": "INFORMATIONAL",
-          "score": 47.21,
+          "score": 46.51,
           "also_sources": []
         },
         {
@@ -3810,7 +3821,18 @@
           "category": "Cybersecurity",
           "published": "Wed, 25 Nov 2026 19:41:20 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.65,
+          "score": 44.95,
+          "also_sources": []
+        },
+        {
+          "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+          "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Wed, 25 Nov 2026 17:05:09 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 47.34,
           "also_sources": []
         },
         {
@@ -3821,18 +3843,7 @@
           "category": "Cybersecurity",
           "published": "Wed, 25 Nov 2026 20:37:30 +0000",
           "severity": "INFORMATIONAL",
-          "score": 46.59,
-          "also_sources": []
-        },
-        {
-          "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-          "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-          "source": "BleepingComputer",
-          "category": "AI",
-          "published": "Wed, 25 Nov 2026 14:39:31 -0500",
-          "severity": "INFORMATIONAL",
-          "score": 45.62,
+          "score": 45.88,
           "also_sources": []
         }
       ],
@@ -3846,7 +3857,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-25 21:11:32.0",
             "severity": "HIGH",
-            "score": 82.15,
+            "score": 81.45,
             "also_sources": []
           },
           {
@@ -3857,7 +3868,18 @@
             "category": "Cybersecurity",
             "published": "Wed, 25 Nov 2026 16:33:33 -0500",
             "severity": "INFORMATIONAL",
-            "score": 72.52,
+            "score": 71.82,
+            "also_sources": []
+          },
+          {
+            "title": "Retirement: Support for Java 8, 11 and 17 in Azure Functions ends on September 1, 2027",
+            "summary": "Support for Java 8, 11 and 17 on Azure Functions is ending on September 1, 2027. Your apps that are hosted on Azure Functions will continue to run, but security updates will no longer be available, and we’ll no longer provide customer service for Java 8,",
+            "url": "https://azure.microsoft.com/updates?id=568586",
+            "source": "Azure Updates",
+            "category": "Cybersecurity",
+            "published": "Wed, 25 Nov 2026 21:53:30 Z",
+            "severity": "INFORMATIONAL",
+            "score": 55.15,
             "also_sources": []
           },
           {
@@ -3868,7 +3890,7 @@
             "category": "Cybersecurity",
             "published": "Wed, 25 Nov 2026 21:14:58 +0000",
             "severity": "INFORMATIONAL",
-            "score": 47.21,
+            "score": 46.51,
             "also_sources": []
           },
           {
@@ -3879,7 +3901,18 @@
             "category": "Cybersecurity",
             "published": "Wed, 25 Nov 2026 19:41:20 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.65,
+            "score": 44.95,
+            "also_sources": []
+          },
+          {
+            "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+            "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Wed, 25 Nov 2026 17:05:09 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 47.34,
             "also_sources": []
           },
           {
@@ -3890,20 +3923,7 @@
             "category": "Cybersecurity",
             "published": "Wed, 25 Nov 2026 20:37:30 +0000",
             "severity": "INFORMATIONAL",
-            "score": 46.59,
-            "also_sources": []
-          }
-        ],
-        "AI": [
-          {
-            "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-            "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-            "source": "BleepingComputer",
-            "category": "AI",
-            "published": "Wed, 25 Nov 2026 14:39:31 -0500",
-            "severity": "INFORMATIONAL",
-            "score": 45.62,
+            "score": 45.88,
             "also_sources": []
           }
         ]

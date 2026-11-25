@@ -1,8 +1,10 @@
 {
-  "last_monitor_utc": "2026-11-25T02:47:49.442840+00:00",
-  "source_failures": [],
-  "stories_checked": 4627,
-  "new_alerts_sent": 3,
-  "daily_stories": 11,
-  "daily_sources": 6
+  "last_monitor_utc": "2026-11-25T12:11:32.029700+00:00",
+  "source_failures": [
+    "Ubuntu Security Notices"
+  ],
+  "stories_checked": 4617,
+  "new_alerts_sent": 1,
+  "daily_stories": 14,
+  "daily_sources": 7
 }

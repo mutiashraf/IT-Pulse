@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-25T02:47:49.409455+00:00",
+  "updated_utc": "2026-11-25T12:11:31.971512+00:00",
   "alerts": [
+    {
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Wed, 25 Nov 2026 05:10:20 -0500",
+      "severity": "CRITICAL",
+      "score": 139.12,
+      "also_sources": []
+    },
     {
       "title": "Rackspace shuts down Spot cloud platform after security breach",
       "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
@@ -1089,18 +1100,9 @@
       "severity": "HIGH",
       "score": 72.01,
       "also_sources": []
-    },
-    {
-      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation. The vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
-      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Wed, 18 Nov 2026 13:54:31 +0530",
-      "severity": "CRITICAL",
-      "score": 130.92,
-      "also_sources": []
     }
   ],
-  "source_failures": []
+  "source_failures": [
+    "Ubuntu Security Notices"
+  ]
 }

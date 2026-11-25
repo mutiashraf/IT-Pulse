@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-24T23:18:13.190802+00:00",
+  "generated_utc": "2026-11-25T02:47:49.438902+00:00",
   "latest_date": "2026-11-25",
   "available_dates": [
     "2026-11-25",
@@ -3435,9 +3435,9 @@
     },
     "2026-11-25": {
       "date": "2026-11-25",
-      "generated_utc": "2026-11-24T23:18:13.190791+00:00",
-      "story_count": 9,
-      "source_count": 5,
+      "generated_utc": "2026-11-25T02:47:49.438893+00:00",
+      "story_count": 11,
+      "source_count": 6,
       "stories": [
         {
           "title": "Vulnerability in PHP Affecting Cisco Products: November 2026",
@@ -3447,7 +3447,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-24 19:47:02.0",
           "severity": "CRITICAL",
-          "score": 104.48,
+          "score": 100.99,
           "also_sources": []
         },
         {
@@ -3458,7 +3458,18 @@
           "category": "Cybersecurity",
           "published": "Tue, 24 Nov 2026 16:37:30 -0500",
           "severity": "HIGH",
-          "score": 81.32,
+          "score": 77.83,
+          "also_sources": []
+        },
+        {
+          "title": "PAN-SA-2026-0015 Security Bulletin: OSS CVEs Fixed in PAN-OS (Severity: INFORMATIONAL)",
+          "summary": "",
+          "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0015",
+          "source": "Palo Alto Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-24T23:10:00.000Z",
+          "severity": "INFORMATIONAL",
+          "score": 44.37,
           "also_sources": []
         },
         {
@@ -3469,7 +3480,7 @@
           "category": "Cybersecurity",
           "published": "Tue, 24 Nov 2026 21:27:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 46.15,
+          "score": 42.65,
           "also_sources": []
         },
         {
@@ -3480,18 +3491,7 @@
           "category": "Cybersecurity",
           "published": "Tue, 24 Nov 2026 19:27:19 +0000",
           "severity": "INFORMATIONAL",
-          "score": 44.15,
-          "also_sources": []
-        },
-        {
-          "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
-          "summary": "",
-          "url": "https://security.paloaltonetworks.com/CVE-2026-123633",
-          "source": "Palo Alto Security Advisories",
-          "category": "Cybersecurity",
-          "published": "2026-11-24T19:00:00.000Z",
-          "severity": "INFORMATIONAL",
-          "score": 43.7,
+          "score": 40.66,
           "also_sources": []
         },
         {
@@ -3502,7 +3502,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-24 22:15:16.0",
           "severity": "HIGH",
-          "score": 89.95,
+          "score": 86.46,
           "also_sources": []
         },
         {
@@ -3513,7 +3513,18 @@
           "category": "Cybersecurity",
           "published": "Tue, 24 Nov 2026 15:21:20 -0500",
           "severity": "INFORMATIONAL",
-          "score": 45.05,
+          "score": 41.56,
+          "also_sources": []
+        },
+        {
+          "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
+          "summary": "",
+          "url": "https://security.paloaltonetworks.com/CVE-2026-123633",
+          "source": "Palo Alto Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-24T23:10:00.000Z",
+          "severity": "INFORMATIONAL",
+          "score": 44.37,
           "also_sources": []
         },
         {
@@ -3524,7 +3535,7 @@
           "category": "Cybersecurity",
           "published": "Tue, 24 Nov 2026 19:27:19 +0000",
           "severity": "INFORMATIONAL",
-          "score": 44.15,
+          "score": 40.66,
           "also_sources": []
         },
         {
@@ -3535,7 +3546,18 @@
           "category": "Cloud",
           "published": "Tue, 24 Nov 2026 20:22:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 45.06,
+          "score": 41.57,
+          "also_sources": []
+        },
+        {
+          "title": "'Pakistani flag rises into orbit' as Zeeshan Ali makes history aboard China's Shenzhou-24 spacecraft",
+          "summary": "Forty-year-old Zeeshan Ali became the first Pakistani astronaut to enter orbit on Wednesday, after China’s Shenzhou-24 spacecraft entered its preset orbit following liftoff from the Jiuquan Satellite Launch Centre. The launch of the spacecraft, which used a Long March-2F rocket, took place at 8:18am Beijing Time (5:18am Pakistan Time). Prior to that, a send-off ceremony was held for three astronauts, who comprise the mission’s crew, at the launch centre before they entered the spacecraft capsule",
+          "url": "https://www.dawn.com/news/2046753/pakistani-flag-rises-into-orbit-as-zeeshan-ali-makes-history-aboard-chinas-shenzhou-24-spacecraft",
+          "source": "Dawn Technology",
+          "category": "Technology",
+          "published": "Wed, 25 Nov 2026 06:20:39 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 46.55,
           "also_sources": []
         }
       ],
@@ -3549,7 +3571,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-24 19:47:02.0",
             "severity": "CRITICAL",
-            "score": 104.48,
+            "score": 100.99,
             "also_sources": []
           },
           {
@@ -3560,7 +3582,18 @@
             "category": "Cybersecurity",
             "published": "Tue, 24 Nov 2026 16:37:30 -0500",
             "severity": "HIGH",
-            "score": 81.32,
+            "score": 77.83,
+            "also_sources": []
+          },
+          {
+            "title": "PAN-SA-2026-0015 Security Bulletin: OSS CVEs Fixed in PAN-OS (Severity: INFORMATIONAL)",
+            "summary": "",
+            "url": "https://security.paloaltonetworks.com/PAN-SA-2026-0015",
+            "source": "Palo Alto Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-24T23:10:00.000Z",
+            "severity": "INFORMATIONAL",
+            "score": 44.37,
             "also_sources": []
           },
           {
@@ -3571,7 +3604,7 @@
             "category": "Cybersecurity",
             "published": "Tue, 24 Nov 2026 21:27:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 46.15,
+            "score": 42.65,
             "also_sources": []
           },
           {
@@ -3582,18 +3615,7 @@
             "category": "Cybersecurity",
             "published": "Tue, 24 Nov 2026 19:27:19 +0000",
             "severity": "INFORMATIONAL",
-            "score": 44.15,
-            "also_sources": []
-          },
-          {
-            "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
-            "summary": "",
-            "url": "https://security.paloaltonetworks.com/CVE-2026-123633",
-            "source": "Palo Alto Security Advisories",
-            "category": "Cybersecurity",
-            "published": "2026-11-24T19:00:00.000Z",
-            "severity": "INFORMATIONAL",
-            "score": 43.7,
+            "score": 40.66,
             "also_sources": []
           },
           {
@@ -3604,7 +3626,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-24 22:15:16.0",
             "severity": "HIGH",
-            "score": 89.95,
+            "score": 86.46,
             "also_sources": []
           },
           {
@@ -3615,7 +3637,18 @@
             "category": "Cybersecurity",
             "published": "Tue, 24 Nov 2026 15:21:20 -0500",
             "severity": "INFORMATIONAL",
-            "score": 45.05,
+            "score": 41.56,
+            "also_sources": []
+          },
+          {
+            "title": "CVE-2026-123633 Portfolio Status: Impact of NGINX Vulnerabilities (CVE-2026-123633, CVE-2026-123007) on Palo Alto Networks Products (Severity: CRITICAL)",
+            "summary": "",
+            "url": "https://security.paloaltonetworks.com/CVE-2026-123633",
+            "source": "Palo Alto Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-24T23:10:00.000Z",
+            "severity": "INFORMATIONAL",
+            "score": 44.37,
             "also_sources": []
           },
           {
@@ -3626,7 +3659,7 @@
             "category": "Cybersecurity",
             "published": "Tue, 24 Nov 2026 19:27:19 +0000",
             "severity": "INFORMATIONAL",
-            "score": 44.15,
+            "score": 40.66,
             "also_sources": []
           }
         ],
@@ -3639,7 +3672,20 @@
             "category": "Cloud",
             "published": "Tue, 24 Nov 2026 20:22:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 45.06,
+            "score": 41.57,
+            "also_sources": []
+          }
+        ],
+        "Technology": [
+          {
+            "title": "'Pakistani flag rises into orbit' as Zeeshan Ali makes history aboard China's Shenzhou-24 spacecraft",
+            "summary": "Forty-year-old Zeeshan Ali became the first Pakistani astronaut to enter orbit on Wednesday, after China’s Shenzhou-24 spacecraft entered its preset orbit following liftoff from the Jiuquan Satellite Launch Centre. The launch of the spacecraft, which used a Long March-2F rocket, took place at 8:18am Beijing Time (5:18am Pakistan Time). Prior to that, a send-off ceremony was held for three astronauts, who comprise the mission’s crew, at the launch centre before they entered the spacecraft capsule",
+            "url": "https://www.dawn.com/news/2046753/pakistani-flag-rises-into-orbit-as-zeeshan-ali-makes-history-aboard-chinas-shenzhou-24-spacecraft",
+            "source": "Dawn Technology",
+            "category": "Technology",
+            "published": "Wed, 25 Nov 2026 06:20:39 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 46.55,
             "also_sources": []
           }
         ]

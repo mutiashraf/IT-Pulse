@@ -1,6 +1,39 @@
 {
-  "updated_utc": "2026-11-24T18:10:04.355299+00:00",
+  "updated_utc": "2026-11-25T02:47:49.409455+00:00",
   "alerts": [
+    {
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Tue, 24 Nov 2026 16:37:30 -0500",
+      "severity": "HIGH",
+      "score": 77.92,
+      "also_sources": []
+    },
+    {
+      "title": "CVE-2026-112732 Microsoft Office Visio Remote Code Execution Vulnerability",
+      "summary": "Information published. This CVE was addressed by updates that were released in November 2026, but the CVE was inadvertently omitted from the November 2026 Security Updates. This is an informational change only. Customers who have already installed the November 2026 updates do not need to take any further action.",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112732",
+      "source": "Microsoft Security Update Guide",
+      "category": "Cybersecurity",
+      "published": "Tue, 24 Nov 2026 08:00:00 -0800",
+      "severity": "HIGH",
+      "score": 80.3,
+      "also_sources": []
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerability CVE-2026-132224 Optimizely Web Experimentation External Control of Critical State Data Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to ",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "Cybersecurity",
+      "published": "Tue, 24 Nov 26 12:00:00 +0000",
+      "severity": "CRITICAL",
+      "score": 118.3,
+      "also_sources": []
+    },
     {
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
       "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication. The critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS scoring system. It resides in the VMware Directory Service (\"vmdir\"). \"A malicious actor with",
@@ -1066,39 +1099,6 @@
       "published": "Wed, 18 Nov 2026 13:54:31 +0530",
       "severity": "CRITICAL",
       "score": 130.92,
-      "also_sources": []
-    },
-    {
-      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions. \"This critical memory-corruption",
-      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Wed, 18 Nov 2026 13:54:23 +0530",
-      "severity": "HIGH",
-      "score": 88.92,
-      "also_sources": []
-    },
-    {
-      "title": "Amazon Corretto November 2026 Critical Security Patch Updates",
-      "summary": "On Nov 17, 2026, Amazon announced critical security patch update (CSPU) for Amazon Corretto Long-Term Support (LTS) and Feature Release (FR) versions of OpenJDK. Corretto 27.0.1.1.4, 25.0.5.1.2, 21.0.13.1.2, 17.0.21.1.2, 11.0.33.1.1, and 8u514 are now available for download . Amazon Corretto is a no-cost, multi-platform, production-ready distribution of OpenJDK. Visit Corretto home page to download Corretto 27, Corretto 25, Corretto 21, Corretto 17, Corretto 11, or Corretto 8. You can also get t",
-      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-corretto-nov-2026-updates/",
-      "source": "AWS What's New",
-      "category": "Cloud",
-      "published": "Tue, 17 Nov 2026 15:00:00 GMT",
-      "severity": "HIGH",
-      "score": 71.52,
-      "also_sources": []
-    },
-    {
-      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Tue, 17 Nov 2026 18:04:21 -0500",
-      "severity": "CRITICAL",
-      "score": 104.82,
       "also_sources": []
     }
   ],

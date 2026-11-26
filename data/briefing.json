@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T22:33:03.350702+00:00",
+  "generated_utc": "2026-11-26T22:52:37.439151+00:00",
   "latest_date": "2026-11-27",
   "available_dates": [
     "2026-11-27",
@@ -4135,7 +4135,7 @@
     },
     "2026-11-27": {
       "date": "2026-11-27",
-      "generated_utc": "2026-11-26T22:33:03.350695+00:00",
+      "generated_utc": "2026-11-26T22:52:37.439144+00:00",
       "story_count": 4,
       "source_count": 4,
       "stories": [
@@ -4147,7 +4147,7 @@
           "category": "Networking",
           "published": "Thu, 26 Nov 2026 21:49:46 GMT",
           "severity": "INFORMATIONAL",
-          "score": 55.28,
+          "score": 54.95,
           "also_sources": []
         },
         {
@@ -4158,7 +4158,7 @@
           "category": "Cybersecurity",
           "published": "Thu, 26 Nov 2026 19:39:59 +0000",
           "severity": "INFORMATIONAL",
-          "score": 45.12,
+          "score": 44.79,
           "also_sources": []
         },
         {
@@ -4169,7 +4169,7 @@
           "category": "AI",
           "published": "Thu, 26 Nov 2026 16:06:22 -0500",
           "severity": "INFORMATIONAL",
-          "score": 46.56,
+          "score": 46.23,
           "also_sources": []
         },
         {
@@ -4180,7 +4180,7 @@
           "category": "AI",
           "published": "Fri, 27 Nov 2026 01:09:57 +0530",
           "severity": "INFORMATIONAL",
-          "score": 45.11,
+          "score": 44.79,
           "also_sources": []
         }
       ],
@@ -4194,7 +4194,7 @@
             "category": "Networking",
             "published": "Thu, 26 Nov 2026 21:49:46 GMT",
             "severity": "INFORMATIONAL",
-            "score": 55.28,
+            "score": 54.95,
             "also_sources": []
           }
         ],
@@ -4207,7 +4207,7 @@
             "category": "Cybersecurity",
             "published": "Thu, 26 Nov 2026 19:39:59 +0000",
             "severity": "INFORMATIONAL",
-            "score": 45.12,
+            "score": 44.79,
             "also_sources": []
           }
         ],
@@ -4220,7 +4220,7 @@
             "category": "AI",
             "published": "Thu, 26 Nov 2026 16:06:22 -0500",
             "severity": "INFORMATIONAL",
-            "score": 46.56,
+            "score": 46.23,
             "also_sources": []
           },
           {
@@ -4231,7 +4231,7 @@
             "category": "AI",
             "published": "Fri, 27 Nov 2026 01:09:57 +0530",
             "severity": "INFORMATIONAL",
-            "score": 45.11,
+            "score": 44.79,
             "also_sources": []
           }
         ]

@@ -1,6 +1,17 @@
 {
-  "updated_utc": "2026-11-26T13:38:58.012169+00:00",
+  "updated_utc": "2026-11-26T22:52:37.413334+00:00",
   "alerts": [
+    {
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Thu, 26 Nov 2026 10:23:28 -0500",
+      "severity": "CRITICAL",
+      "score": 125.61,
+      "also_sources": []
+    },
     {
       "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
       "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
@@ -1088,17 +1099,6 @@
       "published": "Thu, 19 Nov 2026 04:23:21 -0500",
       "severity": "CRITICAL",
       "score": 123.91,
-      "also_sources": []
-    },
-    {
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 2026 13:30:00 +0530",
-      "severity": "CRITICAL",
-      "score": 122.53,
       "also_sources": []
     }
   ],

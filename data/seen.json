@@ -1,6 +1,7 @@
 {
   "sent": [
     "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-corretto-nov-2026-updates/",
+    "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
     "https://azure.microsoft.com/updates?id=580689",
     "https://cloud.google.com/blog/products/identity-security/ai-powered-cloud-governance-whats-new-in-organization-policy/",
     "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
@@ -180,7 +181,9 @@
     "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
     "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
     "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+    "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
     "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+    "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
     "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
     "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
     "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",

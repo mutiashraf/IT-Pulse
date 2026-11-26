@@ -1,6 +1,39 @@
 {
-  "updated_utc": "2026-11-25T22:02:18.021095+00:00",
+  "updated_utc": "2026-11-26T13:38:58.012169+00:00",
   "alerts": [
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Thu, 26 Nov 2026 12:32:34 +0530",
+      "severity": "HIGH",
+      "score": 76.54,
+      "also_sources": []
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Thu, 26 Nov 2026 12:14:46 +0530",
+      "severity": "CRITICAL",
+      "score": 126.24,
+      "also_sources": []
+    },
+    {
+      "title": "Elastic Load Balancing for Envoy is now generally available",
+      "summary": "Today, AWS announces the general availability of ELB for Envoy, a new load balancer type in Elastic Load Balancing (ELB) that runs open-source Envoy proxies. Platform teams that run Envoy themselves own upgrades, security patching, and capacity across Availability Zones (AZs). ELB for Envoy takes on that work. Each load balancer runs its proxies on dedicated Amazon Elastic Compute Cloud (Amazon EC2) instances with hardware isolation from the AWS Nitro System, so a zero-day in Envoy stays contain",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/elastic-load-balancing-for-envoy-generally-available",
+      "source": "AWS What's New",
+      "category": "Cybersecurity",
+      "published": "Wed, 25 Nov 2026 16:00:00 GMT",
+      "severity": "CRITICAL",
+      "score": 119.49,
+      "also_sources": []
+    },
     {
       "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
@@ -1066,39 +1099,6 @@
       "published": "Thu, 19 Nov 2026 13:30:00 +0530",
       "severity": "CRITICAL",
       "score": 122.53,
-      "also_sources": []
-    },
-    {
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "summary": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-      "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 2026 10:03:46 +0530",
-      "severity": "HIGH",
-      "score": 86.47,
-      "also_sources": []
-    },
-    {
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Wed, 18 Nov 2026 18:08:33 -0500",
-      "severity": "CRITICAL",
-      "score": 131.1,
-      "also_sources": []
-    },
-    {
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution. \"Deserialization of Untrusted",
-      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Wed, 18 Nov 2026 22:40:45 +0530",
-      "severity": "CRITICAL",
-      "score": 100.14,
       "also_sources": []
     }
   ],

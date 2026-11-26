@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T04:02:12.249185+00:00",
+  "generated_utc": "2026-11-26T13:38:58.067362+00:00",
   "latest_date": "2026-11-26",
   "available_dates": [
     "2026-11-26",
@@ -3765,10 +3765,32 @@
     },
     "2026-11-26": {
       "date": "2026-11-26",
-      "generated_utc": "2026-11-26T04:02:12.249171+00:00",
-      "story_count": 12,
-      "source_count": 7,
+      "generated_utc": "2026-11-26T13:38:58.067346+00:00",
+      "story_count": 16,
+      "source_count": 9,
       "stories": [
+        {
+          "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Thu, 26 Nov 2026 12:14:46 +0530",
+          "severity": "CRITICAL",
+          "score": 126.1,
+          "also_sources": []
+        },
+        {
+          "title": "GCP-2026-090",
+          "summary": "Published: 2026-11-20 Description Description Severity Notes 2026-11-23 Update: Added details on patched PHP versions on App Engine, Cloud Run, and Cloud Run functions and noted additional details on CVEs addressed by the updated PHP versions. A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following",
+          "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-090",
+          "source": "Google Cloud Security Bulletins",
+          "category": "Cybersecurity",
+          "published": "2026-11-25T19:59:04.103599+00:00",
+          "severity": "CRITICAL",
+          "score": 98.34,
+          "also_sources": []
+        },
         {
           "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
           "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
@@ -3777,7 +3799,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-26 01:48:13.0",
           "severity": "HIGH",
-          "score": 88.77,
+          "score": 79.15,
           "also_sources": []
         },
         {
@@ -3788,7 +3810,18 @@
           "category": "Cybersecurity",
           "published": "Wed, 25 Nov 2026 16:33:33 -0500",
           "severity": "INFORMATIONAL",
-          "score": 66.52,
+          "score": 56.91,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9208-1: alsa-lib vulnerabilities",
+          "summary": "It was discovered that the ALSA library incorrectly handled certain crafted topology files and control element identifiers. An attacker could possibly use these issues to cause a denial of service or expose sensitive information. These issues were only addressed in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS and Ubuntu 26.04 LTS.",
+          "url": "https://ubuntu.com/security/notices/USN-9208-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Thu, 26 Nov 2026 09:37:19 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 43.97,
           "also_sources": []
         },
         {
@@ -3799,18 +3832,7 @@
           "category": "Cybersecurity",
           "published": "Wed, 25 Nov 2026 21:53:30 Z",
           "severity": "INFORMATIONAL",
-          "score": 49.85,
-          "also_sources": []
-        },
-        {
-          "title": "USN-9203-1: libpcap vulnerabilities",
-          "summary": "Jin Wei, Kunwei Qian, and Ping Chen discovered that libpcap did not properly validate the format of MAC addresses passed to the pcap_ether_aton() function, leading to an out-of-bounds read and write. An attacker could possibly use this issue to cause applications using libpcap to crash, resulting in a denial of service, or possibly execute arbitrary code. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2025-11961) It was discovered that the libpcap remote capture (rpcap) cli",
-          "url": "https://ubuntu.com/security/notices/USN-9203-1",
-          "source": "Ubuntu Security Notices",
-          "category": "Cybersecurity",
-          "published": "Wed, 25 Nov 2026 22:41:37 +0000",
-          "severity": "INFORMATIONAL",
-          "score": 42.66,
+          "score": 40.24,
           "also_sources": []
         },
         {
@@ -3821,7 +3843,18 @@
           "category": "Cybersecurity",
           "published": "Wed, 25 Nov 2026 19:41:20 +0000",
           "severity": "INFORMATIONAL",
-          "score": 39.65,
+          "score": 30.04,
+          "also_sources": []
+        },
+        {
+          "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+          "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+          "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+          "source": "The Hacker News",
+          "category": "Cybersecurity",
+          "published": "Thu, 26 Nov 2026 12:32:34 +0530",
+          "severity": "HIGH",
+          "score": 76.39,
           "also_sources": []
         },
         {
@@ -3832,29 +3865,29 @@
           "category": "Cybersecurity",
           "published": "2026-11-25 21:11:32.0",
           "severity": "HIGH",
-          "score": 76.16,
+          "score": 66.54,
           "also_sources": []
         },
         {
-          "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-          "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-          "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+          "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+          "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
           "source": "BleepingComputer",
           "category": "Cybersecurity",
-          "published": "Wed, 25 Nov 2026 17:05:09 -0500",
+          "published": "Thu, 26 Nov 2026 06:50:17 -0500",
           "severity": "INFORMATIONAL",
-          "score": 42.05,
+          "score": 46.19,
           "also_sources": []
         },
         {
-          "title": "USN-9198-1: HTTP::Tiny vulnerability",
-          "summary": "It was discovered that HTTP::Tiny incorrectly forwarded credential headers supplied by the caller, such as Authorization, Cookie and Proxy-Authorization, when following cross-origin redirects, including redirects from HTTPS to HTTP. An attacker could possibly use this issue to obtain sensitive information.",
-          "url": "https://ubuntu.com/security/notices/USN-9198-1",
+          "title": "USN-9209-1: Simple DirectMedia Layer vulnerability",
+          "summary": "It was discovered that Simple DirectMedia Layer incorrectly handled memory when encountering errors during OpenGL ES streaming texture creation. An attacker could possibly use this issue to cause applications using Simple DirectMedia Layer to consume resources, resulting in a denial of service.",
+          "url": "https://ubuntu.com/security/notices/USN-9209-1",
           "source": "Ubuntu Security Notices",
           "category": "Cybersecurity",
-          "published": "Wed, 25 Nov 2026 21:14:58 +0000",
+          "published": "Thu, 26 Nov 2026 09:14:33 +0000",
           "severity": "INFORMATIONAL",
-          "score": 41.21,
+          "score": 43.59,
           "also_sources": []
         },
         {
@@ -3865,7 +3898,7 @@
           "category": "Cloud",
           "published": "Wed, 25 Nov 2026 23:14:20 Z",
           "severity": "INFORMATIONAL",
-          "score": 43.2,
+          "score": 33.59,
           "also_sources": []
         },
         {
@@ -3876,7 +3909,18 @@
           "category": "Cloud",
           "published": "Wed, 25 Nov 2026 20:00:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 39.96,
+          "score": 30.35,
+          "also_sources": []
+        },
+        {
+          "title": "Musk pledges two SpaceX shares for every American child",
+          "summary": "Elon Musk, the world’s richest person, said on Wednesday that every child in the US will receive two shares in SpaceX , the space and AI company he runs, pledging a gift worth some $18 billion. Musk and rival AI company Anthropic have recently laid out sharply different blueprints for sharing some of the spoils of the AI boom , amid growing public and political scrutiny of the industry. Children will receive one share from the company and one from him personally, Musk said in a brief post on X, ",
+          "url": "https://www.dawn.com/news/2047193/musk-pledges-two-spacex-shares-for-every-american-child",
+          "source": "Dawn Technology",
+          "category": "AI",
+          "published": "Thu, 26 Nov 2026 13:16:17 +0500",
+          "severity": "INFORMATIONAL",
+          "score": 42.62,
           "also_sources": []
         },
         {
@@ -3887,23 +3931,45 @@
           "category": "AI",
           "published": "Wed, 25 Nov 2026 20:00:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 47.96,
+          "score": 38.35,
           "also_sources": []
         },
         {
-          "title": "‘Disinformation can’t be fought with censorship’, conference told",
-          "summary": "https://www.dawn.com/news/2047145",
-          "url": "https://www.dawn.com/news/2047169/disinformation-cant-be-fought-with-censorship-conference-told",
+          "title": "Anthropic chief denies wanting humans to 'surrender' free will to AI",
+          "summary": "Anthropic chief executive Dario Amodei on Wednesday denied wanting humanity to give up its free will to AI, calling it “absurd” to attribute the idea to him as rival tech leaders push back. “No, I do not believe that we should ‘surrender human free will’ to AI systems, and it’s absurd to suggest that I do,” Amodei wrote in a lengthy post on X, a week after Anthropic’s record-setting stock market debut . “We should never sacrifice legitimacy or self-determination at the altar of efficiency or sec",
+          "url": "https://www.dawn.com/news/2047174/anthropic-chief-denies-wanting-humans-to-surrender-free-will-to-ai",
           "source": "Dawn Technology",
-          "category": "Technology",
-          "published": "Thu, 26 Nov 2026 08:07:59 +0500",
+          "category": "AI",
+          "published": "Thu, 26 Nov 2026 09:09:49 +0500",
           "severity": "INFORMATIONAL",
-          "score": 47.1,
+          "score": 38.51,
           "also_sources": []
         }
       ],
       "sections": {
         "Cybersecurity": [
+          {
+            "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+            "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week. The Mitel MiCollab vulnerabilities are listed below - CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
+            "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Thu, 26 Nov 2026 12:14:46 +0530",
+            "severity": "CRITICAL",
+            "score": 126.1,
+            "also_sources": []
+          },
+          {
+            "title": "GCP-2026-090",
+            "summary": "Published: 2026-11-20 Description Description Severity Notes 2026-11-23 Update: Added details on patched PHP versions on App Engine, Cloud Run, and Cloud Run functions and noted additional details on CVEs addressed by the updated PHP versions. A critical vulnerability was discovered in PHP's default file-based session handler. This impacts the following PHP versions: PHP 8.5 < 8.5.13 PHP 8.4 < 8.4.28 PHP 8.3 < 8.3.37 PHP 8.2 < 8.2.36 PHP 8.1, PHP 7.2 (end of life, no fix available) The following",
+            "url": "https://docs.cloud.google.com/support/bulletins/index#gcp-2026-090",
+            "source": "Google Cloud Security Bulletins",
+            "category": "Cybersecurity",
+            "published": "2026-11-25T19:59:04.103599+00:00",
+            "severity": "CRITICAL",
+            "score": 98.34,
+            "also_sources": []
+          },
           {
             "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
             "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
@@ -3912,7 +3978,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-26 01:48:13.0",
             "severity": "HIGH",
-            "score": 88.77,
+            "score": 79.15,
             "also_sources": []
           },
           {
@@ -3923,7 +3989,18 @@
             "category": "Cybersecurity",
             "published": "Wed, 25 Nov 2026 16:33:33 -0500",
             "severity": "INFORMATIONAL",
-            "score": 66.52,
+            "score": 56.91,
+            "also_sources": []
+          },
+          {
+            "title": "USN-9208-1: alsa-lib vulnerabilities",
+            "summary": "It was discovered that the ALSA library incorrectly handled certain crafted topology files and control element identifiers. An attacker could possibly use these issues to cause a denial of service or expose sensitive information. These issues were only addressed in Ubuntu 22.04 LTS, Ubuntu 24.04 LTS and Ubuntu 26.04 LTS.",
+            "url": "https://ubuntu.com/security/notices/USN-9208-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Thu, 26 Nov 2026 09:37:19 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 43.97,
             "also_sources": []
           },
           {
@@ -3934,18 +4011,7 @@
             "category": "Cybersecurity",
             "published": "Wed, 25 Nov 2026 21:53:30 Z",
             "severity": "INFORMATIONAL",
-            "score": 49.85,
-            "also_sources": []
-          },
-          {
-            "title": "USN-9203-1: libpcap vulnerabilities",
-            "summary": "Jin Wei, Kunwei Qian, and Ping Chen discovered that libpcap did not properly validate the format of MAC addresses passed to the pcap_ether_aton() function, leading to an out-of-bounds read and write. An attacker could possibly use this issue to cause applications using libpcap to crash, resulting in a denial of service, or possibly execute arbitrary code. This issue only affected Ubuntu 22.04 LTS and Ubuntu 24.04 LTS. (CVE-2025-11961) It was discovered that the libpcap remote capture (rpcap) cli",
-            "url": "https://ubuntu.com/security/notices/USN-9203-1",
-            "source": "Ubuntu Security Notices",
-            "category": "Cybersecurity",
-            "published": "Wed, 25 Nov 2026 22:41:37 +0000",
-            "severity": "INFORMATIONAL",
-            "score": 42.66,
+            "score": 40.24,
             "also_sources": []
           },
           {
@@ -3956,7 +4022,18 @@
             "category": "Cybersecurity",
             "published": "Wed, 25 Nov 2026 19:41:20 +0000",
             "severity": "INFORMATIONAL",
-            "score": 39.65,
+            "score": 30.04,
+            "also_sources": []
+          },
+          {
+            "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+            "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to CVE-2026-132165 aka Fail2Install in that it addresses remaining vulnerable installation states",
+            "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+            "source": "The Hacker News",
+            "category": "Cybersecurity",
+            "published": "Thu, 26 Nov 2026 12:32:34 +0530",
+            "severity": "HIGH",
+            "score": 76.39,
             "also_sources": []
           },
           {
@@ -3967,29 +4044,29 @@
             "category": "Cybersecurity",
             "published": "2026-11-25 21:11:32.0",
             "severity": "HIGH",
-            "score": 76.16,
+            "score": 66.54,
             "also_sources": []
           },
           {
-            "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-            "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-            "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+            "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+            "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
             "source": "BleepingComputer",
             "category": "Cybersecurity",
-            "published": "Wed, 25 Nov 2026 17:05:09 -0500",
+            "published": "Thu, 26 Nov 2026 06:50:17 -0500",
             "severity": "INFORMATIONAL",
-            "score": 42.05,
+            "score": 46.19,
             "also_sources": []
           },
           {
-            "title": "USN-9198-1: HTTP::Tiny vulnerability",
-            "summary": "It was discovered that HTTP::Tiny incorrectly forwarded credential headers supplied by the caller, such as Authorization, Cookie and Proxy-Authorization, when following cross-origin redirects, including redirects from HTTPS to HTTP. An attacker could possibly use this issue to obtain sensitive information.",
-            "url": "https://ubuntu.com/security/notices/USN-9198-1",
+            "title": "USN-9209-1: Simple DirectMedia Layer vulnerability",
+            "summary": "It was discovered that Simple DirectMedia Layer incorrectly handled memory when encountering errors during OpenGL ES streaming texture creation. An attacker could possibly use this issue to cause applications using Simple DirectMedia Layer to consume resources, resulting in a denial of service.",
+            "url": "https://ubuntu.com/security/notices/USN-9209-1",
             "source": "Ubuntu Security Notices",
             "category": "Cybersecurity",
-            "published": "Wed, 25 Nov 2026 21:14:58 +0000",
+            "published": "Thu, 26 Nov 2026 09:14:33 +0000",
             "severity": "INFORMATIONAL",
-            "score": 41.21,
+            "score": 43.59,
             "also_sources": []
           }
         ],
@@ -4002,7 +4079,7 @@
             "category": "Cloud",
             "published": "Wed, 25 Nov 2026 23:14:20 Z",
             "severity": "INFORMATIONAL",
-            "score": 43.2,
+            "score": 33.59,
             "also_sources": []
           },
           {
@@ -4013,11 +4090,22 @@
             "category": "Cloud",
             "published": "Wed, 25 Nov 2026 20:00:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 39.96,
+            "score": 30.35,
             "also_sources": []
           }
         ],
         "AI": [
+          {
+            "title": "Musk pledges two SpaceX shares for every American child",
+            "summary": "Elon Musk, the world’s richest person, said on Wednesday that every child in the US will receive two shares in SpaceX , the space and AI company he runs, pledging a gift worth some $18 billion. Musk and rival AI company Anthropic have recently laid out sharply different blueprints for sharing some of the spoils of the AI boom , amid growing public and political scrutiny of the industry. Children will receive one share from the company and one from him personally, Musk said in a brief post on X, ",
+            "url": "https://www.dawn.com/news/2047193/musk-pledges-two-spacex-shares-for-every-american-child",
+            "source": "Dawn Technology",
+            "category": "AI",
+            "published": "Thu, 26 Nov 2026 13:16:17 +0500",
+            "severity": "INFORMATIONAL",
+            "score": 42.62,
+            "also_sources": []
+          },
           {
             "title": "Amazon CloudWatch Omni now integrates with PagerDuty",
             "summary": "Amazon CloudWatch Omni alerts can now automatically create PagerDuty incidents, so notifications flow directly into your existing incident management workflows. This reduces mean time to resolution (MTTR) by eliminating manual notification steps and ensuring consistent incident workflows. CloudWatch Omni is a fully managed AI-powered observability experience built on open standards that unifies monitoring for AI agents, applications, and infrastructure. PagerDuty is an incident management platfo",
@@ -4026,20 +4114,18 @@
             "category": "AI",
             "published": "Wed, 25 Nov 2026 20:00:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 47.96,
+            "score": 38.35,
             "also_sources": []
-          }
-        ],
-        "Technology": [
+          },
           {
-            "title": "‘Disinformation can’t be fought with censorship’, conference told",
-            "summary": "https://www.dawn.com/news/2047145",
-            "url": "https://www.dawn.com/news/2047169/disinformation-cant-be-fought-with-censorship-conference-told",
+            "title": "Anthropic chief denies wanting humans to 'surrender' free will to AI",
+            "summary": "Anthropic chief executive Dario Amodei on Wednesday denied wanting humanity to give up its free will to AI, calling it “absurd” to attribute the idea to him as rival tech leaders push back. “No, I do not believe that we should ‘surrender human free will’ to AI systems, and it’s absurd to suggest that I do,” Amodei wrote in a lengthy post on X, a week after Anthropic’s record-setting stock market debut . “We should never sacrifice legitimacy or self-determination at the altar of efficiency or sec",
+            "url": "https://www.dawn.com/news/2047174/anthropic-chief-denies-wanting-humans-to-surrender-free-will-to-ai",
             "source": "Dawn Technology",
-            "category": "Technology",
-            "published": "Thu, 26 Nov 2026 08:07:59 +0500",
+            "category": "AI",
+            "published": "Thu, 26 Nov 2026 09:09:49 +0500",
             "severity": "INFORMATIONAL",
-            "score": 47.1,
+            "score": 38.51,
             "also_sources": []
           }
         ]

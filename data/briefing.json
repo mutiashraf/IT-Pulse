@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-26T13:38:58.067362+00:00",
-  "latest_date": "2026-11-26",
+  "generated_utc": "2026-11-26T22:33:03.350702+00:00",
+  "latest_date": "2026-11-27",
   "available_dates": [
+    "2026-11-27",
     "2026-11-26",
     "2026-11-25",
     "2026-11-24",
@@ -4126,6 +4127,111 @@
             "published": "Thu, 26 Nov 2026 09:09:49 +0500",
             "severity": "INFORMATIONAL",
             "score": 38.51,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-27": {
+      "date": "2026-11-27",
+      "generated_utc": "2026-11-26T22:33:03.350695+00:00",
+      "story_count": 4,
+      "source_count": 4,
+      "stories": [
+        {
+          "title": "FortiCentral 7.6.0",
+          "summary": "FortiCentral 7.6.0 B0147 and release notes are available for download from the Support site : https://support.fortinet.com",
+          "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+          "source": "Fortinet Firmware Updates",
+          "category": "Networking",
+          "published": "Thu, 26 Nov 2026 21:49:46 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 55.28,
+          "also_sources": []
+        },
+        {
+          "title": "USN-9214-1: GNU binutils vulnerabilities",
+          "summary": "It was discovered that the GNU binutils gold linker incorrectly handled certain ELF files. A local attacker could possibly use this issue to cause GNU binutils to crash, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS. (CVE-2019-1010204) Han Zheng discovered that GNU binutils incorrectly handled demangling certain Rust symbols. A local attacker could possibly use this issue to cause GNU binutils to crash, resulting in a denial of service. This issue only affected Ubun",
+          "url": "https://ubuntu.com/security/notices/USN-9214-1",
+          "source": "Ubuntu Security Notices",
+          "category": "Cybersecurity",
+          "published": "Thu, 26 Nov 2026 19:39:59 +0000",
+          "severity": "INFORMATIONAL",
+          "score": 45.12,
+          "also_sources": []
+        },
+        {
+          "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+          "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+          "source": "BleepingComputer",
+          "category": "AI",
+          "published": "Thu, 26 Nov 2026 16:06:22 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 46.56,
+          "also_sources": []
+        },
+        {
+          "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+          "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much. Then there’s the question of who gets to use what. Stolen logins are opening",
+          "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+          "source": "The Hacker News",
+          "category": "AI",
+          "published": "Fri, 27 Nov 2026 01:09:57 +0530",
+          "severity": "INFORMATIONAL",
+          "score": 45.11,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "FortiCentral 7.6.0",
+            "summary": "FortiCentral 7.6.0 B0147 and release notes are available for download from the Support site : https://support.fortinet.com",
+            "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+            "source": "Fortinet Firmware Updates",
+            "category": "Networking",
+            "published": "Thu, 26 Nov 2026 21:49:46 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 55.28,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "USN-9214-1: GNU binutils vulnerabilities",
+            "summary": "It was discovered that the GNU binutils gold linker incorrectly handled certain ELF files. A local attacker could possibly use this issue to cause GNU binutils to crash, resulting in a denial of service. This issue only affected Ubuntu 22.04 LTS. (CVE-2019-1010204) Han Zheng discovered that GNU binutils incorrectly handled demangling certain Rust symbols. A local attacker could possibly use this issue to cause GNU binutils to crash, resulting in a denial of service. This issue only affected Ubun",
+            "url": "https://ubuntu.com/security/notices/USN-9214-1",
+            "source": "Ubuntu Security Notices",
+            "category": "Cybersecurity",
+            "published": "Thu, 26 Nov 2026 19:39:59 +0000",
+            "severity": "INFORMATIONAL",
+            "score": 45.12,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+            "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+            "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+            "source": "BleepingComputer",
+            "category": "AI",
+            "published": "Thu, 26 Nov 2026 16:06:22 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 46.56,
+            "also_sources": []
+          },
+          {
+            "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+            "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much. Then there’s the question of who gets to use what. Stolen logins are opening",
+            "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+            "source": "The Hacker News",
+            "category": "AI",
+            "published": "Fri, 27 Nov 2026 01:09:57 +0530",
+            "severity": "INFORMATIONAL",
+            "score": 45.11,
             "also_sources": []
           }
         ]

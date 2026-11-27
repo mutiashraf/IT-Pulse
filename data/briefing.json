@@ -1,7 +1,8 @@
 {
-  "generated_utc": "2026-11-27T14:42:54.682011+00:00",
-  "latest_date": "2026-11-27",
+  "generated_utc": "2026-11-27T22:20:25.612262+00:00",
+  "latest_date": "2026-11-28",
   "available_dates": [
+    "2026-11-28",
     "2026-11-27",
     "2026-11-26",
     "2026-11-25",
@@ -4342,6 +4343,135 @@
             "published": "Fri, 27 Nov 2026 16:18:23 +0500",
             "severity": "INFORMATIONAL",
             "score": 44.59,
+            "also_sources": []
+          }
+        ]
+      },
+      "source_failures": []
+    },
+    "2026-11-28": {
+      "date": "2026-11-28",
+      "generated_utc": "2026-11-27T22:20:25.612253+00:00",
+      "story_count": 5,
+      "source_count": 4,
+      "stories": [
+        {
+          "title": "FortiVoiceUCDesktop 8.0.1",
+          "summary": "FortiVoiceUCDesktop 8.0.1 B0076 and release notes are available for download from the Support site : https://support.fortinet.com",
+          "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+          "source": "Fortinet Firmware Updates",
+          "category": "Networking",
+          "published": "Fri, 27 Nov 2026 20:41:13 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 54.35,
+          "also_sources": []
+        },
+        {
+          "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+          "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
+          "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+          "source": "Cisco Security Advisories",
+          "category": "Cybersecurity",
+          "published": "2026-11-27 20:04:26.0",
+          "severity": "HIGH",
+          "score": 88.73,
+          "also_sources": []
+        },
+        {
+          "title": "pCloud confirms password manager hack after suspicious login alerts",
+          "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+          "source": "BleepingComputer",
+          "category": "Cybersecurity",
+          "published": "Fri, 27 Nov 2026 14:26:04 -0500",
+          "severity": "INFORMATIONAL",
+          "score": 45.09,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon CloudWatch announces basic OpenTelemetry enrichment at no additional cost",
+          "summary": "Amazon CloudWatch now offers basic OpenTelemetry enrichment for AWS service metrics at no additional cost. Basic enrichment turns the metrics that AWS services publish to CloudWatch into OpenTelemetry data points you can query with PromQL. It covers metrics that identify a resource, such as Amazon EC2 CPUUtilization with an InstanceId dimension. Enriched metrics get resource attributes for the Amazon Resource Name, cloud provider, Region, and account ID, plus an instrumentation scope naming the ",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Fri, 27 Nov 2026 21:03:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 46.71,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+          "summary": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automatically and scales to zero when idle. You can give each agent, user or task its own graph without paying for the 16 m-NCU minimum of a provisioned graph. You choose a starting size of 4 s-NCU (sessions Neptune capacity units) or 8 s-NCU of working memory when you create a graph. Applications such as GraphRAG assistants, AI agents and per-user analytics improve accuracy when usi",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
+          "source": "AWS What's New",
+          "category": "AI",
+          "published": "Fri, 27 Nov 2026 19:00:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 44.66,
+          "also_sources": []
+        }
+      ],
+      "sections": {
+        "Networking": [
+          {
+            "title": "FortiVoiceUCDesktop 8.0.1",
+            "summary": "FortiVoiceUCDesktop 8.0.1 B0076 and release notes are available for download from the Support site : https://support.fortinet.com",
+            "url": "https://support.fortinet.com/EndUser/FirmwareImages.aspx",
+            "source": "Fortinet Firmware Updates",
+            "category": "Networking",
+            "published": "Fri, 27 Nov 2026 20:41:13 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 54.35,
+            "also_sources": []
+          }
+        ],
+        "Cybersecurity": [
+          {
+            "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+            "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7 (stable). These vulnerabilities were identified by the following CVEs: CVE-2026-113425: NGINX ngx_mail_proxy_module vulnerability CVE-2026-121810: NGINX ngx_http_v3_module vulnerability CVE-2026-123007: NGINX ngx_http_v2_module ",
+            "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+            "source": "Cisco Security Advisories",
+            "category": "Cybersecurity",
+            "published": "2026-11-27 20:04:26.0",
+            "severity": "HIGH",
+            "score": 88.73,
+            "also_sources": []
+          },
+          {
+            "title": "pCloud confirms password manager hack after suspicious login alerts",
+            "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+            "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+            "source": "BleepingComputer",
+            "category": "Cybersecurity",
+            "published": "Fri, 27 Nov 2026 14:26:04 -0500",
+            "severity": "INFORMATIONAL",
+            "score": 45.09,
+            "also_sources": []
+          }
+        ],
+        "Cloud": [
+          {
+            "title": "Amazon CloudWatch announces basic OpenTelemetry enrichment at no additional cost",
+            "summary": "Amazon CloudWatch now offers basic OpenTelemetry enrichment for AWS service metrics at no additional cost. Basic enrichment turns the metrics that AWS services publish to CloudWatch into OpenTelemetry data points you can query with PromQL. It covers metrics that identify a resource, such as Amazon EC2 CPUUtilization with an InstanceId dimension. Enriched metrics get resource attributes for the Amazon Resource Name, cloud provider, Region, and account ID, plus an instrumentation scope naming the ",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-cloudwatch-opentelemetry-enrichment/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Fri, 27 Nov 2026 21:03:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 46.71,
+            "also_sources": []
+          }
+        ],
+        "AI": [
+          {
+            "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
+            "summary": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automatically and scales to zero when idle. You can give each agent, user or task its own graph without paying for the 16 m-NCU minimum of a provisioned graph. You choose a starting size of 4 s-NCU (sessions Neptune capacity units) or 8 s-NCU of working memory when you create a graph. Applications such as GraphRAG assistants, AI agents and per-user analytics improve accuracy when usi",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
+            "source": "AWS What's New",
+            "category": "AI",
+            "published": "Fri, 27 Nov 2026 19:00:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 44.66,
             "also_sources": []
           }
         ]

@@ -1,6 +1,50 @@
 {
-  "updated_utc": "2026-11-26T22:52:37.413334+00:00",
+  "updated_utc": "2026-11-27T14:42:54.660169+00:00",
   "alerts": [
+    {
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Fri, 27 Nov 2026 05:10:15 -0500",
+      "severity": "CRITICAL",
+      "score": 111.52,
+      "also_sources": []
+    },
+    {
+      "title": "CVE-2026-62840 Linux Kernel Elevation of Privilege Vulnerability",
+      "summary": "Information published.",
+      "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62840",
+      "source": "Microsoft Security Update Guide",
+      "category": "Cybersecurity",
+      "published": "Fri, 27 Nov 2026 01:10:39 -0800",
+      "severity": "HIGH",
+      "score": 77.52,
+      "also_sources": []
+    },
+    {
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Fri, 27 Nov 2026 03:06:58 -0500",
+      "severity": "CRITICAL",
+      "score": 101.46,
+      "also_sources": []
+    },
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "Cybersecurity",
+      "published": "Fri, 27 Nov 2026 11:18:20 +0530",
+      "severity": "CRITICAL",
+      "score": 132.15,
+      "also_sources": []
+    },
     {
       "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
       "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
@@ -1055,50 +1099,6 @@
       "published": "Thu, 19 Nov 26 12:00:00 +0000",
       "severity": "HIGH",
       "score": 76.53,
-      "also_sources": []
-    },
-    {
-      "title": "libumqtt",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8.6 libumqtt libumqtt 1 Vulnerability Integer Underflow (Wrap or Wraparound) Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Information Technology, Transportation Systems, Water and Wastewater",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 76.53,
-      "also_sources": []
-    },
-    {
-      "title": "Autonomy Logic OpenPLC Runtime",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1 Autonomy Logic OpenPLC Runtime 1 Vulnerability Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition') Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Transportatio",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 76.53,
-      "also_sources": []
-    },
-    {
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
-      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "source": "The Hacker News",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 2026 17:22:23 +0530",
-      "severity": "HIGH",
-      "score": 76.4,
-      "also_sources": []
-    },
-    {
-      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-      "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-      "source": "BleepingComputer",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 2026 04:23:21 -0500",
-      "severity": "CRITICAL",
-      "score": 123.91,
       "also_sources": []
     }
   ],

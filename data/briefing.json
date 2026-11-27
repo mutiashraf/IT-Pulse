@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T22:20:25.612262+00:00",
+  "generated_utc": "2026-11-27T23:20:09.395966+00:00",
   "latest_date": "2026-11-28",
   "available_dates": [
     "2026-11-28",
@@ -4351,7 +4351,7 @@
     },
     "2026-11-28": {
       "date": "2026-11-28",
-      "generated_utc": "2026-11-27T22:20:25.612253+00:00",
+      "generated_utc": "2026-11-27T23:20:09.395957+00:00",
       "story_count": 5,
       "source_count": 4,
       "stories": [
@@ -4363,7 +4363,7 @@
           "category": "Networking",
           "published": "Fri, 27 Nov 2026 20:41:13 GMT",
           "severity": "INFORMATIONAL",
-          "score": 54.35,
+          "score": 53.35,
           "also_sources": []
         },
         {
@@ -4374,7 +4374,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-27 20:04:26.0",
           "severity": "HIGH",
-          "score": 88.73,
+          "score": 87.74,
           "also_sources": []
         },
         {
@@ -4385,7 +4385,18 @@
           "category": "Cybersecurity",
           "published": "Fri, 27 Nov 2026 14:26:04 -0500",
           "severity": "INFORMATIONAL",
-          "score": 45.09,
+          "score": 44.1,
+          "also_sources": []
+        },
+        {
+          "title": "Amazon Timestream for InfluxDB 3 now supports heterogeneous clusters",
+          "summary": "Amazon Timestream for InfluxDB 3 now supports heterogeneous clusters, which let you assign a different instance size to each node role in an InfluxDB 3 Enterprise cluster. You can size the writer, reader, and compactor roles independently. You set the size for each role when you create a cluster or add nodes to an existing cluster, using the Amazon Timestream console, the AWS Command Line Interface (CLI), or the AWS SDKs. Time series workloads rarely load every part of a database the same way. Q",
+          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/influxdb-heterogeneous-cluster/",
+          "source": "AWS What's New",
+          "category": "Cloud",
+          "published": "Fri, 27 Nov 2026 22:30:00 GMT",
+          "severity": "INFORMATIONAL",
+          "score": 47.16,
           "also_sources": []
         },
         {
@@ -4396,18 +4407,7 @@
           "category": "Cloud",
           "published": "Fri, 27 Nov 2026 21:03:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 46.71,
-          "also_sources": []
-        },
-        {
-          "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
-          "summary": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automatically and scales to zero when idle. You can give each agent, user or task its own graph without paying for the 16 m-NCU minimum of a provisioned graph. You choose a starting size of 4 s-NCU (sessions Neptune capacity units) or 8 s-NCU of working memory when you create a graph. Applications such as GraphRAG assistants, AI agents and per-user analytics improve accuracy when usi",
-          "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
-          "source": "AWS What's New",
-          "category": "AI",
-          "published": "Fri, 27 Nov 2026 19:00:00 GMT",
-          "severity": "INFORMATIONAL",
-          "score": 44.66,
+          "score": 45.71,
           "also_sources": []
         }
       ],
@@ -4421,7 +4421,7 @@
             "category": "Networking",
             "published": "Fri, 27 Nov 2026 20:41:13 GMT",
             "severity": "INFORMATIONAL",
-            "score": 54.35,
+            "score": 53.35,
             "also_sources": []
           }
         ],
@@ -4434,7 +4434,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-27 20:04:26.0",
             "severity": "HIGH",
-            "score": 88.73,
+            "score": 87.74,
             "also_sources": []
           },
           {
@@ -4445,11 +4445,22 @@
             "category": "Cybersecurity",
             "published": "Fri, 27 Nov 2026 14:26:04 -0500",
             "severity": "INFORMATIONAL",
-            "score": 45.09,
+            "score": 44.1,
             "also_sources": []
           }
         ],
         "Cloud": [
+          {
+            "title": "Amazon Timestream for InfluxDB 3 now supports heterogeneous clusters",
+            "summary": "Amazon Timestream for InfluxDB 3 now supports heterogeneous clusters, which let you assign a different instance size to each node role in an InfluxDB 3 Enterprise cluster. You can size the writer, reader, and compactor roles independently. You set the size for each role when you create a cluster or add nodes to an existing cluster, using the Amazon Timestream console, the AWS Command Line Interface (CLI), or the AWS SDKs. Time series workloads rarely load every part of a database the same way. Q",
+            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/influxdb-heterogeneous-cluster/",
+            "source": "AWS What's New",
+            "category": "Cloud",
+            "published": "Fri, 27 Nov 2026 22:30:00 GMT",
+            "severity": "INFORMATIONAL",
+            "score": 47.16,
+            "also_sources": []
+          },
           {
             "title": "Amazon CloudWatch announces basic OpenTelemetry enrichment at no additional cost",
             "summary": "Amazon CloudWatch now offers basic OpenTelemetry enrichment for AWS service metrics at no additional cost. Basic enrichment turns the metrics that AWS services publish to CloudWatch into OpenTelemetry data points you can query with PromQL. It covers metrics that identify a resource, such as Amazon EC2 CPUUtilization with an InstanceId dimension. Enriched metrics get resource attributes for the Amazon Resource Name, cloud provider, Region, and account ID, plus an instrumentation scope naming the ",
@@ -4458,20 +4469,7 @@
             "category": "Cloud",
             "published": "Fri, 27 Nov 2026 21:03:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 46.71,
-            "also_sources": []
-          }
-        ],
-        "AI": [
-          {
-            "title": "Amazon Neptune introduces Neptune Graph Sessions, smaller graphs designed for agents that scale to zero and resume automatically",
-            "summary": "Amazon Neptune now supports Neptune Graph Sessions, a compute mode designed for agents that scales memory and CPU automatically and scales to zero when idle. You can give each agent, user or task its own graph without paying for the 16 m-NCU minimum of a provisioned graph. You choose a starting size of 4 s-NCU (sessions Neptune capacity units) or 8 s-NCU of working memory when you create a graph. Applications such as GraphRAG assistants, AI agents and per-user analytics improve accuracy when usi",
-            "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/amazon-neptune-graph-sessions-generally-available",
-            "source": "AWS What's New",
-            "category": "AI",
-            "published": "Fri, 27 Nov 2026 19:00:00 GMT",
-            "severity": "INFORMATIONAL",
-            "score": 44.66,
+            "score": 45.71,
             "also_sources": []
           }
         ]

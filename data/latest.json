@@ -1,6 +1,28 @@
 {
-  "updated_utc": "2026-11-27T14:42:54.660169+00:00",
+  "updated_utc": "2026-11-27T23:20:09.362587+00:00",
   "alerts": [
+    {
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "source": "BleepingComputer",
+      "category": "Cybersecurity",
+      "published": "Fri, 27 Nov 2026 12:06:13 -0500",
+      "severity": "CRITICAL",
+      "score": 134.9,
+      "also_sources": []
+    },
+    {
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability CVE-2026-129243 OSGeo GeoServer Incorrect Authorization Vulnerability CVE-2026-136716 Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterpri",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "Cybersecurity",
+      "published": "Fri, 27 Nov 26 12:00:00 +0000",
+      "severity": "CRITICAL",
+      "score": 121.8,
+      "also_sources": []
+    },
     {
       "title": "Drupal warns of new site takeover flaw exploited in attacks",
       "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
@@ -1077,28 +1099,6 @@
       "published": "Thu, 19 Nov 2026 20:03:06 +0530",
       "severity": "CRITICAL",
       "score": 112.08,
-      "also_sources": []
-    },
-    {
-      "title": "ARMORY CASTLE Exploits vSphere",
-      "summary": "Written by: Jayson Frost, Bryce Greathouse, Dhanesh Kizhakkinan, John Palmisano, Steve Rasch, Daniel Sislo, John Wolfram Introduction On Oct. 15, 2026, Mandiant and Google Threat Intelligence Group (GTIG) published a blog post detailing recent activity in which the suspected PRC-nexus threat actor ARMORY CASTLE (formerly tracked as UNC5221) exploited CVE-2026-102764, a zero-day vulnerability in BeyondTrust Remote Support, which was patched in BT26-05 . We also described some of the threat actor’",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere/",
-      "source": "Google Cloud Blog",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 2026 14:00:00 +0000",
-      "severity": "CRITICAL",
-      "score": 136.53,
-      "also_sources": []
-    },
-    {
-      "title": "Elecbrakes EB2, VM1, ELBC2000",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of Elecbrakes EB2, VM1, ELBC2000 are affected: EB2 <=3.0.4.2.0 (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805) ELBC2000 vers:all/* (CVE-2026-124281, CVE-2026-125273, CVE-2026-96805) VM1 <1.3.4.2.1 (CVE-2026-124281, CVE-20",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
-      "source": "CISA Advisories",
-      "category": "Cybersecurity",
-      "published": "Thu, 19 Nov 26 12:00:00 +0000",
-      "severity": "HIGH",
-      "score": 76.53,
       "also_sources": []
     }
   ],

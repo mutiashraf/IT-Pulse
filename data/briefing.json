@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-27T23:20:09.395966+00:00",
+  "generated_utc": "2026-11-28T04:54:51.791475+00:00",
   "latest_date": "2026-11-28",
   "available_dates": [
     "2026-11-28",
@@ -4351,7 +4351,7 @@
     },
     "2026-11-28": {
       "date": "2026-11-28",
-      "generated_utc": "2026-11-27T23:20:09.395957+00:00",
+      "generated_utc": "2026-11-28T04:54:51.791467+00:00",
       "story_count": 5,
       "source_count": 4,
       "stories": [
@@ -4363,7 +4363,7 @@
           "category": "Networking",
           "published": "Fri, 27 Nov 2026 20:41:13 GMT",
           "severity": "INFORMATIONAL",
-          "score": 53.35,
+          "score": 47.77,
           "also_sources": []
         },
         {
@@ -4374,7 +4374,7 @@
           "category": "Cybersecurity",
           "published": "2026-11-27 20:04:26.0",
           "severity": "HIGH",
-          "score": 87.74,
+          "score": 82.16,
           "also_sources": []
         },
         {
@@ -4385,7 +4385,7 @@
           "category": "Cybersecurity",
           "published": "Fri, 27 Nov 2026 14:26:04 -0500",
           "severity": "INFORMATIONAL",
-          "score": 44.1,
+          "score": 38.52,
           "also_sources": []
         },
         {
@@ -4396,7 +4396,7 @@
           "category": "Cloud",
           "published": "Fri, 27 Nov 2026 22:30:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 47.16,
+          "score": 41.59,
           "also_sources": []
         },
         {
@@ -4407,7 +4407,7 @@
           "category": "Cloud",
           "published": "Fri, 27 Nov 2026 21:03:00 GMT",
           "severity": "INFORMATIONAL",
-          "score": 45.71,
+          "score": 40.14,
           "also_sources": []
         }
       ],
@@ -4421,7 +4421,7 @@
             "category": "Networking",
             "published": "Fri, 27 Nov 2026 20:41:13 GMT",
             "severity": "INFORMATIONAL",
-            "score": 53.35,
+            "score": 47.77,
             "also_sources": []
           }
         ],
@@ -4434,7 +4434,7 @@
             "category": "Cybersecurity",
             "published": "2026-11-27 20:04:26.0",
             "severity": "HIGH",
-            "score": 87.74,
+            "score": 82.16,
             "also_sources": []
           },
           {
@@ -4445,7 +4445,7 @@
             "category": "Cybersecurity",
             "published": "Fri, 27 Nov 2026 14:26:04 -0500",
             "severity": "INFORMATIONAL",
-            "score": 44.1,
+            "score": 38.52,
             "also_sources": []
           }
         ],
@@ -4458,7 +4458,7 @@
             "category": "Cloud",
             "published": "Fri, 27 Nov 2026 22:30:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 47.16,
+            "score": 41.59,
             "also_sources": []
           },
           {
@@ -4469,7 +4469,7 @@
             "category": "Cloud",
             "published": "Fri, 27 Nov 2026 21:03:00 GMT",
             "severity": "INFORMATIONAL",
-            "score": 45.71,
+            "score": 40.14,
             "also_sources": []
           }
         ]
